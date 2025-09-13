@@ -1188,3 +1188,15 @@ com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
 [13Sep2025 18:39:28.276] [Server thread/INFO] [patchouli/]: Sending reload packet to clients
 [13Sep2025 18:39:28.277] [Server thread/WARN] [voicechat/]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
 [13Sep2025 18:39:28.286] [VoiceChatServerThread/INFO] [voicechat/]: [voicechat] Voice chat server started at port 24454
+[13Sep2025 20:04:58.692] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[13Sep2025 20:04:58.692] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[13Sep2025 20:04:58.692] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[13Sep2025 20:04:59.248] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[13Sep2025 20:05:00.464] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[13Sep2025 20:05:00.465] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[13Sep2025 20:05:00.466] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/dark_souls_expansion:lordran_dimension
+[13Sep2025 20:05:00.490] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[13Sep2025 20:05:00.490] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[13Sep2025 20:05:00.490] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[13Sep2025 20:05:00.490] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (lordran_dimension): All chunks are saved
+[13Sep2025 20:05:00.490] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
