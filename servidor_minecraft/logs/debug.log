@@ -3971,3 +3971,25 @@ Caused by: java.lang.NullPointerException: Cannot invoke "net.minecraft.advancem
 	... 17 more
 [13Sep2025 21:09:00.566] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
 [13Sep2025 21:09:00.577] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[13Sep2025 21:13:20.096] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dwiss3 has made the advancement [Sweet Dreams]
+[13Sep2025 21:13:43.043] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dwiss3 lost connection: Disconnected
+[13Sep2025 21:13:43.043] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dwiss3 left the game
+[13Sep2025 21:13:43.044] [Server thread/DEBUG] [voicechat/]: [voicechat] Removing state of Dwiss3
+[13Sep2025 21:13:43.045] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Dwiss3
+[13Sep2025 21:14:00.544] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[13Sep2025 21:14:00.553] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[13Sep2025 21:18:23.542] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[13Sep2025 21:18:23.543] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[13Sep2025 21:18:23.543] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[13Sep2025 21:18:23.934] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[13Sep2025 21:18:24.944] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[13Sep2025 21:18:24.945] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[13Sep2025 21:18:24.946] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/dark_souls_expansion:lordran_dimension
+[13Sep2025 21:18:24.948] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[13Sep2025 21:18:24.956] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[13Sep2025 21:18:24.970] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[13Sep2025 21:18:24.970] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[13Sep2025 21:18:24.970] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[13Sep2025 21:18:24.970] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (lordran_dimension): All chunks are saved
+[13Sep2025 21:18:24.970] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[13Sep2025 21:18:25.004] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Unloading configs type SERVER
