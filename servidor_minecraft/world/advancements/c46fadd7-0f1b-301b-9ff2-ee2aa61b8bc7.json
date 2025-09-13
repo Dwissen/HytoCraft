@@ -31,6 +31,7 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:forest": "2025-09-13 21:05:05 +0000",
       "minecraft:plains": "2025-09-13 03:30:21 +0000"
     },
     "done": false
@@ -38,6 +39,1040 @@
   "medievalembroidery:grant_book_on_first_join": {
     "criteria": {
       "tick": "2025-09-13 03:30:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/ladder": {
+    "criteria": {
+      "has_stick": "2025-09-13 21:05:42 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/combat/diamond_knife": {
+    "criteria": {
+      "has_diamond": "2025-09-13 20:57:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_leggings": {
+    "criteria": {
+      "has_iron_ingot": "2025-09-13 20:57:41 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/emerald_shovel": {
+    "criteria": {
+      "has_stick": "2025-09-13 21:05:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/obtain_armor": {
+    "criteria": {
+      "iron_leggings": "2025-09-13 20:57:38 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/froststone_axe": {
+    "criteria": {
+      "has_stick": "2025-09-13 21:05:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_leggings": {
+    "criteria": {
+      "has_diamond": "2025-09-13 20:57:01 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/depthstone_greatsword": {
+    "criteria": {
+      "has_stick": "2025-09-13 21:05:42 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/froststone_warhammer": {
+    "criteria": {
+      "has_stick": "2025-09-13 21:05:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget_from_smelting": {
+    "criteria": {
+      "has_iron_pickaxe": "2025-09-13 20:56:56 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/froststone_greatsword": {
+    "criteria": {
+      "has_stick": "2025-09-13 21:05:42 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/astrostone_shovel": {
+    "criteria": {
+      "has_stick": "2025-09-13 21:05:42 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/seastone_pickaxe": {
+    "criteria": {
+      "has_stick": "2025-09-13 21:05:42 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/obsidian_warhammer": {
+    "criteria": {
+      "has_stick": "2025-09-13 21:05:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/iron_tools": {
+    "criteria": {
+      "iron_pickaxe": "2025-09-13 20:56:56 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/obsidian_sword": {
+    "criteria": {
+      "has_stick": "2025-09-13 21:05:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_chestplate": {
+    "criteria": {
+      "has_iron_ingot": "2025-09-13 20:57:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/oak_sign": {
+    "criteria": {
+      "has_planks": "2025-09-13 21:05:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_trapdoor": {
+    "criteria": {
+      "has_planks": "2025-09-13 21:05:55 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/depthstone_sword": {
+    "criteria": {
+      "has_stick": "2025-09-13 21:05:42 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/depthstone_shovel": {
+    "criteria": {
+      "has_stick": "2025-09-13 21:05:42 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/seastone_shovel": {
+    "criteria": {
+      "has_stick": "2025-09-13 21:05:42 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/skystone_battleaxe": {
+    "criteria": {
+      "has_stick": "2025-09-13 21:05:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget": {
+    "criteria": {
+      "has_iron_ingot": "2025-09-13 20:57:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_sword": {
+    "criteria": {
+      "has_diamond": "2025-09-13 20:57:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/jukebox": {
+    "criteria": {
+      "has_diamond": "2025-09-13 20:57:01 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/combat/flint_knife": {
+    "criteria": {
+      "has_stick": "2025-09-13 21:05:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bucket": {
+    "criteria": {
+      "has_iron_ingot": "2025-09-13 20:57:41 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/obsidian_axe": {
+    "criteria": {
+      "has_stick": "2025-09-13 21:05:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_helmet": {
+    "criteria": {
+      "has_iron_ingot": "2025-09-13 20:57:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/bow": {
+    "criteria": {
+      "has_string": "2025-09-13 21:07:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_chestplate": {
+    "criteria": {
+      "has_diamond": "2025-09-13 20:57:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/minecart": {
+    "criteria": {
+      "has_iron_ingot": "2025-09-13 20:57:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/iron_hoe": {
+    "criteria": {
+      "has_iron_ingot": "2025-09-13 20:57:41 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/firestone_warhammer": {
+    "criteria": {
+      "has_stick": "2025-09-13 21:05:42 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/skystone_shovel": {
+    "criteria": {
+      "has_stick": "2025-09-13 21:05:42 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/obsidian_dagger": {
+    "criteria": {
+      "has_stick": "2025-09-13 21:05:42 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/firestone_hoe": {
+    "criteria": {
+      "has_stick": "2025-09-13 21:05:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_axe": {
+    "criteria": {
+      "has_stick": "2025-09-13 21:05:42 +0000"
+    },
+    "done": true
+  },
+  "yyzsbackpack:recipes/diamond_backpack": {
+    "criteria": {
+      "has_diamond": "2025-09-13 20:57:01 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/firestone_dagger": {
+    "criteria": {
+      "has_stick": "2025-09-13 21:05:42 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/froststone_shovel": {
+    "criteria": {
+      "has_stick": "2025-09-13 21:05:42 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/astrostone_hoe": {
+    "criteria": {
+      "has_stick": "2025-09-13 21:05:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/smelt_iron": {
+    "criteria": {
+      "iron": "2025-09-13 20:57:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/fishing_rod": {
+    "criteria": {
+      "has_string": "2025-09-13 21:07:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2025-09-13 21:05:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/shears": {
+    "criteria": {
+      "has_iron_ingot": "2025-09-13 20:57:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/stick": {
+    "criteria": {
+      "has_planks": "2025-09-13 21:05:55 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/firestone_axe": {
+    "criteria": {
+      "has_stick": "2025-09-13 21:05:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_stairs": {
+    "criteria": {
+      "has_planks": "2025-09-13 21:05:55 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/depthstone_warhammer": {
+    "criteria": {
+      "has_stick": "2025-09-13 21:05:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_pickaxe": {
+    "criteria": {
+      "has_diamond": "2025-09-13 20:57:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chain": {
+    "criteria": {
+      "has_iron_ingot": "2025-09-13 20:57:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/oak_fence": {
+    "criteria": {
+      "has_planks": "2025-09-13 21:05:55 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/obsidian_hoe": {
+    "criteria": {
+      "has_stick": "2025-09-13 21:05:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/iron_block": {
+    "criteria": {
+      "has_iron_ingot": "2025-09-13 20:57:41 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/depthstone_pickaxe": {
+    "criteria": {
+      "has_stick": "2025-09-13 21:05:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tripwire_hook": {
+    "criteria": {
+      "has_string": "2025-09-13 21:07:22 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/mosstone_axe": {
+    "criteria": {
+      "has_stick": "2025-09-13 21:05:42 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/seastone_warhammer": {
+    "criteria": {
+      "has_stick": "2025-09-13 21:05:42 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/emerald_sword": {
+    "criteria": {
+      "has_stick": "2025-09-13 21:05:42 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/decorations/cooking_pot": {
+    "criteria": {
+      "has_iron_ingot": "2025-09-13 20:57:41 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/skystone_pickaxe": {
+    "criteria": {
+      "has_stick": "2025-09-13 21:05:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/smithing_table": {
+    "criteria": {
+      "has_iron_ingot": "2025-09-13 20:57:41 +0000"
+    },
+    "done": true
+  },
+  "yyzsbackpack:recipes/iron_backpack": {
+    "criteria": {
+      "has_iron": "2025-09-13 20:57:41 +0000"
+    },
+    "done": true
+  },
+  "immersive_weathering:recipes/iron_ingot": {
+    "criteria": {
+      "has_copper_block": "2025-09-13 20:57:41 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/froststone_sword": {
+    "criteria": {
+      "has_stick": "2025-09-13 21:05:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/candle": {
+    "criteria": {
+      "has_string": "2025-09-13 21:07:22 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/iron_grounded_sword": {
+    "criteria": {
+      "has_sword": "2025-09-13 21:06:59 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/seastone_sword": {
+    "criteria": {
+      "has_stick": "2025-09-13 21:05:42 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/froststone_pickaxe": {
+    "criteria": {
+      "has_stick": "2025-09-13 21:05:42 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/astrostone_greatsword": {
+    "criteria": {
+      "has_stick": "2025-09-13 21:05:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2025-09-13 21:04:10 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/apple_cider": {
+    "criteria": {
+      "has_apple": "2025-09-13 20:57:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_hoe": {
+    "criteria": {
+      "has_diamond": "2025-09-13 20:57:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_shovel": {
+    "criteria": {
+      "has_diamond": "2025-09-13 20:57:01 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/skystone_axe": {
+    "criteria": {
+      "has_stick": "2025-09-13 21:05:42 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/firestone_pickaxe": {
+    "criteria": {
+      "has_stick": "2025-09-13 21:05:42 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/mosstone_warhammer": {
+    "criteria": {
+      "has_stick": "2025-09-13 21:05:42 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/emerald_hoe": {
+    "criteria": {
+      "has_stick": "2025-09-13 21:05:42 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/firestone_battleaxe": {
+    "criteria": {
+      "has_stick": "2025-09-13 21:05:42 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/seastone_axe": {
+    "criteria": {
+      "has_stick": "2025-09-13 21:05:42 +0000"
+    },
+    "done": true
+  },
+  "betterarcheology:recipes/recipe_iron_brush": {
+    "criteria": {
+      "has_item": "2025-09-13 20:57:41 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/obsidian_greatsword": {
+    "criteria": {
+      "has_stick": "2025-09-13 21:05:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_button": {
+    "criteria": {
+      "has_planks": "2025-09-13 21:05:55 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/skystone_dagger": {
+    "criteria": {
+      "has_stick": "2025-09-13 21:05:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_boots": {
+    "criteria": {
+      "has_diamond": "2025-09-13 20:57:01 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/emerald_pickaxe": {
+    "criteria": {
+      "has_stick": "2025-09-13 21:05:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_sword": {
+    "criteria": {
+      "has_iron_ingot": "2025-09-13 20:57:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/iron_pickaxe": {
+    "criteria": {
+      "has_iron_ingot": "2025-09-13 20:57:41 +0000"
+    },
+    "done": true
+  },
+  "chimes:recipes/decorations/iron_chimes": {
+    "criteria": {
+      "has_wood_slabs": "2025-09-13 20:57:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/shield": {
+    "criteria": {
+      "has_iron_ingot": "2025-09-13 20:57:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/hopper": {
+    "criteria": {
+      "has_iron_ingot": "2025-09-13 20:57:41 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/astrostone_dagger": {
+    "criteria": {
+      "has_stick": "2025-09-13 21:05:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/iron_bars": {
+    "criteria": {
+      "has_iron_ingot": "2025-09-13 20:57:41 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/seastone_battleaxe": {
+    "criteria": {
+      "has_stick": "2025-09-13 21:05:42 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/seastone_dagger": {
+    "criteria": {
+      "has_stick": "2025-09-13 21:05:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_slab": {
+    "criteria": {
+      "has_planks": "2025-09-13 21:05:55 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/utensil_wooden": {
+    "criteria": {
+      "has_uten_wooden": "2025-09-13 21:05:55 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/emerald_battleaxe": {
+    "criteria": {
+      "has_stick": "2025-09-13 21:05:42 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/astrostone_axe": {
+    "criteria": {
+      "has_stick": "2025-09-13 21:05:42 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/depthstone_battleaxe": {
+    "criteria": {
+      "has_stick": "2025-09-13 21:05:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_boots": {
+    "criteria": {
+      "has_iron_ingot": "2025-09-13 20:57:41 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/skystone_greatsword": {
+    "criteria": {
+      "has_stick": "2025-09-13 21:05:42 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/froststone_hoe": {
+    "criteria": {
+      "has_stick": "2025-09-13 21:05:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lantern": {
+    "criteria": {
+      "has_iron_ingot": "2025-09-13 20:57:41 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/astrostone_pickaxe": {
+    "criteria": {
+      "has_stick": "2025-09-13 21:05:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/campfire": {
+    "criteria": {
+      "has_stick": "2025-09-13 21:05:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_hoe": {
+    "criteria": {
+      "has_stick": "2025-09-13 21:05:42 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/mosstone_shovel": {
+    "criteria": {
+      "has_stick": "2025-09-13 21:05:42 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/obsidian_pickaxe": {
+    "criteria": {
+      "has_stick": "2025-09-13 21:05:42 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/astrostone_battleaxe": {
+    "criteria": {
+      "has_stick": "2025-09-13 21:05:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_fence_gate": {
+    "criteria": {
+      "has_planks": "2025-09-13 21:05:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/charcoal": {
+    "criteria": {
+      "has_log": "2025-09-13 21:05:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_pickaxe": {
+    "criteria": {
+      "has_stick": "2025-09-13 21:05:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/iron_shovel": {
+    "criteria": {
+      "has_iron_ingot": "2025-09-13 20:57:41 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/mosstone_pickaxe": {
+    "criteria": {
+      "has_stick": "2025-09-13 21:05:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_helmet": {
+    "criteria": {
+      "has_diamond": "2025-09-13 20:57:01 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/mosstone_battleaxe": {
+    "criteria": {
+      "has_stick": "2025-09-13 21:05:42 +0000"
+    },
+    "done": true
+  },
+  "betterarcheology:recipes/recipe_diamond_brush": {
+    "criteria": {
+      "has_item": "2025-09-13 20:57:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-09-13 21:05:55 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/depthstone_axe": {
+    "criteria": {
+      "has_stick": "2025-09-13 21:05:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_door": {
+    "criteria": {
+      "has_planks": "2025-09-13 21:05:55 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/apple_seed": {
+    "criteria": {
+      "has_apple": "2025-09-13 20:57:09 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/firestone_greatsword": {
+    "criteria": {
+      "has_stick": "2025-09-13 21:05:42 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/froststone_dagger": {
+    "criteria": {
+      "has_stick": "2025-09-13 21:05:42 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/mosstone_hoe": {
+    "criteria": {
+      "has_stick": "2025-09-13 21:05:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_shovel": {
+    "criteria": {
+      "has_stick": "2025-09-13 21:05:42 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/seastone_hoe": {
+    "criteria": {
+      "has_stick": "2025-09-13 21:05:42 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/mosstone_greatsword": {
+    "criteria": {
+      "has_stick": "2025-09-13 21:05:42 +0000"
+    },
+    "done": true
+  },
+  "betterarcheology:recipes/tools/iron_brush": {
+    "criteria": {
+      "has_the_recipe": "2025-09-13 20:57:41 +0000",
+      "has_iron_ingot": "2025-09-13 20:57:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/iron_trapdoor": {
+    "criteria": {
+      "has_iron_ingot": "2025-09-13 20:57:41 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/emerald_warhammer": {
+    "criteria": {
+      "has_stick": "2025-09-13 21:05:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/white_wool_from_string": {
+    "criteria": {
+      "has_string": "2025-09-13 21:07:22 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/skystone_warhammer": {
+    "criteria": {
+      "has_stick": "2025-09-13 21:05:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/wooden_sword": {
+    "criteria": {
+      "has_stick": "2025-09-13 21:05:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_planks": {
+    "criteria": {
+      "has_logs": "2025-09-13 21:05:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/iron_axe": {
+    "criteria": {
+      "has_iron_ingot": "2025-09-13 20:57:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/crossbow": {
+    "criteria": {
+      "has_iron_ingot": "2025-09-13 20:57:41 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/depthstone_hoe": {
+    "criteria": {
+      "has_stick": "2025-09-13 21:05:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget_from_blasting": {
+    "criteria": {
+      "has_iron_pickaxe": "2025-09-13 20:56:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/barrel": {
+    "criteria": {
+      "has_planks": "2025-09-13 21:05:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diamond_block": {
+    "criteria": {
+      "has_diamond": "2025-09-13 20:57:01 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/emerald_axe": {
+    "criteria": {
+      "has_stick": "2025-09-13 21:05:42 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/seastone_greatsword": {
+    "criteria": {
+      "has_stick": "2025-09-13 21:05:42 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/froststone_battleaxe": {
+    "criteria": {
+      "has_stick": "2025-09-13 21:05:42 +0000"
+    },
+    "done": true
+  },
+  "immersive_weathering:immersive_weathering/dirts": {
+    "criteria": {
+      "dirt": "2025-09-13 20:59:26 +0000"
+    },
+    "done": false
+  },
+  "medievalembroidery:recipes/misc/firestone_sword": {
+    "criteria": {
+      "has_stick": "2025-09-13 21:05:42 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/emerald_greatsword": {
+    "criteria": {
+      "has_stick": "2025-09-13 21:05:42 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/skystone_sword": {
+    "criteria": {
+      "has_stick": "2025-09-13 21:05:42 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/firestone_shovel": {
+    "criteria": {
+      "has_stick": "2025-09-13 21:05:42 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/decorations/cutting_board": {
+    "criteria": {
+      "has_stick": "2025-09-13 21:05:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "apple": "2025-09-13 21:04:10 +0000"
+    },
+    "done": false
+  },
+  "betterarcheology:recipes/tools/diamond_brush": {
+    "criteria": {
+      "has_the_recipe": "2025-09-13 20:57:01 +0000",
+      "has_diamond": "2025-09-13 20:57:01 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/obsidian_battleaxe": {
+    "criteria": {
+      "has_stick": "2025-09-13 21:05:42 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/combat/iron_knife": {
+    "criteria": {
+      "has_iron_ingot": "2025-09-13 20:57:41 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/mosstone_sword": {
+    "criteria": {
+      "has_stick": "2025-09-13 21:05:42 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/depthstone_dagger": {
+    "criteria": {
+      "has_stick": "2025-09-13 21:05:42 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/plate": {
+    "criteria": {
+      "has_plate": "2025-09-13 21:05:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/mine_diamond": {
+    "criteria": {
+      "diamond": "2025-09-13 20:57:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/loom": {
+    "criteria": {
+      "has_string": "2025-09-13 21:07:22 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/emerald_dagger": {
+    "criteria": {
+      "has_stick": "2025-09-13 21:05:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_axe": {
+    "criteria": {
+      "has_diamond": "2025-09-13 20:57:01 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/astrostone_warhammer": {
+    "criteria": {
+      "has_stick": "2025-09-13 21:05:42 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/mosstone_dagger": {
+    "criteria": {
+      "has_stick": "2025-09-13 21:05:42 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/astrostone_sword": {
+    "criteria": {
+      "has_stick": "2025-09-13 21:05:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_wood": {
+    "criteria": {
+      "has_log": "2025-09-13 21:05:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2025-09-13 21:05:58 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/skystone_hoe": {
+    "criteria": {
+      "has_stick": "2025-09-13 21:05:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/iron_door": {
+    "criteria": {
+      "has_iron_ingot": "2025-09-13 20:57:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/heavy_weighted_pressure_plate": {
+    "criteria": {
+      "has_iron_ingot": "2025-09-13 20:57:41 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/obsidian_shovel": {
+    "criteria": {
+      "has_stick": "2025-09-13 21:05:42 +0000"
     },
     "done": true
   },
