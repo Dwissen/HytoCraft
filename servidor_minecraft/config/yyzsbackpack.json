@@ -1,0 +1,14 @@
+{
+  "quick_swap_backpack": true,
+  "use_dedicated_slot": false,
+  "render_backpack_model": true,
+  "restrict_container_items": false,
+  "slot_position_x": 0,
+  "slot_position_y": 0,
+  "backpack_gui_x": 0,
+  "backpack_gui_y": 0,
+  "tooltip_modifier": "shift",
+  "restricted_items": [
+    "namespace:item_id"
+  ]
+}
