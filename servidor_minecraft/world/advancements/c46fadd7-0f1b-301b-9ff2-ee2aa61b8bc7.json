@@ -1,0 +1,45 @@
+{
+  "takesapillage:root": {
+    "criteria": {
+      "always": "2025-09-13 03:30:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-09-13 03:30:21 +0000"
+    },
+    "done": true
+  },
+  "antiqueatlas:recipes/atlas": {
+    "criteria": {
+      "has_compass": "2025-09-13 03:30:21 +0000"
+    },
+    "done": true
+  },
+  "antiqueatlas:recipes/atlas_new": {
+    "criteria": {
+      "has_compass": "2025-09-13 03:30:21 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:main/root": {
+    "criteria": {
+      "seeds": "2025-09-13 03:30:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2025-09-13 03:30:21 +0000"
+    },
+    "done": false
+  },
+  "medievalembroidery:grant_book_on_first_join": {
+    "criteria": {
+      "tick": "2025-09-13 03:30:21 +0000"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
+}
