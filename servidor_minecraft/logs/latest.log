@@ -1492,3 +1492,10 @@ Caused by: java.lang.NullPointerException: Cannot invoke "net.minecraft.advancem
 	at net.minecraft.world.inventory.AbstractContainerMenu.m_150399_(AbstractContainerMenu.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
 	... 17 more
 [14Sep2025 05:23:06.231] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dwiss3: Gamerule keepInventory is now set to: true]
+[14Sep2025 05:40:18.549] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SumireShi has made the advancement [Iron Age]
+[14Sep2025 05:41:16.447] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SumireShi has made the advancement [Monster Hunter]
+[14Sep2025 05:41:41.849] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dwiss3 has made the advancement [Green Hill]
+[14Sep2025 05:41:43.356] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SumireShi has made the advancement [Smashing Success]
+[14Sep2025 05:50:45.651] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: SumireShi lost connection: Disconnected
+[14Sep2025 05:50:45.652] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SumireShi left the game
+[14Sep2025 05:50:45.652] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client SumireShi

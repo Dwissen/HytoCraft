@@ -385,6 +385,7 @@
   },
   "immersive_weathering:immersive_weathering/dirts": {
     "criteria": {
+      "grass": "2025-09-14 05:53:01 +0000",
       "dirt": "2025-09-13 20:59:26 +0000"
     },
     "done": false
@@ -1599,6 +1600,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/emerald_from_smelting_emerald_ore": {
+    "criteria": {
+      "has_emerald_ore": "2025-09-14 05:41:41 +0000"
+    },
+    "done": true
+  },
   "medievalembroidery:recipes/misc/cooked_direwolf_smoking": {
     "criteria": {
       "has_direwolf": "2025-09-14 03:08:24 +0000"
@@ -1629,9 +1636,21 @@
     },
     "done": true
   },
+  "medievalembroidery:recipes/misc/porcini": {
+    "criteria": {
+      "has_mushroom": "2025-09-14 05:50:10 +0000"
+    },
+    "done": true
+  },
   "medievalembroidery:recipes/misc/tankard": {
     "criteria": {
       "has_tankard": "2025-09-14 03:53:38 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/rabbit_stew": {
+    "criteria": {
+      "has_any_ingredient": "2025-09-14 05:50:10 +0000"
     },
     "done": true
   },
@@ -1671,6 +1690,12 @@
     },
     "done": true
   },
+  "medievalembroidery:recipes/misc/blewit": {
+    "criteria": {
+      "has_mushroom": "2025-09-14 05:50:10 +0000"
+    },
+    "done": true
+  },
   "medievalembroidery:recipes/misc/seasoned_matsutake": {
     "criteria": {
       "has_herbs": "2025-09-14 02:53:29 +0000"
@@ -1682,6 +1707,12 @@
       "killed_iceologer": "2025-09-14 03:10:48 +0000"
     },
     "done": false
+  },
+  "farmersdelight:recipes/cooking/mushroom_stew": {
+    "criteria": {
+      "has_any_ingredient": "2025-09-14 05:50:10 +0000"
+    },
+    "done": true
   },
   "minecraft:recipes/misc/gold_nugget": {
     "criteria": {
@@ -1704,6 +1735,12 @@
   "farmersdelight:recipes/misc/iron_nugget_from_smelting_knife": {
     "criteria": {
       "has_iron_knife": "2025-09-14 02:39:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bowl": {
+    "criteria": {
+      "has_brown_mushroom": "2025-09-14 05:50:10 +0000"
     },
     "done": true
   },
@@ -1803,6 +1840,12 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/cooking/vegetable_noodles": {
+    "criteria": {
+      "has_any_ingredient": "2025-09-14 05:50:10 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/map": {
     "criteria": {
       "has_compass": "2025-09-14 03:54:17 +0000"
@@ -1875,6 +1918,12 @@
     },
     "done": true
   },
+  "medievalembroidery:recipes/misc/yellowfoot": {
+    "criteria": {
+      "has_mushroom": "2025-09-14 05:50:10 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/spruce_fence": {
     "criteria": {
       "has_planks": "2025-09-14 03:53:38 +0000"
@@ -1908,6 +1957,12 @@
   "minecraft:recipes/building_blocks/spruce_slab": {
     "criteria": {
       "has_planks": "2025-09-14 03:53:38 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/king": {
+    "criteria": {
+      "has_mushroom": "2025-09-14 05:50:10 +0000"
     },
     "done": true
   },
@@ -1953,6 +2008,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/emerald_from_blasting_emerald_ore": {
+    "criteria": {
+      "has_emerald_ore": "2025-09-14 05:41:41 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/honey": {
+    "criteria": {
+      "has_mushroom": "2025-09-14 05:50:10 +0000"
+    },
+    "done": true
+  },
   "minecraft:husbandry/tame_an_animal": {
     "criteria": {
       "tamed_animal": "2025-09-14 03:50:16 +0000"
@@ -1962,6 +2029,12 @@
   "farmersdelight:recipes/building_blocks/tomato_crate": {
     "criteria": {
       "has_tomato": "2025-09-14 04:06:12 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/matsutake": {
+    "criteria": {
+      "has_mushroom": "2025-09-14 05:50:10 +0000"
     },
     "done": true
   },
@@ -2145,6 +2218,12 @@
     },
     "done": true
   },
+  "medievalembroidery:recipes/misc/woods_chicken": {
+    "criteria": {
+      "has_mushroom": "2025-09-14 05:50:10 +0000"
+    },
+    "done": true
+  },
   "farmersdelight:main/craft_knife": {
     "criteria": {
       "iron_knife": "2025-09-14 02:39:49 +0000"
@@ -2199,6 +2278,12 @@
     },
     "done": true
   },
+  "realisticforgingores:mining_emerald_advancement": {
+    "criteria": {
+      "mining_emerald_advancement_0": "2025-09-14 05:41:41 +0000"
+    },
+    "done": true
+  },
   "medievalembroidery:recipes/misc/seasoned_woods_chicken": {
     "criteria": {
       "has_herbs": "2025-09-14 02:53:29 +0000"
@@ -2244,6 +2329,12 @@
   "minecraft:recipes/misc/iron_ingot_from_nuggets": {
     "criteria": {
       "has_iron_nugget": "2025-09-14 02:37:48 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/oyster": {
+    "criteria": {
+      "has_mushroom": "2025-09-14 05:50:10 +0000"
     },
     "done": true
   },
