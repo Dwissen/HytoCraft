@@ -1499,3 +1499,18 @@ Caused by: java.lang.NullPointerException: Cannot invoke "net.minecraft.advancem
 [14Sep2025 05:50:45.651] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: SumireShi lost connection: Disconnected
 [14Sep2025 05:50:45.652] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SumireShi left the game
 [14Sep2025 05:50:45.652] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client SumireShi
+[14Sep2025 06:13:49.949] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dwiss3 lost connection: Disconnected
+[14Sep2025 06:13:49.949] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dwiss3 left the game
+[14Sep2025 06:13:49.949] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Dwiss3
+[14Sep2025 06:14:08.198] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[14Sep2025 06:14:08.198] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[14Sep2025 06:14:08.198] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[14Sep2025 06:14:08.459] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[14Sep2025 06:14:09.197] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/dark_souls_expansion:lordran_dimension
+[14Sep2025 06:14:09.198] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[14Sep2025 06:14:09.199] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[14Sep2025 06:14:09.221] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[14Sep2025 06:14:09.222] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (lordran_dimension): All chunks are saved
+[14Sep2025 06:14:09.222] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[14Sep2025 06:14:09.222] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[14Sep2025 06:14:09.222] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
