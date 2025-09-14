@@ -1,28 +1,1205 @@
-[14Sep2025 00:01:44.032] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: SumireShi[/127.155.214.71:41833] logged in with entity id 3314 at (-141.5, 76.0, -93.5)
-[14Sep2025 00:01:44.043] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SumireShi joined the game
-[14Sep2025 00:01:44.158] [Server thread/INFO] [antiqueatlas/]: Sent markers data #-1 to player SumireShi
-[14Sep2025 00:01:44.158] [Server thread/INFO] [antiqueatlas/]: Sent custom biome data to player SumireShi
-[14Sep2025 00:01:44.158] [Server thread/INFO] [antiqueatlas/]: Sent custom biome data to player SumireShi
-[14Sep2025 00:01:44.158] [Server thread/INFO] [antiqueatlas/]: Sent custom biome data to player SumireShi
-[14Sep2025 00:01:44.159] [Server thread/INFO] [antiqueatlas/]: Sent custom biome data to player SumireShi
-[14Sep2025 00:01:44.834] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of SumireShi (20)
-[14Sep2025 00:01:44.835] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to SumireShi
-[14Sep2025 00:01:46.480] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Thank you so much for playing Dark Souls Expansion! If you'd like to create a server with your friends, you can do so at
-[14Sep2025 00:02:55.425] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: SumireShi lost connection: Disconnected
-[14Sep2025 00:02:55.426] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SumireShi left the game
-[14Sep2025 00:02:55.426] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client SumireShi
-[14Sep2025 00:02:57.227] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dwiss3 lost connection: Disconnected
-[14Sep2025 00:02:57.227] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dwiss3 left the game
-[14Sep2025 00:02:57.228] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Dwiss3
-[14Sep2025 00:04:43.776] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[14Sep2025 00:04:43.777] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[14Sep2025 00:04:43.777] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[14Sep2025 00:04:44.056] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[14Sep2025 00:04:44.906] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[14Sep2025 00:04:44.907] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[14Sep2025 00:04:44.908] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/dark_souls_expansion:lordran_dimension
-[14Sep2025 00:04:44.937] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[14Sep2025 00:04:44.937] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[14Sep2025 00:04:44.937] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[14Sep2025 00:04:44.937] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (lordran_dimension): All chunks are saved
-[14Sep2025 00:04:44.937] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[14Sep2025 02:05:50.966] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.4.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[14Sep2025 02:05:50.969] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.16 by Ubuntu; OS Linux arch amd64 version 6.8.0-1030-azure
+[14Sep2025 02:05:51.988] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[14Sep2025 02:05:52.055] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/HytoCraft/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[14Sep2025 02:05:52.343] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/HytoCraft/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.4.0/fmlcore-1.20.1-47.4.0.jar is missing mods.toml file
+[14Sep2025 02:05:52.346] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/HytoCraft/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.4.0/javafmllanguage-1.20.1-47.4.0.jar is missing mods.toml file
+[14Sep2025 02:05:52.347] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/HytoCraft/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.4.0/lowcodelanguage-1.20.1-47.4.0.jar is missing mods.toml file
+[14Sep2025 02:05:52.348] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/HytoCraft/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.4.0/mclanguage-1.20.1-47.4.0.jar is missing mods.toml file
+[14Sep2025 02:05:52.579] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 5 dependencies adding them to mods collection
+[14Sep2025 02:05:54.782] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[14Sep2025 02:05:54.916] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[14Sep2025 02:05:55.189] [main/INFO] [Canary/]: Loaded configuration file for Canary: 116 options available, 0 override(s) found
+[14Sep2025 02:05:55.983] [main/WARN] [mixin/]: Error loading class: appeng/menu/AEBaseMenu (java.lang.ClassNotFoundException: appeng.menu.AEBaseMenu)
+[14Sep2025 02:05:55.984] [main/WARN] [mixin/]: @Mixin target appeng.menu.AEBaseMenu was not found yyzsbackpack.forge.mixins.json:compat.ae2.AEBaseMenuMixin
+[14Sep2025 02:05:55.986] [main/WARN] [mixin/]: Error loading class: fuzs/slotcycler/client/HotbarCyclingProvider (java.lang.ClassNotFoundException: fuzs.slotcycler.client.HotbarCyclingProvider)
+[14Sep2025 02:05:55.987] [main/WARN] [mixin/]: @Mixin target fuzs.slotcycler.client.HotbarCyclingProvider was not found yyzsbackpack.forge.mixins.json:compat.hotbarslotcycling.HotbarCyclingProviderMixin
+[14Sep2025 02:05:55.990] [main/WARN] [mixin/]: Error loading class: de/rubixdev/inventorio/player/InventorioScreenHandler (java.lang.ClassNotFoundException: de.rubixdev.inventorio.player.InventorioScreenHandler)
+[14Sep2025 02:05:55.990] [main/WARN] [mixin/]: @Mixin target de.rubixdev.inventorio.player.InventorioScreenHandler was not found yyzsbackpack.forge.mixins.json:compat.inventorio.InventorioScreenHandlerMixin
+[14Sep2025 02:05:55.993] [main/WARN] [mixin/]: Error loading class: kirderf1/inventoryfree/InventoryEnforcer (java.lang.ClassNotFoundException: kirderf1.inventoryfree.InventoryEnforcer)
+[14Sep2025 02:05:55.994] [main/WARN] [mixin/]: @Mixin target kirderf1.inventoryfree.InventoryEnforcer was not found yyzsbackpack.forge.mixins.json:compat.inventoryfree.InventoryEnforcerMixin
+[14Sep2025 02:05:55.997] [main/WARN] [mixin/]: Error loading class: moonfather/workshop_for_handsome_adventurer/block_entities/SimpleTableMenu (java.lang.ClassNotFoundException: moonfather.workshop_for_handsome_adventurer.block_entities.SimpleTableMenu)
+[14Sep2025 02:05:55.997] [main/WARN] [mixin/]: @Mixin target moonfather.workshop_for_handsome_adventurer.block_entities.SimpleTableMenu was not found yyzsbackpack.forge.mixins.json:compat.wfha.SimpleTableMenuMixin
+[14Sep2025 02:05:56.887] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[14Sep2025 02:06:00.289] [main/WARN] [mixin/]: @Final field f_31427_:[I in mixins.epicfight.json:common.MixinWitherBoss should be final
+[14Sep2025 02:06:00.290] [main/WARN] [mixin/]: @Final field f_31428_:[I in mixins.epicfight.json:common.MixinWitherBoss should be final
+[14Sep2025 02:06:02.277] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.LivingEntity from class yesman.epicfight.world.capabilities.entitypatch.LivingEntityPatch
+[14Sep2025 02:06:02.278] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.LivingEntity from class yesman.epicfight.world.capabilities.entitypatch.LivingEntityPatch
+[14Sep2025 02:06:02.278] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.LivingEntity from class yesman.epicfight.world.capabilities.entitypatch.LivingEntityPatch
+[14Sep2025 02:06:02.278] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.LivingEntity from class yesman.epicfight.world.capabilities.entitypatch.LivingEntityPatch
+[14Sep2025 02:06:03.827] [modloading-worker-0/INFO] [dynamiclights/]: [Dynamic Lights] Registering server started event ...
+[14Sep2025 02:06:03.826] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialize mod Library Ferret
+[14Sep2025 02:06:03.866] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialized mod Library Ferret
+[14Sep2025 02:06:04.118] [modloading-worker-0/INFO] [epicfight/]: Loaded mod compat: GeckolibCompat
+[14Sep2025 02:06:04.118] [modloading-worker-0/INFO] [epicfight/]: Loaded mod compat: PlayerAnimatorCompat
+[14Sep2025 02:06:04.358] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.4.0, for MC 1.20.1 with MCP 20230612.114412
+[14Sep2025 02:06:04.358] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.4.0 Initialized
+[14Sep2025 02:06:04.617] [modloading-worker-0/INFO] [unionlib/]: Watching directory: /workspaces/HytoCraft/servidor_minecraft/config
+[14Sep2025 02:06:04.616] [modloading-worker-0/INFO] [unionlib/]: Watching directory: /workspaces/HytoCraft/servidor_minecraft/config
+[14Sep2025 02:06:04.618] [modloading-worker-0/INFO] [unionlib/]: Watching file: antiqueatlas-common.toml
+[14Sep2025 02:06:04.618] [modloading-worker-0/INFO] [unionlib/]: Watching file: unionlib-client.toml
+[14Sep2025 02:06:04.618] [modloading-worker-0/INFO] [unionlib/]: Watching file: unionlib-common.toml
+[14Sep2025 02:06:04.619] [modloading-worker-0/INFO] [unionlib/]: Watching file: unionlib-server.toml
+[14Sep2025 02:06:04.665] [modloading-worker-0/INFO] [unionlib/]: Starting up: unionlib
+[14Sep2025 02:06:04.703] [modloading-worker-0/INFO] [UnionLib Registry/]: Found 5 registry classes in unionlib
+[14Sep2025 02:06:04.704] [modloading-worker-0/INFO] [UnionLib Registry/]: Registering minecraft:attributes in com.stereowalker.unionlib.core.registries.ClassNRegistry@392dde1d
+[14Sep2025 02:06:04.720] [modloading-worker-0/INFO] [UnionLib Registry/]: Registering minecraft:items in com.stereowalker.unionlib.core.registries.ClassNRegistry@3affb8f1
+[14Sep2025 02:06:04.730] [modloading-worker-0/INFO] [UnionLib Registry/]: Registering minecraft:menus in com.stereowalker.unionlib.core.registries.ClassNRegistry@61ca109d
+[14Sep2025 02:06:04.735] [modloading-worker-0/INFO] [UnionLib Registry/]: Registering minecraft:recipe_serializers in com.stereowalker.unionlib.core.registries.ClassNRegistry@6e35d6e2
+[14Sep2025 02:06:04.738] [modloading-worker-0/INFO] [UnionLib Registry/]: Registering minecraft:attributes in com.stereowalker.unionlib.core.registries.ClassNRegistry@2483ef3e
+[14Sep2025 02:06:04.751] [modloading-worker-0/INFO] [UnionLib Registry/]: Found 2 registry classes in antiqueatlas
+[14Sep2025 02:06:04.751] [modloading-worker-0/INFO] [UnionLib Registry/]: Registering minecraft:items in com.stereowalker.unionlib.core.registries.ClassNRegistry@16cdde9c
+[14Sep2025 02:06:04.757] [modloading-worker-0/INFO] [UnionLib Registry/]: Registering minecraft:recipe_serializers in com.stereowalker.unionlib.core.registries.ClassNRegistry@359fb9c5
+[14Sep2025 02:06:04.768] [modloading-worker-0/INFO] [unionlib/]: Starting up: antiqueatlas
+[14Sep2025 02:06:05.821] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: The object net.minecraft.sounds.SoundEvent@595bcc11 has been registered twice for the same name treechop:chop_wood.
+[14Sep2025 02:06:07.238] [main/INFO] [Moonlight/]: Initialized block sets in 14ms
+[14Sep2025 02:06:07.668] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class yesman.epicfight.world.capabilities.entitypatch.player.PlayerPatch
+[14Sep2025 02:06:07.714] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[14Sep2025 02:06:07.715] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[14Sep2025 02:06:07.715] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[14Sep2025 02:06:07.715] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[14Sep2025 02:06:07.715] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[14Sep2025 02:06:07.715] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[14Sep2025 02:06:07.715] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[14Sep2025 02:06:07.716] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[14Sep2025 02:06:07.716] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[14Sep2025 02:06:07.781] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/HytoCraft/servidor_minecraft/config/knightlib.toml is not correct. Correcting
+[14Sep2025 02:06:07.785] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/HytoCraft/servidor_minecraft/config/companions.toml is not correct. Correcting
+[14Sep2025 02:06:07.821] [modloading-worker-0/INFO] [dynamiclights/]: [Dynamic Lights] Loaded Dynamic Lights by Tschipcraft successfully!
+[14Sep2025 02:06:07.875] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Compatibility version 20
+[14Sep2025 02:06:07.970] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loading plugins
+[14Sep2025 02:06:07.983] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loaded 0 plugin(s)
+[14Sep2025 02:06:07.985] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initializing plugins
+[14Sep2025 02:06:07.986] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initialized 0 plugin(s)
+[14Sep2025 02:06:08.191] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dynamiclights] Starting version check at https://api.modrinth.com/updates/7YjclEGc/forge_updates.json?forge=only
+[14Sep2025 02:06:08.247] [main/INFO] [Moonlight/]: Initialized color sets in 62ms
+[14Sep2025 02:06:08.676] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dynamiclights] Found status: UP_TO_DATE Current: 1.8.9+mod Target: null
+[14Sep2025 02:06:08.676] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[14Sep2025 02:06:08.864] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 47.4.0 Target: null
+[14Sep2025 02:06:08.864] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [unionlib] Starting version check at https://raw.githubusercontent.com/Stereowalker/My-Home-Page/main/update_files/unionlib.json
+[14Sep2025 02:06:08.918] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [unionlib] Found status: BETA Current: 12.0.18 Target: null
+[14Sep2025 02:06:08.918] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [unionlib_potionfluid] Starting version check at https://raw.githubusercontent.com/Stereowalker/My-Home-Page/main/update_files/unionlib-potions-fluids.json
+[14Sep2025 02:06:08.931] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [unionlib_potionfluid] Found status: BETA Current: 1.0.0 Target: null
+[14Sep2025 02:06:08.932] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Starting version check at https://update.maxhenkel.de/forge/voicechat
+[14Sep2025 02:06:09.721] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Found status: AHEAD Current: 1.20.1-2.6.3 Target: null
+[14Sep2025 02:06:09.721] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [canary] Starting version check at https://github.com/AbdElAziz333/Canary/raw/mc1.19.2/dev/updates.json
+[14Sep2025 02:06:09.950] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [canary] Found status: UP_TO_DATE Current: 0.3.3 Target: null
+[14Sep2025 02:06:13.514] [main/INFO] [epicfight/]: Data keys [epicfight:basic_attack_active, epicfight:combo_counter] for epicfight:basic_attack
+[14Sep2025 02:06:13.514] [main/INFO] [epicfight/]: Data keys [epicfight:penalty, epicfight:penalty_restore_counter] for epicfight:guard
+[14Sep2025 02:06:13.514] [main/INFO] [epicfight/]: Data keys [epicfight:penalty, epicfight:parry_motion_counter, epicfight:last_active, epicfight:penalty_restore_counter] for epicfight:parrying
+[14Sep2025 02:06:13.515] [main/INFO] [epicfight/]: Data keys [epicfight:penalty, epicfight:penalty_restore_counter] for epicfight:impact_guard
+[14Sep2025 02:06:13.515] [main/INFO] [epicfight/]: Data keys [epicfight:stacks, epicfight:resisting_damage_type, epicfight:tick_record] for epicfight:adaptive_skin
+[14Sep2025 02:06:13.515] [main/INFO] [epicfight/]: Data keys [epicfight:tick_record] for epicfight:adrenaline_fiend
+[14Sep2025 02:06:13.515] [main/INFO] [epicfight/]: Data keys [epicfight:stacks, epicfight:entity_id] for epicfight:bonebreaker
+[14Sep2025 02:06:13.515] [main/INFO] [epicfight/]: Data keys [epicfight:tick_record, epicfight:entity_id] for epicfight:vengeance
+[14Sep2025 02:06:13.515] [main/INFO] [epicfight/]: Data keys [epicfight:fall_distance, epicfight:slam_protect_next_fall] for epicfight:meteor_slam
+[14Sep2025 02:06:13.515] [main/INFO] [epicfight/]: Data keys [epicfight:stacks] for epicfight:revelation
+[14Sep2025 02:06:13.515] [main/INFO] [epicfight/]: Data keys [epicfight:slam_protect_next_fall] for epicfight:demolition_leap
+[14Sep2025 02:06:13.516] [main/INFO] [epicfight/]: Data keys [epicfight:jump_key_pressed_last_tick, epicfight:jump_count, epicfight:slam_protect_next_fall] for epicfight:phantom_ascent
+[14Sep2025 02:06:13.516] [main/INFO] [epicfight/]: Data keys [epicfight:last_hit_count] for epicfight:grasping_spire
+[14Sep2025 02:06:13.516] [main/INFO] [epicfight/]: Data keys [epicfight:sheath] for epicfight:battojutsu_passive
+[14Sep2025 02:06:13.516] [main/INFO] [epicfight/]: Data keys [epicfight:sheath] for epicfight:battojutsu
+[14Sep2025 02:06:13.516] [main/INFO] [epicfight/]: Data keys [epicfight:combo_counter] for epicfight:blade_rush
+[14Sep2025 02:06:13.516] [main/INFO] [epicfight/]: Data keys [epicfight:thrown_trident_entity_id] for epicfight:everlasting_allegiance
+[14Sep2025 02:06:13.543] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[14Sep2025 02:06:17.172] [main/INFO] [epicfight/]: Data keys [epicfight:basic_attack_active, epicfight:combo_counter] for epicfight:basic_attack
+[14Sep2025 02:06:17.173] [main/INFO] [epicfight/]: Data keys [epicfight:penalty, epicfight:penalty_restore_counter] for epicfight:guard
+[14Sep2025 02:06:17.173] [main/INFO] [epicfight/]: Data keys [epicfight:penalty, epicfight:parry_motion_counter, epicfight:last_active, epicfight:penalty_restore_counter] for epicfight:parrying
+[14Sep2025 02:06:17.173] [main/INFO] [epicfight/]: Data keys [epicfight:penalty, epicfight:penalty_restore_counter] for epicfight:impact_guard
+[14Sep2025 02:06:17.173] [main/INFO] [epicfight/]: Data keys [epicfight:stacks, epicfight:resisting_damage_type, epicfight:tick_record] for epicfight:adaptive_skin
+[14Sep2025 02:06:17.173] [main/INFO] [epicfight/]: Data keys [epicfight:tick_record] for epicfight:adrenaline_fiend
+[14Sep2025 02:06:17.173] [main/INFO] [epicfight/]: Data keys [epicfight:stacks, epicfight:entity_id] for epicfight:bonebreaker
+[14Sep2025 02:06:17.174] [main/INFO] [epicfight/]: Data keys [epicfight:tick_record, epicfight:entity_id] for epicfight:vengeance
+[14Sep2025 02:06:17.174] [main/INFO] [epicfight/]: Data keys [epicfight:fall_distance, epicfight:slam_protect_next_fall] for epicfight:meteor_slam
+[14Sep2025 02:06:17.174] [main/INFO] [epicfight/]: Data keys [epicfight:stacks] for epicfight:revelation
+[14Sep2025 02:06:17.174] [main/INFO] [epicfight/]: Data keys [epicfight:slam_protect_next_fall] for epicfight:demolition_leap
+[14Sep2025 02:06:17.174] [main/INFO] [epicfight/]: Data keys [epicfight:jump_key_pressed_last_tick, epicfight:jump_count, epicfight:slam_protect_next_fall] for epicfight:phantom_ascent
+[14Sep2025 02:06:17.174] [main/INFO] [epicfight/]: Data keys [epicfight:last_hit_count] for epicfight:grasping_spire
+[14Sep2025 02:06:17.175] [main/INFO] [epicfight/]: Data keys [epicfight:sheath] for epicfight:battojutsu_passive
+[14Sep2025 02:06:17.175] [main/INFO] [epicfight/]: Data keys [epicfight:sheath] for epicfight:battojutsu
+[14Sep2025 02:06:17.175] [main/INFO] [epicfight/]: Data keys [epicfight:combo_counter] for epicfight:blade_rush
+[14Sep2025 02:06:17.175] [main/INFO] [epicfight/]: Data keys [epicfight:thrown_trident_entity_id] for epicfight:everlasting_allegiance
+[14Sep2025 02:06:17.252] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/HytoCraft/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23187!/assets/.mcassetsroot' uses unexpected schema
+[14Sep2025 02:06:17.252] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/HytoCraft/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23187!/data/.mcassetsroot' uses unexpected schema
+[14Sep2025 02:06:17.356] [main/INFO] [Moonlight/]: Starting runtime resource generation for pack type SERVER_DATA with generators from mods [immersive_weathering]: [com.ordana.immersive_weathering.dynamicpack.ServerDynamicResourcesHandler@245435e0]
+[14Sep2025 02:06:17.357] [main/INFO] [Moonlight/]: Generating runtime assets for pack Immersive Weathering Generated Pack (immersive_weathering)
+[14Sep2025 02:06:17.374] [main/INFO] [com.ordana.immersive_weathering.ImmersiveWeathering/]: Generated runtime SERVER_DATA for pack Immersive Weathering Generated Pack (immersive_weathering) in: 16 ms (multithreaded)
+[14Sep2025 02:06:17.375] [main/INFO] [Moonlight/]: Finished runtime resources generation for 1 packs in a total of 17 ms
+[14Sep2025 02:06:17.835] [main/INFO] [bettervillage/]: StructureSet modified for minecraft:village : Now using custom village configuration (can be disabled in the better villages config: boolean.villages.enabled_custom_config).
+[14Sep2025 02:06:18.985] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag forge:large_predators as it is missing following references: medievalembroidery:griffin (from Medieval_Embroidery-1.20.1-0.7.5.jar)
+[14Sep2025 02:06:18.987] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag forge:predators as it is missing following references: #forge:large_predators (from Medieval_Embroidery-1.20.1-0.7.5.jar)
+[14Sep2025 02:06:18.987] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag minecraft:powder_snow_walkable_mobs as it is missing following references: medievalembroidery:griffin (from Medieval_Embroidery-1.20.1-0.7.5.jar)
+[14Sep2025 02:06:19.022] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag farmers_structures:is_quark_glimer_spawn as it is missing following references: quark:glimmering_weald (from FarmersStructures-1.0.3-1.20.jar)
+[14Sep2025 02:06:19.103] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag unusual_furniture:card as it is missing following references: create_furniture:blank_ticket (from unusual_furniture-1.1.1-forge-1.20.1.jar), 
+	create_furniture:blank_card (from unusual_furniture-1.1.1-forge-1.20.1.jar)
+[14Sep2025 02:06:19.137] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag create:non_movable as it is missing following references: unusual_furniture:industrial_bench (from unusual_furniture-1.1.1-forge-1.20.1.jar)
+[14Sep2025 02:06:19.138] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag create:seats as it is missing following references: unusual_furniture:industrial_bench (from unusual_furniture-1.1.1-forge-1.20.1.jar)
+[14Sep2025 02:06:19.145] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag forge:sit_tag as it is missing following references: unusual_furniture:industrial_bench (from unusual_furniture-1.1.1-forge-1.20.1.jar)
+[14Sep2025 02:06:19.752] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/desert/desert_lamp_1.json
+[14Sep2025 02:06:19.753] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/desert/houses/desert_animal_pen_1.json
+[14Sep2025 02:06:19.754] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/desert/houses/desert_animal_pen_2.json
+[14Sep2025 02:06:19.754] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/desert/houses/desert_armorer_1.json
+[14Sep2025 02:06:19.754] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/desert/houses/desert_butcher_shop_1.json
+[14Sep2025 02:06:19.755] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/desert/houses/desert_cartographer_house_1.json
+[14Sep2025 02:06:19.755] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/desert/houses/desert_farm_1.json
+[14Sep2025 02:06:19.758] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/desert/houses/desert_farm_2.json
+[14Sep2025 02:06:19.759] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/desert/houses/desert_fisher_1.json
+[14Sep2025 02:06:19.759] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/desert/houses/desert_fletcher_house_1.json
+[14Sep2025 02:06:19.759] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/desert/houses/desert_large_farm_1.json
+[14Sep2025 02:06:19.759] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/desert/houses/desert_library_1.json
+[14Sep2025 02:06:19.759] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/desert/houses/desert_mason_1.json
+[14Sep2025 02:06:19.760] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/desert/houses/desert_medium_house_1.json
+[14Sep2025 02:06:19.760] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/desert/houses/desert_medium_house_2.json
+[14Sep2025 02:06:19.761] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/desert/houses/desert_shepherd_house_1.json
+[14Sep2025 02:06:19.761] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/desert/houses/desert_small_house_1.json
+[14Sep2025 02:06:19.761] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/desert/houses/desert_small_house_2.json
+[14Sep2025 02:06:19.764] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/desert/houses/desert_small_house_3.json
+[14Sep2025 02:06:19.765] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/desert/houses/desert_small_house_4.json
+[14Sep2025 02:06:19.765] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/desert/houses/desert_small_house_5.json
+[14Sep2025 02:06:19.765] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/desert/houses/desert_small_house_6.json
+[14Sep2025 02:06:19.765] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/desert/houses/desert_small_house_7.json
+[14Sep2025 02:06:19.765] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/desert/houses/desert_small_house_8.json
+[14Sep2025 02:06:19.765] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/desert/houses/desert_tannery_1.json
+[14Sep2025 02:06:19.766] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/desert/houses/desert_temple_1.json
+[14Sep2025 02:06:19.766] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/desert/houses/desert_temple_2.json
+[14Sep2025 02:06:19.766] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/desert/houses/desert_tool_smith_1.json
+[14Sep2025 02:06:19.767] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/desert/houses/desert_weaponsmith_1.json
+[14Sep2025 02:06:19.767] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/desert/streets/corner_01.json
+[14Sep2025 02:06:19.768] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/desert/streets/corner_02.json
+[14Sep2025 02:06:19.768] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/desert/streets/crossroad_01.json
+[14Sep2025 02:06:19.769] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/desert/streets/crossroad_02.json
+[14Sep2025 02:06:19.769] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/desert/streets/crossroad_03.json
+[14Sep2025 02:06:19.769] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/desert/streets/square_01.json
+[14Sep2025 02:06:19.770] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/desert/streets/square_02.json
+[14Sep2025 02:06:19.770] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/desert/streets/straight_01.json
+[14Sep2025 02:06:19.770] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/desert/streets/straight_02.json
+[14Sep2025 02:06:19.771] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/desert/streets/straight_03.json
+[14Sep2025 02:06:19.771] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/desert/streets/turn_01.json
+[14Sep2025 02:06:19.771] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/desert/town_centers/desert_meeting_point_1.json
+[14Sep2025 02:06:19.772] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/desert/town_centers/desert_meeting_point_2.json
+[14Sep2025 02:06:19.772] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/desert/town_centers/desert_meeting_point_3.json
+[14Sep2025 02:06:19.773] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/desert/zombie/houses/desert_medium_house_1.json
+[14Sep2025 02:06:19.773] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/desert/zombie/houses/desert_medium_house_2.json
+[14Sep2025 02:06:19.773] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/desert/zombie/houses/desert_small_house_1.json
+[14Sep2025 02:06:19.774] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/desert/zombie/houses/desert_small_house_2.json
+[14Sep2025 02:06:19.774] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/desert/zombie/houses/desert_small_house_3.json
+[14Sep2025 02:06:19.774] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/desert/zombie/houses/desert_small_house_4.json
+[14Sep2025 02:06:19.775] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/desert/zombie/houses/desert_small_house_5.json
+[14Sep2025 02:06:19.775] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/desert/zombie/houses/desert_small_house_6.json
+[14Sep2025 02:06:19.775] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/desert/zombie/houses/desert_small_house_7.json
+[14Sep2025 02:06:19.776] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/desert/zombie/houses/desert_small_house_8.json
+[14Sep2025 02:06:19.776] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/desert/zombie/streets/corner_01.json
+[14Sep2025 02:06:19.777] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/desert/zombie/streets/corner_02.json
+[14Sep2025 02:06:19.777] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/desert/zombie/streets/crossroad_01.json
+[14Sep2025 02:06:19.777] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/desert/zombie/streets/crossroad_02.json
+[14Sep2025 02:06:19.778] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/desert/zombie/streets/crossroad_03.json
+[14Sep2025 02:06:19.778] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/desert/zombie/streets/square_01.json
+[14Sep2025 02:06:19.778] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/desert/zombie/streets/square_02.json
+[14Sep2025 02:06:19.779] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/desert/zombie/streets/straight_01.json
+[14Sep2025 02:06:19.779] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/desert/zombie/streets/straight_02.json
+[14Sep2025 02:06:19.779] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/desert/zombie/streets/straight_03.json
+[14Sep2025 02:06:19.780] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/desert/zombie/streets/turn_01.json
+[14Sep2025 02:06:19.780] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/desert/zombie/town_centers/desert_meeting_point_1.json
+[14Sep2025 02:06:19.781] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/desert/zombie/town_centers/desert_meeting_point_2.json
+[14Sep2025 02:06:19.781] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/desert/zombie/town_centers/desert_meeting_point_3.json
+[14Sep2025 02:06:19.781] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/plains/houses/plains_accessory_1.json
+[14Sep2025 02:06:19.782] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/plains/houses/plains_animal_pen_1.json
+[14Sep2025 02:06:19.782] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/plains/houses/plains_animal_pen_2.json
+[14Sep2025 02:06:19.782] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/plains/houses/plains_animal_pen_3.json
+[14Sep2025 02:06:19.783] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/plains/houses/plains_armorer_house_1.json
+[14Sep2025 02:06:19.783] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/plains/houses/plains_big_house_1.json
+[14Sep2025 02:06:19.783] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/plains/houses/plains_butcher_shop_1.json
+[14Sep2025 02:06:19.784] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/plains/houses/plains_butcher_shop_2.json
+[14Sep2025 02:06:19.784] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/plains/houses/plains_cartographer_1.json
+[14Sep2025 02:06:19.784] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/plains/houses/plains_fisher_cottage_1.json
+[14Sep2025 02:06:19.785] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/plains/houses/plains_fletcher_house_1.json
+[14Sep2025 02:06:19.785] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/plains/houses/plains_large_farm_1.json
+[14Sep2025 02:06:19.786] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/plains/houses/plains_library_1.json
+[14Sep2025 02:06:19.786] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/plains/houses/plains_library_2.json
+[14Sep2025 02:06:19.786] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/plains/houses/plains_masons_house_1.json
+[14Sep2025 02:06:19.787] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/plains/houses/plains_medium_house_1.json
+[14Sep2025 02:06:19.787] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/plains/houses/plains_medium_house_2.json
+[14Sep2025 02:06:19.787] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/plains/houses/plains_meeting_point_4.json
+[14Sep2025 02:06:19.788] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/plains/houses/plains_meeting_point_5.json
+[14Sep2025 02:06:19.788] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/plains/houses/plains_shepherds_house_1.json
+[14Sep2025 02:06:19.788] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/plains/houses/plains_small_farm_1.json
+[14Sep2025 02:06:19.789] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/plains/houses/plains_small_house_1.json
+[14Sep2025 02:06:19.789] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/plains/houses/plains_small_house_2.json
+[14Sep2025 02:06:19.790] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/plains/houses/plains_small_house_3.json
+[14Sep2025 02:06:19.790] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/plains/houses/plains_small_house_4.json
+[14Sep2025 02:06:19.790] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/plains/houses/plains_small_house_5.json
+[14Sep2025 02:06:19.791] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/plains/houses/plains_small_house_6.json
+[14Sep2025 02:06:19.791] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/plains/houses/plains_small_house_7.json
+[14Sep2025 02:06:19.791] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/plains/houses/plains_small_house_8.json
+[14Sep2025 02:06:19.792] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/plains/houses/plains_stable_1.json
+[14Sep2025 02:06:19.792] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/plains/houses/plains_stable_2.json
+[14Sep2025 02:06:19.792] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/plains/houses/plains_tannery_1.json
+[14Sep2025 02:06:19.793] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/plains/houses/plains_temple_3.json
+[14Sep2025 02:06:19.793] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/plains/houses/plains_temple_4.json
+[14Sep2025 02:06:19.794] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/plains/houses/plains_tool_smith_1.json
+[14Sep2025 02:06:19.794] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/plains/houses/plains_weaponsmith_1.json
+[14Sep2025 02:06:19.794] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/plains/plains_lamp_1.json
+[14Sep2025 02:06:19.794] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/plains/streets/corner_01.json
+[14Sep2025 02:06:19.794] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/plains/streets/corner_02.json
+[14Sep2025 02:06:19.795] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/plains/streets/corner_03.json
+[14Sep2025 02:06:19.795] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/plains/streets/crossroad_01.json
+[14Sep2025 02:06:19.795] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/plains/streets/crossroad_02.json
+[14Sep2025 02:06:19.795] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/plains/streets/crossroad_03.json
+[14Sep2025 02:06:19.796] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/plains/streets/crossroad_04.json
+[14Sep2025 02:06:19.796] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/plains/streets/crossroad_05.json
+[14Sep2025 02:06:19.797] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/plains/streets/crossroad_06.json
+[14Sep2025 02:06:19.797] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/plains/streets/straight_01.json
+[14Sep2025 02:06:19.798] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/plains/streets/straight_02.json
+[14Sep2025 02:06:19.798] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/plains/streets/straight_03.json
+[14Sep2025 02:06:19.798] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/plains/streets/straight_04.json
+[14Sep2025 02:06:19.799] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/plains/streets/straight_05.json
+[14Sep2025 02:06:19.799] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/plains/streets/straight_06.json
+[14Sep2025 02:06:19.799] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/plains/streets/turn_01.json
+[14Sep2025 02:06:19.800] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/plains/town_centers/plains_fountain_01.json
+[14Sep2025 02:06:19.800] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/plains/town_centers/plains_meeting_point_1.json
+[14Sep2025 02:06:19.801] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/plains/town_centers/plains_meeting_point_2.json
+[14Sep2025 02:06:19.801] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/plains/town_centers/plains_meeting_point_3.json
+[14Sep2025 02:06:19.801] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/plains/zombie/houses/plains_animal_pen_3.json
+[14Sep2025 02:06:19.802] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/plains/zombie/houses/plains_big_house_1.json
+[14Sep2025 02:06:19.802] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/plains/zombie/houses/plains_butcher_shop_2.json
+[14Sep2025 02:06:19.802] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/plains/zombie/houses/plains_fletcher_house_1.json
+[14Sep2025 02:06:19.803] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/plains/zombie/houses/plains_medium_house_1.json
+[14Sep2025 02:06:19.803] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/plains/zombie/houses/plains_medium_house_2.json
+[14Sep2025 02:06:19.804] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/plains/zombie/houses/plains_meeting_point_4.json
+[14Sep2025 02:06:19.804] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/plains/zombie/houses/plains_meeting_point_5.json
+[14Sep2025 02:06:19.804] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/plains/zombie/houses/plains_shepherds_house_1.json
+[14Sep2025 02:06:19.805] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/plains/zombie/houses/plains_small_house_1.json
+[14Sep2025 02:06:19.805] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/plains/zombie/houses/plains_small_house_2.json
+[14Sep2025 02:06:19.806] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/plains/zombie/houses/plains_small_house_3.json
+[14Sep2025 02:06:19.806] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/plains/zombie/houses/plains_small_house_4.json
+[14Sep2025 02:06:19.806] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/plains/zombie/houses/plains_small_house_5.json
+[14Sep2025 02:06:19.807] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/plains/zombie/houses/plains_small_house_6.json
+[14Sep2025 02:06:19.807] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/plains/zombie/houses/plains_small_house_7.json
+[14Sep2025 02:06:19.807] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/plains/zombie/houses/plains_small_house_8.json
+[14Sep2025 02:06:19.808] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/plains/zombie/houses/plains_stable_1.json
+[14Sep2025 02:06:19.808] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/plains/zombie/streets/corner_01.json
+[14Sep2025 02:06:19.809] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/plains/zombie/streets/corner_02.json
+[14Sep2025 02:06:19.809] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/plains/zombie/streets/corner_03.json
+[14Sep2025 02:06:19.809] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/plains/zombie/streets/crossroad_01.json
+[14Sep2025 02:06:19.810] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/plains/zombie/streets/crossroad_02.json
+[14Sep2025 02:06:19.810] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/plains/zombie/streets/crossroad_03.json
+[14Sep2025 02:06:19.810] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/plains/zombie/streets/crossroad_04.json
+[14Sep2025 02:06:19.811] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/plains/zombie/streets/crossroad_05.json
+[14Sep2025 02:06:19.811] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/plains/zombie/streets/crossroad_06.json
+[14Sep2025 02:06:19.811] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/plains/zombie/streets/straight_01.json
+[14Sep2025 02:06:19.811] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/plains/zombie/streets/straight_02.json
+[14Sep2025 02:06:19.812] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/plains/zombie/streets/straight_03.json
+[14Sep2025 02:06:19.812] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/plains/zombie/streets/straight_04.json
+[14Sep2025 02:06:19.812] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/plains/zombie/streets/straight_05.json
+[14Sep2025 02:06:19.812] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/plains/zombie/streets/straight_06.json
+[14Sep2025 02:06:19.812] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/plains/zombie/streets/turn_01.json
+[14Sep2025 02:06:19.813] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/plains/zombie/town_centers/plains_fountain_01.json
+[14Sep2025 02:06:19.813] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/plains/zombie/town_centers/plains_meeting_point_1.json
+[14Sep2025 02:06:19.813] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/plains/zombie/town_centers/plains_meeting_point_2.json
+[14Sep2025 02:06:19.813] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/plains/zombie/town_centers/plains_meeting_point_3.json
+[14Sep2025 02:06:19.813] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/savanna/houses/savanna_animal_pen_1.json
+[14Sep2025 02:06:19.814] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/savanna/houses/savanna_animal_pen_2.json
+[14Sep2025 02:06:19.814] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/savanna/houses/savanna_animal_pen_3.json
+[14Sep2025 02:06:19.814] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/savanna/houses/savanna_armorer_1.json
+[14Sep2025 02:06:19.814] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/savanna/houses/savanna_butchers_shop_1.json
+[14Sep2025 02:06:19.814] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/savanna/houses/savanna_butchers_shop_2.json
+[14Sep2025 02:06:19.815] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/savanna/houses/savanna_cartographer_1.json
+[14Sep2025 02:06:19.815] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/savanna/houses/savanna_fisher_cottage_1.json
+[14Sep2025 02:06:19.815] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/savanna/houses/savanna_fletcher_house_1.json
+[14Sep2025 02:06:19.816] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/savanna/houses/savanna_large_farm_1.json
+[14Sep2025 02:06:19.816] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/savanna/houses/savanna_large_farm_2.json
+[14Sep2025 02:06:19.816] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/savanna/houses/savanna_library_1.json
+[14Sep2025 02:06:19.816] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/savanna/houses/savanna_mason_1.json
+[14Sep2025 02:06:19.817] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/savanna/houses/savanna_medium_house_1.json
+[14Sep2025 02:06:19.817] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/savanna/houses/savanna_medium_house_2.json
+[14Sep2025 02:06:19.817] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/savanna/houses/savanna_shepherd_1.json
+[14Sep2025 02:06:19.818] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/savanna/houses/savanna_small_farm.json
+[14Sep2025 02:06:19.818] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/savanna/houses/savanna_small_house_1.json
+[14Sep2025 02:06:19.818] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/savanna/houses/savanna_small_house_2.json
+[14Sep2025 02:06:19.819] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/savanna/houses/savanna_small_house_3.json
+[14Sep2025 02:06:19.819] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/savanna/houses/savanna_small_house_4.json
+[14Sep2025 02:06:19.819] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/savanna/houses/savanna_small_house_5.json
+[14Sep2025 02:06:19.820] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/savanna/houses/savanna_small_house_6.json
+[14Sep2025 02:06:19.820] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/savanna/houses/savanna_small_house_7.json
+[14Sep2025 02:06:19.820] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/savanna/houses/savanna_small_house_8.json
+[14Sep2025 02:06:19.820] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/savanna/houses/savanna_tannery_1.json
+[14Sep2025 02:06:19.821] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/savanna/houses/savanna_temple_1.json
+[14Sep2025 02:06:19.821] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/savanna/houses/savanna_temple_2.json
+[14Sep2025 02:06:19.821] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/savanna/houses/savanna_tool_smith_1.json
+[14Sep2025 02:06:19.822] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/savanna/houses/savanna_weaponsmith_1.json
+[14Sep2025 02:06:19.822] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/savanna/houses/savanna_weaponsmith_2.json
+[14Sep2025 02:06:19.822] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/savanna/savanna_lamp_post_01.json
+[14Sep2025 02:06:19.823] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/savanna/streets/corner_01.json
+[14Sep2025 02:06:19.823] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/savanna/streets/corner_03.json
+[14Sep2025 02:06:19.823] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/savanna/streets/crossroad_02.json
+[14Sep2025 02:06:19.823] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/savanna/streets/crossroad_03.json
+[14Sep2025 02:06:19.824] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/savanna/streets/crossroad_04.json
+[14Sep2025 02:06:19.824] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/savanna/streets/crossroad_05.json
+[14Sep2025 02:06:19.824] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/savanna/streets/crossroad_06.json
+[14Sep2025 02:06:19.824] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/savanna/streets/crossroad_07.json
+[14Sep2025 02:06:19.825] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/savanna/streets/split_01.json
+[14Sep2025 02:06:19.825] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/savanna/streets/split_02.json
+[14Sep2025 02:06:19.825] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/savanna/streets/straight_02.json
+[14Sep2025 02:06:19.826] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/savanna/streets/straight_04.json
+[14Sep2025 02:06:19.826] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/savanna/streets/straight_05.json
+[14Sep2025 02:06:19.827] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/savanna/streets/straight_06.json
+[14Sep2025 02:06:19.827] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/savanna/streets/straight_08.json
+[14Sep2025 02:06:19.827] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/savanna/streets/straight_09.json
+[14Sep2025 02:06:19.828] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/savanna/streets/straight_10.json
+[14Sep2025 02:06:19.828] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/savanna/streets/straight_11.json
+[14Sep2025 02:06:19.829] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/savanna/streets/turn_01.json
+[14Sep2025 02:06:19.829] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/savanna/town_centers/savanna_meeting_point_1.json
+[14Sep2025 02:06:19.829] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/savanna/town_centers/savanna_meeting_point_2.json
+[14Sep2025 02:06:19.830] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/savanna/town_centers/savanna_meeting_point_3.json
+[14Sep2025 02:06:19.830] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/savanna/town_centers/savanna_meeting_point_4.json
+[14Sep2025 02:06:19.830] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/savanna/zombie/houses/savanna_animal_pen_2.json
+[14Sep2025 02:06:19.830] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/savanna/zombie/houses/savanna_animal_pen_3.json
+[14Sep2025 02:06:19.831] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/savanna/zombie/houses/savanna_large_farm_2.json
+[14Sep2025 02:06:19.831] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/savanna/zombie/houses/savanna_medium_house_1.json
+[14Sep2025 02:06:19.831] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/savanna/zombie/houses/savanna_medium_house_2.json
+[14Sep2025 02:06:19.831] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/savanna/zombie/houses/savanna_small_house_1.json
+[14Sep2025 02:06:19.831] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/savanna/zombie/houses/savanna_small_house_2.json
+[14Sep2025 02:06:19.832] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/savanna/zombie/houses/savanna_small_house_3.json
+[14Sep2025 02:06:19.832] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/savanna/zombie/houses/savanna_small_house_4.json
+[14Sep2025 02:06:19.832] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/savanna/zombie/houses/savanna_small_house_5.json
+[14Sep2025 02:06:19.832] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/savanna/zombie/houses/savanna_small_house_6.json
+[14Sep2025 02:06:19.833] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/savanna/zombie/houses/savanna_small_house_7.json
+[14Sep2025 02:06:19.833] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/savanna/zombie/houses/savanna_small_house_8.json
+[14Sep2025 02:06:19.833] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/savanna/zombie/streets/corner_01.json
+[14Sep2025 02:06:19.833] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/savanna/zombie/streets/corner_03.json
+[14Sep2025 02:06:19.833] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/savanna/zombie/streets/crossroad_02.json
+[14Sep2025 02:06:19.834] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/savanna/zombie/streets/crossroad_03.json
+[14Sep2025 02:06:19.834] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/savanna/zombie/streets/crossroad_04.json
+[14Sep2025 02:06:19.834] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/savanna/zombie/streets/crossroad_05.json
+[14Sep2025 02:06:19.834] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/savanna/zombie/streets/crossroad_06.json
+[14Sep2025 02:06:19.834] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/savanna/zombie/streets/crossroad_07.json
+[14Sep2025 02:06:19.835] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/savanna/zombie/streets/split_01.json
+[14Sep2025 02:06:19.835] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/savanna/zombie/streets/split_02.json
+[14Sep2025 02:06:19.835] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/savanna/zombie/streets/straight_02.json
+[14Sep2025 02:06:19.835] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/savanna/zombie/streets/straight_04.json
+[14Sep2025 02:06:19.835] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/savanna/zombie/streets/straight_05.json
+[14Sep2025 02:06:19.836] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/savanna/zombie/streets/straight_06.json
+[14Sep2025 02:06:19.836] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/savanna/zombie/streets/straight_08.json
+[14Sep2025 02:06:19.836] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/savanna/zombie/streets/straight_09.json
+[14Sep2025 02:06:19.836] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/savanna/zombie/streets/straight_10.json
+[14Sep2025 02:06:19.837] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/savanna/zombie/streets/straight_11.json
+[14Sep2025 02:06:19.837] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/savanna/zombie/streets/turn_01.json
+[14Sep2025 02:06:19.838] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/savanna/zombie/town_centers/savanna_meeting_point_1.json
+[14Sep2025 02:06:19.838] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/savanna/zombie/town_centers/savanna_meeting_point_2.json
+[14Sep2025 02:06:19.839] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/savanna/zombie/town_centers/savanna_meeting_point_3.json
+[14Sep2025 02:06:19.839] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/savanna/zombie/town_centers/savanna_meeting_point_4.json
+[14Sep2025 02:06:19.839] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/snowy/houses/snowy_animal_pen_1.json
+[14Sep2025 02:06:19.839] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/snowy/houses/snowy_animal_pen_2.json
+[14Sep2025 02:06:19.839] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/snowy/houses/snowy_armorer_house_1.json
+[14Sep2025 02:06:19.840] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/snowy/houses/snowy_armorer_house_2.json
+[14Sep2025 02:06:19.840] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/snowy/houses/snowy_butchers_shop_1.json
+[14Sep2025 02:06:19.840] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/snowy/houses/snowy_butchers_shop_2.json
+[14Sep2025 02:06:19.840] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/snowy/houses/snowy_cartographer_house_1.json
+[14Sep2025 02:06:19.841] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/snowy/houses/snowy_farm_1.json
+[14Sep2025 02:06:19.841] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/snowy/houses/snowy_farm_2.json
+[14Sep2025 02:06:19.842] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/snowy/houses/snowy_fisher_cottage.json
+[14Sep2025 02:06:19.842] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/snowy/houses/snowy_fletcher_house_1.json
+[14Sep2025 02:06:19.842] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/snowy/houses/snowy_library_1.json
+[14Sep2025 02:06:19.843] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/snowy/houses/snowy_masons_house_1.json
+[14Sep2025 02:06:19.843] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/snowy/houses/snowy_masons_house_2.json
+[14Sep2025 02:06:19.843] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/snowy/houses/snowy_medium_house_1.json
+[14Sep2025 02:06:19.843] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/snowy/houses/snowy_medium_house_2.json
+[14Sep2025 02:06:19.845] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/snowy/houses/snowy_medium_house_3.json
+[14Sep2025 02:06:19.846] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/snowy/houses/snowy_shepherds_house_1.json
+[14Sep2025 02:06:19.846] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/snowy/houses/snowy_small_house_1.json
+[14Sep2025 02:06:19.846] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/snowy/houses/snowy_small_house_2.json
+[14Sep2025 02:06:19.846] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/snowy/houses/snowy_small_house_3.json
+[14Sep2025 02:06:19.847] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/snowy/houses/snowy_small_house_4.json
+[14Sep2025 02:06:19.847] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/snowy/houses/snowy_small_house_5.json
+[14Sep2025 02:06:19.848] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/snowy/houses/snowy_small_house_6.json
+[14Sep2025 02:06:19.848] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/snowy/houses/snowy_small_house_7.json
+[14Sep2025 02:06:19.849] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/snowy/houses/snowy_small_house_8.json
+[14Sep2025 02:06:19.849] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/snowy/houses/snowy_tannery_1.json
+[14Sep2025 02:06:19.850] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/snowy/houses/snowy_temple_1.json
+[14Sep2025 02:06:19.850] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/snowy/houses/snowy_tool_smith_1.json
+[14Sep2025 02:06:19.851] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/snowy/houses/snowy_weapon_smith_1.json
+[14Sep2025 02:06:19.851] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/snowy/snowy_lamp_post_01.json
+[14Sep2025 02:06:19.851] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/snowy/snowy_lamp_post_02.json
+[14Sep2025 02:06:19.852] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/snowy/snowy_lamp_post_03.json
+[14Sep2025 02:06:19.852] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/snowy/streets/corner_01.json
+[14Sep2025 02:06:19.853] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/snowy/streets/corner_02.json
+[14Sep2025 02:06:19.854] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/snowy/streets/corner_03.json
+[14Sep2025 02:06:19.854] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/snowy/streets/crossroad_01.json
+[14Sep2025 02:06:19.855] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/snowy/streets/crossroad_02.json
+[14Sep2025 02:06:19.855] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/snowy/streets/crossroad_03.json
+[14Sep2025 02:06:19.855] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/snowy/streets/crossroad_04.json
+[14Sep2025 02:06:19.855] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/snowy/streets/crossroad_05.json
+[14Sep2025 02:06:19.855] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/snowy/streets/crossroad_06.json
+[14Sep2025 02:06:19.855] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/snowy/streets/square_01.json
+[14Sep2025 02:06:19.855] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/snowy/streets/straight_01.json
+[14Sep2025 02:06:19.856] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/snowy/streets/straight_02.json
+[14Sep2025 02:06:19.856] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/snowy/streets/straight_03.json
+[14Sep2025 02:06:19.856] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/snowy/streets/straight_04.json
+[14Sep2025 02:06:19.856] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/snowy/streets/straight_06.json
+[14Sep2025 02:06:19.857] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/snowy/streets/straight_08.json
+[14Sep2025 02:06:19.857] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/snowy/streets/turn_01.json
+[14Sep2025 02:06:19.857] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/snowy/town_centers/snowy_meeting_point_1.json
+[14Sep2025 02:06:19.859] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/snowy/town_centers/snowy_meeting_point_2.json
+[14Sep2025 02:06:19.863] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/snowy/town_centers/snowy_meeting_point_3.json
+[14Sep2025 02:06:19.863] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/snowy/zombie/houses/snowy_medium_house_1.json
+[14Sep2025 02:06:19.864] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/snowy/zombie/houses/snowy_medium_house_2.json
+[14Sep2025 02:06:19.864] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/snowy/zombie/houses/snowy_medium_house_3.json
+[14Sep2025 02:06:19.864] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/snowy/zombie/houses/snowy_small_house_1.json
+[14Sep2025 02:06:19.864] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/snowy/zombie/houses/snowy_small_house_2.json
+[14Sep2025 02:06:19.864] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/snowy/zombie/houses/snowy_small_house_3.json
+[14Sep2025 02:06:19.864] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/snowy/zombie/houses/snowy_small_house_4.json
+[14Sep2025 02:06:19.865] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/snowy/zombie/houses/snowy_small_house_5.json
+[14Sep2025 02:06:19.865] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/snowy/zombie/houses/snowy_small_house_6.json
+[14Sep2025 02:06:19.865] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/snowy/zombie/houses/snowy_small_house_7.json
+[14Sep2025 02:06:19.865] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/snowy/zombie/houses/snowy_small_house_8.json
+[14Sep2025 02:06:19.865] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/snowy/zombie/streets/corner_01.json
+[14Sep2025 02:06:19.866] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/snowy/zombie/streets/corner_02.json
+[14Sep2025 02:06:19.866] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/snowy/zombie/streets/corner_03.json
+[14Sep2025 02:06:19.866] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/snowy/zombie/streets/crossroad_01.json
+[14Sep2025 02:06:19.866] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/snowy/zombie/streets/crossroad_02.json
+[14Sep2025 02:06:19.869] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/snowy/zombie/streets/crossroad_03.json
+[14Sep2025 02:06:19.869] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/snowy/zombie/streets/crossroad_04.json
+[14Sep2025 02:06:19.870] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/snowy/zombie/streets/crossroad_05.json
+[14Sep2025 02:06:19.870] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/snowy/zombie/streets/crossroad_06.json
+[14Sep2025 02:06:19.870] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/snowy/zombie/streets/square_01.json
+[14Sep2025 02:06:19.870] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/snowy/zombie/streets/straight_01.json
+[14Sep2025 02:06:19.870] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/snowy/zombie/streets/straight_02.json
+[14Sep2025 02:06:19.870] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/snowy/zombie/streets/straight_03.json
+[14Sep2025 02:06:19.870] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/snowy/zombie/streets/straight_04.json
+[14Sep2025 02:06:19.871] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/snowy/zombie/streets/straight_06.json
+[14Sep2025 02:06:19.871] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/snowy/zombie/streets/straight_08.json
+[14Sep2025 02:06:19.871] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/snowy/zombie/streets/turn_01.json
+[14Sep2025 02:06:19.871] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/snowy/zombie/town_centers/snowy_meeting_point_1.json
+[14Sep2025 02:06:19.871] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/snowy/zombie/town_centers/snowy_meeting_point_2.json
+[14Sep2025 02:06:19.871] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/snowy/zombie/town_centers/snowy_meeting_point_3.json
+[14Sep2025 02:06:19.871] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/taiga/houses/taiga_animal_pen_1.json
+[14Sep2025 02:06:19.871] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/taiga/houses/taiga_armorer_2.json
+[14Sep2025 02:06:19.872] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/taiga/houses/taiga_armorer_house_1.json
+[14Sep2025 02:06:19.872] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/taiga/houses/taiga_butcher_shop_1.json
+[14Sep2025 02:06:19.872] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/taiga/houses/taiga_cartographer_house_1.json
+[14Sep2025 02:06:19.872] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/taiga/houses/taiga_fisher_cottage_1.json
+[14Sep2025 02:06:19.872] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/taiga/houses/taiga_fletcher_house_1.json
+[14Sep2025 02:06:19.875] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/taiga/houses/taiga_large_farm_1.json
+[14Sep2025 02:06:19.875] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/taiga/houses/taiga_large_farm_2.json
+[14Sep2025 02:06:19.875] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/taiga/houses/taiga_library_1.json
+[14Sep2025 02:06:19.875] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/taiga/houses/taiga_masons_house_1.json
+[14Sep2025 02:06:19.875] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/taiga/houses/taiga_medium_house_1.json
+[14Sep2025 02:06:19.876] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/taiga/houses/taiga_medium_house_2.json
+[14Sep2025 02:06:19.876] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/taiga/houses/taiga_medium_house_3.json
+[14Sep2025 02:06:19.876] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/taiga/houses/taiga_medium_house_4.json
+[14Sep2025 02:06:19.876] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/taiga/houses/taiga_shepherds_house_1.json
+[14Sep2025 02:06:19.876] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/taiga/houses/taiga_small_farm_1.json
+[14Sep2025 02:06:19.876] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/taiga/houses/taiga_small_house_1.json
+[14Sep2025 02:06:19.876] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/taiga/houses/taiga_small_house_2.json
+[14Sep2025 02:06:19.877] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/taiga/houses/taiga_small_house_3.json
+[14Sep2025 02:06:19.877] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/taiga/houses/taiga_small_house_4.json
+[14Sep2025 02:06:19.878] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/taiga/houses/taiga_small_house_5.json
+[14Sep2025 02:06:19.878] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/taiga/houses/taiga_tannery_1.json
+[14Sep2025 02:06:19.878] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/taiga/houses/taiga_temple_1.json
+[14Sep2025 02:06:19.879] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/taiga/houses/taiga_tool_smith_1.json
+[14Sep2025 02:06:19.879] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/taiga/houses/taiga_weaponsmith_1.json
+[14Sep2025 02:06:19.879] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/taiga/houses/taiga_weaponsmith_2.json
+[14Sep2025 02:06:19.879] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/taiga/streets/corner_01.json
+[14Sep2025 02:06:19.879] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/taiga/streets/corner_02.json
+[14Sep2025 02:06:19.879] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/taiga/streets/corner_03.json
+[14Sep2025 02:06:19.880] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/taiga/streets/crossroad_01.json
+[14Sep2025 02:06:19.880] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/taiga/streets/crossroad_02.json
+[14Sep2025 02:06:19.880] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/taiga/streets/crossroad_03.json
+[14Sep2025 02:06:19.880] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/taiga/streets/crossroad_04.json
+[14Sep2025 02:06:19.880] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/taiga/streets/crossroad_05.json
+[14Sep2025 02:06:19.880] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/taiga/streets/crossroad_06.json
+[14Sep2025 02:06:19.881] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/taiga/streets/straight_01.json
+[14Sep2025 02:06:19.881] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/taiga/streets/straight_02.json
+[14Sep2025 02:06:19.881] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/taiga/streets/straight_03.json
+[14Sep2025 02:06:19.881] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/taiga/streets/straight_04.json
+[14Sep2025 02:06:19.881] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/taiga/streets/straight_05.json
+[14Sep2025 02:06:19.883] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/taiga/streets/straight_06.json
+[14Sep2025 02:06:19.883] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/taiga/streets/turn_01.json
+[14Sep2025 02:06:19.883] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/taiga/taiga_lamp_post_1.json
+[14Sep2025 02:06:19.883] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/taiga/town_centers/taiga_meeting_point_1.json
+[14Sep2025 02:06:19.884] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/taiga/town_centers/taiga_meeting_point_2.json
+[14Sep2025 02:06:19.884] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/taiga/zombie/houses/taiga_cartographer_house_1.json
+[14Sep2025 02:06:19.884] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/taiga/zombie/houses/taiga_fisher_cottage_1.json
+[14Sep2025 02:06:19.885] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/taiga/zombie/houses/taiga_large_farm_2.json
+[14Sep2025 02:06:19.885] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/taiga/zombie/houses/taiga_library_1.json
+[14Sep2025 02:06:19.885] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/taiga/zombie/houses/taiga_medium_house_1.json
+[14Sep2025 02:06:19.885] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/taiga/zombie/houses/taiga_medium_house_2.json
+[14Sep2025 02:06:19.885] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/taiga/zombie/houses/taiga_medium_house_3.json
+[14Sep2025 02:06:19.886] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/taiga/zombie/houses/taiga_medium_house_4.json
+[14Sep2025 02:06:19.886] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/taiga/zombie/houses/taiga_shepherds_house_1.json
+[14Sep2025 02:06:19.886] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/taiga/zombie/houses/taiga_small_house_1.json
+[14Sep2025 02:06:19.886] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/taiga/zombie/houses/taiga_small_house_2.json
+[14Sep2025 02:06:19.886] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/taiga/zombie/houses/taiga_small_house_3.json
+[14Sep2025 02:06:19.886] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/taiga/zombie/houses/taiga_small_house_4.json
+[14Sep2025 02:06:19.887] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/taiga/zombie/houses/taiga_small_house_5.json
+[14Sep2025 02:06:19.887] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/taiga/zombie/houses/taiga_temple_1.json
+[14Sep2025 02:06:19.887] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/taiga/zombie/houses/taiga_tool_smith_1.json
+[14Sep2025 02:06:19.887] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/taiga/zombie/houses/taiga_weaponsmith_2.json
+[14Sep2025 02:06:19.887] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/taiga/zombie/streets/corner_01.json
+[14Sep2025 02:06:19.887] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/taiga/zombie/streets/corner_02.json
+[14Sep2025 02:06:19.887] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/taiga/zombie/streets/corner_03.json
+[14Sep2025 02:06:19.889] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/taiga/zombie/streets/crossroad_01.json
+[14Sep2025 02:06:19.889] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/taiga/zombie/streets/crossroad_02.json
+[14Sep2025 02:06:19.890] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/taiga/zombie/streets/crossroad_03.json
+[14Sep2025 02:06:19.890] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/taiga/zombie/streets/crossroad_04.json
+[14Sep2025 02:06:19.890] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/taiga/zombie/streets/crossroad_05.json
+[14Sep2025 02:06:19.891] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/taiga/zombie/streets/crossroad_06.json
+[14Sep2025 02:06:19.891] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/taiga/zombie/streets/straight_01.json
+[14Sep2025 02:06:19.891] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/taiga/zombie/streets/straight_02.json
+[14Sep2025 02:06:19.892] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/taiga/zombie/streets/straight_03.json
+[14Sep2025 02:06:19.892] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/taiga/zombie/streets/straight_04.json
+[14Sep2025 02:06:19.892] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/taiga/zombie/streets/straight_05.json
+[14Sep2025 02:06:19.892] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/taiga/zombie/streets/straight_06.json
+[14Sep2025 02:06:19.892] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/taiga/zombie/streets/turn_01.json
+[14Sep2025 02:06:19.892] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/taiga/zombie/town_centers/taiga_meeting_point_1.json
+[14Sep2025 02:06:19.893] [Worker-Main-2/INFO] [Antique Atlas/]: Found structure piece config: minecraft:atlas/structures/village/taiga/zombie/town_centers/taiga_meeting_point_2.json
+[14Sep2025 02:06:20.939] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe realisticforgingores:ironsledgehammerrecipe
+com.google.gson.JsonSyntaxException: Unknown item 'realisticforgingores:deleted_mod_element'
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151278_(ShapedRecipe.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43919_(Ingredient.java:219) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27) ~[forge-1.20.1-47.4.0-universal.jar%23192!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:148) ~[forge-1.20.1-47.4.0-universal.jar%23192!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_288218_(Ingredient.java:194) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_44210_(ShapedRecipe.java:278) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:306) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:301) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.20.1-47.4.0-universal.jar%23192!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[14Sep2025 02:06:20.964] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe realisticforgingores:sledgehammerrecipe
+com.google.gson.JsonSyntaxException: Unknown item 'realisticforgingores:deleted_mod_element'
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151278_(ShapedRecipe.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43919_(Ingredient.java:219) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27) ~[forge-1.20.1-47.4.0-universal.jar%23192!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:148) ~[forge-1.20.1-47.4.0-universal.jar%23192!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_288218_(Ingredient.java:194) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_44210_(ShapedRecipe.java:278) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:306) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:301) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.20.1-47.4.0-universal.jar%23192!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[14Sep2025 02:06:21.009] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe unusual_furniture:spruce_bench_craft
+com.google.gson.JsonSyntaxException: Unknown item 'unusual_furniture:industrial_bench'
+	at net.minecraftforge.common.crafting.CraftingHelper.getItem(CraftingHelper.java:160) ~[forge-1.20.1-47.4.0-universal.jar%23192!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getItemStack(CraftingHelper.java:186) ~[forge-1.20.1-47.4.0-universal.jar%23192!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151274_(ShapedRecipe.java:286) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:311) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:301) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.20.1-47.4.0-universal.jar%23192!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[14Sep2025 02:06:21.039] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe minecraft:netherite_ingot
+com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
+	at net.minecraftforge.common.crafting.CraftingHelper.getItem(CraftingHelper.java:164) ~[forge-1.20.1-47.4.0-universal.jar%23192!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getItemStack(CraftingHelper.java:186) ~[forge-1.20.1-47.4.0-universal.jar%23192!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151274_(ShapedRecipe.java:286) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:311) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:301) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.20.1-47.4.0-universal.jar%23192!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[14Sep2025 02:06:21.216] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 12 recipes
+[14Sep2025 02:06:21.287] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement realisticforgingores:breaking_diamond_advancement: Expected item to be an item, was unknown string 'realisticforgingores:deleted_mod_element'
+[14Sep2025 02:06:21.293] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement realisticforgingores:smelting_iron_part_advancement: Expected item to be an item, was unknown string 'realisticforgingores:deleted_mod_element'
+[14Sep2025 02:06:21.300] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement realisticforgingores:assembling_iron_for_armor: Expected item to be an item, was unknown string 'realisticforgingores:deleted_mod_element'
+[14Sep2025 02:06:21.304] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement realisticforgingores:first_drawing: Expected item to be an item, was unknown string 'realisticforgingores:deleted_mod_element'
+[14Sep2025 02:06:21.320] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement realisticforgingores:three_iron_scraps: Expected item to be an item, was unknown string 'realisticforgingores:deleted_mod_element'
+[14Sep2025 02:06:21.328] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement realisticforgingores:assembling_iron_for_sword: Expected item to be an item, was unknown string 'realisticforgingores:deleted_mod_element'
+[14Sep2025 02:06:21.369] [main/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement realisticforgingores:craft_iron_armor: Task Advancement{parentId=realisticforgingores:first_drawing, display=net.minecraft.advancements.DisplayInfo@641d55ee, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@5ef41105}, criteria={craft_iron_armor_0=net.minecraft.advancements.Criterion@17e96b3e}, requirements=[[craft_iron_armor_0]], sends_telemetry_event=false}
+[14Sep2025 02:06:21.369] [main/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement realisticforgingores:crafting_big_pan_advancement: Task Advancement{parentId=realisticforgingores:breaking_diamond_advancement, display=net.minecraft.advancements.DisplayInfo@2dab4f86, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@5ef41105}, criteria={crafting_big_pan_advancement_0=net.minecraft.advancements.Criterion@225c16f4}, requirements=[[crafting_big_pan_advancement_0]], sends_telemetry_event=false}
+[14Sep2025 02:06:21.369] [main/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement realisticforgingores:crafting_diamond_sword_advancement: Task Advancement{parentId=realisticforgingores:deleted_mod_element, display=net.minecraft.advancements.DisplayInfo@6f456add, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@5ef41105}, criteria={crafting_diamond_sword_advancement_0=net.minecraft.advancements.Criterion@2dec2a77}, requirements=[[crafting_diamond_sword_advancement_0]], sends_telemetry_event=false}
+[14Sep2025 02:06:21.369] [main/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement realisticforgingores:craft_iron_sword: Task Advancement{parentId=realisticforgingores:assembling_iron_for_sword, display=net.minecraft.advancements.DisplayInfo@1f76ef25, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@5ef41105}, criteria={craft_iron_sword_0=net.minecraft.advancements.Criterion@5305d12e}, requirements=[[craft_iron_sword_0]], sends_telemetry_event=false}
+[14Sep2025 02:06:21.369] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2069 advancements
+[14Sep2025 02:06:21.936] [main/WARN] [epicfight/]: Item Capability Exception: No item named dark_souls_expansion:great_axe
+[14Sep2025 02:06:21.939] [main/WARN] [epicfight/]: Item Capability Exception: No item named epicfight:greataxe
+[14Sep2025 02:06:21.941] [main/WARN] [epicfight/]: Item Capability Exception: No item named epicfight:shortsword
+[14Sep2025 02:06:21.943] [main/WARN] [epicfight/]: Item Capability Exception: No item named epicfight:zweihander
+[14Sep2025 02:06:21.944] [main/WARN] [epicfight/]: Item Capability Exception: No item named epicfight:broadsword
+[14Sep2025 02:06:21.944] [main/WARN] [epicfight/]: Item Capability Exception: No item named epicfight:ghost_blade
+[14Sep2025 02:06:21.945] [main/WARN] [epicfight/]: Item Capability Exception: No item named epicfight:dagger
+[14Sep2025 02:06:21.946] [main/WARN] [epicfight/]: Item Capability Exception: No item named epicfight:broken_straight_sword
+[14Sep2025 02:06:21.946] [main/WARN] [epicfight/]: Item Capability Exception: No item named epicfight:greatsword
+[14Sep2025 02:06:21.948] [main/WARN] [epicfight/]: Item Capability Exception: No item named dark_souls_expansion:serpent_man_sword
+[14Sep2025 02:06:22.003] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/snowy/houses/snowy_medium_house_1
+[14Sep2025 02:06:22.003] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/snowy/houses/snowy_medium_house_2
+[14Sep2025 02:06:22.003] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/snowy/houses/snowy_medium_house_3
+[14Sep2025 02:06:22.004] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/taiga/zombie/houses/taiga_shepherds_house_1
+[14Sep2025 02:06:22.004] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/snowy/houses/snowy_small_house_8
+[14Sep2025 02:06:22.004] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/snowy/snowy_lamp_post_03
+[14Sep2025 02:06:22.004] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/snowy/houses/snowy_small_house_7
+[14Sep2025 02:06:22.004] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/snowy/snowy_lamp_post_02
+[14Sep2025 02:06:22.004] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/snowy/houses/snowy_small_house_6
+[14Sep2025 02:06:22.004] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/snowy/snowy_lamp_post_01
+[14Sep2025 02:06:22.004] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/snowy/houses/snowy_small_house_5
+[14Sep2025 02:06:22.004] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/snowy/houses/snowy_small_house_4
+[14Sep2025 02:06:22.004] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/snowy/houses/snowy_small_house_3
+[14Sep2025 02:06:22.004] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/snowy/houses/snowy_small_house_2
+[14Sep2025 02:06:22.004] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/snowy/houses/snowy_small_house_1
+[14Sep2025 02:06:22.004] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/desert/streets/crossroad_02
+[14Sep2025 02:06:22.005] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/desert/streets/crossroad_03
+[14Sep2025 02:06:22.005] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/desert/streets/crossroad_01
+[14Sep2025 02:06:22.005] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/plains/houses/plains_meeting_point_4
+[14Sep2025 02:06:22.005] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/plains/zombie/streets/straight_01
+[14Sep2025 02:06:22.005] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/plains/zombie/streets/straight_02
+[14Sep2025 02:06:22.005] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/plains/zombie/streets/straight_03
+[14Sep2025 02:06:22.005] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/plains/zombie/streets/straight_04
+[14Sep2025 02:06:22.006] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/plains/zombie/streets/straight_05
+[14Sep2025 02:06:22.006] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/plains/zombie/streets/straight_06
+[14Sep2025 02:06:22.006] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/plains/houses/plains_meeting_point_5
+[14Sep2025 02:06:22.006] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/plains/streets/straight_01
+[14Sep2025 02:06:22.006] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/plains/streets/straight_05
+[14Sep2025 02:06:22.006] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/plains/streets/straight_04
+[14Sep2025 02:06:22.006] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/plains/streets/straight_03
+[14Sep2025 02:06:22.006] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/plains/streets/straight_02
+[14Sep2025 02:06:22.006] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/taiga/houses/taiga_large_farm_1
+[14Sep2025 02:06:22.006] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/plains/streets/straight_06
+[14Sep2025 02:06:22.006] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/taiga/houses/taiga_large_farm_2
+[14Sep2025 02:06:22.006] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/plains/zombie/houses/plains_small_house_5
+[14Sep2025 02:06:22.006] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/taiga/zombie/houses/taiga_cartographer_house_1
+[14Sep2025 02:06:22.006] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/plains/zombie/houses/plains_small_house_4
+[14Sep2025 02:06:22.006] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/plains/zombie/houses/plains_small_house_7
+[14Sep2025 02:06:22.007] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/desert/zombie/houses/desert_medium_house_1
+[14Sep2025 02:06:22.007] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/plains/zombie/houses/plains_small_house_6
+[14Sep2025 02:06:22.007] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/desert/houses/desert_farm_1
+[14Sep2025 02:06:22.007] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/desert/zombie/houses/desert_medium_house_2
+[14Sep2025 02:06:22.007] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/desert/houses/desert_farm_2
+[14Sep2025 02:06:22.007] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/plains/zombie/houses/plains_small_house_8
+[14Sep2025 02:06:22.007] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/desert/houses/desert_library_1
+[14Sep2025 02:06:22.007] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/desert/houses/desert_armorer_1
+[14Sep2025 02:06:22.007] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/savanna/savanna_lamp_post_01
+[14Sep2025 02:06:22.007] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/desert/zombie/streets/straight_02
+[14Sep2025 02:06:22.007] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/desert/zombie/streets/straight_01
+[14Sep2025 02:06:22.007] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/desert/zombie/streets/straight_03
+[14Sep2025 02:06:22.007] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/plains/zombie/houses/plains_small_house_1
+[14Sep2025 02:06:22.007] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/plains/zombie/houses/plains_small_house_3
+[14Sep2025 02:06:22.007] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/plains/zombie/houses/plains_small_house_2
+[14Sep2025 02:06:22.008] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/savanna/zombie/streets/crossroad_02
+[14Sep2025 02:06:22.008] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/savanna/zombie/streets/crossroad_03
+[14Sep2025 02:06:22.008] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/savanna/zombie/streets/crossroad_06
+[14Sep2025 02:06:22.008] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/savanna/zombie/streets/crossroad_07
+[14Sep2025 02:06:22.008] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/savanna/zombie/streets/crossroad_04
+[14Sep2025 02:06:22.008] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/savanna/zombie/streets/crossroad_05
+[14Sep2025 02:06:22.008] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/plains/houses/plains_stable_2
+[14Sep2025 02:06:22.008] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/plains/houses/plains_stable_1
+[14Sep2025 02:06:22.008] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/taiga/zombie/streets/corner_03
+[14Sep2025 02:06:22.008] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/taiga/houses/taiga_small_house_2
+[14Sep2025 02:06:22.008] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/taiga/zombie/streets/corner_01
+[14Sep2025 02:06:22.008] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/taiga/houses/taiga_small_house_1
+[14Sep2025 02:06:22.008] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/taiga/zombie/streets/corner_02
+[14Sep2025 02:06:22.008] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/taiga/houses/taiga_small_house_4
+[14Sep2025 02:06:22.009] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/taiga/houses/taiga_small_house_3
+[14Sep2025 02:06:22.009] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/taiga/houses/taiga_small_house_5
+[14Sep2025 02:06:22.009] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/taiga/zombie/streets/turn_01
+[14Sep2025 02:06:22.009] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/snowy/streets/straight_02
+[14Sep2025 02:06:22.009] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/snowy/streets/straight_01
+[14Sep2025 02:06:22.009] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/desert/houses/desert_tannery_1
+[14Sep2025 02:06:22.009] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/taiga/zombie/houses/taiga_large_farm_2
+[14Sep2025 02:06:22.009] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/taiga/houses/taiga_animal_pen_1
+[14Sep2025 02:06:22.009] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/snowy/houses/snowy_fisher_cottage
+[14Sep2025 02:06:22.009] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/savanna/houses/savanna_weaponsmith_1
+[14Sep2025 02:06:22.009] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/snowy/zombie/streets/corner_03
+[14Sep2025 02:06:22.009] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/taiga/streets/corner_01
+[14Sep2025 02:06:22.009] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/savanna/houses/savanna_weaponsmith_2
+[14Sep2025 02:06:22.010] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/snowy/zombie/streets/corner_02
+[14Sep2025 02:06:22.010] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/taiga/streets/corner_02
+[14Sep2025 02:06:22.010] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/snowy/zombie/streets/corner_01
+[14Sep2025 02:06:22.010] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/taiga/streets/corner_03
+[14Sep2025 02:06:22.010] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/plains/zombie/houses/plains_butcher_shop_2
+[14Sep2025 02:06:22.010] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/savanna/houses/savanna_temple_1
+[14Sep2025 02:06:22.010] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/savanna/houses/savanna_shepherd_1
+[14Sep2025 02:06:22.010] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/savanna/houses/savanna_temple_2
+[14Sep2025 02:06:22.010] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/desert/streets/turn_01
+[14Sep2025 02:06:22.010] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/desert/zombie/streets/square_02
+[14Sep2025 02:06:22.010] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/desert/zombie/streets/square_01
+[14Sep2025 02:06:22.010] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/savanna/town_centers/savanna_meeting_point_2
+[14Sep2025 02:06:22.011] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/savanna/town_centers/savanna_meeting_point_1
+[14Sep2025 02:06:22.011] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/plains/zombie/houses/plains_stable_1
+[14Sep2025 02:06:22.011] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/savanna/town_centers/savanna_meeting_point_4
+[14Sep2025 02:06:22.011] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/savanna/town_centers/savanna_meeting_point_3
+[14Sep2025 02:06:22.011] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/snowy/houses/snowy_shepherds_house_1
+[14Sep2025 02:06:22.011] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/plains/houses/plains_tool_smith_1
+[14Sep2025 02:06:22.011] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/savanna/zombie/houses/savanna_large_farm_2
+[14Sep2025 02:06:22.011] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/taiga/zombie/houses/taiga_medium_house_1
+[14Sep2025 02:06:22.011] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/taiga/zombie/houses/taiga_medium_house_2
+[14Sep2025 02:06:22.011] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/snowy/houses/snowy_butchers_shop_1
+[14Sep2025 02:06:22.011] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/taiga/zombie/houses/taiga_medium_house_3
+[14Sep2025 02:06:22.011] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/snowy/houses/snowy_butchers_shop_2
+[14Sep2025 02:06:22.011] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/taiga/zombie/houses/taiga_medium_house_4
+[14Sep2025 02:06:22.011] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/savanna/houses/savanna_fletcher_house_1
+[14Sep2025 02:06:22.012] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/snowy/streets/straight_08
+[14Sep2025 02:06:22.012] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/savanna/zombie/streets/corner_01
+[14Sep2025 02:06:22.012] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/savanna/zombie/streets/corner_03
+[14Sep2025 02:06:22.012] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/snowy/streets/straight_04
+[14Sep2025 02:06:22.012] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/snowy/streets/straight_03
+[14Sep2025 02:06:22.012] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/snowy/streets/straight_06
+[14Sep2025 02:06:22.012] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/plains/streets/corner_03
+[14Sep2025 02:06:22.012] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/plains/streets/corner_01
+[14Sep2025 02:06:22.012] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/taiga/houses/taiga_butcher_shop_1
+[14Sep2025 02:06:22.012] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/plains/streets/corner_02
+[14Sep2025 02:06:22.012] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/desert/zombie/town_centers/desert_meeting_point_1
+[14Sep2025 02:06:22.012] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/desert/zombie/town_centers/desert_meeting_point_3
+[14Sep2025 02:06:22.012] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/taiga/streets/crossroad_05
+[14Sep2025 02:06:22.012] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/desert/zombie/town_centers/desert_meeting_point_2
+[14Sep2025 02:06:22.012] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/taiga/streets/crossroad_06
+[14Sep2025 02:06:22.012] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/taiga/streets/crossroad_03
+[14Sep2025 02:06:22.012] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/taiga/streets/crossroad_04
+[14Sep2025 02:06:22.013] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/snowy/zombie/streets/crossroad_02
+[14Sep2025 02:06:22.013] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/snowy/zombie/streets/crossroad_03
+[14Sep2025 02:06:22.013] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/snowy/zombie/streets/crossroad_04
+[14Sep2025 02:06:22.013] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/plains/houses/plains_cartographer_1
+[14Sep2025 02:06:22.013] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/snowy/zombie/streets/crossroad_05
+[14Sep2025 02:06:22.013] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/snowy/zombie/streets/crossroad_06
+[14Sep2025 02:06:22.013] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/snowy/houses/snowy_masons_house_2
+[14Sep2025 02:06:22.013] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/snowy/houses/snowy_fletcher_house_1
+[14Sep2025 02:06:22.013] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/snowy/houses/snowy_masons_house_1
+[14Sep2025 02:06:22.013] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/snowy/houses/snowy_temple_1
+[14Sep2025 02:06:22.013] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/taiga/streets/crossroad_01
+[14Sep2025 02:06:22.013] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/taiga/streets/crossroad_02
+[14Sep2025 02:06:22.013] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/savanna/streets/straight_02
+[14Sep2025 02:06:22.014] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/savanna/streets/straight_04
+[14Sep2025 02:06:22.014] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/taiga/houses/taiga_weaponsmith_2
+[14Sep2025 02:06:22.014] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/savanna/streets/straight_05
+[14Sep2025 02:06:22.014] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/taiga/houses/taiga_weaponsmith_1
+[14Sep2025 02:06:22.014] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/savanna/streets/straight_06
+[14Sep2025 02:06:22.014] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/savanna/streets/straight_08
+[14Sep2025 02:06:22.014] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/savanna/streets/straight_09
+[14Sep2025 02:06:22.014] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/plains/houses/plains_masons_house_1
+[14Sep2025 02:06:22.014] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/snowy/zombie/streets/turn_01
+[14Sep2025 02:06:22.014] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/snowy/houses/snowy_animal_pen_2
+[14Sep2025 02:06:22.014] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/snowy/houses/snowy_animal_pen_1
+[14Sep2025 02:06:22.014] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/taiga/streets/turn_01
+[14Sep2025 02:06:22.014] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/desert/zombie/streets/corner_01
+[14Sep2025 02:06:22.015] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/desert/zombie/streets/corner_02
+[14Sep2025 02:06:22.015] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/savanna/streets/straight_10
+[14Sep2025 02:06:22.015] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/savanna/streets/straight_11
+[14Sep2025 02:06:22.015] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/taiga/houses/taiga_tannery_1
+[14Sep2025 02:06:22.015] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/savanna/houses/savanna_mason_1
+[14Sep2025 02:06:22.015] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/desert/houses/desert_mason_1
+[14Sep2025 02:06:22.015] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/plains/houses/plains_small_house_6
+[14Sep2025 02:06:22.015] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/plains/houses/plains_small_house_5
+[14Sep2025 02:06:22.015] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/plains/houses/plains_small_house_8
+[14Sep2025 02:06:22.015] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/plains/houses/plains_small_house_7
+[14Sep2025 02:06:22.015] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/plains/houses/plains_small_house_2
+[14Sep2025 02:06:22.015] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/plains/houses/plains_small_house_1
+[14Sep2025 02:06:22.015] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/plains/houses/plains_small_house_4
+[14Sep2025 02:06:22.015] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/plains/houses/plains_small_house_3
+[14Sep2025 02:06:22.016] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/plains/town_centers/plains_fountain_01
+[14Sep2025 02:06:22.016] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/snowy/streets/turn_01
+[14Sep2025 02:06:22.016] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/savanna/houses/savanna_fisher_cottage_1
+[14Sep2025 02:06:22.016] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/taiga/zombie/houses/taiga_weaponsmith_2
+[14Sep2025 02:06:22.016] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/snowy/houses/snowy_cartographer_house_1
+[14Sep2025 02:06:22.016] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/plains/zombie/streets/crossroad_04
+[14Sep2025 02:06:22.016] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/plains/zombie/streets/crossroad_03
+[14Sep2025 02:06:22.016] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/plains/zombie/streets/crossroad_02
+[14Sep2025 02:06:22.016] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/plains/zombie/streets/crossroad_01
+[14Sep2025 02:06:22.016] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/plains/zombie/streets/crossroad_06
+[14Sep2025 02:06:22.016] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/plains/zombie/streets/crossroad_05
+[14Sep2025 02:06:22.016] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/desert/houses/desert_butcher_shop_1
+[14Sep2025 02:06:22.016] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/plains/zombie/houses/plains_big_house_1
+[14Sep2025 02:06:22.016] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/snowy/zombie/streets/straight_08
+[14Sep2025 02:06:22.016] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/snowy/zombie/streets/straight_04
+[14Sep2025 02:06:22.017] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/snowy/zombie/streets/straight_06
+[14Sep2025 02:06:22.017] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/snowy/zombie/streets/straight_01
+[14Sep2025 02:06:22.017] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/snowy/zombie/streets/straight_03
+[14Sep2025 02:06:22.017] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/snowy/zombie/streets/straight_02
+[14Sep2025 02:06:22.017] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/desert/desert_lamp_1
+[14Sep2025 02:06:22.017] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/desert/town_centers/desert_meeting_point_1
+[14Sep2025 02:06:22.017] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/plains/houses/plains_butcher_shop_1
+[14Sep2025 02:06:22.017] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/desert/town_centers/desert_meeting_point_2
+[14Sep2025 02:06:22.017] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/plains/houses/plains_butcher_shop_2
+[14Sep2025 02:06:22.017] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/savanna/zombie/streets/straight_10
+[14Sep2025 02:06:22.017] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/savanna/zombie/streets/straight_11
+[14Sep2025 02:06:22.017] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/savanna/zombie/streets/straight_06
+[14Sep2025 02:06:22.017] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/savanna/zombie/streets/straight_09
+[14Sep2025 02:06:22.018] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/taiga/zombie/houses/taiga_small_house_4
+[14Sep2025 02:06:22.018] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/savanna/zombie/streets/straight_08
+[14Sep2025 02:06:22.018] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/taiga/zombie/houses/taiga_small_house_5
+[14Sep2025 02:06:22.018] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/desert/town_centers/desert_meeting_point_3
+[14Sep2025 02:06:22.018] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/taiga/zombie/houses/taiga_small_house_2
+[14Sep2025 02:06:22.018] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/taiga/zombie/houses/taiga_small_house_3
+[14Sep2025 02:06:22.018] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/taiga/zombie/houses/taiga_small_house_1
+[14Sep2025 02:06:22.018] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/snowy/houses/snowy_tannery_1
+[14Sep2025 02:06:22.018] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/desert/streets/corner_02
+[14Sep2025 02:06:22.018] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/desert/zombie/streets/crossroad_01
+[14Sep2025 02:06:22.018] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/desert/streets/corner_01
+[14Sep2025 02:06:22.018] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/desert/zombie/streets/crossroad_02
+[14Sep2025 02:06:22.018] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/desert/streets/straight_02
+[14Sep2025 02:06:22.018] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/desert/zombie/streets/crossroad_03
+[14Sep2025 02:06:22.018] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/desert/streets/straight_03
+[14Sep2025 02:06:22.019] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/desert/streets/straight_01
+[14Sep2025 02:06:22.019] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/savanna/zombie/streets/straight_02
+[14Sep2025 02:06:22.019] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/savanna/zombie/streets/straight_05
+[14Sep2025 02:06:22.019] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/savanna/zombie/streets/straight_04
+[14Sep2025 02:06:22.019] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/snowy/zombie/streets/crossroad_01
+[14Sep2025 02:06:22.019] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/plains/zombie/houses/plains_fletcher_house_1
+[14Sep2025 02:06:22.019] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/plains/houses/plains_library_1
+[14Sep2025 02:06:22.019] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/plains/houses/plains_library_2
+[14Sep2025 02:06:22.019] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/desert/houses/desert_temple_2
+[14Sep2025 02:06:22.019] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/desert/houses/desert_temple_1
+[14Sep2025 02:06:22.019] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/savanna/houses/savanna_butchers_shop_1
+[14Sep2025 02:06:22.019] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/snowy/houses/snowy_library_1
+[14Sep2025 02:06:22.019] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/savanna/houses/savanna_butchers_shop_2
+[14Sep2025 02:06:22.019] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/plains/houses/plains_weaponsmith_1
+[14Sep2025 02:06:22.020] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/plains/houses/plains_large_farm_1
+[14Sep2025 02:06:22.020] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/desert/houses/desert_small_house_5
+[14Sep2025 02:06:22.020] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/taiga/houses/taiga_medium_house_2
+[14Sep2025 02:06:22.020] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/desert/houses/desert_small_house_6
+[14Sep2025 02:06:22.020] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/taiga/houses/taiga_medium_house_1
+[14Sep2025 02:06:22.020] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/desert/houses/desert_small_house_7
+[14Sep2025 02:06:22.020] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/taiga/houses/taiga_fletcher_house_1
+[14Sep2025 02:06:22.020] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/taiga/houses/taiga_medium_house_4
+[14Sep2025 02:06:22.020] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/desert/houses/desert_small_house_8
+[14Sep2025 02:06:22.020] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/taiga/houses/taiga_medium_house_3
+[14Sep2025 02:06:22.020] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/taiga/zombie/houses/taiga_temple_1
+[14Sep2025 02:06:22.020] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/desert/houses/desert_small_house_1
+[14Sep2025 02:06:22.020] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/desert/houses/desert_small_house_2
+[14Sep2025 02:06:22.021] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/desert/houses/desert_small_house_3
+[14Sep2025 02:06:22.021] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/desert/houses/desert_small_house_4
+[14Sep2025 02:06:22.021] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/plains/houses/plains_medium_house_2
+[14Sep2025 02:06:22.021] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/plains/houses/plains_medium_house_1
+[14Sep2025 02:06:22.021] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/savanna/houses/savanna_small_farm
+[14Sep2025 02:06:22.021] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/snowy/houses/snowy_farm_2
+[14Sep2025 02:06:22.021] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/snowy/houses/snowy_farm_1
+[14Sep2025 02:06:22.021] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/desert/zombie/streets/turn_01
+[14Sep2025 02:06:22.021] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/snowy/streets/corner_03
+[14Sep2025 02:06:22.021] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/snowy/streets/corner_02
+[14Sep2025 02:06:22.021] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/snowy/streets/corner_01
+[14Sep2025 02:06:22.021] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/savanna/houses/savanna_armorer_1
+[14Sep2025 02:06:22.021] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/plains/zombie/houses/plains_animal_pen_3
+[14Sep2025 02:06:22.021] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/snowy/zombie/town_centers/snowy_meeting_point_2
+[14Sep2025 02:06:22.021] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/snowy/zombie/town_centers/snowy_meeting_point_3
+[14Sep2025 02:06:22.022] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/plains/houses/plains_big_house_1
+[14Sep2025 02:06:22.022] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/desert/houses/desert_medium_house_1
+[14Sep2025 02:06:22.022] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/desert/houses/desert_medium_house_2
+[14Sep2025 02:06:22.022] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/snowy/zombie/town_centers/snowy_meeting_point_1
+[14Sep2025 02:06:22.022] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/desert/houses/desert_animal_pen_1
+[14Sep2025 02:06:22.022] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/desert/houses/desert_animal_pen_2
+[14Sep2025 02:06:22.022] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/taiga/houses/taiga_armorer_2
+[14Sep2025 02:06:22.022] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/plains/houses/plains_animal_pen_3
+[14Sep2025 02:06:22.022] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/plains/houses/plains_animal_pen_2
+[14Sep2025 02:06:22.022] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/plains/houses/plains_animal_pen_1
+[14Sep2025 02:06:22.022] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/plains/zombie/houses/plains_medium_house_1
+[14Sep2025 02:06:22.022] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/savanna/houses/savanna_cartographer_1
+[14Sep2025 02:06:22.023] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/plains/zombie/houses/plains_medium_house_2
+[14Sep2025 02:06:22.023] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/savanna/zombie/streets/split_02
+[14Sep2025 02:06:22.023] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/taiga/zombie/streets/straight_04
+[14Sep2025 02:06:22.023] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/savanna/zombie/streets/split_01
+[14Sep2025 02:06:22.023] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/taiga/zombie/streets/straight_05
+[14Sep2025 02:06:22.023] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/taiga/zombie/streets/straight_06
+[14Sep2025 02:06:22.023] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/desert/houses/desert_large_farm_1
+[14Sep2025 02:06:22.023] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/taiga/taiga_lamp_post_1
+[14Sep2025 02:06:22.023] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/plains/streets/crossroad_05
+[14Sep2025 02:06:22.023] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/taiga/houses/taiga_library_1
+[14Sep2025 02:06:22.023] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/plains/streets/crossroad_04
+[14Sep2025 02:06:22.023] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/plains/streets/crossroad_06
+[14Sep2025 02:06:22.023] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/taiga/streets/straight_04
+[14Sep2025 02:06:22.023] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/taiga/streets/straight_03
+[14Sep2025 02:06:22.023] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/taiga/zombie/streets/straight_01
+[14Sep2025 02:06:22.024] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/taiga/zombie/town_centers/taiga_meeting_point_2
+[14Sep2025 02:06:22.024] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/taiga/streets/straight_06
+[14Sep2025 02:06:22.024] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/taiga/zombie/streets/straight_02
+[14Sep2025 02:06:22.024] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/taiga/streets/straight_05
+[14Sep2025 02:06:22.024] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/taiga/zombie/streets/straight_03
+[14Sep2025 02:06:22.024] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/taiga/zombie/town_centers/taiga_meeting_point_1
+[14Sep2025 02:06:22.024] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/plains/streets/crossroad_01
+[14Sep2025 02:06:22.024] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/desert/houses/desert_weaponsmith_1
+[14Sep2025 02:06:22.024] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/plains/streets/crossroad_03
+[14Sep2025 02:06:22.024] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/plains/streets/crossroad_02
+[14Sep2025 02:06:22.024] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/plains/houses/plains_small_farm_1
+[14Sep2025 02:06:22.024] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/savanna/houses/savanna_animal_pen_1
+[14Sep2025 02:06:22.024] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/savanna/houses/savanna_animal_pen_2
+[14Sep2025 02:06:22.024] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/savanna/houses/savanna_animal_pen_3
+[14Sep2025 02:06:22.024] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/taiga/streets/straight_02
+[14Sep2025 02:06:22.024] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/taiga/streets/straight_01
+[14Sep2025 02:06:22.025] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/snowy/zombie/streets/square_01
+[14Sep2025 02:06:22.025] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/snowy/houses/snowy_weapon_smith_1
+[14Sep2025 02:06:22.025] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/taiga/houses/taiga_fisher_cottage_1
+[14Sep2025 02:06:22.025] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/desert/houses/desert_shepherd_house_1
+[14Sep2025 02:06:22.025] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/taiga/zombie/houses/taiga_library_1
+[14Sep2025 02:06:22.025] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/plains/houses/plains_accessory_1
+[14Sep2025 02:06:22.025] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/savanna/streets/turn_01
+[14Sep2025 02:06:22.025] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/savanna/houses/savanna_large_farm_1
+[14Sep2025 02:06:22.025] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/savanna/houses/savanna_large_farm_2
+[14Sep2025 02:06:22.025] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/plains/zombie/houses/plains_shepherds_house_1
+[14Sep2025 02:06:22.025] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/savanna/houses/savanna_small_house_3
+[14Sep2025 02:06:22.025] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/savanna/houses/savanna_small_house_4
+[14Sep2025 02:06:22.025] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/savanna/houses/savanna_small_house_1
+[14Sep2025 02:06:22.025] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/savanna/houses/savanna_small_house_2
+[14Sep2025 02:06:22.025] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/savanna/houses/savanna_small_house_7
+[14Sep2025 02:06:22.025] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/savanna/houses/savanna_small_house_8
+[14Sep2025 02:06:22.025] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/savanna/zombie/town_centers/savanna_meeting_point_1
+[14Sep2025 02:06:22.025] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/savanna/houses/savanna_small_house_5
+[14Sep2025 02:06:22.025] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/savanna/houses/savanna_small_house_6
+[14Sep2025 02:06:22.026] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/savanna/zombie/town_centers/savanna_meeting_point_4
+[14Sep2025 02:06:22.026] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/savanna/zombie/town_centers/savanna_meeting_point_2
+[14Sep2025 02:06:22.026] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/savanna/zombie/town_centers/savanna_meeting_point_3
+[14Sep2025 02:06:22.026] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/savanna/houses/savanna_tannery_1
+[14Sep2025 02:06:22.026] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/plains/houses/plains_shepherds_house_1
+[14Sep2025 02:06:22.026] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/savanna/zombie/houses/savanna_animal_pen_3
+[14Sep2025 02:06:22.026] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/savanna/zombie/houses/savanna_animal_pen_2
+[14Sep2025 02:06:22.026] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/plains/town_centers/plains_meeting_point_3
+[14Sep2025 02:06:22.026] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/taiga/houses/taiga_shepherds_house_1
+[14Sep2025 02:06:22.026] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/plains/town_centers/plains_meeting_point_2
+[14Sep2025 02:06:22.026] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/plains/town_centers/plains_meeting_point_1
+[14Sep2025 02:06:22.026] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/plains/houses/plains_temple_4
+[14Sep2025 02:06:22.026] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/savanna/streets/crossroad_02
+[14Sep2025 02:06:22.026] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/snowy/zombie/houses/snowy_medium_house_2
+[14Sep2025 02:06:22.026] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/snowy/zombie/houses/snowy_medium_house_3
+[14Sep2025 02:06:22.026] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/savanna/streets/crossroad_04
+[14Sep2025 02:06:22.026] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/desert/houses/desert_cartographer_house_1
+[14Sep2025 02:06:22.027] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/plains/houses/plains_temple_3
+[14Sep2025 02:06:22.027] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/savanna/streets/crossroad_03
+[14Sep2025 02:06:22.027] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/snowy/zombie/houses/snowy_medium_house_1
+[14Sep2025 02:06:22.027] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/desert/zombie/houses/desert_small_house_2
+[14Sep2025 02:06:22.027] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/desert/zombie/houses/desert_small_house_3
+[14Sep2025 02:06:22.027] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/taiga/zombie/houses/taiga_fisher_cottage_1
+[14Sep2025 02:06:22.027] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/desert/zombie/houses/desert_small_house_1
+[14Sep2025 02:06:22.027] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/desert/zombie/houses/desert_small_house_6
+[14Sep2025 02:06:22.027] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/desert/zombie/houses/desert_small_house_7
+[14Sep2025 02:06:22.027] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/taiga/houses/taiga_armorer_house_1
+[14Sep2025 02:06:22.027] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/desert/zombie/houses/desert_small_house_4
+[14Sep2025 02:06:22.027] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/desert/zombie/houses/desert_small_house_5
+[14Sep2025 02:06:22.028] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/desert/zombie/houses/desert_small_house_8
+[14Sep2025 02:06:22.028] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/snowy/streets/square_01
+[14Sep2025 02:06:22.028] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/taiga/houses/taiga_cartographer_house_1
+[14Sep2025 02:06:22.028] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/plains/houses/plains_armorer_house_1
+[14Sep2025 02:06:22.028] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/taiga/houses/taiga_masons_house_1
+[14Sep2025 02:06:22.028] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/snowy/zombie/houses/snowy_small_house_8
+[14Sep2025 02:06:22.028] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/snowy/zombie/houses/snowy_small_house_4
+[14Sep2025 02:06:22.028] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/snowy/zombie/houses/snowy_small_house_5
+[14Sep2025 02:06:22.028] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/savanna/zombie/houses/savanna_medium_house_2
+[14Sep2025 02:06:22.033] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/snowy/zombie/houses/snowy_small_house_6
+[14Sep2025 02:06:22.033] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/snowy/zombie/houses/snowy_small_house_7
+[14Sep2025 02:06:22.033] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/plains/streets/turn_01
+[14Sep2025 02:06:22.033] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/snowy/zombie/houses/snowy_small_house_1
+[14Sep2025 02:06:22.033] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/snowy/zombie/houses/snowy_small_house_2
+[14Sep2025 02:06:22.033] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/snowy/zombie/houses/snowy_small_house_3
+[14Sep2025 02:06:22.034] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/plains/houses/plains_fisher_cottage_1
+[14Sep2025 02:06:22.034] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/savanna/streets/corner_03
+[14Sep2025 02:06:22.034] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/snowy/houses/snowy_tool_smith_1
+[14Sep2025 02:06:22.034] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/snowy/town_centers/snowy_meeting_point_2
+[14Sep2025 02:06:22.034] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/savanna/streets/corner_01
+[14Sep2025 02:06:22.034] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/snowy/town_centers/snowy_meeting_point_1
+[14Sep2025 02:06:22.034] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/savanna/zombie/houses/savanna_medium_house_1
+[14Sep2025 02:06:22.034] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/savanna/streets/crossroad_06
+[14Sep2025 02:06:22.034] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/savanna/streets/crossroad_05
+[14Sep2025 02:06:22.034] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/snowy/town_centers/snowy_meeting_point_3
+[14Sep2025 02:06:22.034] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/savanna/streets/crossroad_07
+[14Sep2025 02:06:22.034] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/savanna/houses/savanna_library_1
+[14Sep2025 02:06:22.034] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/desert/streets/square_02
+[14Sep2025 02:06:22.034] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/desert/streets/square_01
+[14Sep2025 02:06:22.034] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/savanna/streets/split_01
+[14Sep2025 02:06:22.034] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/savanna/streets/split_02
+[14Sep2025 02:06:22.034] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/savanna/houses/savanna_medium_house_1
+[14Sep2025 02:06:22.034] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/taiga/zombie/streets/crossroad_02
+[14Sep2025 02:06:22.035] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/savanna/houses/savanna_medium_house_2
+[14Sep2025 02:06:22.035] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/taiga/zombie/streets/crossroad_03
+[14Sep2025 02:06:22.035] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/taiga/zombie/streets/crossroad_04
+[14Sep2025 02:06:22.035] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/taiga/zombie/streets/crossroad_05
+[14Sep2025 02:06:22.035] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/taiga/zombie/streets/crossroad_06
+[14Sep2025 02:06:22.035] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/plains/zombie/streets/turn_01
+[14Sep2025 02:06:22.035] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/savanna/zombie/houses/savanna_small_house_4
+[14Sep2025 02:06:22.035] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/plains/houses/plains_fletcher_house_1
+[14Sep2025 02:06:22.035] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/savanna/zombie/houses/savanna_small_house_5
+[14Sep2025 02:06:22.035] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/savanna/zombie/houses/savanna_small_house_6
+[14Sep2025 02:06:22.035] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/taiga/town_centers/taiga_meeting_point_1
+[14Sep2025 02:06:22.035] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/savanna/zombie/houses/savanna_small_house_7
+[14Sep2025 02:06:22.035] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/taiga/town_centers/taiga_meeting_point_2
+[14Sep2025 02:06:22.035] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/plains/plains_lamp_1
+[14Sep2025 02:06:22.035] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/savanna/zombie/houses/savanna_small_house_1
+[14Sep2025 02:06:22.035] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/savanna/zombie/houses/savanna_small_house_2
+[14Sep2025 02:06:22.035] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/plains/zombie/town_centers/plains_fountain_01
+[14Sep2025 02:06:22.035] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/savanna/zombie/houses/savanna_small_house_3
+[14Sep2025 02:06:22.035] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/plains/houses/plains_tannery_1
+[14Sep2025 02:06:22.035] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/taiga/zombie/streets/crossroad_01
+[14Sep2025 02:06:22.035] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/taiga/houses/taiga_tool_smith_1
+[14Sep2025 02:06:22.036] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/plains/zombie/streets/corner_01
+[14Sep2025 02:06:22.036] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/desert/houses/desert_fisher_1
+[14Sep2025 02:06:22.036] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/plains/zombie/streets/corner_02
+[14Sep2025 02:06:22.036] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/plains/zombie/streets/corner_03
+[14Sep2025 02:06:22.036] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/taiga/houses/taiga_temple_1
+[14Sep2025 02:06:22.036] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/desert/houses/desert_tool_smith_1
+[14Sep2025 02:06:22.036] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/taiga/houses/taiga_small_farm_1
+[14Sep2025 02:06:22.036] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/plains/zombie/houses/plains_meeting_point_4
+[14Sep2025 02:06:22.036] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/plains/zombie/houses/plains_meeting_point_5
+[14Sep2025 02:06:22.036] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/snowy/houses/snowy_armorer_house_2
+[14Sep2025 02:06:22.036] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/snowy/houses/snowy_armorer_house_1
+[14Sep2025 02:06:22.036] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/taiga/zombie/houses/taiga_tool_smith_1
+[14Sep2025 02:06:22.036] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/savanna/zombie/houses/savanna_small_house_8
+[14Sep2025 02:06:22.036] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/plains/zombie/town_centers/plains_meeting_point_1
+[14Sep2025 02:06:22.036] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/plains/zombie/town_centers/plains_meeting_point_3
+[14Sep2025 02:06:22.036] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/plains/zombie/town_centers/plains_meeting_point_2
+[14Sep2025 02:06:22.036] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/desert/houses/desert_fletcher_house_1
+[14Sep2025 02:06:22.036] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/snowy/streets/crossroad_04
+[14Sep2025 02:06:22.036] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/snowy/streets/crossroad_03
+[14Sep2025 02:06:22.037] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/snowy/streets/crossroad_06
+[14Sep2025 02:06:22.037] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/snowy/streets/crossroad_05
+[14Sep2025 02:06:22.037] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/savanna/houses/savanna_tool_smith_1
+[14Sep2025 02:06:22.037] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/snowy/streets/crossroad_02
+[14Sep2025 02:06:22.037] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/savanna/zombie/streets/turn_01
+[14Sep2025 02:06:22.037] [main/INFO] [Antique Atlas/]: Apply structure piece config: minecraft:village/snowy/streets/crossroad_01
+[14Sep2025 02:06:22.049] [main/WARN] [net.minecraft.core.MappedRegistry/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:worldgen/biome] are present in data pack: farmers_structures:is_quark_glimer_spawn, quark:has_fallen_jungle
+[14Sep2025 02:06:25.473] [main/INFO] [com.ordana.immersive_weathering.ImmersiveWeathering/]: Loaded 78 block growths configurations
+[14Sep2025 02:06:25.480] [main/INFO] [com.ordana.immersive_weathering.ImmersiveWeathering/]: Loaded 14 liquid generators configurations
+[14Sep2025 02:06:25.609] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[14Sep2025 02:06:25.610] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[14Sep2025 02:06:25.610] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[14Sep2025 02:06:25.610] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[14Sep2025 02:06:25.717] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[14Sep2025 02:06:25.749] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[14Sep2025 02:06:25.851] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[14Sep2025 02:06:25.852] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[14Sep2025 02:06:25.852] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[14Sep2025 02:06:25.852] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[14Sep2025 02:06:25.945] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[14Sep2025 02:06:25.946] [Server thread/INFO] [unionlib/]: Initializing mod on server: unionlib
+[14Sep2025 02:06:25.946] [Server thread/INFO] [unionlib/]: Initializing mod on server: antiqueatlas
+[14Sep2025 02:06:29.041] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[14Sep2025 02:06:31.481] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Sep2025 02:06:31.511] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Sep2025 02:06:31.522] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Sep2025 02:06:31.527] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Sep2025 02:06:31.540] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Sep2025 02:06:31.548] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Sep2025 02:06:32.715] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Sep2025 02:06:32.727] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Sep2025 02:06:33.046] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Sep2025 02:06:33.563] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Sep2025 02:06:34.044] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Sep2025 02:06:34.697] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 6%
+[14Sep2025 02:06:35.245] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 42%
+[14Sep2025 02:06:35.543] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 84%
+[14Sep2025 02:06:35.719] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 6678 ms
+[14Sep2025 02:06:35.720] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (9.852s)! For help, type "help"
+[14Sep2025 02:06:35.974] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[14Sep2025 02:06:35.976] [Server thread/INFO] [patchouli/]: Sending reload packet to clients
+[14Sep2025 02:06:35.977] [Server thread/WARN] [voicechat/]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[14Sep2025 02:06:35.981] [Server thread/INFO] [voicechat/]: [voicechat] Using the Minecraft servers port as voice chat port
+[14Sep2025 02:06:35.989] [VoiceChatServerThread/INFO] [voicechat/]: [voicechat] Voice chat server started at port 25565
+[14Sep2025 02:06:53.320] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dwiss3[/127.150.44.39:37789] logged in with entity id 184 at (-170.91912525338418, 79.0, -213.7409332528467)
+[14Sep2025 02:06:53.458] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dwiss3 joined the game
+[14Sep2025 02:06:53.741] [Server thread/INFO] [antiqueatlas/]: Sent markers data #-1 to player Dwiss3
+[14Sep2025 02:06:53.747] [Server thread/INFO] [antiqueatlas/]: Sent custom biome data to player Dwiss3
+[14Sep2025 02:06:53.748] [Server thread/INFO] [antiqueatlas/]: Sent custom biome data to player Dwiss3
+[14Sep2025 02:06:53.748] [Server thread/INFO] [antiqueatlas/]: Sent custom biome data to player Dwiss3
+[14Sep2025 02:06:53.749] [Server thread/INFO] [antiqueatlas/]: Sent custom biome data to player Dwiss3
+[14Sep2025 02:06:54.389] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Dwiss3 (20)
+[14Sep2025 02:06:54.391] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Dwiss3
+[14Sep2025 02:06:55.717] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Thank you so much for playing Dark Souls Expansion! If you'd like to create a server with your friends, you can do so at
+[14Sep2025 02:14:23.326] [Worker-Main-1/ERROR] [net.minecraft.world.level.block.entity.SculkSensorBlockEntity/]: No key selector in MapLike[{event_delay:0,event_distance:5.5970345f,range:8,source:{pos:[I;-187,-59,-379],type:"minecraft:block"}}]
+[14Sep2025 02:14:23.327] [Worker-Main-1/ERROR] [net.minecraft.world.level.block.entity.SculkSensorBlockEntity/]: No key selector in MapLike[{event_delay:0,event_distance:4.3011737f,range:8,source:{pos:[I;-180,-59,-376],type:"minecraft:block"}}]
+[14Sep2025 02:14:23.327] [Worker-Main-1/ERROR] [net.minecraft.world.level.block.entity.SculkSensorBlockEntity/]: No key selector in MapLike[{event_delay:0,event_distance:7.063859f,range:8,source:{pos:[I;-175,-59,-379],type:"minecraft:block"}}]
+[14Sep2025 02:14:23.345] [Worker-Main-2/ERROR] [net.minecraft.world.level.block.entity.SculkSensorBlockEntity/]: No key selector in MapLike[{event_delay:0,event_distance:7.3484693f,range:8,source:{pos:[I;-170,-58,-380],type:"minecraft:block"}}]
+[14Sep2025 02:14:23.346] [Worker-Main-2/ERROR] [net.minecraft.world.level.block.entity.SculkSensorBlockEntity/]: No key selector in MapLike[{event_delay:0,event_distance:3.7416575f,range:8,source:{pos:[I;-170,-57,-377],type:"minecraft:block"}}]
+[14Sep2025 02:14:23.350] [Worker-Main-2/ERROR] [net.minecraft.world.level.block.entity.SculkSensorBlockEntity/]: No key selector in MapLike[{event_delay:0,event_distance:7.3052635f,range:8,source:{pos:[I;-160,-52,-370],type:"minecraft:block"}}]
+[14Sep2025 02:14:24.778] [Worker-Main-3/ERROR] [net.minecraft.world.level.block.entity.SculkSensorBlockEntity/]: No key selector in MapLike[{event_delay:0,event_distance:5.6380615f,range:8,source:{pos:[I;-153,-58,-371],type:"minecraft:block"}}]
+[14Sep2025 02:14:24.778] [Worker-Main-3/ERROR] [net.minecraft.world.level.block.entity.SculkSensorBlockEntity/]: No key selector in MapLike[{event_delay:0,event_distance:7.802702f,range:8,source:{pos:[I;-154,-53,-378],type:"minecraft:block"}}]
+[14Sep2025 02:14:24.779] [Worker-Main-3/ERROR] [net.minecraft.world.level.block.entity.SculkSensorBlockEntity/]: No key selector in MapLike[{event_delay:0,event_distance:5.527325f,range:8,source:{pos:[I;-153,-53,-374],type:"minecraft:block"}}]
+[14Sep2025 02:14:24.779] [Worker-Main-3/ERROR] [net.minecraft.world.level.block.entity.SculkShriekerBlockEntity/]: No key selector in MapLike[{event_delay:0,event_distance:1.0f,range:8,source:{pos:[I;-152,-53,-371],type:"minecraft:block"}}]
+[14Sep2025 02:14:24.779] [Worker-Main-3/ERROR] [net.minecraft.world.level.block.entity.SculkSensorBlockEntity/]: No key selector in MapLike[{event_delay:0,event_distance:4.061569f,range:8,source:{pos:[I;-152,-53,-370],type:"minecraft:block"}}]
+[14Sep2025 02:14:24.780] [Worker-Main-3/ERROR] [net.minecraft.world.level.block.entity.SculkSensorBlockEntity/]: No key selector in MapLike[{event_delay:0,event_distance:3.152014f,range:8,source:{pos:[I;-157,-51,-371],type:"minecraft:block"}}]
+[14Sep2025 02:14:28.091] [Worker-Main-3/ERROR] [net.minecraft.world.level.block.entity.SculkSensorBlockEntity/]: No key selector in MapLike[{event_delay:0,event_distance:5.91608f,range:8,source:{pos:[I;-178,-59,-363],type:"minecraft:block"}}]
+[14Sep2025 02:14:28.092] [Worker-Main-3/ERROR] [net.minecraft.world.level.block.entity.SculkSensorBlockEntity/]: No key selector in MapLike[{event_delay:0,event_distance:5.91608f,range:8,source:{pos:[I;-174,-59,-369],type:"minecraft:block"}}]
+[14Sep2025 02:14:28.093] [Worker-Main-3/ERROR] [net.minecraft.world.level.block.entity.SculkShriekerBlockEntity/]: No key selector in MapLike[{event_delay:0,event_distance:0.0f,range:8,source:{pos:[I;-174,-59,-356],type:"minecraft:block"}}]
+[14Sep2025 02:14:28.158] [Worker-Main-2/ERROR] [net.minecraft.world.level.block.entity.SculkSensorBlockEntity/]: No key selector in MapLike[{event_delay:0,event_distance:7.660372f,range:8,source:{pos:[I;-158,-53,-362],type:"minecraft:block"}}]
+[14Sep2025 02:14:28.158] [Worker-Main-2/ERROR] [net.minecraft.world.level.block.entity.SculkSensorBlockEntity/]: No key selector in MapLike[{event_delay:0,event_distance:6.9118114f,range:8,source:{pos:[I;-160,-49,-366],type:"minecraft:block"}}]
+[14Sep2025 02:14:28.159] [Worker-Main-2/ERROR] [net.minecraft.world.level.block.entity.SculkShriekerBlockEntity/]: No key selector in MapLike[{event_delay:0,event_distance:6.0f,range:8,source:{pos:[I;-158,-48,-366],type:"minecraft:block"}}]
+[14Sep2025 02:14:28.247] [Worker-Main-3/ERROR] [net.minecraft.world.level.block.entity.SculkSensorBlockEntity/]: No key selector in MapLike[{event_delay:0,event_distance:7.8740077f,range:8,source:{pos:[I;-150,-54,-359],type:"minecraft:block"}}]
+[14Sep2025 02:14:28.248] [Worker-Main-3/ERROR] [net.minecraft.world.level.block.entity.SculkSensorBlockEntity/]: No key selector in MapLike[{event_delay:0,event_distance:4.826741f,range:8,source:{pos:[I;-154,-53,-365],type:"minecraft:block"}}]
