@@ -1463,15 +1463,57 @@
     },
     "done": true
   },
-  "minecraft:recipes/transportation/cherry_boat": {
+  "minecraft:recipes/brewing/fermented_spider_eye": {
     "criteria": {
-      "in_water": "2025-09-13 23:22:01 +0000"
+      "has_spider_eye": "2025-09-13 23:13:56 +0000"
+    },
+    "done": true
+  },
+  "betterarcheology:recipes/bomb": {
+    "criteria": {
+      "has_the_recipe": "2025-09-13 23:16:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/firework_rocket_simple": {
+    "criteria": {
+      "has_gunpowder": "2025-09-13 23:16:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tnt": {
+    "criteria": {
+      "has_gunpowder": "2025-09-13 23:16:17 +0000"
+    },
+    "done": true
+  },
+  "betterarcheology:recipes/combat/bomb": {
+    "criteria": {
+      "has_gunpowder": "2025-09-13 23:16:17 +0000"
     },
     "done": true
   },
   "minecraft:recipes/misc/bone_meal": {
     "criteria": {
       "has_bone": "2025-09-13 23:16:34 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/bone_broth": {
+    "criteria": {
+      "has_bone": "2025-09-13 23:16:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/blue_dye_from_cornflower": {
+    "criteria": {
+      "has_cornflower": "2025-09-13 23:19:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/cherry_boat": {
+    "criteria": {
+      "in_water": "2025-09-13 23:22:01 +0000"
     },
     "done": true
   },
@@ -1505,51 +1547,9 @@
     },
     "done": true
   },
-  "betterarcheology:recipes/bomb": {
-    "criteria": {
-      "has_the_recipe": "2025-09-13 23:16:17 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/brewing/fermented_spider_eye": {
-    "criteria": {
-      "has_spider_eye": "2025-09-13 23:13:56 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/cooking/bone_broth": {
-    "criteria": {
-      "has_bone": "2025-09-13 23:16:34 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/transportation/acacia_boat": {
     "criteria": {
       "in_water": "2025-09-13 23:22:01 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/blue_dye_from_cornflower": {
-    "criteria": {
-      "has_cornflower": "2025-09-13 23:19:10 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/firework_rocket_simple": {
-    "criteria": {
-      "has_gunpowder": "2025-09-13 23:16:17 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/tnt": {
-    "criteria": {
-      "has_gunpowder": "2025-09-13 23:16:17 +0000"
-    },
-    "done": true
-  },
-  "betterarcheology:recipes/combat/bomb": {
-    "criteria": {
-      "has_gunpowder": "2025-09-13 23:16:17 +0000"
     },
     "done": true
   },
