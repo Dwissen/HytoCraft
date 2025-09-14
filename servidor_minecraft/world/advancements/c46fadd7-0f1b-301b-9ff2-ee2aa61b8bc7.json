@@ -1120,6 +1120,7 @@
       "minecraft:enderman": "2025-09-13 23:19:06 +0000",
       "minecraft:stray": "2025-09-14 03:33:15 +0000",
       "minecraft:zombie": "2025-09-13 22:08:20 +0000",
+      "minecraft:drowned": "2025-09-14 04:14:39 +0000",
       "minecraft:zombie_villager": "2025-09-14 03:03:27 +0000"
     },
     "done": false
@@ -1580,6 +1581,12 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/food/nether_salad": {
+    "criteria": {
+      "has_bowl": "2025-09-14 04:46:24 +0000"
+    },
+    "done": true
+  },
   "farmersdelight:recipes/cooking/mushroom_rice": {
     "criteria": {
       "has_any_ingredient": "2025-09-14 02:38:00 +0000"
@@ -1904,6 +1911,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/magenta_dye_from_allium": {
+    "criteria": {
+      "has_allium": "2025-09-14 04:21:13 +0000"
+    },
+    "done": true
+  },
   "friendsandfoes:adventure/kill_iceologer": {
     "criteria": {
       "killed_iceologer": "2025-09-14 03:10:48 +0000"
@@ -1997,6 +2010,12 @@
   "minecraft:recipes/food/cooked_chicken_from_smoking": {
     "criteria": {
       "has_chicken": "2025-09-14 03:25:12 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/mixed_salad": {
+    "criteria": {
+      "has_bowl": "2025-09-14 04:46:24 +0000"
     },
     "done": true
   },
@@ -2153,6 +2172,12 @@
   "medievalembroidery:recipes/misc/utensil_metal": {
     "criteria": {
       "has_uten_metal": "2025-09-14 02:37:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/mushroom_stew": {
+    "criteria": {
+      "has_bowl": "2025-09-14 04:46:24 +0000"
     },
     "done": true
   },

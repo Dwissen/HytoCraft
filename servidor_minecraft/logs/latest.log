@@ -1358,3 +1358,18 @@ com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
 [14Sep2025 04:03:53.640] [Worker-Main-3/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:angler_additions_3_pool
 [14Sep2025 04:03:53.640] [Worker-Main-3/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:cook_end_1_pool
 [14Sep2025 04:04:53.555] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dwiss3 has made the advancement [Ice Bucket Challenge]
+[14Sep2025 04:09:20.006] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: SumireShi[/127.155.214.71:49091] logged in with entity id 63757 at (-171.46369336014658, 78.0, -210.69360234237521)
+[14Sep2025 04:09:20.012] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SumireShi joined the game
+[14Sep2025 04:09:20.055] [Server thread/INFO] [antiqueatlas/]: Sent markers data #-1 to player SumireShi
+[14Sep2025 04:09:20.056] [Server thread/INFO] [antiqueatlas/]: Sent custom biome data to player SumireShi
+[14Sep2025 04:09:20.056] [Server thread/INFO] [antiqueatlas/]: Sent custom biome data to player SumireShi
+[14Sep2025 04:09:20.057] [Server thread/INFO] [antiqueatlas/]: Sent custom biome data to player SumireShi
+[14Sep2025 04:09:20.057] [Server thread/INFO] [antiqueatlas/]: Sent custom biome data to player SumireShi
+[14Sep2025 04:09:20.778] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of SumireShi (20)
+[14Sep2025 04:09:20.779] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to SumireShi
+[14Sep2025 04:09:22.455] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Thank you so much for playing Dark Souls Expansion! If you'd like to create a server with your friends, you can do so at
+[14Sep2025 04:11:28.056] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dwiss3: Teleported SumireShi to Dwiss3]
+[14Sep2025 04:11:58.849] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SumireShi has made the advancement [Crops of the Wild]
+[14Sep2025 04:17:37.812] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dwiss3: Gamerule playersSleepingPercentage is now set to: 30]
+[14Sep2025 04:28:46.602] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SumireShi has made the advancement [Stone Age]
+[14Sep2025 04:30:07.031] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SumireShi has made the advancement [Getting an Upgrade]
