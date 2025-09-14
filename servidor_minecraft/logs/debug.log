@@ -5159,3 +5159,124 @@ com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
 [14Sep2025 05:11:41.938] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
 [14Sep2025 05:16:41.930] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
 [14Sep2025 05:16:41.938] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[14Sep2025 05:18:51.753] [Server thread/ERROR] [net.minecraftforge.eventbus.EventBus/EVENTBUS]: Exception caught during firing event: Cannot invoke "net.minecraft.advancements.Advancement.m_138325_()" because "p_135986_" is null
+	Index: 7
+	Listeners:
+		0: NORMAL
+		1: ASM: class net.mcreator.realisticforging.procedures.TwoSticksCraftingAdvancementProcedure onItemCrafted(Lnet/minecraftforge/event/entity/player/PlayerEvent$ItemCraftedEvent;)V
+		2: ASM: class net.mcreator.realisticforging.procedures.CraftingWoodPestleAdvancementProcedure onItemCrafted(Lnet/minecraftforge/event/entity/player/PlayerEvent$ItemCraftedEvent;)V
+		3: ASM: class net.mcreator.realisticforging.procedures.CraftingSmithingAnvilAdvancementProcedure onItemCrafted(Lnet/minecraftforge/event/entity/player/PlayerEvent$ItemCraftedEvent;)V
+		4: ASM: class net.mcreator.realisticforging.procedures.CraftingSmallPanAdvancementProcedureProcedure onItemCrafted(Lnet/minecraftforge/event/entity/player/PlayerEvent$ItemCraftedEvent;)V
+		5: ASM: class net.mcreator.realisticforging.procedures.CraftingSandPaperProcedureProcedure onItemCrafted(Lnet/minecraftforge/event/entity/player/PlayerEvent$ItemCraftedEvent;)V
+		6: ASM: class net.mcreator.realisticforging.procedures.CraftingPointChiselProcedureProcedure onItemCrafted(Lnet/minecraftforge/event/entity/player/PlayerEvent$ItemCraftedEvent;)V
+		7: ASM: class net.mcreator.realisticforging.procedures.CraftingIronSwordAdvancementProcedure onItemCrafted(Lnet/minecraftforge/event/entity/player/PlayerEvent$ItemCraftedEvent;)V
+		8: ASM: class net.mcreator.realisticforging.procedures.CraftingIronArmorAdvancementProcedure onItemCrafted(Lnet/minecraftforge/event/entity/player/PlayerEvent$ItemCraftedEvent;)V
+		9: ASM: class net.mcreator.realisticforging.procedures.CraftingIngotMoldAdvancementProcedure onItemCrafted(Lnet/minecraftforge/event/entity/player/PlayerEvent$ItemCraftedEvent;)V
+		10: ASM: class net.mcreator.realisticforging.procedures.CraftingDiamondSwordProcedureProcedure onItemCrafted(Lnet/minecraftforge/event/entity/player/PlayerEvent$ItemCraftedEvent;)V
+		11: ASM: class net.mcreator.realisticforging.procedures.CraftingCarvingHammerProcedureProcedure onItemCrafted(Lnet/minecraftforge/event/entity/player/PlayerEvent$ItemCraftedEvent;)V
+		12: ASM: class net.mcreator.realisticforging.procedures.CraftingBlankMoldAdvancementProcedure onItemCrafted(Lnet/minecraftforge/event/entity/player/PlayerEvent$ItemCraftedEvent;)V
+		13: ASM: class net.mcreator.realisticforging.procedures.CraftingBlacksmithTongsAdvancementsProcedure onItemCrafted(Lnet/minecraftforge/event/entity/player/PlayerEvent$ItemCraftedEvent;)V
+		14: ASM: class net.mcreator.realisticforging.procedures.CraftingBigPanAdvancementProcedureProcedure onItemCrafted(Lnet/minecraftforge/event/entity/player/PlayerEvent$ItemCraftedEvent;)V
+		15: ASM: class net.mcreator.realisticforging.procedures.CraftSmithingHammerAdvancementProcedure onItemCrafted(Lnet/minecraftforge/event/entity/player/PlayerEvent$ItemCraftedEvent;)V
+java.lang.NullPointerException: Cannot invoke "net.minecraft.advancements.Advancement.m_138325_()" because "p_135986_" is null
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.PlayerAdvancements.m_135985_(PlayerAdvancements.java:307)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.PlayerAdvancements.m_135996_(PlayerAdvancements.java:300)
+	at TRANSFORMER/realisticforgingores@4.1.6/net.mcreator.realisticforging.procedures.CraftingIronSwordAdvancementProcedure.execute(CraftingIronSwordAdvancementProcedure.java:35)
+	at TRANSFORMER/realisticforgingores@4.1.6/net.mcreator.realisticforging.procedures.CraftingIronSwordAdvancementProcedure.onItemCrafted(CraftingIronSwordAdvancementProcedure.java:22)
+	at TRANSFORMER/realisticforgingores@4.1.6/net.mcreator.realisticforging.procedures.__CraftingIronSwordAdvancementProcedure_onItemCrafted_ItemCraftedEvent.invoke(.dynamic)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:315)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:296)
+	at TRANSFORMER/forge@47.4.0/net.minecraftforge.event.ForgeEventFactory.firePlayerCraftingEvent(ForgeEventFactory.java:920)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.inventory.ResultSlot.m_5845_(ResultSlot.java:44)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.inventory.ResultSlot.m_142406_(ResultSlot.java:56)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.inventory.AbstractContainerMenu.m_150418_(AbstractContainerMenu.java:418)
+	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.inventory.AbstractContainerMenu.m_150430_(AbstractContainerMenu.java:416)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.inventory.AbstractContainerMenu.m_150399_(AbstractContainerMenu.java:294)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.network.ServerGamePacketListenerImpl.m_5914_(ServerGamePacketListenerImpl.java:1548)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.game.ServerboundContainerClickPacket.m_5797_(ServerboundContainerClickPacket.java:56)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.game.ServerboundContainerClickPacket.m_5797_(ServerboundContainerClickPacket.java:12)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:22)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.TickTask.run(TickTask.java:18)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_18699_(BlockableEventLoop.java:115)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:732)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+[14Sep2025 05:18:51.755] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/topology/core_id
+[14Sep2025 05:18:51.755] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/topology/core_id
+[14Sep2025 05:18:51.755] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/topology/physical_package_id
+[14Sep2025 05:18:51.755] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/topology/physical_package_id
+[14Sep2025 05:18:51.755] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cpu_capacity
+[14Sep2025 05:18:51.756] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/topology/core_id
+[14Sep2025 05:18:51.756] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/topology/core_id
+[14Sep2025 05:18:51.756] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/topology/physical_package_id
+[14Sep2025 05:18:51.756] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/topology/physical_package_id
+[14Sep2025 05:18:51.756] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cpu_capacity
+[14Sep2025 05:18:51.756] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/topology/core_id
+[14Sep2025 05:18:51.756] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/topology/core_id
+[14Sep2025 05:18:51.756] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/topology/physical_package_id
+[14Sep2025 05:18:51.756] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/topology/physical_package_id
+[14Sep2025 05:18:51.756] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cpu_capacity
+[14Sep2025 05:18:51.757] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/topology/core_id
+[14Sep2025 05:18:51.757] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/topology/core_id
+[14Sep2025 05:18:51.757] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/topology/physical_package_id
+[14Sep2025 05:18:51.757] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/topology/physical_package_id
+[14Sep2025 05:18:51.757] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cpu_capacity
+[14Sep2025 05:18:51.757] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/cpuinfo
+[14Sep2025 05:18:51.765] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/self/auxv
+[14Sep2025 05:18:51.766] [Server thread/DEBUG] [oshi.util.FileUtil/]: No oshi.architecture.properties file found from ClassLoader cpw.mods.modlauncher.TransformingClassLoader@16a2ed51
+[14Sep2025 05:18:51.766] [Server thread/DEBUG] [oshi.util.FileUtil/]: No oshi.architecture.properties file found from ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+[14Sep2025 05:18:51.775] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/meminfo
+[14Sep2025 05:18:51.775] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/meminfo
+[14Sep2025 05:18:51.779] [Server thread/ERROR] [net.minecraft.network.protocol.PacketUtils/]: Failed to handle packet net.minecraft.network.protocol.game.ServerboundContainerClickPacket@7f02be2, suppressing error
+net.minecraft.ReportedException: Container click
+	at net.minecraft.world.inventory.AbstractContainerMenu.m_150399_(AbstractContainerMenu.java:308) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_5914_(ServerGamePacketListenerImpl.java:1548) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at net.minecraft.network.protocol.game.ServerboundContainerClickPacket.m_5797_(ServerboundContainerClickPacket.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at net.minecraft.network.protocol.game.ServerboundContainerClickPacket.m_5797_(ServerboundContainerClickPacket.java:12) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:22) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18699_(BlockableEventLoop.java:115) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:732) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+Caused by: java.lang.NullPointerException: Cannot invoke "net.minecraft.advancements.Advancement.m_138325_()" because "p_135986_" is null
+	at net.minecraft.server.PlayerAdvancements.m_135985_(PlayerAdvancements.java:307) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at net.minecraft.server.PlayerAdvancements.m_135996_(PlayerAdvancements.java:300) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at net.mcreator.realisticforging.procedures.CraftingIronSwordAdvancementProcedure.execute(CraftingIronSwordAdvancementProcedure.java:35) ~[realisticforgingores%20-%20no%20tools%20-4.1.6-forge-1.20.1.jar%23173!/:?]
+	at net.mcreator.realisticforging.procedures.CraftingIronSwordAdvancementProcedure.onItemCrafted(CraftingIronSwordAdvancementProcedure.java:22) ~[realisticforgingores%20-%20no%20tools%20-4.1.6-forge-1.20.1.jar%23173!/:?]
+	at net.mcreator.realisticforging.procedures.__CraftingIronSwordAdvancementProcedure_onItemCrafted_ItemCraftedEvent.invoke(.dynamic) ~[realisticforgingores%20-%20no%20tools%20-4.1.6-forge-1.20.1.jar%23173!/:?]
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:315) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:296) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.event.ForgeEventFactory.firePlayerCraftingEvent(ForgeEventFactory.java:920) ~[forge-1.20.1-47.4.0-universal.jar%23192!/:?]
+	at net.minecraft.world.inventory.ResultSlot.m_5845_(ResultSlot.java:44) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at net.minecraft.world.inventory.ResultSlot.m_142406_(ResultSlot.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at net.minecraft.world.inventory.AbstractContainerMenu.m_150418_(AbstractContainerMenu.java:418) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at java.util.Optional.ifPresent(Optional.java:178) ~[?:?]
+	at net.minecraft.world.inventory.AbstractContainerMenu.m_150430_(AbstractContainerMenu.java:416) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	at net.minecraft.world.inventory.AbstractContainerMenu.m_150399_(AbstractContainerMenu.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
+	... 17 more
+[14Sep2025 05:21:41.925] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[14Sep2025 05:21:41.933] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[14Sep2025 05:23:06.231] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dwiss3: Gamerule keepInventory is now set to: true]
+[14Sep2025 05:26:41.920] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[14Sep2025 05:26:41.927] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
