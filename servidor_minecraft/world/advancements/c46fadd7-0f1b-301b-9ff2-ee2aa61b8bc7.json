@@ -31,13 +31,17 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:snowy_slopes": "2025-09-14 03:16:08 +0000",
       "minecraft:taiga": "2025-09-14 02:16:04 +0000",
+      "minecraft:frozen_river": "2025-09-14 03:20:57 +0000",
       "minecraft:river": "2025-09-13 23:22:04 +0000",
       "minecraft:snowy_plains": "2025-09-14 03:09:15 +0000",
       "minecraft:stony_shore": "2025-09-14 03:10:04 +0000",
       "minecraft:dripstone_caves": "2025-09-14 02:51:09 +0000",
+      "minecraft:snowy_taiga": "2025-09-14 03:21:08 +0000",
       "minecraft:grove": "2025-09-14 03:10:47 +0000",
       "minecraft:forest": "2025-09-13 21:05:05 +0000",
+      "minecraft:frozen_ocean": "2025-09-14 03:14:24 +0000",
       "minecraft:flower_forest": "2025-09-13 23:24:06 +0000",
       "minecraft:meadow": "2025-09-13 23:22:43 +0000",
       "minecraft:plains": "2025-09-13 03:30:21 +0000"
@@ -1590,9 +1594,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_chicken_from_campfire_cooking": {
+    "criteria": {
+      "has_chicken": "2025-09-14 03:25:12 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/baked_potato_from_campfire_cooking": {
     "criteria": {
       "has_potato": "2025-09-14 02:37:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken": {
+    "criteria": {
+      "has_chicken": "2025-09-14 03:25:12 +0000"
     },
     "done": true
   },
@@ -1638,6 +1654,12 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/cooking/chicken_soup": {
+    "criteria": {
+      "has_any_ingredient": "2025-09-14 03:25:12 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/emerald_block": {
     "criteria": {
       "has_emerald": "2025-09-14 02:38:09 +0000"
@@ -1673,6 +1695,12 @@
       "has_herbs": "2025-09-14 02:53:29 +0000"
     },
     "done": true
+  },
+  "farmersdelight:main/plant_all_crops": {
+    "criteria": {
+      "wheat": "2025-09-14 03:24:47 +0000"
+    },
+    "done": false
   },
   "farmersdelight:recipes/cooking/cooked_rice": {
     "criteria": {
@@ -1722,6 +1750,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_chicken_from_smoking": {
+    "criteria": {
+      "has_chicken": "2025-09-14 03:25:12 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/baked_potato_from_smoking": {
     "criteria": {
       "has_potato": "2025-09-14 02:37:57 +0000"
@@ -1767,6 +1801,12 @@
   "medievalembroidery:recipes/misc/seasoned_yak": {
     "criteria": {
       "has_herbs": "2025-09-14 02:53:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/plant_seed": {
+    "criteria": {
+      "wheat": "2025-09-14 03:24:47 +0000"
     },
     "done": true
   },

@@ -4502,3 +4502,36 @@ com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
 [14Sep2025 03:11:36.003] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
 [14Sep2025 03:11:39.312] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ivanzac03 has made the advancement [The Beginning of An Adventure]
 [14Sep2025 03:11:39.313] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ivanzac03 has made the advancement [A Nice-y Look]
+[14Sep2025 03:16:35.989] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[14Sep2025 03:16:35.997] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[14Sep2025 03:18:02.985] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Amalgam5006X has made the advancement [A Seedy Place]
+[14Sep2025 03:18:24.061] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Amalgam5006X> zzzz
+[14Sep2025 03:21:36.006] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[14Sep2025 03:21:36.013] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[14Sep2025 03:21:36.519] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Amalgam5006X> Banda, encontre un tutorial de una casa en el lago
+[14Sep2025 03:22:10.722] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Amalgam5006X> deja se los paso
+[14Sep2025 03:23:49.529] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Amalgam5006X fell from a high place
+[14Sep2025 03:24:47.675] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dwiss3 has made the advancement [A Seedy Place]
+[14Sep2025 03:26:34.621] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Amalgam5006X> encontraron otra aldea?
+[14Sep2025 03:26:35.997] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[14Sep2025 03:26:36.006] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[14Sep2025 03:26:48.057] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/33390, l='ServerLevel[world]', x=139.30, y=75.39, z=-1292.50] died, message: 'Villager froze to death'
+[14Sep2025 03:27:08.780] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Amalgam5006X> entonces hago la casa aqui o me teepeas?
+[14Sep2025 03:27:32.968] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Amalgam5006X> va
+[14Sep2025 03:28:42.223] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ivanzac03 has made the advancement [Ice Bucket Challenge]
+[14Sep2025 03:28:44.456] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Beekeeper'/33197, l='ServerLevel[world]', x=138.30, y=75.00, z=-1291.50] died, message: 'Beekeeper froze to death'
+[14Sep2025 03:29:18.707] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dwiss3 was slain by Direwolf
+[14Sep2025 03:30:45.717] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Amalgam5006X has made the advancement [Monster Hunter]
+[14Sep2025 03:31:35.989] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[14Sep2025 03:31:35.997] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[14Sep2025 03:32:57.213] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/33823, l='ServerLevel[world]', x=115.62, y=70.00, z=-1388.31] died, message: 'Villager was slain by Zombie'
+[14Sep2025 03:35:12.064] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Amalgam5006X> ya me tengo que ir
+[14Sep2025 03:35:30.066] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Amalgam5006X> deje madera y piedra en el cofre de la casa de en frente
+[14Sep2025 03:35:42.573] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amalgam5006X lost connection: Disconnected
+[14Sep2025 03:35:42.573] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Amalgam5006X left the game
+[14Sep2025 03:35:42.573] [Server thread/DEBUG] [voicechat/]: [voicechat] Removing state of Amalgam5006X
+[14Sep2025 03:35:42.573] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Amalgam5006X
+[14Sep2025 03:35:52.904] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ivanzac03 lost connection: Disconnected
+[14Sep2025 03:35:52.904] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ivanzac03 left the game
+[14Sep2025 03:35:52.905] [Server thread/DEBUG] [voicechat/]: [voicechat] Removing state of Ivanzac03
+[14Sep2025 03:35:52.905] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Ivanzac03

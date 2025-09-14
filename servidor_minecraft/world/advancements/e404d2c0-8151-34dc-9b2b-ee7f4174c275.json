@@ -37,13 +37,17 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:snowy_slopes": "2025-09-14 03:16:08 +0000",
       "minecraft:taiga": "2025-09-14 02:36:23 +0000",
+      "minecraft:frozen_river": "2025-09-14 03:21:03 +0000",
       "minecraft:river": "2025-09-14 02:35:42 +0000",
       "minecraft:snowy_plains": "2025-09-14 03:09:44 +0000",
       "minecraft:stony_shore": "2025-09-14 03:09:55 +0000",
       "minecraft:dripstone_caves": "2025-09-14 02:51:11 +0000",
+      "minecraft:snowy_taiga": "2025-09-14 03:21:07 +0000",
       "minecraft:grove": "2025-09-14 03:03:38 +0000",
       "minecraft:forest": "2025-09-14 02:34:39 +0000",
+      "minecraft:frozen_ocean": "2025-09-14 03:14:58 +0000",
       "minecraft:plains": "2025-09-14 02:18:04 +0000"
     },
     "done": false
@@ -1238,7 +1242,8 @@
       "minecraft:skeleton": "2025-09-14 02:51:42 +0000",
       "minecraft:spider": "2025-09-14 02:55:36 +0000",
       "minecraft:creeper": "2025-09-14 02:52:06 +0000",
-      "minecraft:zombie": "2025-09-14 02:30:37 +0000"
+      "minecraft:zombie": "2025-09-14 02:30:37 +0000",
+      "minecraft:zombie_villager": "2025-09-14 03:13:04 +0000"
     },
     "done": false
   },
@@ -1632,6 +1637,42 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/melon_seeds": {
+    "criteria": {
+      "has_melon": "2025-09-14 03:28:26 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/melon_juice": {
+    "criteria": {
+      "has_melon_slice": "2025-09-14 03:28:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_mutton_from_smoking": {
+    "criteria": {
+      "has_mutton": "2025-09-14 03:26:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_diorite_stairs": {
+    "criteria": {
+      "has_polished_diorite": "2025-09-14 03:27:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/golden_axe": {
+    "criteria": {
+      "has_gold_ingot": "2025-09-14 03:28:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/golden_pickaxe": {
+    "criteria": {
+      "has_gold_ingot": "2025-09-14 03:28:14 +0000"
+    },
+    "done": true
+  },
   "minecraft:nether/brew_potion": {
     "criteria": {
       "potion": "2025-09-14 03:11:26 +0000"
@@ -1641,6 +1682,264 @@
   "minecraft:recipes/misc/white_dye": {
     "criteria": {
       "has_bone_meal": "2025-09-14 03:08:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget": {
+    "criteria": {
+      "has_gold_ingot": "2025-09-14 03:28:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/golden_shovel": {
+    "criteria": {
+      "has_gold_ingot": "2025-09-14 03:28:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/golden_apple": {
+    "criteria": {
+      "has_gold_ingot": "2025-09-14 03:28:14 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/melon_popsicle": {
+    "criteria": {
+      "has_melon": "2025-09-14 03:28:26 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/healing_crystal_ball": {
+    "criteria": {
+      "has_gold": "2025-09-14 03:28:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/snow": {
+    "criteria": {
+      "has_snowball": "2025-09-14 03:26:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_boots": {
+    "criteria": {
+      "has_gold_ingot": "2025-09-14 03:28:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_helmet": {
+    "criteria": {
+      "has_gold_ingot": "2025-09-14 03:28:14 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/assistive_crystal_ball": {
+    "criteria": {
+      "has_gold": "2025-09-14 03:28:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/glow_item_frame": {
+    "criteria": {
+      "has_item_frame": "2025-09-14 03:28:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/smoker": {
+    "criteria": {
+      "has_furnace": "2025-09-14 03:26:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_chestplate": {
+    "criteria": {
+      "has_gold_ingot": "2025-09-14 03:28:14 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/combat/golden_knife": {
+    "criteria": {
+      "has_gold_ingot": "2025-09-14 03:28:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/spruce_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2025-09-14 03:30:15 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/apple_cider": {
+    "criteria": {
+      "has_apple": "2025-09-14 03:28:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/light_weighted_pressure_plate": {
+    "criteria": {
+      "has_gold_ingot": "2025-09-14 03:28:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_spruce_wood": {
+    "criteria": {
+      "has_log": "2025-09-14 03:30:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_diorite_slab": {
+    "criteria": {
+      "has_polished_diorite": "2025-09-14 03:27:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/glistering_melon_slice": {
+    "criteria": {
+      "has_melon": "2025-09-14 03:28:26 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/roasted_mutton_chops": {
+    "criteria": {
+      "has_mutton": "2025-09-14 03:26:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_mutton": {
+    "criteria": {
+      "has_mutton": "2025-09-14 03:26:47 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/protective_crystal_ball": {
+    "criteria": {
+      "has_gold": "2025-09-14 03:28:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/flint_and_steel": {
+    "criteria": {
+      "has_obsidian": "2025-09-14 03:28:42 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/obsidian_shard": {
+    "criteria": {
+      "has_obsidian": "2025-09-14 03:28:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2025-09-14 03:28:42 +0000"
+    },
+    "done": true
+  },
+  "endrem:main/cold_eye": {
+    "criteria": {
+      "cold_eye": "2025-09-14 03:11:39 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/apple_seed": {
+    "criteria": {
+      "has_apple": "2025-09-14 03:28:27 +0000"
+    },
+    "done": true
+  },
+  "endrem:main/root": {
+    "criteria": {
+      "cold_eye": "2025-09-14 03:11:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/melon": {
+    "criteria": {
+      "has_melon": "2025-09-14 03:28:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_mutton_from_campfire_cooking": {
+    "criteria": {
+      "has_mutton": "2025-09-14 03:26:47 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/pasta_with_mutton_chop": {
+    "criteria": {
+      "has_any_ingredient": "2025-09-14 03:26:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_sword": {
+    "criteria": {
+      "has_gold_ingot": "2025-09-14 03:28:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/gold_block": {
+    "criteria": {
+      "has_gold_ingot": "2025-09-14 03:28:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_diorite_stairs_from_polished_diorite_stonecutting": {
+    "criteria": {
+      "has_polished_diorite": "2025-09-14 03:27:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_diorite_slab_from_polished_diorite_stonecutting": {
+    "criteria": {
+      "has_polished_diorite": "2025-09-14 03:27:39 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/shepherds_pie_block": {
+    "criteria": {
+      "has_cooked_mutton": "2025-09-14 03:26:08 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/mutton_wrap": {
+    "criteria": {
+      "has_mutton": "2025-09-14 03:26:08 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/conjuring_crystal_ball": {
+    "criteria": {
+      "has_gold": "2025-09-14 03:28:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/golden_hoe": {
+    "criteria": {
+      "has_gold_ingot": "2025-09-14 03:28:14 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/destructive_crystal_ball": {
+    "criteria": {
+      "has_gold": "2025-09-14 03:28:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/enchanting_table": {
+    "criteria": {
+      "has_obsidian": "2025-09-14 03:28:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/snow_block": {
+    "criteria": {
+      "has_snowball": "2025-09-14 03:26:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_leggings": {
+    "criteria": {
+      "has_gold_ingot": "2025-09-14 03:28:14 +0000"
     },
     "done": true
   },
