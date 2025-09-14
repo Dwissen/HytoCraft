@@ -31,6 +31,7 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:taiga": "2025-09-14 02:16:04 +0000",
       "minecraft:river": "2025-09-13 23:22:04 +0000",
       "minecraft:forest": "2025-09-13 21:05:05 +0000",
       "minecraft:flower_forest": "2025-09-13 23:24:06 +0000",
@@ -1562,6 +1563,24 @@
   "minecraft:recipes/transportation/dark_oak_boat": {
     "criteria": {
       "in_water": "2025-09-13 23:22:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/clay": {
+    "criteria": {
+      "has_clay_ball": "2025-09-14 02:21:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/brick": {
+    "criteria": {
+      "has_clay_ball": "2025-09-14 02:21:26 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/cup_clay": {
+    "criteria": {
+      "has_cup_clay": "2025-09-14 02:21:26 +0000"
     },
     "done": true
   },

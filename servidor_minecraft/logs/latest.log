@@ -1203,3 +1203,17 @@ com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
 [14Sep2025 02:14:28.159] [Worker-Main-2/ERROR] [net.minecraft.world.level.block.entity.SculkShriekerBlockEntity/]: No key selector in MapLike[{event_delay:0,event_distance:6.0f,range:8,source:{pos:[I;-158,-48,-366],type:"minecraft:block"}}]
 [14Sep2025 02:14:28.247] [Worker-Main-3/ERROR] [net.minecraft.world.level.block.entity.SculkSensorBlockEntity/]: No key selector in MapLike[{event_delay:0,event_distance:7.8740077f,range:8,source:{pos:[I;-150,-54,-359],type:"minecraft:block"}}]
 [14Sep2025 02:14:28.248] [Worker-Main-3/ERROR] [net.minecraft.world.level.block.entity.SculkSensorBlockEntity/]: No key selector in MapLike[{event_delay:0,event_distance:4.826741f,range:8,source:{pos:[I;-154,-53,-365],type:"minecraft:block"}}]
+[14Sep2025 02:18:03.806] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Ivanzac03[/127.25.108.39:57399] logged in with entity id 4702 at (-134.5, 76.0, -103.5)
+[14Sep2025 02:18:03.815] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ivanzac03 joined the game
+[14Sep2025 02:18:03.910] [Server thread/INFO] [antiqueatlas/]: Sent markers data #-1 to player Ivanzac03
+[14Sep2025 02:18:03.911] [Server thread/INFO] [antiqueatlas/]: Sent custom biome data to player Ivanzac03
+[14Sep2025 02:18:03.911] [Server thread/INFO] [antiqueatlas/]: Sent custom biome data to player Ivanzac03
+[14Sep2025 02:18:03.912] [Server thread/INFO] [antiqueatlas/]: Sent custom biome data to player Ivanzac03
+[14Sep2025 02:18:03.912] [Server thread/INFO] [antiqueatlas/]: Sent custom biome data to player Ivanzac03
+[14Sep2025 02:18:04.887] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Ivanzac03 (20)
+[14Sep2025 02:18:04.887] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Ivanzac03
+[14Sep2025 02:18:06.258] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Thank you so much for playing Dark Souls Expansion! If you'd like to create a server with your friends, you can do so at
+[14Sep2025 02:21:56.056] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ivanzac03 has made the advancement [Stone Age]
+[14Sep2025 02:22:18.507] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ivanzac03 has made the advancement [Getting an Upgrade]
+[14Sep2025 02:22:56.548] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dwiss3 was slain by Iron Golem
+[14Sep2025 02:24:23.903] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ivanzac03 has made the advancement [Acquire Hardware]
