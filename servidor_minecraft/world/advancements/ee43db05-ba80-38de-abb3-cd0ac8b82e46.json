@@ -44,87 +44,113 @@
     },
     "done": false
   },
-  "minecraft:recipes/redstone/lever": {
+  "minecraft:recipes/transportation/cherry_boat": {
     "criteria": {
-      "has_cobblestone": "2025-09-14 04:28:46 +0000"
+      "in_water": "2025-09-14 04:11:32 +0000"
     },
     "done": true
   },
-  "farmersdelight:recipes/cooking/dog_food": {
+  "minecraft:recipes/transportation/bamboo_raft": {
     "criteria": {
-      "has_any_ingredient": "2025-09-14 04:40:50 +0000"
+      "in_water": "2025-09-14 04:11:32 +0000"
     },
     "done": true
   },
-  "farmersdelight:recipes/food/fried_egg_from_smoking": {
+  "minecraft:recipes/transportation/spruce_boat": {
     "criteria": {
-      "fried_egg": "2025-09-14 04:17:07 +0000"
+      "in_water": "2025-09-14 04:11:32 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/combat/leather_helmet": {
+  "minecraft:recipes/transportation/birch_boat": {
     "criteria": {
-      "has_leather": "2025-09-14 04:30:27 +0000"
+      "in_water": "2025-09-14 04:11:32 +0000"
     },
     "done": true
   },
-  "farmersdelight:recipes/cooking/mushroom_rice": {
+  "minecraft:recipes/transportation/oak_boat": {
     "criteria": {
-      "has_any_ingredient": "2025-09-14 04:41:13 +0000"
+      "in_water": "2025-09-14 04:11:32 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/ladder": {
+  "minecraft:recipes/transportation/mangrove_boat": {
     "criteria": {
-      "has_stick": "2025-09-14 04:28:41 +0000"
+      "in_water": "2025-09-14 04:11:32 +0000"
     },
     "done": true
   },
-  "medievalembroidery:recipes/misc/apple_cider": {
+  "minecraft:recipes/transportation/acacia_boat": {
     "criteria": {
-      "has_water": "2025-09-14 04:41:14 +0000"
+      "in_water": "2025-09-14 04:11:32 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/food/cake": {
+  "minecraft:recipes/transportation/jungle_boat": {
     "criteria": {
-      "has_egg": "2025-09-14 04:17:07 +0000"
+      "in_water": "2025-09-14 04:11:32 +0000"
     },
     "done": true
   },
-  "medievalembroidery:recipes/misc/water": {
+  "minecraft:recipes/transportation/dark_oak_boat": {
     "criteria": {
-      "has_water": "2025-09-14 04:41:14 +0000"
+      "in_water": "2025-09-14 04:11:32 +0000"
     },
     "done": true
   },
-  "farmersdelight:recipes/food/bread_from_smelting": {
+  "minecraft:husbandry/root": {
     "criteria": {
-      "has_dough": "2025-09-14 04:16:18 +0000"
+      "consumed_item": "2025-09-14 04:11:49 +0000"
     },
     "done": true
   },
-  "medievalembroidery:recipes/misc/emerald_shovel": {
+  "minecraft:husbandry/balanced_diet": {
     "criteria": {
-      "has_stick": "2025-09-14 04:28:41 +0000"
+      "cooked_beef": "2025-09-14 04:25:05 +0000",
+      "apple": "2025-09-14 04:38:43 +0000",
+      "bread": "2025-09-14 04:11:49 +0000"
+    },
+    "done": false
+  },
+  "farmersdelight:recipes/food/barbecue_stick": {
+    "criteria": {
+      "has_tomato": "2025-09-14 04:11:52 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/combat/leather_leggings": {
+  "farmersdelight:recipes/cooking/baked_cod_stew": {
     "criteria": {
-      "has_leather": "2025-09-14 04:30:27 +0000"
+      "has_any_ingredient": "2025-09-14 04:11:52 +0000"
     },
     "done": true
   },
-  "farmersdelight:recipes/building_blocks/straw_bale": {
+  "farmersdelight:recipes/cooking/squid_ink_pasta": {
     "criteria": {
-      "has_straw": "2025-09-14 04:40:48 +0000"
+      "has_any_ingredient": "2025-09-14 04:11:52 +0000"
     },
     "done": true
   },
-  "medievalembroidery:recipes/misc/froststone_axe": {
+  "farmersdelight:recipes/building_blocks/tomato_crate": {
     "criteria": {
-      "has_stick": "2025-09-14 04:28:41 +0000"
+      "has_tomato": "2025-09-14 04:11:52 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/tomato_sauce": {
+    "criteria": {
+      "has_tomato": "2025-09-14 04:11:52 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/ratatouille": {
+    "criteria": {
+      "has_any_ingredient": "2025-09-14 04:11:52 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/misc/tomato_seeds": {
+    "criteria": {
+      "has_tomato": "2025-09-14 04:11:52 +0000"
     },
     "done": true
   },
@@ -134,87 +160,99 @@
     },
     "done": true
   },
-  "medievalembroidery:recipes/misc/depthstone_greatsword": {
+  "farmersdelight:main/get_fd_seed": {
     "criteria": {
-      "has_stick": "2025-09-14 04:28:41 +0000"
+      "onion": "2025-09-14 04:11:58 +0000"
     },
     "done": true
   },
-  "yyzsbackpack:recipes/netherite_backpack": {
+  "farmersdelight:recipes/cooking/fried_rice": {
     "criteria": {
-      "has_leather": "2025-09-14 04:30:27 +0000"
+      "has_any_ingredient": "2025-09-14 04:11:58 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/redstone/dark_oak_fence_gate": {
+  "farmersdelight:recipes/cooking/dumplings": {
     "criteria": {
-      "has_planks": "2025-09-14 04:43:18 +0000"
+      "has_any_ingredient": "2025-09-14 04:11:58 +0000"
     },
     "done": true
   },
-  "medievalembroidery:recipes/misc/froststone_warhammer": {
+  "farmersdelight:recipes/building_blocks/onion_crate": {
     "criteria": {
-      "has_stick": "2025-09-14 04:28:41 +0000"
+      "has_onion": "2025-09-14 04:11:58 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/food/cooked_mutton_from_smoking": {
+  "farmersdelight:recipes/cooking/vegetable_soup": {
     "criteria": {
-      "has_mutton": "2025-09-14 04:39:34 +0000"
+      "has_any_ingredient": "2025-09-14 04:11:58 +0000"
     },
     "done": true
   },
-  "medievalembroidery:recipes/misc/froststone_greatsword": {
+  "minecraft:recipes/food/bread": {
     "criteria": {
-      "has_stick": "2025-09-14 04:28:41 +0000"
+      "has_wheat": "2025-09-14 04:13:07 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/food/baked_potato_from_campfire_cooking": {
+  "minecraft:recipes/building_blocks/hay_block": {
     "criteria": {
-      "has_potato": "2025-09-14 04:39:52 +0000"
+      "has_wheat": "2025-09-14 04:13:07 +0000"
     },
     "done": true
   },
-  "medievalembroidery:recipes/misc/astrostone_shovel": {
+  "medievalembroidery:recipes/misc/flour": {
     "criteria": {
-      "has_stick": "2025-09-14 04:28:41 +0000"
+      "has_wheat": "2025-09-14 04:13:07 +0000"
     },
     "done": true
   },
-  "medievalembroidery:recipes/misc/seastone_pickaxe": {
+  "medievalembroidery:recipes/misc/malted_grain": {
     "criteria": {
-      "has_stick": "2025-09-14 04:28:41 +0000"
+      "has_wheat": "2025-09-14 04:13:07 +0000"
     },
     "done": true
   },
-  "medievalembroidery:recipes/misc/porcini": {
+  "farmersdelight:recipes/food/pie_crust": {
     "criteria": {
-      "has_mushroom": "2025-09-14 04:41:13 +0000"
+      "has_wheat": "2025-09-14 04:13:07 +0000"
     },
     "done": true
   },
-  "farmersdelight:recipes/cooking/rabbit_stew": {
+  "farmersdelight:recipes/food/wheat_dough_from_egg": {
     "criteria": {
-      "has_any_ingredient": "2025-09-14 04:41:13 +0000"
+      "has_wheat": "2025-09-14 04:13:07 +0000"
     },
     "done": true
   },
-  "medievalembroidery:recipes/misc/obsidian_warhammer": {
+  "farmersdelight:main/harvest_ropelogged_tomato": {
     "criteria": {
-      "has_stick": "2025-09-14 04:28:41 +0000"
+      "harvest_ropelogged_tomato": "2025-09-14 04:13:14 +0000"
     },
     "done": true
   },
-  "medievalembroidery:recipes/misc/obsidian_sword": {
+  "minecraft:recipes/decorations/glow_item_frame": {
     "criteria": {
-      "has_stick": "2025-09-14 04:28:41 +0000"
+      "has_item_frame": "2025-09-14 04:13:43 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/redstone/dark_oak_trapdoor": {
+  "minecraft:recipes/misc/charcoal": {
     "criteria": {
-      "has_planks": "2025-09-14 04:43:18 +0000"
+      "has_log": "2025-09-14 04:15:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_planks": {
+    "criteria": {
+      "has_logs": "2025-09-14 04:15:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_wood": {
+    "criteria": {
+      "has_log": "2025-09-14 04:15:12 +0000"
     },
     "done": true
   },
@@ -230,21 +268,273 @@
     },
     "done": true
   },
-  "minecraft:recipes/combat/stone_sword": {
+  "minecraft:recipes/misc/stick": {
     "criteria": {
-      "has_cobblestone": "2025-09-14 04:28:46 +0000"
+      "has_planks": "2025-09-14 04:15:17 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/cobblestone_wall": {
+  "minecraft:recipes/building_blocks/oak_stairs": {
     "criteria": {
-      "has_cobblestone": "2025-09-14 04:28:46 +0000"
+      "has_planks": "2025-09-14 04:15:17 +0000"
     },
     "done": true
   },
-  "medievalembroidery:recipes/misc/lemon_tea": {
+  "minecraft:recipes/decorations/oak_fence": {
     "criteria": {
-      "has_water": "2025-09-14 04:41:14 +0000"
+      "has_planks": "2025-09-14 04:15:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_button": {
+    "criteria": {
+      "has_planks": "2025-09-14 04:15:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_slab": {
+    "criteria": {
+      "has_planks": "2025-09-14 04:15:17 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/utensil_wooden": {
+    "criteria": {
+      "has_uten_wooden": "2025-09-14 04:15:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_fence_gate": {
+    "criteria": {
+      "has_planks": "2025-09-14 04:15:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-09-14 04:15:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_door": {
+    "criteria": {
+      "has_planks": "2025-09-14 04:15:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/barrel": {
+    "criteria": {
+      "has_planks": "2025-09-14 04:15:17 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/plate": {
+    "criteria": {
+      "has_plate": "2025-09-14 04:15:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2025-09-14 04:15:35 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/bread_from_smelting": {
+    "criteria": {
+      "has_dough": "2025-09-14 04:16:18 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/bread_from_smoking": {
+    "criteria": {
+      "has_dough": "2025-09-14 04:16:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/coal_block": {
+    "criteria": {
+      "has_coal": "2025-09-14 04:16:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/campfire": {
+    "criteria": {
+      "has_coal": "2025-09-14 04:16:59 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/fried_egg_from_smoking": {
+    "criteria": {
+      "fried_egg": "2025-09-14 04:17:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cake": {
+    "criteria": {
+      "has_egg": "2025-09-14 04:17:07 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/fried_egg_from_campfire_cooking": {
+    "criteria": {
+      "fried_egg": "2025-09-14 04:17:07 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/fried_egg": {
+    "criteria": {
+      "fried_egg": "2025-09-14 04:17:07 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/seasoned_matsutake": {
+    "criteria": {
+      "has_herbs": "2025-09-14 04:21:56 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/seasoned_elk": {
+    "criteria": {
+      "has_herbs": "2025-09-14 04:21:56 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/seasoned_oyster": {
+    "criteria": {
+      "has_herbs": "2025-09-14 04:21:56 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/seasoned_porcini": {
+    "criteria": {
+      "has_herbs": "2025-09-14 04:21:56 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/seasoned_blewit": {
+    "criteria": {
+      "has_herbs": "2025-09-14 04:21:56 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/seasoned_honey": {
+    "criteria": {
+      "has_herbs": "2025-09-14 04:21:56 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/seasoned_direwolf": {
+    "criteria": {
+      "has_herbs": "2025-09-14 04:21:56 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/seasoned_king": {
+    "criteria": {
+      "has_herbs": "2025-09-14 04:21:56 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/seasoned_yellowfoot": {
+    "criteria": {
+      "has_herbs": "2025-09-14 04:21:56 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/seasoned_yak": {
+    "criteria": {
+      "has_herbs": "2025-09-14 04:21:56 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/seasoned_woods_chicken": {
+    "criteria": {
+      "has_herbs": "2025-09-14 04:21:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2025-09-14 04:27:52 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/apple_cider": {
+    "criteria": {
+      "has_apple": "2025-09-14 04:27:52 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/apple_seed": {
+    "criteria": {
+      "has_apple": "2025-09-14 04:27:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_pickaxe": {
+    "criteria": {
+      "has_the_recipe": "2025-09-14 04:28:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/ladder": {
+    "criteria": {
+      "has_stick": "2025-09-14 04:28:41 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/emerald_shovel": {
+    "criteria": {
+      "has_stick": "2025-09-14 04:28:41 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/froststone_axe": {
+    "criteria": {
+      "has_stick": "2025-09-14 04:28:41 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/depthstone_greatsword": {
+    "criteria": {
+      "has_stick": "2025-09-14 04:28:41 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/froststone_warhammer": {
+    "criteria": {
+      "has_stick": "2025-09-14 04:28:41 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/froststone_greatsword": {
+    "criteria": {
+      "has_stick": "2025-09-14 04:28:41 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/astrostone_shovel": {
+    "criteria": {
+      "has_stick": "2025-09-14 04:28:41 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/seastone_pickaxe": {
+    "criteria": {
+      "has_stick": "2025-09-14 04:28:41 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/obsidian_warhammer": {
+    "criteria": {
+      "has_stick": "2025-09-14 04:28:41 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/obsidian_sword": {
+    "criteria": {
+      "has_stick": "2025-09-14 04:28:41 +0000"
     },
     "done": true
   },
@@ -260,12 +550,6 @@
     },
     "done": true
   },
-  "medievalembroidery:recipes/misc/ale": {
-    "criteria": {
-      "has_water": "2025-09-14 04:41:14 +0000"
-    },
-    "done": true
-  },
   "medievalembroidery:recipes/misc/seastone_shovel": {
     "criteria": {
       "has_stick": "2025-09-14 04:28:41 +0000"
@@ -275,42 +559,6 @@
   "medievalembroidery:recipes/misc/skystone_battleaxe": {
     "criteria": {
       "has_stick": "2025-09-14 04:28:41 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/stone_axe": {
-    "criteria": {
-      "has_cobblestone": "2025-09-14 04:28:46 +0000"
-    },
-    "done": true
-  },
-  "medievalembroidery:recipes/misc/blewit": {
-    "criteria": {
-      "has_mushroom": "2025-09-14 04:41:13 +0000"
-    },
-    "done": true
-  },
-  "medievalembroidery:recipes/misc/seasoned_matsutake": {
-    "criteria": {
-      "has_herbs": "2025-09-14 04:21:56 +0000"
-    },
-    "done": true
-  },
-  "yyzsbackpack:recipes/gold_backpack": {
-    "criteria": {
-      "has_leather": "2025-09-14 04:30:27 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/cooking/mushroom_stew": {
-    "criteria": {
-      "has_any_ingredient": "2025-09-14 04:41:13 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/white_dye": {
-    "criteria": {
-      "has_bone_meal": "2025-09-14 04:40:50 +0000"
     },
     "done": true
   },
@@ -326,24 +574,6 @@
     },
     "done": true
   },
-  "minecraft:story/mine_stone": {
-    "criteria": {
-      "get_stone": "2025-09-14 04:28:46 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/furnace": {
-    "criteria": {
-      "has_cobblestone": "2025-09-14 04:28:46 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/tools/lead_from_straw": {
-    "criteria": {
-      "has_straw": "2025-09-14 04:40:48 +0000"
-    },
-    "done": true
-  },
   "medievalembroidery:recipes/misc/firestone_warhammer": {
     "criteria": {
       "has_stick": "2025-09-14 04:28:41 +0000"
@@ -353,24 +583,6 @@
   "medievalembroidery:recipes/misc/skystone_shovel": {
     "criteria": {
       "has_stick": "2025-09-14 04:28:41 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/bowl": {
-    "criteria": {
-      "has_brown_mushroom": "2025-09-14 04:41:13 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/food/cooked_mutton_chops": {
-    "criteria": {
-      "cooked_mutton_chops": "2025-09-14 04:39:24 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/baked_potato": {
-    "criteria": {
-      "has_potato": "2025-09-14 04:39:52 +0000"
     },
     "done": true
   },
@@ -386,27 +598,9 @@
     },
     "done": true
   },
-  "medievalembroidery:recipes/misc/herbal_mead": {
-    "criteria": {
-      "has_water": "2025-09-14 04:41:14 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/wooden_axe": {
     "criteria": {
       "has_stick": "2025-09-14 04:28:41 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/food/beef_patty_from_campfire_cooking": {
-    "criteria": {
-      "beef_patty": "2025-09-14 04:42:45 +0000"
-    },
-    "done": true
-  },
-  "yyzsbackpack:recipes/diamond_backpack": {
-    "criteria": {
-      "has_leather": "2025-09-14 04:30:27 +0000"
     },
     "done": true
   },
@@ -416,45 +610,9 @@
     },
     "done": true
   },
-  "farmersdelight:recipes/cooking/noodle_soup": {
-    "criteria": {
-      "has_any_ingredient": "2025-09-14 04:30:32 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/painting": {
-    "criteria": {
-      "has_wool": "2025-09-14 04:43:38 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:main/get_fd_seed": {
-    "criteria": {
-      "onion": "2025-09-14 04:11:58 +0000"
-    },
-    "done": true
-  },
   "medievalembroidery:recipes/misc/froststone_shovel": {
     "criteria": {
       "has_stick": "2025-09-14 04:28:41 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/leather_chestplate": {
-    "criteria": {
-      "has_leather": "2025-09-14 04:30:27 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/composter": {
-    "criteria": {
-      "has_wood_slab": "2025-09-14 04:43:32 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/glow_item_frame": {
-    "criteria": {
-      "has_item_frame": "2025-09-14 04:13:43 +0000"
     },
     "done": true
   },
@@ -464,111 +622,15 @@
     },
     "done": true
   },
-  "farmersdelight:recipes/food/fried_egg_from_campfire_cooking": {
-    "criteria": {
-      "fried_egg": "2025-09-14 04:17:07 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/cooking/vegetable_noodles": {
-    "criteria": {
-      "has_any_ingredient": "2025-09-14 04:41:13 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/chest": {
-    "criteria": {
-      "has_lots_of_items": "2025-09-14 04:27:52 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/dark_oak_button": {
-    "criteria": {
-      "has_planks": "2025-09-14 04:43:18 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/stick": {
-    "criteria": {
-      "has_planks": "2025-09-14 04:15:17 +0000"
-    },
-    "done": true
-  },
   "medievalembroidery:recipes/misc/firestone_axe": {
     "criteria": {
       "has_stick": "2025-09-14 04:28:41 +0000"
     },
     "done": true
   },
-  "farmersdelight:recipes/misc/paper_from_tree_bark": {
-    "criteria": {
-      "has_tree_bark": "2025-09-14 04:40:46 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/cooking/cabbage_rolls": {
-    "criteria": {
-      "has_any_ingredient": "2025-09-14 04:45:34 +0000"
-    },
-    "done": true
-  },
-  "medievalembroidery:recipes/misc/seasoned_elk": {
-    "criteria": {
-      "has_herbs": "2025-09-14 04:21:56 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/cobblestone_slab_from_cobblestone_stonecutting": {
-    "criteria": {
-      "has_cobblestone": "2025-09-14 04:28:46 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/oak_stairs": {
-    "criteria": {
-      "has_planks": "2025-09-14 04:15:17 +0000"
-    },
-    "done": true
-  },
   "medievalembroidery:recipes/misc/depthstone_warhammer": {
     "criteria": {
       "has_stick": "2025-09-14 04:28:41 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/cherry_boat": {
-    "criteria": {
-      "in_water": "2025-09-14 04:11:32 +0000"
-    },
-    "done": true
-  },
-  "medievalembroidery:recipes/misc/seasoned_oyster": {
-    "criteria": {
-      "has_herbs": "2025-09-14 04:21:56 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/oak_fence": {
-    "criteria": {
-      "has_planks": "2025-09-14 04:15:17 +0000"
-    },
-    "done": true
-  },
-  "medievalembroidery:recipes/misc/hawthorn_mead": {
-    "criteria": {
-      "has_water": "2025-09-14 04:41:14 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_porkchop_from_campfire_cooking": {
-    "criteria": {
-      "has_porkchop": "2025-09-14 04:30:32 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/cooking/pumpkin_soup": {
-    "criteria": {
-      "has_any_ingredient": "2025-09-14 04:30:32 +0000"
     },
     "done": true
   },
@@ -608,75 +670,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/stone": {
-    "criteria": {
-      "has_cobblestone": "2025-09-14 04:28:46 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/food/barbecue_stick": {
-    "criteria": {
-      "has_tomato": "2025-09-14 04:11:52 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/bamboo_raft": {
-    "criteria": {
-      "in_water": "2025-09-14 04:11:32 +0000"
-    },
-    "done": true
-  },
-  "yyzsbackpack:recipes/iron_backpack": {
-    "criteria": {
-      "has_leather": "2025-09-14 04:30:27 +0000"
-    },
-    "done": true
-  },
-  "medievalembroidery:recipes/misc/seasoned_porcini": {
-    "criteria": {
-      "has_herbs": "2025-09-14 04:21:56 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/cooking/baked_cod_stew": {
-    "criteria": {
-      "has_any_ingredient": "2025-09-14 04:11:52 +0000"
-    },
-    "done": true
-  },
   "medievalembroidery:recipes/misc/froststone_sword": {
     "criteria": {
       "has_stick": "2025-09-14 04:28:41 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/food/bread": {
-    "criteria": {
-      "has_wheat": "2025-09-14 04:13:07 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/spruce_boat": {
-    "criteria": {
-      "in_water": "2025-09-14 04:11:32 +0000"
-    },
-    "done": true
-  },
   "medievalembroidery:recipes/misc/seastone_sword": {
     "criteria": {
       "has_stick": "2025-09-14 04:28:41 +0000"
-    },
-    "done": true
-  },
-  "medievalembroidery:recipes/misc/yellowfoot": {
-    "criteria": {
-      "has_mushroom": "2025-09-14 04:41:13 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/misc/canvas": {
-    "criteria": {
-      "has_straw": "2025-09-14 04:40:48 +0000"
     },
     "done": true
   },
@@ -689,60 +691,6 @@
   "medievalembroidery:recipes/misc/astrostone_greatsword": {
     "criteria": {
       "has_stick": "2025-09-14 04:28:41 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/hay_block": {
-    "criteria": {
-      "has_wheat": "2025-09-14 04:13:07 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/leather_horse_armor": {
-    "criteria": {
-      "has_leather": "2025-09-14 04:30:27 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/food/cooked_mutton_chops_from_smoking": {
-    "criteria": {
-      "cooked_mutton_chops": "2025-09-14 04:39:24 +0000"
-    },
-    "done": true
-  },
-  "minecraft:husbandry/root": {
-    "criteria": {
-      "consumed_item": "2025-09-14 04:11:49 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/cooking/apple_cider": {
-    "criteria": {
-      "has_apple": "2025-09-14 04:27:52 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/birch_boat": {
-    "criteria": {
-      "in_water": "2025-09-14 04:11:32 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dark_oak_stairs": {
-    "criteria": {
-      "has_planks": "2025-09-14 04:43:18 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/cooking/squid_ink_pasta": {
-    "criteria": {
-      "has_any_ingredient": "2025-09-14 04:11:52 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/white_carpet": {
-    "criteria": {
-      "has_white_wool": "2025-09-14 04:43:38 +0000"
     },
     "done": true
   },
@@ -764,12 +712,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/transportation/oak_boat": {
-    "criteria": {
-      "in_water": "2025-09-14 04:11:32 +0000"
-    },
-    "done": true
-  },
   "medievalembroidery:recipes/misc/emerald_hoe": {
     "criteria": {
       "has_stick": "2025-09-14 04:28:41 +0000"
@@ -788,57 +730,9 @@
     },
     "done": true
   },
-  "farmersdelight:recipes/food/bread_from_smoking": {
-    "criteria": {
-      "has_dough": "2025-09-14 04:16:18 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/cooking/cooked_rice": {
-    "criteria": {
-      "has_rice": "2025-09-14 04:44:47 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/coal_block": {
-    "criteria": {
-      "has_coal": "2025-09-14 04:16:59 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/cooking/fried_rice": {
-    "criteria": {
-      "has_any_ingredient": "2025-09-14 04:11:58 +0000"
-    },
-    "done": true
-  },
-  "medievalembroidery:recipes/misc/flour": {
-    "criteria": {
-      "has_wheat": "2025-09-14 04:13:07 +0000"
-    },
-    "done": true
-  },
-  "medievalembroidery:recipes/misc/king": {
-    "criteria": {
-      "has_mushroom": "2025-09-14 04:41:13 +0000"
-    },
-    "done": true
-  },
   "medievalembroidery:recipes/misc/obsidian_greatsword": {
     "criteria": {
       "has_stick": "2025-09-14 04:28:41 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/oak_button": {
-    "criteria": {
-      "has_planks": "2025-09-14 04:15:17 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/dark_oak_pressure_plate": {
-    "criteria": {
-      "has_planks": "2025-09-14 04:43:18 +0000"
     },
     "done": true
   },
@@ -848,45 +742,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/dark_oak_fence": {
-    "criteria": {
-      "has_planks": "2025-09-14 04:43:18 +0000"
-    },
-    "done": true
-  },
   "medievalembroidery:recipes/misc/emerald_pickaxe": {
     "criteria": {
       "has_stick": "2025-09-14 04:28:41 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dark_oak_slab": {
-    "criteria": {
-      "has_planks": "2025-09-14 04:43:18 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/mangrove_boat": {
-    "criteria": {
-      "in_water": "2025-09-14 04:11:32 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/torch": {
-    "criteria": {
-      "has_stone_pickaxe": "2025-09-14 04:30:07 +0000"
-    },
-    "done": true
-  },
-  "medievalembroidery:recipes/misc/cowberry_mead": {
-    "criteria": {
-      "has_water": "2025-09-14 04:41:14 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/dark_oak_door": {
-    "criteria": {
-      "has_planks": "2025-09-14 04:43:18 +0000"
     },
     "done": true
   },
@@ -896,57 +754,15 @@
     },
     "done": true
   },
-  "medievalembroidery:recipes/misc/apricot_tea": {
-    "criteria": {
-      "has_water": "2025-09-14 04:41:14 +0000"
-    },
-    "done": true
-  },
   "medievalembroidery:recipes/misc/seastone_battleaxe": {
     "criteria": {
       "has_stick": "2025-09-14 04:28:41 +0000"
     },
     "done": true
   },
-  "medievalembroidery:recipes/misc/seasoned_blewit": {
-    "criteria": {
-      "has_herbs": "2025-09-14 04:21:56 +0000"
-    },
-    "done": true
-  },
   "medievalembroidery:recipes/misc/seastone_dagger": {
     "criteria": {
       "has_stick": "2025-09-14 04:28:41 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_beef_from_smoking": {
-    "criteria": {
-      "has_beef": "2025-09-14 04:34:46 +0000"
-    },
-    "done": true
-  },
-  "medievalembroidery:recipes/misc/honey": {
-    "criteria": {
-      "has_mushroom": "2025-09-14 04:41:13 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_porkchop": {
-    "criteria": {
-      "has_porkchop": "2025-09-14 04:30:32 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/oak_slab": {
-    "criteria": {
-      "has_planks": "2025-09-14 04:15:17 +0000"
-    },
-    "done": true
-  },
-  "medievalembroidery:recipes/misc/utensil_wooden": {
-    "criteria": {
-      "has_uten_wooden": "2025-09-14 04:15:17 +0000"
     },
     "done": true
   },
@@ -962,27 +778,9 @@
     },
     "done": true
   },
-  "farmersdelight:recipes/building_blocks/tomato_crate": {
-    "criteria": {
-      "has_tomato": "2025-09-14 04:11:52 +0000"
-    },
-    "done": true
-  },
   "medievalembroidery:recipes/misc/depthstone_battleaxe": {
     "criteria": {
       "has_stick": "2025-09-14 04:28:41 +0000"
-    },
-    "done": true
-  },
-  "medievalembroidery:recipes/misc/matsutake": {
-    "criteria": {
-      "has_mushroom": "2025-09-14 04:41:13 +0000"
-    },
-    "done": true
-  },
-  "medievalembroidery:recipes/misc/malted_grain": {
-    "criteria": {
-      "has_wheat": "2025-09-14 04:13:07 +0000"
     },
     "done": true
   },
@@ -992,63 +790,15 @@
     },
     "done": true
   },
-  "medievalembroidery:recipes/misc/seasoned_honey": {
-    "criteria": {
-      "has_herbs": "2025-09-14 04:21:56 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/stone_pickaxe": {
-    "criteria": {
-      "has_cobblestone": "2025-09-14 04:28:46 +0000"
-    },
-    "done": true
-  },
   "medievalembroidery:recipes/misc/froststone_hoe": {
     "criteria": {
       "has_stick": "2025-09-14 04:28:41 +0000"
     },
     "done": true
   },
-  "farmersdelight:recipes/food/beef_patty_from_smoking": {
-    "criteria": {
-      "beef_patty": "2025-09-14 04:42:45 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/food/beef_patty": {
-    "criteria": {
-      "beef_patty": "2025-09-14 04:42:45 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/cooking/beef_stew": {
-    "criteria": {
-      "has_any_ingredient": "2025-09-14 04:34:46 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_mutton": {
-    "criteria": {
-      "has_mutton": "2025-09-14 04:39:34 +0000"
-    },
-    "done": true
-  },
   "medievalembroidery:recipes/misc/astrostone_pickaxe": {
     "criteria": {
       "has_stick": "2025-09-14 04:28:41 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/campfire": {
-    "criteria": {
-      "has_coal": "2025-09-14 04:16:59 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/cooking/dumplings": {
-    "criteria": {
-      "has_any_ingredient": "2025-09-14 04:11:58 +0000"
     },
     "done": true
   },
@@ -1064,12 +814,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/white_banner": {
-    "criteria": {
-      "has_white_wool": "2025-09-14 04:43:38 +0000"
-    },
-    "done": true
-  },
   "medievalembroidery:recipes/misc/obsidian_pickaxe": {
     "criteria": {
       "has_stick": "2025-09-14 04:28:41 +0000"
@@ -1082,69 +826,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/oak_fence_gate": {
-    "criteria": {
-      "has_planks": "2025-09-14 04:15:17 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/misc/straw": {
-    "criteria": {
-      "has_straw_bale": "2025-09-14 04:42:16 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/charcoal": {
-    "criteria": {
-      "has_log": "2025-09-14 04:15:12 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/wooden_pickaxe": {
-    "criteria": {
-      "has_the_recipe": "2025-09-14 04:28:40 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/food/cooked_mutton_chops_from_campfire_cooking": {
-    "criteria": {
-      "cooked_mutton_chops": "2025-09-14 04:39:24 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/item_frame": {
-    "criteria": {
-      "has_leather": "2025-09-14 04:30:27 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/baked_potato_from_smoking": {
-    "criteria": {
-      "has_potato": "2025-09-14 04:39:52 +0000"
-    },
-    "done": true
-  },
   "medievalembroidery:recipes/misc/mosstone_pickaxe": {
     "criteria": {
       "has_stick": "2025-09-14 04:28:41 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/cooking/pasta_with_meatballs": {
-    "criteria": {
-      "has_any_ingredient": "2025-09-14 04:34:46 +0000"
-    },
-    "done": true
-  },
-  "minecraft:story/upgrade_tools": {
-    "criteria": {
-      "stone_pickaxe": "2025-09-14 04:30:07 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/building_blocks/packed_mud_from_straw": {
-    "criteria": {
-      "has_straw": "2025-09-14 04:40:48 +0000"
     },
     "done": true
   },
@@ -1154,33 +838,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/oak_pressure_plate": {
-    "criteria": {
-      "has_planks": "2025-09-14 04:15:17 +0000"
-    },
-    "done": true
-  },
-  "medievalembroidery:recipes/misc/seasoned_direwolf": {
-    "criteria": {
-      "has_herbs": "2025-09-14 04:21:56 +0000"
-    },
-    "done": true
-  },
   "medievalembroidery:recipes/misc/depthstone_axe": {
     "criteria": {
       "has_stick": "2025-09-14 04:28:41 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/oak_door": {
-    "criteria": {
-      "has_planks": "2025-09-14 04:15:17 +0000"
-    },
-    "done": true
-  },
-  "medievalembroidery:recipes/misc/apple_seed": {
-    "criteria": {
-      "has_apple": "2025-09-14 04:27:52 +0000"
     },
     "done": true
   },
@@ -1190,33 +850,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/food/cooked_mutton_from_campfire_cooking": {
-    "criteria": {
-      "has_mutton": "2025-09-14 04:39:34 +0000"
-    },
-    "done": true
-  },
   "medievalembroidery:recipes/misc/froststone_dagger": {
     "criteria": {
       "has_stick": "2025-09-14 04:28:41 +0000"
-    },
-    "done": true
-  },
-  "medievalembroidery:recipes/misc/seasoned_king": {
-    "criteria": {
-      "has_herbs": "2025-09-14 04:21:56 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:main/harvest_straw": {
-    "criteria": {
-      "harvest_straw": "2025-09-14 04:40:48 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/cooking/pasta_with_mutton_chop": {
-    "criteria": {
-      "has_any_ingredient": "2025-09-14 04:39:34 +0000"
     },
     "done": true
   },
@@ -1232,63 +868,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/cobblestone_slab": {
-    "criteria": {
-      "has_cobblestone": "2025-09-14 04:28:46 +0000"
-    },
-    "done": true
-  },
   "medievalembroidery:recipes/misc/seastone_hoe": {
     "criteria": {
       "has_stick": "2025-09-14 04:28:41 +0000"
     },
     "done": true
   },
-  "medievalembroidery:recipes/misc/elderberry_mead": {
-    "criteria": {
-      "has_water": "2025-09-14 04:41:14 +0000"
-    },
-    "done": true
-  },
   "medievalembroidery:recipes/misc/mosstone_greatsword": {
     "criteria": {
       "has_stick": "2025-09-14 04:28:41 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/cooking/tomato_sauce": {
-    "criteria": {
-      "has_tomato": "2025-09-14 04:11:52 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/brewing/cauldron": {
-    "criteria": {
-      "has_water_bucket": "2025-09-14 04:41:14 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/cooking/ratatouille": {
-    "criteria": {
-      "has_any_ingredient": "2025-09-14 04:11:52 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/misc/tomato_seeds": {
-    "criteria": {
-      "has_tomato": "2025-09-14 04:11:52 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/acacia_boat": {
-    "criteria": {
-      "in_water": "2025-09-14 04:11:32 +0000"
-    },
-    "done": true
-  },
-  "minecraft:adventure/root": {
-    "criteria": {
-      "killed_something": "2025-09-14 04:30:27 +0000"
     },
     "done": true
   },
@@ -1304,45 +892,9 @@
     },
     "done": true
   },
-  "farmersdelight:recipes/building_blocks/organic_compost_from_rotten_flesh": {
-    "criteria": {
-      "has_straw": "2025-09-14 04:40:48 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/building_blocks/rice_bag": {
-    "criteria": {
-      "has_rice": "2025-09-14 04:44:47 +0000"
-    },
-    "done": true
-  },
-  "medievalembroidery:recipes/misc/fairy_ale": {
-    "criteria": {
-      "has_water": "2025-09-14 04:41:14 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/combat/wooden_sword": {
     "criteria": {
       "has_stick": "2025-09-14 04:28:41 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/oak_planks": {
-    "criteria": {
-      "has_logs": "2025-09-14 04:15:12 +0000"
-    },
-    "done": true
-  },
-  "medievalembroidery:recipes/misc/seasoned_yellowfoot": {
-    "criteria": {
-      "has_herbs": "2025-09-14 04:21:56 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_porkchop_from_smoking": {
-    "criteria": {
-      "has_porkchop": "2025-09-14 04:30:32 +0000"
     },
     "done": true
   },
@@ -1352,39 +904,9 @@
     },
     "done": true
   },
-  "medievalembroidery:recipes/misc/seasoned_yak": {
-    "criteria": {
-      "has_herbs": "2025-09-14 04:21:56 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/barrel": {
-    "criteria": {
-      "has_planks": "2025-09-14 04:15:17 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/leather_boots": {
-    "criteria": {
-      "has_leather": "2025-09-14 04:30:27 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/cobblestone_wall_from_cobblestone_stonecutting": {
-    "criteria": {
-      "has_cobblestone": "2025-09-14 04:28:46 +0000"
-    },
-    "done": true
-  },
   "medievalembroidery:recipes/misc/emerald_axe": {
     "criteria": {
       "has_stick": "2025-09-14 04:28:41 +0000"
-    },
-    "done": true
-  },
-  "medievalembroidery:recipes/misc/woods_chicken": {
-    "criteria": {
-      "has_mushroom": "2025-09-14 04:41:13 +0000"
     },
     "done": true
   },
@@ -1399,12 +921,6 @@
       "has_stick": "2025-09-14 04:28:41 +0000"
     },
     "done": true
-  },
-  "immersive_weathering:immersive_weathering/dirts": {
-    "criteria": {
-      "dirt": "2025-09-14 04:28:43 +0000"
-    },
-    "done": false
   },
   "medievalembroidery:recipes/misc/firestone_sword": {
     "criteria": {
@@ -1424,27 +940,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/cobblestone_stairs_from_cobblestone_stonecutting": {
-    "criteria": {
-      "has_cobblestone": "2025-09-14 04:28:46 +0000"
-    },
-    "done": true
-  },
   "medievalembroidery:recipes/misc/firestone_shovel": {
     "criteria": {
       "has_stick": "2025-09-14 04:28:41 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/white_bed": {
-    "criteria": {
-      "has_white_wool": "2025-09-14 04:43:38 +0000"
-    },
-    "done": true
-  },
-  "medievalembroidery:recipes/misc/honey_mead": {
-    "criteria": {
-      "has_water": "2025-09-14 04:41:14 +0000"
     },
     "done": true
   },
@@ -1454,41 +952,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/food/mushroom_stew": {
-    "criteria": {
-      "has_brown_mushroom": "2025-09-14 04:41:13 +0000"
-    },
-    "done": true
-  },
-  "minecraft:husbandry/balanced_diet": {
-    "criteria": {
-      "cooked_beef": "2025-09-14 04:25:05 +0000",
-      "apple": "2025-09-14 04:38:43 +0000",
-      "bread": "2025-09-14 04:11:49 +0000"
-    },
-    "done": false
-  },
-  "farmersdelight:recipes/building_blocks/cabbage_crate": {
-    "criteria": {
-      "has_cabbage": "2025-09-14 04:45:34 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/cobblestone_stairs": {
-    "criteria": {
-      "has_cobblestone": "2025-09-14 04:28:46 +0000"
-    },
-    "done": true
-  },
   "medievalembroidery:recipes/misc/obsidian_battleaxe": {
     "criteria": {
       "has_stick": "2025-09-14 04:28:41 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/food/pie_crust": {
-    "criteria": {
-      "has_wheat": "2025-09-14 04:13:07 +0000"
     },
     "done": true
   },
@@ -1504,48 +970,6 @@
     },
     "done": true
   },
-  "medievalembroidery:recipes/misc/redcurrant_mead": {
-    "criteria": {
-      "has_water": "2025-09-14 04:41:14 +0000"
-    },
-    "done": true
-  },
-  "medievalembroidery:recipes/misc/plate": {
-    "criteria": {
-      "has_plate": "2025-09-14 04:15:17 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/decorations/rope": {
-    "criteria": {
-      "has_straw": "2025-09-14 04:40:48 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/stone_hoe": {
-    "criteria": {
-      "has_cobblestone": "2025-09-14 04:28:46 +0000"
-    },
-    "done": true
-  },
-  "medievalembroidery:recipes/misc/seasoned_woods_chicken": {
-    "criteria": {
-      "has_herbs": "2025-09-14 04:21:56 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/dark_oak_sign": {
-    "criteria": {
-      "has_planks": "2025-09-14 04:43:18 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/building_blocks/onion_crate": {
-    "criteria": {
-      "has_onion": "2025-09-14 04:11:58 +0000"
-    },
-    "done": true
-  },
   "medievalembroidery:recipes/misc/emerald_dagger": {
     "criteria": {
       "has_stick": "2025-09-14 04:28:41 +0000"
@@ -1555,24 +979,6 @@
   "medievalembroidery:recipes/misc/astrostone_warhammer": {
     "criteria": {
       "has_stick": "2025-09-14 04:28:41 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/building_blocks/organic_compost_from_tree_bark": {
-    "criteria": {
-      "has_tree_bark": "2025-09-14 04:40:46 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/cooking/vegetable_soup": {
-    "criteria": {
-      "has_any_ingredient": "2025-09-14 04:11:58 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/stone_shovel": {
-    "criteria": {
-      "has_cobblestone": "2025-09-14 04:28:46 +0000"
     },
     "done": true
   },
@@ -1588,63 +994,9 @@
     },
     "done": true
   },
-  "farmersdelight:recipes/food/wheat_dough_from_egg": {
-    "criteria": {
-      "has_wheat": "2025-09-14 04:13:07 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/oak_wood": {
-    "criteria": {
-      "has_log": "2025-09-14 04:15:12 +0000"
-    },
-    "done": true
-  },
-  "minecraft:story/root": {
-    "criteria": {
-      "crafting_table": "2025-09-14 04:15:35 +0000"
-    },
-    "done": true
-  },
   "medievalembroidery:recipes/misc/skystone_hoe": {
     "criteria": {
       "has_stick": "2025-09-14 04:28:41 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_beef": {
-    "criteria": {
-      "has_beef": "2025-09-14 04:34:46 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/jungle_boat": {
-    "criteria": {
-      "in_water": "2025-09-14 04:11:32 +0000"
-    },
-    "done": true
-  },
-  "medievalembroidery:recipes/misc/oyster": {
-    "criteria": {
-      "has_mushroom": "2025-09-14 04:41:13 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/dark_oak_boat": {
-    "criteria": {
-      "in_water": "2025-09-14 04:11:32 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:main/harvest_ropelogged_tomato": {
-    "criteria": {
-      "harvest_ropelogged_tomato": "2025-09-14 04:13:14 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_beef_from_campfire_cooking": {
-    "criteria": {
-      "has_beef": "2025-09-14 04:34:46 +0000"
     },
     "done": true
   },
@@ -1654,9 +1006,531 @@
     },
     "done": true
   },
-  "farmersdelight:recipes/food/fried_egg": {
+  "immersive_weathering:immersive_weathering/dirts": {
     "criteria": {
-      "fried_egg": "2025-09-14 04:17:07 +0000"
+      "dirt": "2025-09-14 04:28:43 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/redstone/lever": {
+    "criteria": {
+      "has_cobblestone": "2025-09-14 04:28:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/stone_sword": {
+    "criteria": {
+      "has_cobblestone": "2025-09-14 04:28:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cobblestone_wall": {
+    "criteria": {
+      "has_cobblestone": "2025-09-14 04:28:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_axe": {
+    "criteria": {
+      "has_cobblestone": "2025-09-14 04:28:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/mine_stone": {
+    "criteria": {
+      "get_stone": "2025-09-14 04:28:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/furnace": {
+    "criteria": {
+      "has_cobblestone": "2025-09-14 04:28:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobblestone_slab_from_cobblestone_stonecutting": {
+    "criteria": {
+      "has_cobblestone": "2025-09-14 04:28:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone": {
+    "criteria": {
+      "has_cobblestone": "2025-09-14 04:28:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_pickaxe": {
+    "criteria": {
+      "has_cobblestone": "2025-09-14 04:28:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobblestone_slab": {
+    "criteria": {
+      "has_cobblestone": "2025-09-14 04:28:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cobblestone_wall_from_cobblestone_stonecutting": {
+    "criteria": {
+      "has_cobblestone": "2025-09-14 04:28:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobblestone_stairs_from_cobblestone_stonecutting": {
+    "criteria": {
+      "has_cobblestone": "2025-09-14 04:28:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobblestone_stairs": {
+    "criteria": {
+      "has_cobblestone": "2025-09-14 04:28:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_hoe": {
+    "criteria": {
+      "has_cobblestone": "2025-09-14 04:28:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_shovel": {
+    "criteria": {
+      "has_cobblestone": "2025-09-14 04:28:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/torch": {
+    "criteria": {
+      "has_stone_pickaxe": "2025-09-14 04:30:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/upgrade_tools": {
+    "criteria": {
+      "stone_pickaxe": "2025-09-14 04:30:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_helmet": {
+    "criteria": {
+      "has_leather": "2025-09-14 04:30:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_leggings": {
+    "criteria": {
+      "has_leather": "2025-09-14 04:30:27 +0000"
+    },
+    "done": true
+  },
+  "yyzsbackpack:recipes/netherite_backpack": {
+    "criteria": {
+      "has_leather": "2025-09-14 04:30:27 +0000"
+    },
+    "done": true
+  },
+  "yyzsbackpack:recipes/gold_backpack": {
+    "criteria": {
+      "has_leather": "2025-09-14 04:30:27 +0000"
+    },
+    "done": true
+  },
+  "yyzsbackpack:recipes/diamond_backpack": {
+    "criteria": {
+      "has_leather": "2025-09-14 04:30:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_chestplate": {
+    "criteria": {
+      "has_leather": "2025-09-14 04:30:27 +0000"
+    },
+    "done": true
+  },
+  "yyzsbackpack:recipes/iron_backpack": {
+    "criteria": {
+      "has_leather": "2025-09-14 04:30:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/leather_horse_armor": {
+    "criteria": {
+      "has_leather": "2025-09-14 04:30:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/item_frame": {
+    "criteria": {
+      "has_leather": "2025-09-14 04:30:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2025-09-14 04:30:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_boots": {
+    "criteria": {
+      "has_leather": "2025-09-14 04:30:27 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/noodle_soup": {
+    "criteria": {
+      "has_any_ingredient": "2025-09-14 04:30:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_porkchop_from_campfire_cooking": {
+    "criteria": {
+      "has_porkchop": "2025-09-14 04:30:32 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/pumpkin_soup": {
+    "criteria": {
+      "has_any_ingredient": "2025-09-14 04:30:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_porkchop": {
+    "criteria": {
+      "has_porkchop": "2025-09-14 04:30:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_porkchop_from_smoking": {
+    "criteria": {
+      "has_porkchop": "2025-09-14 04:30:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef_from_smoking": {
+    "criteria": {
+      "has_beef": "2025-09-14 04:34:46 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/beef_stew": {
+    "criteria": {
+      "has_any_ingredient": "2025-09-14 04:34:46 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/pasta_with_meatballs": {
+    "criteria": {
+      "has_any_ingredient": "2025-09-14 04:34:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef": {
+    "criteria": {
+      "has_beef": "2025-09-14 04:34:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef_from_campfire_cooking": {
+    "criteria": {
+      "has_beef": "2025-09-14 04:34:46 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/cooked_mutton_chops": {
+    "criteria": {
+      "cooked_mutton_chops": "2025-09-14 04:39:24 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/cooked_mutton_chops_from_smoking": {
+    "criteria": {
+      "cooked_mutton_chops": "2025-09-14 04:39:24 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/cooked_mutton_chops_from_campfire_cooking": {
+    "criteria": {
+      "cooked_mutton_chops": "2025-09-14 04:39:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_mutton_from_smoking": {
+    "criteria": {
+      "has_mutton": "2025-09-14 04:39:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_mutton": {
+    "criteria": {
+      "has_mutton": "2025-09-14 04:39:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_mutton_from_campfire_cooking": {
+    "criteria": {
+      "has_mutton": "2025-09-14 04:39:34 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/pasta_with_mutton_chop": {
+    "criteria": {
+      "has_any_ingredient": "2025-09-14 04:39:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato_from_campfire_cooking": {
+    "criteria": {
+      "has_potato": "2025-09-14 04:39:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato": {
+    "criteria": {
+      "has_potato": "2025-09-14 04:39:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato_from_smoking": {
+    "criteria": {
+      "has_potato": "2025-09-14 04:39:52 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/misc/paper_from_tree_bark": {
+    "criteria": {
+      "has_tree_bark": "2025-09-14 04:40:46 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/building_blocks/organic_compost_from_tree_bark": {
+    "criteria": {
+      "has_tree_bark": "2025-09-14 04:40:46 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/building_blocks/straw_bale": {
+    "criteria": {
+      "has_straw": "2025-09-14 04:40:48 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/tools/lead_from_straw": {
+    "criteria": {
+      "has_straw": "2025-09-14 04:40:48 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/misc/canvas": {
+    "criteria": {
+      "has_straw": "2025-09-14 04:40:48 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/building_blocks/packed_mud_from_straw": {
+    "criteria": {
+      "has_straw": "2025-09-14 04:40:48 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:main/harvest_straw": {
+    "criteria": {
+      "harvest_straw": "2025-09-14 04:40:48 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/building_blocks/organic_compost_from_rotten_flesh": {
+    "criteria": {
+      "has_straw": "2025-09-14 04:40:48 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/decorations/rope": {
+    "criteria": {
+      "has_straw": "2025-09-14 04:40:48 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/dog_food": {
+    "criteria": {
+      "has_any_ingredient": "2025-09-14 04:40:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/white_dye": {
+    "criteria": {
+      "has_bone_meal": "2025-09-14 04:40:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bone_block": {
+    "criteria": {
+      "has_bone_meal": "2025-09-14 04:40:50 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/mushroom_rice": {
+    "criteria": {
+      "has_any_ingredient": "2025-09-14 04:41:13 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/porcini": {
+    "criteria": {
+      "has_mushroom": "2025-09-14 04:41:13 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/rabbit_stew": {
+    "criteria": {
+      "has_any_ingredient": "2025-09-14 04:41:13 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/blewit": {
+    "criteria": {
+      "has_mushroom": "2025-09-14 04:41:13 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/mushroom_stew": {
+    "criteria": {
+      "has_any_ingredient": "2025-09-14 04:41:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bowl": {
+    "criteria": {
+      "has_brown_mushroom": "2025-09-14 04:41:13 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/vegetable_noodles": {
+    "criteria": {
+      "has_any_ingredient": "2025-09-14 04:41:13 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/yellowfoot": {
+    "criteria": {
+      "has_mushroom": "2025-09-14 04:41:13 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/king": {
+    "criteria": {
+      "has_mushroom": "2025-09-14 04:41:13 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/honey": {
+    "criteria": {
+      "has_mushroom": "2025-09-14 04:41:13 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/matsutake": {
+    "criteria": {
+      "has_mushroom": "2025-09-14 04:41:13 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/woods_chicken": {
+    "criteria": {
+      "has_mushroom": "2025-09-14 04:41:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/mushroom_stew": {
+    "criteria": {
+      "has_brown_mushroom": "2025-09-14 04:41:13 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/oyster": {
+    "criteria": {
+      "has_mushroom": "2025-09-14 04:41:13 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/apple_cider": {
+    "criteria": {
+      "has_water": "2025-09-14 04:41:14 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/water": {
+    "criteria": {
+      "has_water": "2025-09-14 04:41:14 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/lemon_tea": {
+    "criteria": {
+      "has_water": "2025-09-14 04:41:14 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/ale": {
+    "criteria": {
+      "has_water": "2025-09-14 04:41:14 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/herbal_mead": {
+    "criteria": {
+      "has_water": "2025-09-14 04:41:14 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/hawthorn_mead": {
+    "criteria": {
+      "has_water": "2025-09-14 04:41:14 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/cowberry_mead": {
+    "criteria": {
+      "has_water": "2025-09-14 04:41:14 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/apricot_tea": {
+    "criteria": {
+      "has_water": "2025-09-14 04:41:14 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/elderberry_mead": {
+    "criteria": {
+      "has_water": "2025-09-14 04:41:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/cauldron": {
+    "criteria": {
+      "has_water_bucket": "2025-09-14 04:41:14 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/fairy_ale": {
+    "criteria": {
+      "has_water": "2025-09-14 04:41:14 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/honey_mead": {
+    "criteria": {
+      "has_water": "2025-09-14 04:41:14 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/redcurrant_mead": {
+    "criteria": {
+      "has_water": "2025-09-14 04:41:14 +0000"
     },
     "done": true
   },
@@ -1666,9 +1540,177 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/bone_block": {
+  "farmersdelight:recipes/misc/straw": {
     "criteria": {
-      "has_bone_meal": "2025-09-14 04:40:50 +0000"
+      "has_straw_bale": "2025-09-14 04:42:16 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/beef_patty_from_campfire_cooking": {
+    "criteria": {
+      "beef_patty": "2025-09-14 04:42:45 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/beef_patty_from_smoking": {
+    "criteria": {
+      "beef_patty": "2025-09-14 04:42:45 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/beef_patty": {
+    "criteria": {
+      "beef_patty": "2025-09-14 04:42:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_fence_gate": {
+    "criteria": {
+      "has_planks": "2025-09-14 04:43:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_trapdoor": {
+    "criteria": {
+      "has_planks": "2025-09-14 04:43:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_button": {
+    "criteria": {
+      "has_planks": "2025-09-14 04:43:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_stairs": {
+    "criteria": {
+      "has_planks": "2025-09-14 04:43:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-09-14 04:43:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dark_oak_fence": {
+    "criteria": {
+      "has_planks": "2025-09-14 04:43:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_slab": {
+    "criteria": {
+      "has_planks": "2025-09-14 04:43:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_door": {
+    "criteria": {
+      "has_planks": "2025-09-14 04:43:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dark_oak_sign": {
+    "criteria": {
+      "has_planks": "2025-09-14 04:43:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/composter": {
+    "criteria": {
+      "has_wood_slab": "2025-09-14 04:43:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/painting": {
+    "criteria": {
+      "has_wool": "2025-09-14 04:43:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_carpet": {
+    "criteria": {
+      "has_white_wool": "2025-09-14 04:43:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_banner": {
+    "criteria": {
+      "has_white_wool": "2025-09-14 04:43:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_bed": {
+    "criteria": {
+      "has_white_wool": "2025-09-14 04:43:38 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/cooked_rice": {
+    "criteria": {
+      "has_rice": "2025-09-14 04:44:47 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/building_blocks/rice_bag": {
+    "criteria": {
+      "has_rice": "2025-09-14 04:44:47 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/cabbage_rolls": {
+    "criteria": {
+      "has_any_ingredient": "2025-09-14 04:45:34 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/building_blocks/cabbage_crate": {
+    "criteria": {
+      "has_cabbage": "2025-09-14 04:45:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_wood": {
+    "criteria": {
+      "has_log": "2025-09-14 04:51:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_planks": {
+    "criteria": {
+      "has_logs": "2025-09-14 04:51:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/smoker": {
+    "criteria": {
+      "has_furnace": "2025-09-14 04:52:13 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:main/master_chef": {
+    "criteria": {
+      "mushroom_rice": "2025-09-14 04:53:37 +0000"
+    },
+    "done": false
+  },
+  "farmersdelight:main/eat_nourishing_food": {
+    "criteria": {
+      "nourishment": "2025-09-14 04:53:37 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/nether_salad": {
+    "criteria": {
+      "has_bowl": "2025-09-14 04:53:38 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/mixed_salad": {
+    "criteria": {
+      "has_bowl": "2025-09-14 04:53:38 +0000"
     },
     "done": true
   },

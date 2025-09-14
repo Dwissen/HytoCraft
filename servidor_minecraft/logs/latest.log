@@ -1373,3 +1373,31 @@ com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
 [14Sep2025 04:17:37.812] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dwiss3: Gamerule playersSleepingPercentage is now set to: 30]
 [14Sep2025 04:28:46.602] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SumireShi has made the advancement [Stone Age]
 [14Sep2025 04:30:07.031] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SumireShi has made the advancement [Getting an Upgrade]
+[14Sep2025 04:47:40.535] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <SumireShi> %APPDATA%
+[14Sep2025 04:48:08.086] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Dwiss3> %appdata%
+[14Sep2025 05:00:40.498] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: SumireShi lost connection: Disconnected
+[14Sep2025 05:00:40.498] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SumireShi left the game
+[14Sep2025 05:00:40.498] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client SumireShi
+[14Sep2025 05:04:05.265] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: SumireShi[/127.155.214.71:52303] logged in with entity id 87856 at (643.1019076331828, 78.0, -3067.2185236434875)
+[14Sep2025 05:04:05.271] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SumireShi joined the game
+[14Sep2025 05:04:05.379] [Server thread/INFO] [antiqueatlas/]: Sent markers data #-1 to player SumireShi
+[14Sep2025 05:04:05.379] [Server thread/INFO] [antiqueatlas/]: Sent custom biome data to player SumireShi
+[14Sep2025 05:04:05.380] [Server thread/INFO] [antiqueatlas/]: Sent custom biome data to player SumireShi
+[14Sep2025 05:04:05.380] [Server thread/INFO] [antiqueatlas/]: Sent custom biome data to player SumireShi
+[14Sep2025 05:04:05.381] [Server thread/INFO] [antiqueatlas/]: Sent custom biome data to player SumireShi
+[14Sep2025 05:04:05.803] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of SumireShi (20)
+[14Sep2025 05:04:05.803] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to SumireShi
+[14Sep2025 05:04:07.699] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Thank you so much for playing Dark Souls Expansion! If you'd like to create a server with your friends, you can do so at
+[14Sep2025 05:04:38.245] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: SumireShi lost connection: Disconnected
+[14Sep2025 05:04:38.245] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SumireShi left the game
+[14Sep2025 05:04:38.246] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client SumireShi
+[14Sep2025 05:06:25.161] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: SumireShi[/127.155.214.71:60439] logged in with entity id 88301 at (650.036338609012, 78.0, -3089.699999988079)
+[14Sep2025 05:06:25.166] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SumireShi joined the game
+[14Sep2025 05:06:25.226] [Server thread/INFO] [antiqueatlas/]: Sent markers data #-1 to player SumireShi
+[14Sep2025 05:06:25.227] [Server thread/INFO] [antiqueatlas/]: Sent custom biome data to player SumireShi
+[14Sep2025 05:06:25.227] [Server thread/INFO] [antiqueatlas/]: Sent custom biome data to player SumireShi
+[14Sep2025 05:06:25.227] [Server thread/INFO] [antiqueatlas/]: Sent custom biome data to player SumireShi
+[14Sep2025 05:06:25.227] [Server thread/INFO] [antiqueatlas/]: Sent custom biome data to player SumireShi
+[14Sep2025 05:06:25.525] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of SumireShi (20)
+[14Sep2025 05:06:25.525] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to SumireShi
+[14Sep2025 05:06:27.600] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Thank you so much for playing Dark Souls Expansion! If you'd like to create a server with your friends, you can do so at
