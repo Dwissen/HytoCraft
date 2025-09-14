@@ -33,6 +33,10 @@
     "criteria": {
       "minecraft:taiga": "2025-09-14 02:16:04 +0000",
       "minecraft:river": "2025-09-13 23:22:04 +0000",
+      "minecraft:snowy_plains": "2025-09-14 03:09:15 +0000",
+      "minecraft:stony_shore": "2025-09-14 03:10:04 +0000",
+      "minecraft:dripstone_caves": "2025-09-14 02:51:09 +0000",
+      "minecraft:grove": "2025-09-14 03:10:47 +0000",
       "minecraft:forest": "2025-09-13 21:05:05 +0000",
       "minecraft:flower_forest": "2025-09-13 23:24:06 +0000",
       "minecraft:meadow": "2025-09-13 23:22:43 +0000",
@@ -387,6 +391,7 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "cooked_porkchop": "2025-09-13 23:14:23 +0000",
+      "cooked_beef": "2025-09-14 03:07:57 +0000",
       "apple": "2025-09-13 21:04:10 +0000",
       "bread": "2025-09-13 22:08:16 +0000"
     },
@@ -1106,7 +1111,8 @@
       "minecraft:spider": "2025-09-13 22:10:19 +0000",
       "minecraft:creeper": "2025-09-13 23:16:51 +0000",
       "minecraft:enderman": "2025-09-13 23:19:06 +0000",
-      "minecraft:zombie": "2025-09-13 22:08:20 +0000"
+      "minecraft:zombie": "2025-09-13 22:08:20 +0000",
+      "minecraft:zombie_villager": "2025-09-14 03:03:27 +0000"
     },
     "done": false
   },
@@ -1566,9 +1572,171 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/cooking/mushroom_rice": {
+    "criteria": {
+      "has_any_ingredient": "2025-09-14 02:38:00 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/misc/iron_nugget_from_blasting_knife": {
+    "criteria": {
+      "has_iron_knife": "2025-09-14 02:39:49 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/cooked_direwolf_smoking": {
+    "criteria": {
+      "has_direwolf": "2025-09-14 03:08:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato_from_campfire_cooking": {
+    "criteria": {
+      "has_potato": "2025-09-14 02:37:57 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/seasoned_matsutake": {
+    "criteria": {
+      "has_herbs": "2025-09-14 02:53:29 +0000"
+    },
+    "done": true
+  },
+  "friendsandfoes:adventure/the_magicians": {
+    "criteria": {
+      "killed_iceologer": "2025-09-14 03:10:48 +0000"
+    },
+    "done": false
+  },
+  "farmersdelight:recipes/misc/iron_nugget_from_smelting_knife": {
+    "criteria": {
+      "has_iron_knife": "2025-09-14 02:39:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato": {
+    "criteria": {
+      "has_potato": "2025-09-14 02:37:57 +0000"
+    },
+    "done": true
+  },
+  "realisticforgingores:the_iron_age": {
+    "criteria": {
+      "the_iron_age_0": "2025-09-14 02:41:56 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:main/get_fd_seed": {
+    "criteria": {
+      "rice": "2025-09-14 02:38:00 +0000"
+    },
+    "done": true
+  },
+  "immersive_weathering:recipes/iron_nugget": {
+    "criteria": {
+      "has_copper_block": "2025-09-14 02:37:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/emerald_block": {
+    "criteria": {
+      "has_emerald": "2025-09-14 02:38:09 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/seasoned_elk": {
+    "criteria": {
+      "has_herbs": "2025-09-14 02:53:29 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/goblet": {
+    "criteria": {
+      "has_goblet": "2025-09-14 02:37:48 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/seasoned_oyster": {
+    "criteria": {
+      "has_herbs": "2025-09-14 02:53:29 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/clay": {
     "criteria": {
       "has_clay_ball": "2025-09-14 02:21:26 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/seasoned_porcini": {
+    "criteria": {
+      "has_herbs": "2025-09-14 02:53:29 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/cooked_rice": {
+    "criteria": {
+      "has_rice": "2025-09-14 02:38:00 +0000"
+    },
+    "done": true
+  },
+  "friendsandfoes:adventure/kill_iceologer": {
+    "criteria": {
+      "killed_iceologer": "2025-09-14 03:10:48 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/cooked_bacon_from_campfire_cooking": {
+    "criteria": {
+      "cooked_bacon": "2025-09-14 02:39:54 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/cooked_bacon_from_smoking": {
+    "criteria": {
+      "cooked_bacon": "2025-09-14 02:39:54 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/seasoned_blewit": {
+    "criteria": {
+      "has_herbs": "2025-09-14 02:53:29 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/seasoned_honey": {
+    "criteria": {
+      "has_herbs": "2025-09-14 02:53:29 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/cup_metal": {
+    "criteria": {
+      "has_cup_metal": "2025-09-14 02:37:48 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/cooked_direwolf_smelting": {
+    "criteria": {
+      "has_direwolf": "2025-09-14 03:08:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato_from_smoking": {
+    "criteria": {
+      "has_potato": "2025-09-14 02:37:57 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/seasoned_direwolf": {
+    "criteria": {
+      "has_herbs": "2025-09-14 02:53:29 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/seasoned_king": {
+    "criteria": {
+      "has_herbs": "2025-09-14 02:53:29 +0000"
     },
     "done": true
   },
@@ -1578,9 +1746,63 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/building_blocks/rice_bag": {
+    "criteria": {
+      "has_rice": "2025-09-14 02:38:00 +0000"
+    },
+    "done": true
+  },
   "medievalembroidery:recipes/misc/cup_clay": {
     "criteria": {
       "has_cup_clay": "2025-09-14 02:21:26 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/seasoned_yellowfoot": {
+    "criteria": {
+      "has_herbs": "2025-09-14 02:53:29 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/seasoned_yak": {
+    "criteria": {
+      "has_herbs": "2025-09-14 02:53:29 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:main/craft_knife": {
+    "criteria": {
+      "iron_knife": "2025-09-14 02:39:49 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/utensil_metal": {
+    "criteria": {
+      "has_uten_metal": "2025-09-14 02:37:48 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/seasoned_woods_chicken": {
+    "criteria": {
+      "has_herbs": "2025-09-14 02:53:29 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/cooked_bacon": {
+    "criteria": {
+      "cooked_bacon": "2025-09-14 02:39:54 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/cooked_direwolf_campfire_cooking": {
+    "criteria": {
+      "has_direwolf": "2025-09-14 03:08:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_nuggets": {
+    "criteria": {
+      "has_iron_nugget": "2025-09-14 02:37:48 +0000"
     },
     "done": true
   },

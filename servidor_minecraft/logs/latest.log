@@ -1217,3 +1217,78 @@ com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
 [14Sep2025 02:22:18.507] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ivanzac03 has made the advancement [Getting an Upgrade]
 [14Sep2025 02:22:56.548] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dwiss3 was slain by Iron Golem
 [14Sep2025 02:24:23.903] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ivanzac03 has made the advancement [Acquire Hardware]
+[14Sep2025 02:26:33.908] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ivanzac03 has made the advancement [Sweet Dreams]
+[14Sep2025 02:27:04.435] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ivanzac03 has made the advancement [Isn't It Iron Pick]
+[14Sep2025 02:30:37.200] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ivanzac03 has made the advancement [Monster Hunter]
+[14Sep2025 02:37:50.473] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ivanzac03 has made the advancement [Crops of the Wild]
+[14Sep2025 02:38:00.405] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dwiss3 has made the advancement [Crops of the Wild]
+[14Sep2025 02:38:13.905] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ivanzac03 has made the advancement [Iron Age]
+[14Sep2025 02:39:46.354] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ivanzac03 has made the advancement [Suit Up]
+[14Sep2025 02:39:49.077] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dwiss3 has made the advancement [Hunt and Gather]
+[14Sep2025 02:41:56.010] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dwiss3 has made the advancement [Iron Age]
+[14Sep2025 02:42:43.913] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Amalgam5006X[/127.173.235.89:43705] logged in with entity id 11733 at (-137.5, 74.0, -94.5)
+[14Sep2025 02:42:43.920] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Amalgam5006X joined the game
+[14Sep2025 02:42:43.996] [Server thread/INFO] [antiqueatlas/]: Sent markers data #-1 to player Amalgam5006X
+[14Sep2025 02:42:43.996] [Server thread/INFO] [antiqueatlas/]: Sent custom biome data to player Amalgam5006X
+[14Sep2025 02:42:43.996] [Server thread/INFO] [antiqueatlas/]: Sent custom biome data to player Amalgam5006X
+[14Sep2025 02:42:43.997] [Server thread/INFO] [antiqueatlas/]: Sent custom biome data to player Amalgam5006X
+[14Sep2025 02:42:43.997] [Server thread/INFO] [antiqueatlas/]: Sent custom biome data to player Amalgam5006X
+[14Sep2025 02:42:45.035] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Amalgam5006X (20)
+[14Sep2025 02:42:45.035] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Amalgam5006X
+[14Sep2025 02:42:46.361] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Thank you so much for playing Dark Souls Expansion! If you'd like to create a server with your friends, you can do so at
+[14Sep2025 02:43:26.766] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-138, y=72, z=-95}
+[14Sep2025 02:43:40.867] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Dwiss3> leon, te tepeo con nosotros?
+[14Sep2025 02:43:42.770] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-138, y=73, z=-95}
+[14Sep2025 02:43:55.759] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Dwiss3> este pueblito esta bonito
+[14Sep2025 02:44:01.709] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Amalgam5006X> si porfas
+[14Sep2025 02:44:13.125] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dwiss3: Teleported Amalgam5006X to Dwiss3]
+[14Sep2025 02:44:23.766] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Amalgam5006X> no podre hablar por el microfono, asi que los escucho por discord
+[14Sep2025 02:44:28.314] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Amalgam5006X> y yo escribo
+[14Sep2025 02:46:01.202] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Amalgam5006X> xd
+[14Sep2025 02:46:08.306] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Amalgam5006X> les dije que olia a gas
+[14Sep2025 02:46:23.331] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Amalgam5006X has made the advancement [Sweet Dreams]
+[14Sep2025 02:46:33.955] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Amalgam5006X has made the advancement [Crops of the Wild]
+[14Sep2025 02:46:52.613] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Amalgam5006X> me quedo, que necesito recursos
+[14Sep2025 02:46:59.921] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Amalgam5006X> estoy todo encuerado
+[14Sep2025 02:47:32.205] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Amalgam5006X> sales
+[14Sep2025 02:47:46.308] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Amalgam5006X> a ver si para la proxima ya activo el microfono
+[14Sep2025 02:48:19.055] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Amalgam5006X> sales, a ver cuanto tardo
+[14Sep2025 02:48:34.075] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Amalgam5006X> va
+[14Sep2025 02:48:47.365] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Amalgam5006X> no le metiste el mod de lootr, verdad?
+[14Sep2025 02:49:05.603] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Amalgam5006X> el de los cofres, que cada quientiene loot personalisado
+[14Sep2025 02:49:27.954] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Amalgam5006X> va, yo que pense que se me habia bugueado
+[14Sep2025 02:49:41.633] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Amalgam5006X> entonces aqui cuido la base
+[14Sep2025 02:49:51.505] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Amalgam5006X> a ver si me clavo una buena casa
+[14Sep2025 02:50:41.265] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Amalgam5006X> si, hasta ahora si
+[14Sep2025 02:58:10.560] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ivanzac03 lost connection: Disconnected
+[14Sep2025 02:58:10.561] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ivanzac03 left the game
+[14Sep2025 02:58:10.563] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Ivanzac03
+[14Sep2025 02:59:46.701] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Mason'/8822, l='ServerLevel[world]', x=203.54, y=77.00, z=-450.94] died, message: 'Mason hit the ground too hard whilst trying to escape Zombie'
+[14Sep2025 03:00:24.156] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Farmer'/8925, l='ServerLevel[world]', x=238.53, y=96.00, z=-457.30] died, message: 'Farmer was slain by Zombie'
+[14Sep2025 03:01:10.054] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/8923, l='ServerLevel[world]', x=234.11, y=96.00, z=-457.50] died, message: 'Villager was slain by Zombie'
+[14Sep2025 03:02:13.579] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Ivanzac03[/127.25.108.39:52641] logged in with entity id 21073 at (395.88604452352166, 63.0, -575.7268905778693)
+[14Sep2025 03:02:13.586] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ivanzac03 joined the game
+[14Sep2025 03:02:13.658] [Server thread/INFO] [antiqueatlas/]: Sent markers data #-1 to player Ivanzac03
+[14Sep2025 03:02:13.659] [Server thread/INFO] [antiqueatlas/]: Sent custom biome data to player Ivanzac03
+[14Sep2025 03:02:13.659] [Server thread/INFO] [antiqueatlas/]: Sent custom biome data to player Ivanzac03
+[14Sep2025 03:02:13.659] [Server thread/INFO] [antiqueatlas/]: Sent custom biome data to player Ivanzac03
+[14Sep2025 03:02:13.659] [Server thread/INFO] [antiqueatlas/]: Sent custom biome data to player Ivanzac03
+[14Sep2025 03:02:14.883] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Ivanzac03 (20)
+[14Sep2025 03:02:14.883] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Ivanzac03
+[14Sep2025 03:02:16.016] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Thank you so much for playing Dark Souls Expansion! If you'd like to create a server with your friends, you can do so at
+[14Sep2025 03:02:20.478] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Amalgam5006X> hoola
+[14Sep2025 03:02:37.664] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ivanzac03> buenas
+[14Sep2025 03:02:51.623] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Amalgam5006X has made the advancement [Stone Age]
+[14Sep2025 03:04:52.475] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Amalgam5006X has made the advancement [Getting an Upgrade]
+[14Sep2025 03:05:18.031] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Amalgam5006X> es que soy una bestia (no entiendo las mecanicas)
+[14Sep2025 03:05:30.817] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Amalgam5006X> w-_-w
+[14Sep2025 03:06:01.267] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Amalgam5006X was poked to death by a sweet berry bush
+[14Sep2025 03:06:14.967] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Amalgam5006X> como que vallas dulces?
+[14Sep2025 03:06:22.811] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Amalgam5006X> fueron hojas noramles de arboles
+[14Sep2025 03:06:33.872] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Amalgam5006X> si, hice spawn
+[14Sep2025 03:06:48.016] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Amalgam5006X> Na, tenia 2 corazones
+[14Sep2025 03:07:35.809] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Amalgam5006X> va
+[14Sep2025 03:10:48.163] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dwiss3 has made the advancement [I was here, i lived, i..]
+[14Sep2025 03:11:26.278] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ivanzac03 has made the advancement [Local Brewery]
+[14Sep2025 03:11:39.312] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ivanzac03 has made the advancement [The Beginning of An Adventure]
+[14Sep2025 03:11:39.313] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ivanzac03 has made the advancement [A Nice-y Look]
