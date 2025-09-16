@@ -39,6 +39,9 @@
     "criteria": {
       "minecraft:taiga": "2025-09-14 05:45:16 +0000",
       "minecraft:river": "2025-09-14 04:12:55 +0000",
+      "minecraft:snowy_plains": "2025-09-16 00:34:30 +0000",
+      "minecraft:dripstone_caves": "2025-09-16 00:42:39 +0000",
+      "minecraft:grove": "2025-09-16 00:39:25 +0000",
       "minecraft:cold_ocean": "2025-09-14 04:32:24 +0000",
       "minecraft:forest": "2025-09-14 05:38:23 +0000",
       "minecraft:meadow": "2025-09-14 04:45:46 +0000",
@@ -1716,15 +1719,96 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/brown_banner": {
+  "minecraft:recipes/misc/red_dye_from_poppy": {
     "criteria": {
-      "has_brown_wool": "2025-09-14 05:45:44 +0000"
+      "has_poppy": "2025-09-14 05:29:44 +0000"
     },
     "done": true
   },
   "minecraft:recipes/decorations/gray_bed": {
     "criteria": {
       "has_gray_wool": "2025-09-14 05:37:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_carpet": {
+    "criteria": {
+      "has_gray_wool": "2025-09-14 05:37:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_banner": {
+    "criteria": {
+      "has_gray_wool": "2025-09-14 05:37:21 +0000"
+    },
+    "done": true
+  },
+  "realisticforgingores:the_iron_age": {
+    "criteria": {
+      "the_iron_age_0": "2025-09-14 05:40:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "minecraft:skeleton": "2025-09-14 05:41:16 +0000",
+      "minecraft:spider": "2025-09-14 05:49:13 +0000",
+      "minecraft:creeper": "2025-09-14 05:42:46 +0000",
+      "minecraft:zombie": "2025-09-14 05:42:14 +0000"
+    },
+    "done": false
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "minecraft:skeleton": "2025-09-14 05:41:16 +0000"
+    },
+    "done": true
+  },
+  "betterarcheology:loot_vase_broken": {
+    "criteria": {
+      "criteria": "2025-09-14 05:41:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bone_meal": {
+    "criteria": {
+      "has_bone": "2025-09-14 05:43:54 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/bone_broth": {
+    "criteria": {
+      "has_bone": "2025-09-14 05:43:54 +0000"
+    },
+    "done": true
+  },
+  "betterarcheology:recipes/bomb": {
+    "criteria": {
+      "has_the_recipe": "2025-09-14 05:45:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/firework_rocket_simple": {
+    "criteria": {
+      "has_gunpowder": "2025-09-14 05:45:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tnt": {
+    "criteria": {
+      "has_gunpowder": "2025-09-14 05:45:33 +0000"
+    },
+    "done": true
+  },
+  "betterarcheology:recipes/combat/bomb": {
+    "criteria": {
+      "has_gunpowder": "2025-09-14 05:45:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brown_banner": {
+    "criteria": {
+      "has_brown_wool": "2025-09-14 05:45:44 +0000"
     },
     "done": true
   },
@@ -1746,42 +1830,9 @@
     },
     "done": true
   },
-  "realisticforgingores:the_iron_age": {
-    "criteria": {
-      "the_iron_age_0": "2025-09-14 05:40:18 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/fishing_rod": {
     "criteria": {
       "has_string": "2025-09-14 05:49:27 +0000"
-    },
-    "done": true
-  },
-  "betterarcheology:loot_vase_broken": {
-    "criteria": {
-      "criteria": "2025-09-14 05:41:43 +0000"
-    },
-    "done": true
-  },
-  "minecraft:adventure/kill_all_mobs": {
-    "criteria": {
-      "minecraft:skeleton": "2025-09-14 05:41:16 +0000",
-      "minecraft:spider": "2025-09-14 05:49:13 +0000",
-      "minecraft:creeper": "2025-09-14 05:42:46 +0000",
-      "minecraft:zombie": "2025-09-14 05:42:14 +0000"
-    },
-    "done": false
-  },
-  "minecraft:recipes/misc/red_dye_from_poppy": {
-    "criteria": {
-      "has_poppy": "2025-09-14 05:29:44 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/gray_carpet": {
-    "criteria": {
-      "has_gray_wool": "2025-09-14 05:37:21 +0000"
     },
     "done": true
   },
@@ -1791,21 +1842,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/bone_meal": {
-    "criteria": {
-      "has_bone": "2025-09-14 05:43:54 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/candle": {
     "criteria": {
       "has_string": "2025-09-14 05:49:27 +0000"
-    },
-    "done": true
-  },
-  "betterarcheology:recipes/bomb": {
-    "criteria": {
-      "has_the_recipe": "2025-09-14 05:45:33 +0000"
     },
     "done": true
   },
@@ -1815,27 +1854,9 @@
     },
     "done": true
   },
-  "farmersdelight:recipes/cooking/bone_broth": {
-    "criteria": {
-      "has_bone": "2025-09-14 05:43:54 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/dispenser": {
-    "criteria": {
-      "has_bow": "2025-09-14 05:49:58 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/white_wool_from_string": {
     "criteria": {
       "has_string": "2025-09-14 05:49:27 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/gray_banner": {
-    "criteria": {
-      "has_gray_wool": "2025-09-14 05:37:21 +0000"
     },
     "done": true
   },
@@ -1845,33 +1866,75 @@
     },
     "done": true
   },
-  "minecraft:adventure/kill_a_mob": {
-    "criteria": {
-      "minecraft:skeleton": "2025-09-14 05:41:16 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/firework_rocket_simple": {
-    "criteria": {
-      "has_gunpowder": "2025-09-14 05:45:33 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/tnt": {
-    "criteria": {
-      "has_gunpowder": "2025-09-14 05:45:33 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/loom": {
     "criteria": {
       "has_string": "2025-09-14 05:49:27 +0000"
     },
     "done": true
   },
-  "betterarcheology:recipes/combat/bomb": {
+  "minecraft:recipes/redstone/dispenser": {
     "criteria": {
-      "has_gunpowder": "2025-09-14 05:45:33 +0000"
+      "has_bow": "2025-09-14 05:49:58 +0000"
+    },
+    "done": true
+  },
+  "legendary_monsters:end_root": {
+    "criteria": {
+      "custom_test_name": "2025-09-16 00:34:16 +0000"
+    },
+    "done": true
+  },
+  "mowziesmobs:root": {
+    "criteria": {
+      "custom_test_name": "2025-09-16 00:34:16 +0000"
+    },
+    "done": true
+  },
+  "legendary_monsters:legendary_monsters_root": {
+    "criteria": {
+      "custom_test_name": "2025-09-16 00:34:16 +0000"
+    },
+    "done": true
+  },
+  "legendary_monsters:nether_root": {
+    "criteria": {
+      "custom_test_name": "2025-09-16 00:34:16 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/cooked_direwolf_smoking": {
+    "criteria": {
+      "has_direwolf": "2025-09-16 00:35:00 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/cooked_direwolf_smelting": {
+    "criteria": {
+      "has_direwolf": "2025-09-16 00:35:00 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/cooked_direwolf_campfire_cooking": {
+    "criteria": {
+      "has_direwolf": "2025-09-16 00:35:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/obtain_armor": {
+    "criteria": {
+      "iron_helmet": "2025-09-16 00:41:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget_from_smelting": {
+    "criteria": {
+      "has_iron_helmet": "2025-09-16 00:41:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget_from_blasting": {
+    "criteria": {
+      "has_iron_helmet": "2025-09-16 00:41:55 +0000"
     },
     "done": true
   },
