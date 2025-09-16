@@ -99,3 +99,4 @@
 [16Sep2025 00:45:28.426] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Thank you so much for playing Dark Souls Expansion! If you'd like to create a server with your friends, you can do so at
 [16Sep2025 00:50:10.421] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/24103, l='ServerLevel[world]', x=7337.07, y=122.00, z=-3306.61] died, message: 'Villager was slain by Zombie'
 [16Sep2025 00:50:46.021] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/24111, l='ServerLevel[world]', x=7345.50, y=116.00, z=-3326.20] died, message: 'Villager was slain by Zombie'
+[16Sep2025 00:56:01.646] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SumireShi has made the advancement [Acquire Hardware]
