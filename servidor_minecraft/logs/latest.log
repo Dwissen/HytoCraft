@@ -105,3 +105,25 @@
 [16Sep2025 01:13:28.723] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Beekeeper'/23837, l='ServerLevel[world]', x=7325.74, y=121.25, z=-3311.53] died, message: 'Beekeeper was slain by Zombie'
 [16Sep2025 01:14:25.921] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/23941, l='ServerLevel[world]', x=7327.74, y=122.25, z=-3314.77] died, message: 'Villager was slain by Zombie'
 [16Sep2025 01:18:39.977] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SumireShi has made the advancement [It's temporary...]
+[16Sep2025 01:29:58.121] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SumireShi has made the advancement [I was here, i lived, i..]
+[16Sep2025 01:30:26.434] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SumireShi has made the advancement [Sweet Dreams]
+[16Sep2025 01:34:18.986] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SumireShi has made the advancement [Intruder Alert]
+[16Sep2025 01:39:21.723] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dwiss3 has made the advancement [Intruder Alert]
+[16Sep2025 01:39:46.225] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SumireShi has made the advancement [Voluntary Exile]
+[16Sep2025 01:51:50.044] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[16Sep2025 01:51:50.048] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[16Sep2025 01:51:50.051] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[16Sep2025 01:51:50.052] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[16Sep2025 01:51:50.054] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[16Sep2025 01:51:50.068] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[16Sep2025 01:51:50.076] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[16Sep2025 01:51:50.077] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[16Sep2025 01:51:50.103] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[16Sep2025 01:51:50.106] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[16Sep2025 01:53:49.076] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/71455, l='ServerLevel[world]', x=3175.37, y=88.00, z=-3228.28] died, message: 'Villager suffocated in a wall'
+[16Sep2025 01:55:21.976] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SumireShi was killed by Iceologer using magic
+[16Sep2025 01:58:09.572] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dwiss3 has completed the challenge [Rude Awakening]
+[16Sep2025 02:01:17.776] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SumireShi was frozen to death by Frostmaw
+[16Sep2025 02:01:20.185] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dwiss3 was slain by Frostmaw
+[16Sep2025 02:03:03.975] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SumireShi has completed the challenge [Rude Awakening]
+[16Sep2025 02:04:08.924] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dwiss3 froze to death
