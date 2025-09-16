@@ -127,3 +127,21 @@
 [16Sep2025 02:01:20.185] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dwiss3 was slain by Frostmaw
 [16Sep2025 02:03:03.975] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SumireShi has completed the challenge [Rude Awakening]
 [16Sep2025 02:04:08.924] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dwiss3 froze to death
+[16Sep2025 02:05:33.575] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dwiss3 lost connection: Disconnected
+[16Sep2025 02:05:33.575] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dwiss3 left the game
+[16Sep2025 02:05:33.575] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Dwiss3
+[16Sep2025 02:05:48.121] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: SumireShi lost connection: Disconnected
+[16Sep2025 02:05:48.121] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SumireShi left the game
+[16Sep2025 02:05:48.122] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client SumireShi
+[16Sep2025 02:06:44.926] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[16Sep2025 02:06:44.927] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[16Sep2025 02:06:44.928] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[16Sep2025 02:06:45.240] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[16Sep2025 02:06:46.136] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[16Sep2025 02:06:46.137] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[16Sep2025 02:06:46.138] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/dark_souls_expansion:lordran_dimension
+[16Sep2025 02:06:46.171] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[16Sep2025 02:06:46.171] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[16Sep2025 02:06:46.171] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[16Sep2025 02:06:46.171] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (lordran_dimension): All chunks are saved
+[16Sep2025 02:06:46.171] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
