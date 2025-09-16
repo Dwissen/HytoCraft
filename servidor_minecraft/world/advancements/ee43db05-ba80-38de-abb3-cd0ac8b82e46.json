@@ -41,6 +41,7 @@
       "minecraft:river": "2025-09-14 04:12:55 +0000",
       "minecraft:snowy_plains": "2025-09-16 00:34:30 +0000",
       "minecraft:dripstone_caves": "2025-09-16 00:42:39 +0000",
+      "minecraft:snowy_taiga": "2025-09-16 01:18:05 +0000",
       "minecraft:grove": "2025-09-16 00:39:25 +0000",
       "minecraft:cold_ocean": "2025-09-14 04:32:24 +0000",
       "minecraft:forest": "2025-09-14 05:38:23 +0000",
@@ -1938,9 +1939,21 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/combat/diamond_knife": {
+    "criteria": {
+      "has_diamond": "2025-09-16 01:08:24 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/iron_leggings": {
     "criteria": {
       "has_iron_ingot": "2025-09-16 00:56:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_leggings": {
+    "criteria": {
+      "has_diamond": "2025-09-16 01:08:24 +0000"
     },
     "done": true
   },
@@ -1980,6 +1993,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/diamond_sword": {
+    "criteria": {
+      "has_diamond": "2025-09-16 01:08:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/jukebox": {
+    "criteria": {
+      "has_diamond": "2025-09-16 01:08:24 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/gold_nugget": {
     "criteria": {
       "has_gold_ingot": "2025-09-16 00:56:00 +0000"
@@ -2004,6 +2029,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/diamond_chestplate": {
+    "criteria": {
+      "has_diamond": "2025-09-16 01:08:24 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/minecart": {
     "criteria": {
       "has_iron_ingot": "2025-09-16 00:56:01 +0000"
@@ -2016,9 +2047,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/redstone_torch": {
+    "criteria": {
+      "has_redstone": "2025-09-16 01:01:52 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/golden_apple": {
     "criteria": {
       "has_gold_ingot": "2025-09-16 00:56:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/clock": {
+    "criteria": {
+      "has_redstone": "2025-09-16 01:01:52 +0000"
     },
     "done": true
   },
@@ -2052,6 +2095,12 @@
     },
     "done": true
   },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_boots": "2025-09-16 01:05:35 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/shears": {
     "criteria": {
       "has_iron_ingot": "2025-09-16 00:56:01 +0000"
@@ -2073,6 +2122,12 @@
   "minecraft:recipes/building_blocks/mossy_cobblestone_stairs_from_mossy_cobblestone_stonecutting": {
     "criteria": {
       "has_mossy_cobblestone": "2025-09-16 00:59:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_pickaxe": {
+    "criteria": {
+      "has_diamond": "2025-09-16 01:08:24 +0000"
     },
     "done": true
   },
@@ -2118,6 +2173,36 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/spruce_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2025-09-16 01:01:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/note_block": {
+    "criteria": {
+      "has_redstone": "2025-09-16 01:01:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/target": {
+    "criteria": {
+      "has_redstone": "2025-09-16 01:01:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_hoe": {
+    "criteria": {
+      "has_diamond": "2025-09-16 01:08:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_shovel": {
+    "criteria": {
+      "has_diamond": "2025-09-16 01:08:24 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/mossy_cobblestone_from_moss_block": {
     "criteria": {
       "has_moss_block": "2025-09-16 00:59:06 +0000"
@@ -2146,6 +2231,24 @@
     "criteria": {
       "has_item": "2025-09-16 00:56:01 +0000",
       "has_the_recipe": "2025-09-16 00:56:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/compass": {
+    "criteria": {
+      "has_redstone": "2025-09-16 01:01:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_spruce_wood": {
+    "criteria": {
+      "has_log": "2025-09-16 01:01:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_boots": {
+    "criteria": {
+      "has_diamond": "2025-09-16 01:08:24 +0000"
     },
     "done": true
   },
@@ -2227,6 +2330,37 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/diamond_helmet": {
+    "criteria": {
+      "has_diamond": "2025-09-16 01:08:24 +0000"
+    },
+    "done": true
+  },
+  "realisticforgingores:getting_big_stone": {
+    "criteria": {
+      "getting_big_stone_0": "2025-09-16 01:18:39 +0000"
+    },
+    "done": true
+  },
+  "betterarcheology:recipes/recipe_diamond_brush": {
+    "criteria": {
+      "has_item": "2025-09-16 01:08:24 +0000",
+      "has_the_recipe": "2025-09-16 01:08:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/recovery_compass": {
+    "criteria": {
+      "has_echo_shard": "2025-09-16 01:00:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dropper": {
+    "criteria": {
+      "has_redstone": "2025-09-16 01:01:52 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/golden_sword": {
     "criteria": {
       "has_gold_ingot": "2025-09-16 00:56:00 +0000"
@@ -2263,6 +2397,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/redstone_block": {
+    "criteria": {
+      "has_redstone": "2025-09-16 01:01:52 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/moss_carpet": {
     "criteria": {
       "has_moss_block": "2025-09-16 00:59:06 +0000"
@@ -2275,6 +2415,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/diamond_block": {
+    "criteria": {
+      "has_diamond": "2025-09-16 01:08:24 +0000"
+    },
+    "done": true
+  },
   "medievalembroidery:recipes/misc/conjuring_crystal_ball": {
     "criteria": {
       "has_gold": "2025-09-16 00:56:00 +0000"
@@ -2284,6 +2430,12 @@
   "minecraft:recipes/tools/golden_hoe": {
     "criteria": {
       "has_gold_ingot": "2025-09-16 00:56:00 +0000"
+    },
+    "done": true
+  },
+  "betterarcheology:recipes/tools/diamond_brush": {
+    "criteria": {
+      "has_diamond": "2025-09-16 01:08:24 +0000"
     },
     "done": true
   },
@@ -2302,6 +2454,18 @@
   "minecraft:recipes/decorations/mossy_cobblestone_wall_from_mossy_cobblestone_stonecutting": {
     "criteria": {
       "has_mossy_cobblestone": "2025-09-16 00:59:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/mine_diamond": {
+    "criteria": {
+      "diamond": "2025-09-16 01:08:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_axe": {
+    "criteria": {
+      "has_diamond": "2025-09-16 01:08:24 +0000"
     },
     "done": true
   },
@@ -2332,6 +2496,12 @@
   "minecraft:recipes/combat/golden_leggings": {
     "criteria": {
       "has_gold_ingot": "2025-09-16 00:56:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/piston": {
+    "criteria": {
+      "has_redstone": "2025-09-16 01:01:52 +0000"
     },
     "done": true
   },

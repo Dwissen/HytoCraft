@@ -4553,3 +4553,16 @@ com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
 [16Sep2025 00:56:01.646] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SumireShi has made the advancement [Acquire Hardware]
 [16Sep2025 01:00:23.507] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
 [16Sep2025 01:00:23.516] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[16Sep2025 01:05:23.509] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[16Sep2025 01:05:23.517] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[16Sep2025 01:05:35.707] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SumireShi has made the advancement [Cover Me with Diamonds]
+[16Sep2025 01:08:24.978] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SumireShi has made the advancement [Diamonds!]
+[16Sep2025 01:10:23.514] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[16Sep2025 01:10:23.523] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[16Sep2025 01:13:28.723] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Beekeeper'/23837, l='ServerLevel[world]', x=7325.74, y=121.25, z=-3311.53] died, message: 'Beekeeper was slain by Zombie'
+[16Sep2025 01:14:25.921] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/23941, l='ServerLevel[world]', x=7327.74, y=122.25, z=-3314.77] died, message: 'Villager was slain by Zombie'
+[16Sep2025 01:15:23.506] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[16Sep2025 01:15:23.515] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[16Sep2025 01:18:39.977] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SumireShi has made the advancement [It's temporary...]
+[16Sep2025 01:20:23.516] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[16Sep2025 01:20:23.524] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
