@@ -3045,99 +3045,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/blast_furnace": {
-    "criteria": {
-      "has_smooth_stone": "2025-09-16 00:59:21 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/deepslate_tile_stairs_from_deepslate_tiles_stonecutting": {
-    "criteria": {
-      "has_deepslate_tiles": "2025-09-16 00:59:06 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/stone_brick_wall": {
-    "criteria": {
-      "has_stone_bricks": "2025-09-16 01:01:39 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/blue_dye": {
-    "criteria": {
-      "has_lapis_lazuli": "2025-09-16 00:55:48 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/bookshelf": {
-    "criteria": {
-      "has_book": "2025-09-16 00:08:06 +0000"
-    },
-    "done": true
-  },
-  "minecraft:nether/brew_potion": {
-    "criteria": {
-      "potion": "2025-09-16 00:06:00 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/deepslate_tile_wall_from_deepslate_tiles_stonecutting": {
-    "criteria": {
-      "has_deepslate_tiles": "2025-09-16 00:59:06 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/lapis_block": {
-    "criteria": {
-      "has_lapis_lazuli": "2025-09-16 00:55:48 +0000"
-    },
-    "done": true
-  },
-  "medievalembroidery:recipes/misc/open_book_flat": {
-    "criteria": {
-      "has_book": "2025-09-16 00:08:06 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/cracked_stone_bricks": {
-    "criteria": {
-      "has_stone_bricks": "2025-09-16 01:01:39 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/stone_brick_stairs_from_stone_bricks_stonecutting": {
-    "criteria": {
-      "has_stone_bricks": "2025-09-16 01:01:39 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/stone_brick_stairs": {
     "criteria": {
       "has_stone_bricks": "2025-09-15 23:56:07 +0000"
-    },
-    "done": true
-  },
-  "immersive_weathering:recipes/stone_bricks": {
-    "criteria": {
-      "has_copper_block": "2025-09-16 01:01:39 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/bricks": {
-    "criteria": {
-      "has_brick": "2025-09-16 01:09:46 +0000"
-    },
-    "done": true
-  },
-  "immersive_weathering:recipes/spruce_bark": {
-    "criteria": {
-      "has_copper_block": "2025-09-16 00:27:05 +0000"
-    },
-    "done": true
-  },
-  "immersive_weathering:recipes/brick": {
-    "criteria": {
-      "has_copper_block": "2025-09-16 01:09:46 +0000"
     },
     "done": true
   },
@@ -3147,15 +3057,27 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/trapped_chest": {
+  "minecraft:recipes/building_blocks/stone_brick_slab": {
     "criteria": {
-      "has_tripwire_hook": "2025-09-16 01:01:24 +0000"
+      "has_stone_bricks": "2025-09-15 23:56:07 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/mossy_cobblestone_stairs_from_mossy_cobblestone_stonecutting": {
+  "minecraft:nether/brew_potion": {
     "criteria": {
-      "has_mossy_cobblestone": "2025-09-16 01:01:39 +0000"
+      "potion": "2025-09-16 00:06:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bookshelf": {
+    "criteria": {
+      "has_book": "2025-09-16 00:08:06 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/open_book_flat": {
+    "criteria": {
+      "has_book": "2025-09-16 00:08:06 +0000"
     },
     "done": true
   },
@@ -3171,18 +3093,6 @@
     },
     "done": true
   },
-  "medievalembroidery:recipes/misc/apple_juice": {
-    "criteria": {
-      "has_sugar": "2025-09-16 01:09:34 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/deepslate_tile_wall": {
-    "criteria": {
-      "has_deepslate_tiles": "2025-09-16 00:59:06 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/writable_book": {
     "criteria": {
       "has_book": "2025-09-16 00:08:06 +0000"
@@ -3195,9 +3105,93 @@
     },
     "done": true
   },
-  "medievalembroidery:recipes/misc/lemon_juice": {
+  "medievalembroidery:recipes/misc/book_closed": {
     "criteria": {
-      "has_sugar": "2025-09-16 01:09:34 +0000"
+      "has_book": "2025-09-16 00:08:06 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/skystone_block": {
+    "criteria": {
+      "has_gem": "2025-09-16 00:15:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/lava_bucket": {
+    "criteria": {
+      "lava_bucket": "2025-09-16 00:24:29 +0000"
+    },
+    "done": true
+  },
+  "immersive_weathering:recipes/spruce_bark": {
+    "criteria": {
+      "has_copper_block": "2025-09-16 00:27:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/blue_dye": {
+    "criteria": {
+      "has_lapis_lazuli": "2025-09-16 00:55:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/lapis_block": {
+    "criteria": {
+      "has_lapis_lazuli": "2025-09-16 00:55:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_stairs_from_deepslate_tiles_stonecutting": {
+    "criteria": {
+      "has_deepslate_tiles": "2025-09-16 00:59:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/deepslate_tile_wall_from_deepslate_tiles_stonecutting": {
+    "criteria": {
+      "has_deepslate_tiles": "2025-09-16 00:59:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/deepslate_tile_wall": {
+    "criteria": {
+      "has_deepslate_tiles": "2025-09-16 00:59:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cracked_deepslate_tiles": {
+    "criteria": {
+      "has_deepslate_tiles": "2025-09-16 00:59:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_slab_from_deepslate_tiles_stonecutting": {
+    "criteria": {
+      "has_deepslate_tiles": "2025-09-16 00:59:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_stairs": {
+    "criteria": {
+      "has_deepslate_tiles": "2025-09-16 00:59:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_slab": {
+    "criteria": {
+      "has_deepslate_tiles": "2025-09-16 00:59:06 +0000"
+    },
+    "done": true
+  },
+  "immersive_weathering:recipes/deepslate_tiles": {
+    "criteria": {
+      "has_copper_block": "2025-09-16 00:59:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blast_furnace": {
+    "criteria": {
+      "has_smooth_stone": "2025-09-16 00:59:21 +0000"
     },
     "done": true
   },
@@ -3207,15 +3201,51 @@
     },
     "done": true
   },
-  "farmersdelight:recipes/decorations/skillet": {
-    "criteria": {
-      "has_brick": "2025-09-16 01:09:46 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/smooth_stone_slab_from_smooth_stone_stonecutting": {
     "criteria": {
       "has_smooth_stone": "2025-09-16 00:59:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dripstone_block": {
+    "criteria": {
+      "has_pointed_dripstone": "2025-09-16 01:00:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/trapped_chest": {
+    "criteria": {
+      "has_tripwire_hook": "2025-09-16 01:01:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/stone_brick_wall": {
+    "criteria": {
+      "has_stone_bricks": "2025-09-16 01:01:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cracked_stone_bricks": {
+    "criteria": {
+      "has_stone_bricks": "2025-09-16 01:01:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_stairs_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2025-09-16 01:01:39 +0000"
+    },
+    "done": true
+  },
+  "immersive_weathering:recipes/stone_bricks": {
+    "criteria": {
+      "has_copper_block": "2025-09-16 01:01:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_stairs_from_mossy_cobblestone_stonecutting": {
+    "criteria": {
+      "has_mossy_cobblestone": "2025-09-16 01:01:39 +0000"
     },
     "done": true
   },
@@ -3231,57 +3261,9 @@
     },
     "done": true
   },
-  "mowziesmobs:kill_frostmaw": {
-    "criteria": {
-      "frostmaw": "2025-09-16 01:58:09 +0000"
-    },
-    "done": true
-  },
-  "medievalembroidery:recipes/misc/book_closed": {
-    "criteria": {
-      "has_book": "2025-09-16 00:08:06 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/decorated_pot_simple": {
-    "criteria": {
-      "has_brick": "2025-09-16 01:09:46 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/cracked_deepslate_tiles": {
-    "criteria": {
-      "has_deepslate_tiles": "2025-09-16 00:59:06 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/mossy_cobblestone_stairs": {
     "criteria": {
       "has_mossy_cobblestone": "2025-09-16 01:01:39 +0000"
-    },
-    "done": true
-  },
-  "minecraft:story/lava_bucket": {
-    "criteria": {
-      "lava_bucket": "2025-09-16 00:24:29 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/deepslate_tile_slab_from_deepslate_tiles_stonecutting": {
-    "criteria": {
-      "has_deepslate_tiles": "2025-09-16 00:59:06 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/food/roasted_mutton_chops": {
-    "criteria": {
-      "has_mutton": "2025-09-16 01:43:03 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/deepslate_tile_stairs": {
-    "criteria": {
-      "has_deepslate_tiles": "2025-09-16 00:59:06 +0000"
     },
     "done": true
   },
@@ -3297,21 +3279,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/stone_brick_slab": {
-    "criteria": {
-      "has_stone_bricks": "2025-09-15 23:56:07 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/chiseled_stone_bricks_from_stone_bricks_stonecutting": {
     "criteria": {
       "has_stone_bricks": "2025-09-16 01:01:39 +0000"
-    },
-    "done": true
-  },
-  "medievalembroidery:recipes/misc/skystone_block": {
-    "criteria": {
-      "has_gem": "2025-09-16 00:15:24 +0000"
     },
     "done": true
   },
@@ -3321,9 +3291,21 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/dripstone_block": {
+  "minecraft:recipes/decorations/mossy_cobblestone_wall_from_mossy_cobblestone_stonecutting": {
     "criteria": {
-      "has_pointed_dripstone": "2025-09-16 01:00:15 +0000"
+      "has_mossy_cobblestone": "2025-09-16 01:01:39 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/apple_juice": {
+    "criteria": {
+      "has_sugar": "2025-09-16 01:09:34 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/lemon_juice": {
+    "criteria": {
+      "has_sugar": "2025-09-16 01:09:34 +0000"
     },
     "done": true
   },
@@ -3333,21 +3315,27 @@
     },
     "done": true
   },
-  "farmersdelight:recipes/food/shepherds_pie_block": {
+  "minecraft:recipes/building_blocks/bricks": {
     "criteria": {
-      "has_cooked_mutton": "2025-09-16 01:43:03 +0000"
+      "has_brick": "2025-09-16 01:09:46 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/deepslate_tile_slab": {
+  "immersive_weathering:recipes/brick": {
     "criteria": {
-      "has_deepslate_tiles": "2025-09-16 00:59:06 +0000"
+      "has_copper_block": "2025-09-16 01:09:46 +0000"
     },
     "done": true
   },
-  "farmersdelight:recipes/food/mutton_wrap": {
+  "farmersdelight:recipes/decorations/skillet": {
     "criteria": {
-      "has_mutton": "2025-09-16 01:43:03 +0000"
+      "has_brick": "2025-09-16 01:09:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/decorated_pot_simple": {
+    "criteria": {
+      "has_brick": "2025-09-16 01:09:46 +0000"
     },
     "done": true
   },
@@ -3357,21 +3345,45 @@
     },
     "done": true
   },
-  "immersive_weathering:recipes/deepslate_tiles": {
-    "criteria": {
-      "has_copper_block": "2025-09-16 00:59:06 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/mossy_cobblestone_wall_from_mossy_cobblestone_stonecutting": {
-    "criteria": {
-      "has_mossy_cobblestone": "2025-09-16 01:01:39 +0000"
-    },
-    "done": true
-  },
   "nova_structures:adventure/find_pillager_outpost": {
     "criteria": {
       "minecraft:pillager_outpost": "2025-09-16 01:39:21 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/roasted_mutton_chops": {
+    "criteria": {
+      "has_mutton": "2025-09-16 01:43:03 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/shepherds_pie_block": {
+    "criteria": {
+      "has_cooked_mutton": "2025-09-16 01:43:03 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/mutton_wrap": {
+    "criteria": {
+      "has_mutton": "2025-09-16 01:43:03 +0000"
+    },
+    "done": true
+  },
+  "mowziesmobs:kill_frostmaw": {
+    "criteria": {
+      "frostmaw": "2025-09-16 01:58:09 +0000"
+    },
+    "done": true
+  },
+  "legendary_monsters:locate_ancient_stronghold": {
+    "criteria": {
+      "ancient_stronghold": "2025-09-19 01:55:21 +0000"
+    },
+    "done": true
+  },
+  "legendary_monsters:defeat_spiky_bug": {
+    "criteria": {
+      "spiky_bug": "2025-09-19 01:56:12 +0000"
     },
     "done": true
   },
