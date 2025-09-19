@@ -35,6 +35,7 @@
       "minecraft:old_growth_pine_taiga": "2025-09-14 03:56:03 +0000",
       "minecraft:taiga": "2025-09-14 02:16:04 +0000",
       "minecraft:frozen_river": "2025-09-14 03:20:57 +0000",
+      "minecraft:cherry_grove": "2025-09-19 04:39:48 +0000",
       "minecraft:windswept_hills": "2025-09-15 21:54:29 +0000",
       "minecraft:beach": "2025-09-14 04:03:38 +0000",
       "minecraft:river": "2025-09-13 23:22:04 +0000",
@@ -46,9 +47,12 @@
       "minecraft:swamp": "2025-09-15 21:22:10 +0000",
       "minecraft:cold_ocean": "2025-09-15 21:06:55 +0000",
       "minecraft:forest": "2025-09-13 21:05:05 +0000",
+      "minecraft:lush_caves": "2025-09-19 05:37:24 +0000",
       "minecraft:deep_cold_ocean": "2025-09-15 21:07:08 +0000",
+      "minecraft:ice_spikes": "2025-09-19 02:59:59 +0000",
       "minecraft:frozen_ocean": "2025-09-14 03:14:24 +0000",
       "minecraft:deep_frozen_ocean": "2025-09-16 01:34:15 +0000",
+      "minecraft:old_growth_spruce_taiga": "2025-09-19 05:39:41 +0000",
       "minecraft:snowy_beach": "2025-09-14 04:03:44 +0000",
       "minecraft:flower_forest": "2025-09-13 23:24:06 +0000",
       "minecraft:meadow": "2025-09-13 23:22:43 +0000",
@@ -406,7 +410,8 @@
       "cooked_porkchop": "2025-09-13 23:14:23 +0000",
       "cooked_beef": "2025-09-14 03:07:57 +0000",
       "apple": "2025-09-13 21:04:10 +0000",
-      "bread": "2025-09-13 22:08:16 +0000"
+      "bread": "2025-09-13 22:08:16 +0000",
+      "cooked_chicken": "2025-09-19 04:07:56 +0000"
     },
     "done": false
   },
@@ -1130,6 +1135,7 @@
       "minecraft:cave_spider": "2025-09-16 00:43:29 +0000",
       "minecraft:enderman": "2025-09-13 23:19:06 +0000",
       "minecraft:stray": "2025-09-14 03:33:15 +0000",
+      "minecraft:silverfish": "2025-09-19 05:44:42 +0000",
       "minecraft:zombie": "2025-09-13 22:08:20 +0000",
       "minecraft:drowned": "2025-09-14 04:14:39 +0000",
       "minecraft:zombie_villager": "2025-09-14 03:03:27 +0000"
@@ -3384,6 +3390,288 @@
   "legendary_monsters:defeat_spiky_bug": {
     "criteria": {
       "spiky_bug": "2025-09-19 01:56:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_deepslate": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-09-19 05:42:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_stairs_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-09-19 05:42:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/birch_button": {
+    "criteria": {
+      "has_planks": "2025-09-19 05:07:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_brick_stairs_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-09-19 05:42:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/birch_door": {
+    "criteria": {
+      "has_planks": "2025-09-19 05:07:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/birch_fence": {
+    "criteria": {
+      "has_planks": "2025-09-19 05:07:49 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/depthstone_block": {
+    "criteria": {
+      "has_gem": "2025-09-19 05:27:21 +0000"
+    },
+    "done": true
+  },
+  "realisticforgingores:first_pick_gold_ore": {
+    "criteria": {
+      "first_pick_gold_ore_0": "2025-09-19 05:38:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_deepslate_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-09-19 05:42:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobbled_deepslate_slab": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-09-19 05:42:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cobbled_deepslate_wall_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-09-19 05:42:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/birch_sign": {
+    "criteria": {
+      "has_planks": "2025-09-19 05:07:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/birch_wood": {
+    "criteria": {
+      "has_log": "2025-09-19 05:06:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/birch_fence_gate": {
+    "criteria": {
+      "has_planks": "2025-09-19 05:07:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cobbled_deepslate_wall": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-09-19 05:42:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_deepslate_wall_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-09-19 05:42:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/birch_slab": {
+    "criteria": {
+      "has_planks": "2025-09-19 05:07:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobbled_deepslate_stairs_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-09-19 05:42:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-09-19 05:42:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_from_moss_block": {
+    "criteria": {
+      "has_moss_block": "2025-09-19 05:38:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_deepslate_stairs_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-09-19 05:42:40 +0000"
+    },
+    "done": true
+  },
+  "immersive_weathering:recipes/moss_block": {
+    "criteria": {
+      "has_copper_block": "2025-09-19 05:38:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/birch_stairs": {
+    "criteria": {
+      "has_planks": "2025-09-19 05:07:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/deepslate_brick_wall_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-09-19 05:42:40 +0000"
+    },
+    "done": true
+  },
+  "immersive_weathering:recipes/moss_clump": {
+    "criteria": {
+      "has_copper_block": "2025-09-19 05:38:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_deepslate_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-09-19 05:42:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_deepslate_slab_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-09-19 05:42:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_bed": {
+    "criteria": {
+      "has_light_gray_wool": "2025-09-19 04:40:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/birch_planks": {
+    "criteria": {
+      "has_logs": "2025-09-19 05:06:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_brick_slab_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-09-19 05:42:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobbled_deepslate_slab_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-09-19 05:42:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_slab_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-09-19 05:42:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobbled_deepslate_stairs": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-09-19 05:42:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/walk_on_powder_snow_with_leather_boots": {
+    "criteria": {
+      "walk_on_powder_snow_with_leather_boots": "2025-09-19 05:13:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_iron_block": {
+    "criteria": {
+      "has_iron_block": "2025-09-19 04:33:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/birch_trapdoor": {
+    "criteria": {
+      "has_planks": "2025-09-19 05:07:49 +0000"
+    },
+    "done": true
+  },
+  "realisticforgingores:processing_diamond_advancement": {
+    "criteria": {
+      "processing_diamond_advancement_0": "2025-09-19 03:53:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/deepslate_tile_wall_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-09-19 05:42:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/moss_carpet": {
+    "criteria": {
+      "has_moss_block": "2025-09-19 05:38:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_banner": {
+    "criteria": {
+      "has_light_gray_wool": "2025-09-19 04:40:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_bricks_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-09-19 05:42:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_carpet": {
+    "criteria": {
+      "has_light_gray_wool": "2025-09-19 04:40:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/birch_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-09-19 05:07:49 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/diamond_grounded_sword": {
+    "criteria": {
+      "has_sword": "2025-09-19 06:12:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tiles_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-09-19 05:42:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/anvil": {
+    "criteria": {
+      "has_iron_block": "2025-09-19 04:33:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_bricks_from_moss_block": {
+    "criteria": {
+      "has_moss_block": "2025-09-19 05:38:36 +0000"
     },
     "done": true
   },

@@ -176,7 +176,7 @@
 	#-------------------------------------------
 	#Default: false
 	#-------------------------------------------
-	"Boolean: minimap" = true
+	"Boolean: minimap" = false
 	#
 	############################################
 	#Whether to add local marker for the spot where the player died.
@@ -192,7 +192,7 @@
 	#Default: 4.0
 	#-------------------------------------------
 	#Range: 9.765625E-4 ~ 1024.0
-	"Double: maxScale" = 10.0
+	"Double: maxScale" = 4.0
 	#
 	############################################
 	#Minimum zoom level. The number corresponds to the size of a block on the map relative to the size of a GUI pixel. Preferrably a power of 2. Smaller values may decrease performance!
@@ -200,5 +200,5 @@
 	#Default: 0.03125
 	#-------------------------------------------
 	#Range: 9.765625E-4 ~ 1024.0
-	"Double: minScale" = 4.0
+	"Double: minScale" = 0.03125
 
