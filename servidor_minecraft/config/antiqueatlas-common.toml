@@ -20,7 +20,7 @@
 	#Default: 0.5
 	#-------------------------------------------
 	#Range: 0.001953125 ~ 16.0
-	"Double: defaultScale" = 0.5
+	"Double: defaultScale" = 4.0
 [performance]
 	#
 	############################################
@@ -129,7 +129,7 @@
 	#Default: 16
 	#-------------------------------------------
 	#Range: -2147483648 ~ 2147483647
-	"Integer: markerSize" = 16
+	"Integer: markerSize" = 20
 	#
 	############################################
 	#The size (in GUI pixels) of a map's tile.
@@ -139,7 +139,7 @@
 	#Default: 8
 	#-------------------------------------------
 	#Range: 1 ~ 10
-	"Integer: tileSize" = 8
+	"Integer: tileSize" = 9
 [Gameplay]
 	#
 	############################################
@@ -192,7 +192,7 @@
 	#Default: 4.0
 	#-------------------------------------------
 	#Range: 9.765625E-4 ~ 1024.0
-	"Double: maxScale" = 4.0
+	"Double: maxScale" = 10.0
 	#
 	############################################
 	#Minimum zoom level. The number corresponds to the size of a block on the map relative to the size of a GUI pixel. Preferrably a power of 2. Smaller values may decrease performance!
@@ -200,5 +200,5 @@
 	#Default: 0.03125
 	#-------------------------------------------
 	#Range: 9.765625E-4 ~ 1024.0
-	"Double: minScale" = 0.03125
+	"Double: minScale" = 4.0
 
