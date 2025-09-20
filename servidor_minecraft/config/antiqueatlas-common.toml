@@ -176,7 +176,7 @@
 	#-------------------------------------------
 	#Default: false
 	#-------------------------------------------
-	"Boolean: minimap" = false
+	"Boolean: minimap" = true
 	#
 	############################################
 	#Whether to add local marker for the spot where the player died.

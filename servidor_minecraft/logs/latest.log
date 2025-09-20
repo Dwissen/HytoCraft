@@ -1250,3 +1250,88 @@ com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
 [20Sep2025 20:49:26.203] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Dwiss3 (20)
 [20Sep2025 20:49:26.207] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Dwiss3
 [20Sep2025 20:49:27.953] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Thank you so much for playing Dark Souls Expansion! If you'd like to create a server with your friends, you can do so at
+[20Sep2025 21:08:15.671] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Ivanzac03[/127.178.145.110:59925] logged in with entity id 28741 at (3375.0860565289813, 71.0, -3534.1460873766955)
+[20Sep2025 21:08:15.680] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ivanzac03 joined the game
+[20Sep2025 21:08:15.753] [Server thread/INFO] [antiqueatlas/]: Sent markers data #-1 to player Ivanzac03
+[20Sep2025 21:08:15.753] [Server thread/INFO] [antiqueatlas/]: Sent custom biome data to player Ivanzac03
+[20Sep2025 21:08:15.754] [Server thread/INFO] [antiqueatlas/]: Sent custom biome data to player Ivanzac03
+[20Sep2025 21:08:15.754] [Server thread/INFO] [antiqueatlas/]: Sent custom biome data to player Ivanzac03
+[20Sep2025 21:08:15.754] [Server thread/INFO] [antiqueatlas/]: Sent custom biome data to player Ivanzac03
+[20Sep2025 21:08:15.757] [Server thread/INFO] [antiqueatlas/]: Sending dimension #ResourceKey[minecraft:dimension / minecraft:overworld]
+[20Sep2025 21:08:15.759] [Server thread/INFO] [antiqueatlas/]: Sent dimension #ResourceKey[minecraft:dimension / minecraft:overworld] (4 tiles)
+[20Sep2025 21:08:15.759] [Server thread/INFO] [antiqueatlas/]: Sent Atlas #-1089811946 data to player Ivanzac03
+[20Sep2025 21:08:15.855] [Server thread/INFO] [antiqueatlas/]: Sending dimension #ResourceKey[minecraft:dimension / minecraft:overworld]
+[20Sep2025 21:08:15.861] [Server thread/INFO] [antiqueatlas/]: Sent dimension #ResourceKey[minecraft:dimension / minecraft:overworld] (76 tiles)
+[20Sep2025 21:08:15.861] [Server thread/INFO] [antiqueatlas/]: Sent Atlas #2 data to player Ivanzac03
+[20Sep2025 21:08:16.711] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Ivanzac03 (20)
+[20Sep2025 21:08:16.713] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Ivanzac03
+[20Sep2025 21:08:18.092] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Thank you so much for playing Dark Souls Expansion! If you'd like to create a server with your friends, you can do so at
+[20Sep2025 21:19:20.454] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dwiss3 has made the advancement [Copper age]
+[20Sep2025 21:21:41.033] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ivanzac03 has made the advancement [I was here, i lived, i..]
+[20Sep2025 21:22:05.507] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dwiss3 moved wrongly!
+[20Sep2025 21:22:05.703] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dwiss3 moved wrongly!
+[20Sep2025 21:22:18.613] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ivanzac03 has made the advancement [A Freezing Place]
+[20Sep2025 21:23:48.466] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ivanzac03 was doomed to fall by Frostbitten Golem
+[20Sep2025 21:24:26.007] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ivanzac03 has completed the challenge [The Coldest Golem]
+[20Sep2025 21:25:45.458] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dwiss3 lost connection: Disconnected
+[20Sep2025 21:25:45.458] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dwiss3 left the game
+[20Sep2025 21:25:45.461] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Dwiss3
+[20Sep2025 21:28:37.542] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ivanzac03 has made the advancement [Hunt and Gather]
+[20Sep2025 21:29:00.955] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dwiss3[/127.141.198.209:55281] logged in with entity id 90082 at (3542.682445662651, 77.0, -3554.860472902815)
+[20Sep2025 21:29:00.971] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dwiss3 joined the game
+[20Sep2025 21:29:01.005] [Server thread/INFO] [antiqueatlas/]: Sent markers data #-1 to player Dwiss3
+[20Sep2025 21:29:01.006] [Server thread/INFO] [antiqueatlas/]: Sent custom biome data to player Dwiss3
+[20Sep2025 21:29:01.006] [Server thread/INFO] [antiqueatlas/]: Sent custom biome data to player Dwiss3
+[20Sep2025 21:29:01.006] [Server thread/INFO] [antiqueatlas/]: Sent custom biome data to player Dwiss3
+[20Sep2025 21:29:01.007] [Server thread/INFO] [antiqueatlas/]: Sent custom biome data to player Dwiss3
+[20Sep2025 21:29:01.007] [Server thread/INFO] [antiqueatlas/]: Sending dimension #ResourceKey[minecraft:dimension / minecraft:overworld]
+[20Sep2025 21:29:01.007] [Server thread/INFO] [antiqueatlas/]: Sent dimension #ResourceKey[minecraft:dimension / minecraft:overworld] (6 tiles)
+[20Sep2025 21:29:01.007] [Server thread/INFO] [antiqueatlas/]: Sent Atlas #-224528351 data to player Dwiss3
+[20Sep2025 21:29:01.587] [Server thread/INFO] [antiqueatlas/]: Sending dimension #ResourceKey[minecraft:dimension / minecraft:overworld]
+[20Sep2025 21:29:01.596] [Server thread/INFO] [antiqueatlas/]: Sent dimension #ResourceKey[minecraft:dimension / minecraft:overworld] (181 tiles)
+[20Sep2025 21:29:01.597] [Server thread/INFO] [antiqueatlas/]: Sent Atlas #1 data to player Dwiss3
+[20Sep2025 21:29:02.017] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Dwiss3 (20)
+[20Sep2025 21:29:02.017] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Dwiss3
+[20Sep2025 21:29:03.437] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Thank you so much for playing Dark Souls Expansion! If you'd like to create a server with your friends, you can do so at
+[20Sep2025 21:29:15.912] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ivanzac03 has reached the goal [Dinner's Served!]
+[20Sep2025 21:31:25.127] [Worker-Main-11/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Sep2025 21:31:25.130] [Worker-Main-11/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Sep2025 21:31:25.146] [Worker-Main-11/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Sep2025 21:31:25.147] [Worker-Main-11/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Sep2025 21:31:25.150] [Worker-Main-11/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Sep2025 21:31:25.157] [Worker-Main-11/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Sep2025 21:31:25.157] [Worker-Main-11/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Sep2025 21:31:25.160] [Worker-Main-11/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Sep2025 21:31:25.167] [Worker-Main-11/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Sep2025 21:31:25.168] [Worker-Main-11/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Sep2025 21:31:25.192] [Worker-Main-11/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Sep2025 21:34:25.434] [Worker-Main-11/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Sep2025 21:34:25.435] [Worker-Main-11/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Sep2025 21:34:25.447] [Worker-Main-11/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Sep2025 21:34:25.452] [Worker-Main-11/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Sep2025 21:34:25.460] [Worker-Main-11/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Sep2025 21:34:25.460] [Worker-Main-11/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Sep2025 21:34:25.460] [Worker-Main-11/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Sep2025 21:34:25.464] [Worker-Main-11/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Sep2025 21:34:25.464] [Worker-Main-11/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Sep2025 21:34:25.464] [Worker-Main-11/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Sep2025 21:34:25.468] [Worker-Main-11/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Sep2025 21:34:25.472] [Worker-Main-11/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Sep2025 21:34:25.491] [Worker-Main-11/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Sep2025 21:34:25.500] [Worker-Main-11/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Sep2025 21:36:16.082] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/119834, l='ServerLevel[world]', x=2752.70, y=-7.00, z=-4000.50] died, message: 'Villager was shot by Pillager'
+[20Sep2025 21:36:51.780] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dwiss3 moved wrongly!
+[20Sep2025 21:36:52.927] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dwiss3 moved wrongly!
+[20Sep2025 21:36:53.392] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dwiss3 moved wrongly!
+[20Sep2025 21:39:18.931] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Sep2025 21:39:18.934] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Sep2025 21:39:18.937] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Sep2025 21:39:18.941] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Sep2025 21:39:18.949] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Sep2025 21:39:18.952] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Sep2025 21:39:18.964] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Sep2025 21:39:18.977] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Sep2025 21:39:18.996] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Sep2025 21:39:19.028] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Sep2025 21:40:54.761] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ivanzac03 was frozen to death by Frostbitten Golem
+[20Sep2025 21:43:34.357] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ivanzac03 fell from a high place
