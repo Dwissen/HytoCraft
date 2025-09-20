@@ -204,3 +204,98 @@
 [20Sep2025 01:26:23.957] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ivanzac03 lost connection: Timed out
 [20Sep2025 01:26:23.958] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ivanzac03 left the game
 [20Sep2025 01:26:23.958] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Ivanzac03
+[20Sep2025 01:27:54.269] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Ivanzac03[/127.178.145.110:55123] logged in with entity id 325015 at (3375.0860565289813, 71.0, -3534.1460873766955)
+[20Sep2025 01:27:54.274] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ivanzac03 joined the game
+[20Sep2025 01:27:54.352] [Server thread/INFO] [antiqueatlas/]: Sent markers data #-1 to player Ivanzac03
+[20Sep2025 01:27:54.352] [Server thread/INFO] [antiqueatlas/]: Sent custom biome data to player Ivanzac03
+[20Sep2025 01:27:54.353] [Server thread/INFO] [antiqueatlas/]: Sent custom biome data to player Ivanzac03
+[20Sep2025 01:27:54.353] [Server thread/INFO] [antiqueatlas/]: Sent custom biome data to player Ivanzac03
+[20Sep2025 01:27:54.353] [Server thread/INFO] [antiqueatlas/]: Sent custom biome data to player Ivanzac03
+[20Sep2025 01:27:54.353] [Server thread/INFO] [antiqueatlas/]: Sending dimension #ResourceKey[minecraft:dimension / minecraft:overworld]
+[20Sep2025 01:27:54.354] [Server thread/INFO] [antiqueatlas/]: Sent dimension #ResourceKey[minecraft:dimension / minecraft:overworld] (4 tiles)
+[20Sep2025 01:27:54.354] [Server thread/INFO] [antiqueatlas/]: Sent Atlas #-1089811946 data to player Ivanzac03
+[20Sep2025 01:27:54.377] [Server thread/INFO] [antiqueatlas/]: Sending dimension #ResourceKey[minecraft:dimension / minecraft:overworld]
+[20Sep2025 01:27:54.382] [Server thread/INFO] [antiqueatlas/]: Sent dimension #ResourceKey[minecraft:dimension / minecraft:overworld] (76 tiles)
+[20Sep2025 01:27:54.382] [Server thread/INFO] [antiqueatlas/]: Sent Atlas #2 data to player Ivanzac03
+[20Sep2025 01:27:54.860] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Ivanzac03 (20)
+[20Sep2025 01:27:54.860] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Ivanzac03
+[20Sep2025 01:27:56.704] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Thank you so much for playing Dark Souls Expansion! If you'd like to create a server with your friends, you can do so at
+[20Sep2025 01:28:24.404] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ivanzac03 lost connection: Timed out
+[20Sep2025 01:28:24.404] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ivanzac03 left the game
+[20Sep2025 01:28:24.405] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Ivanzac03
+[20Sep2025 01:29:02.861] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Ivanzac03[/127.178.145.110:49521] logged in with entity id 325867 at (3375.0860565289813, 71.0, -3534.1460873766955)
+[20Sep2025 01:29:02.866] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ivanzac03 joined the game
+[20Sep2025 01:29:02.940] [Server thread/INFO] [antiqueatlas/]: Sent markers data #-1 to player Ivanzac03
+[20Sep2025 01:29:02.941] [Server thread/INFO] [antiqueatlas/]: Sent custom biome data to player Ivanzac03
+[20Sep2025 01:29:02.941] [Server thread/INFO] [antiqueatlas/]: Sent custom biome data to player Ivanzac03
+[20Sep2025 01:29:02.941] [Server thread/INFO] [antiqueatlas/]: Sent custom biome data to player Ivanzac03
+[20Sep2025 01:29:02.941] [Server thread/INFO] [antiqueatlas/]: Sent custom biome data to player Ivanzac03
+[20Sep2025 01:29:02.942] [Server thread/INFO] [antiqueatlas/]: Sending dimension #ResourceKey[minecraft:dimension / minecraft:overworld]
+[20Sep2025 01:29:02.942] [Server thread/INFO] [antiqueatlas/]: Sent dimension #ResourceKey[minecraft:dimension / minecraft:overworld] (4 tiles)
+[20Sep2025 01:29:02.942] [Server thread/INFO] [antiqueatlas/]: Sent Atlas #-1089811946 data to player Ivanzac03
+[20Sep2025 01:29:02.966] [Server thread/INFO] [antiqueatlas/]: Sending dimension #ResourceKey[minecraft:dimension / minecraft:overworld]
+[20Sep2025 01:29:02.969] [Server thread/INFO] [antiqueatlas/]: Sent dimension #ResourceKey[minecraft:dimension / minecraft:overworld] (76 tiles)
+[20Sep2025 01:29:02.970] [Server thread/INFO] [antiqueatlas/]: Sent Atlas #2 data to player Ivanzac03
+[20Sep2025 01:29:03.478] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Ivanzac03 (20)
+[20Sep2025 01:29:03.479] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Ivanzac03
+[20Sep2025 01:29:05.303] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Thank you so much for playing Dark Souls Expansion! If you'd like to create a server with your friends, you can do so at
+[20Sep2025 01:29:33.157] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ivanzac03 lost connection: Timed out
+[20Sep2025 01:29:33.157] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ivanzac03 left the game
+[20Sep2025 01:29:33.157] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Ivanzac03
+[20Sep2025 01:29:59.964] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Ivanzac03[/127.178.145.110:41291] logged in with entity id 326585 at (3375.0860565289813, 71.0, -3534.1460873766955)
+[20Sep2025 01:29:59.968] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ivanzac03 joined the game
+[20Sep2025 01:30:00.048] [Server thread/INFO] [antiqueatlas/]: Sent markers data #-1 to player Ivanzac03
+[20Sep2025 01:30:00.048] [Server thread/INFO] [antiqueatlas/]: Sent custom biome data to player Ivanzac03
+[20Sep2025 01:30:00.048] [Server thread/INFO] [antiqueatlas/]: Sent custom biome data to player Ivanzac03
+[20Sep2025 01:30:00.048] [Server thread/INFO] [antiqueatlas/]: Sent custom biome data to player Ivanzac03
+[20Sep2025 01:30:00.048] [Server thread/INFO] [antiqueatlas/]: Sent custom biome data to player Ivanzac03
+[20Sep2025 01:30:00.049] [Server thread/INFO] [antiqueatlas/]: Sending dimension #ResourceKey[minecraft:dimension / minecraft:overworld]
+[20Sep2025 01:30:00.049] [Server thread/INFO] [antiqueatlas/]: Sent dimension #ResourceKey[minecraft:dimension / minecraft:overworld] (4 tiles)
+[20Sep2025 01:30:00.049] [Server thread/INFO] [antiqueatlas/]: Sent Atlas #-1089811946 data to player Ivanzac03
+[20Sep2025 01:30:00.071] [Server thread/INFO] [antiqueatlas/]: Sending dimension #ResourceKey[minecraft:dimension / minecraft:overworld]
+[20Sep2025 01:30:00.075] [Server thread/INFO] [antiqueatlas/]: Sent dimension #ResourceKey[minecraft:dimension / minecraft:overworld] (76 tiles)
+[20Sep2025 01:30:00.075] [Server thread/INFO] [antiqueatlas/]: Sent Atlas #2 data to player Ivanzac03
+[20Sep2025 01:30:00.515] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Ivanzac03 (20)
+[20Sep2025 01:30:00.515] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Ivanzac03
+[20Sep2025 01:30:02.409] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Thank you so much for playing Dark Souls Expansion! If you'd like to create a server with your friends, you can do so at
+[20Sep2025 01:30:30.053] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ivanzac03 lost connection: Timed out
+[20Sep2025 01:30:30.053] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ivanzac03 left the game
+[20Sep2025 01:30:30.054] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Ivanzac03
+[20Sep2025 01:31:18.011] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Ivanzac03[/127.178.145.110:33305] logged in with entity id 327345 at (3375.0860565289813, 71.0, -3534.1460873766955)
+[20Sep2025 01:31:18.017] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ivanzac03 joined the game
+[20Sep2025 01:31:18.089] [Server thread/INFO] [antiqueatlas/]: Sent markers data #-1 to player Ivanzac03
+[20Sep2025 01:31:18.090] [Server thread/INFO] [antiqueatlas/]: Sent custom biome data to player Ivanzac03
+[20Sep2025 01:31:18.090] [Server thread/INFO] [antiqueatlas/]: Sent custom biome data to player Ivanzac03
+[20Sep2025 01:31:18.090] [Server thread/INFO] [antiqueatlas/]: Sent custom biome data to player Ivanzac03
+[20Sep2025 01:31:18.090] [Server thread/INFO] [antiqueatlas/]: Sent custom biome data to player Ivanzac03
+[20Sep2025 01:31:18.090] [Server thread/INFO] [antiqueatlas/]: Sending dimension #ResourceKey[minecraft:dimension / minecraft:overworld]
+[20Sep2025 01:31:18.091] [Server thread/INFO] [antiqueatlas/]: Sent dimension #ResourceKey[minecraft:dimension / minecraft:overworld] (4 tiles)
+[20Sep2025 01:31:18.091] [Server thread/INFO] [antiqueatlas/]: Sent Atlas #-1089811946 data to player Ivanzac03
+[20Sep2025 01:31:18.113] [Server thread/INFO] [antiqueatlas/]: Sending dimension #ResourceKey[minecraft:dimension / minecraft:overworld]
+[20Sep2025 01:31:18.117] [Server thread/INFO] [antiqueatlas/]: Sent dimension #ResourceKey[minecraft:dimension / minecraft:overworld] (76 tiles)
+[20Sep2025 01:31:18.117] [Server thread/INFO] [antiqueatlas/]: Sent Atlas #2 data to player Ivanzac03
+[20Sep2025 01:31:18.605] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Ivanzac03 (20)
+[20Sep2025 01:31:18.606] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Ivanzac03
+[20Sep2025 01:31:20.455] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Thank you so much for playing Dark Souls Expansion! If you'd like to create a server with your friends, you can do so at
+[20Sep2025 01:31:48.152] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ivanzac03 lost connection: Timed out
+[20Sep2025 01:31:48.152] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ivanzac03 left the game
+[20Sep2025 01:31:48.153] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Ivanzac03
+[20Sep2025 01:35:16.061] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Ivanzac03[/127.178.145.110:53449] logged in with entity id 328407 at (3375.0860565289813, 71.0, -3534.1460873766955)
+[20Sep2025 01:35:16.066] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ivanzac03 joined the game
+[20Sep2025 01:35:16.157] [Server thread/INFO] [antiqueatlas/]: Sent markers data #-1 to player Ivanzac03
+[20Sep2025 01:35:16.160] [Server thread/INFO] [antiqueatlas/]: Sent custom biome data to player Ivanzac03
+[20Sep2025 01:35:16.161] [Server thread/INFO] [antiqueatlas/]: Sent custom biome data to player Ivanzac03
+[20Sep2025 01:35:16.161] [Server thread/INFO] [antiqueatlas/]: Sent custom biome data to player Ivanzac03
+[20Sep2025 01:35:16.161] [Server thread/INFO] [antiqueatlas/]: Sent custom biome data to player Ivanzac03
+[20Sep2025 01:35:16.161] [Server thread/INFO] [antiqueatlas/]: Sending dimension #ResourceKey[minecraft:dimension / minecraft:overworld]
+[20Sep2025 01:35:16.162] [Server thread/INFO] [antiqueatlas/]: Sent dimension #ResourceKey[minecraft:dimension / minecraft:overworld] (4 tiles)
+[20Sep2025 01:35:16.165] [Server thread/INFO] [antiqueatlas/]: Sent Atlas #-1089811946 data to player Ivanzac03
+[20Sep2025 01:35:16.190] [Server thread/INFO] [antiqueatlas/]: Sending dimension #ResourceKey[minecraft:dimension / minecraft:overworld]
+[20Sep2025 01:35:16.194] [Server thread/INFO] [antiqueatlas/]: Sent dimension #ResourceKey[minecraft:dimension / minecraft:overworld] (76 tiles)
+[20Sep2025 01:35:16.194] [Server thread/INFO] [antiqueatlas/]: Sent Atlas #2 data to player Ivanzac03
+[20Sep2025 01:35:17.114] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Ivanzac03 (20)
+[20Sep2025 01:35:17.114] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Ivanzac03
+[20Sep2025 01:35:18.506] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Thank you so much for playing Dark Souls Expansion! If you'd like to create a server with your friends, you can do so at
+[20Sep2025 01:35:46.161] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ivanzac03 lost connection: Timed out
+[20Sep2025 01:35:46.162] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ivanzac03 left the game
+[20Sep2025 01:35:46.162] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Ivanzac03
