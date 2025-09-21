@@ -29,3 +29,39 @@
 [21Sep2025 00:43:22.473] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dwiss3: Teleported SumireShi to Dwiss3]
 [21Sep2025 00:48:39.393] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dwiss3 was killed by magic
 [21Sep2025 00:49:04.324] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dwiss3: Teleported Dwiss3 to SumireShi]
+[21Sep2025 00:58:25.544] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dwiss3 was killed by magic
+[21Sep2025 00:58:46.776] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dwiss3: Teleported SumireShi to Dwiss3]
+[21Sep2025 01:01:21.525] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dwiss3 moved wrongly!
+[21Sep2025 01:01:21.728] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dwiss3 moved wrongly!
+[21Sep2025 01:04:51.751] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: SumireShi moved wrongly!
+[21Sep2025 01:05:56.893] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SumireShi froze to death
+[21Sep2025 01:07:52.621] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dwiss3 moved wrongly!
+[21Sep2025 01:08:03.961] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dwiss3 moved wrongly!
+[21Sep2025 01:08:05.794] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dwiss3 moved wrongly!
+[21Sep2025 01:08:06.796] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dwiss3 moved wrongly!
+[21Sep2025 01:08:08.595] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dwiss3 moved wrongly!
+[21Sep2025 01:08:10.797] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dwiss3 moved wrongly!
+[21Sep2025 01:08:39.192] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dwiss3 moved wrongly!
+[21Sep2025 01:10:18.150] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dwiss3 lost connection: Disconnected
+[21Sep2025 01:10:18.151] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dwiss3 left the game
+[21Sep2025 01:10:18.151] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Dwiss3
+[21Sep2025 01:10:28.201] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dwiss3[/127.141.198.209:43727] logged in with entity id 965677 at (-108.2721740168934, 85.41534877190125, -424.4998854816172)
+[21Sep2025 01:10:28.215] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dwiss3 joined the game
+[21Sep2025 01:10:28.305] [Server thread/INFO] [antiqueatlas/]: Sent markers data #-1 to player Dwiss3
+[21Sep2025 01:10:28.306] [Server thread/INFO] [antiqueatlas/]: Sent custom biome data to player Dwiss3
+[21Sep2025 01:10:28.306] [Server thread/INFO] [antiqueatlas/]: Sent custom biome data to player Dwiss3
+[21Sep2025 01:10:28.306] [Server thread/INFO] [antiqueatlas/]: Sent custom biome data to player Dwiss3
+[21Sep2025 01:10:28.306] [Server thread/INFO] [antiqueatlas/]: Sent custom biome data to player Dwiss3
+[21Sep2025 01:10:28.306] [Server thread/INFO] [antiqueatlas/]: Sending dimension #ResourceKey[minecraft:dimension / minecraft:overworld]
+[21Sep2025 01:10:28.307] [Server thread/INFO] [antiqueatlas/]: Sent dimension #ResourceKey[minecraft:dimension / minecraft:overworld] (6 tiles)
+[21Sep2025 01:10:28.307] [Server thread/INFO] [antiqueatlas/]: Sent Atlas #-224528351 data to player Dwiss3
+[21Sep2025 01:10:28.332] [Server thread/INFO] [antiqueatlas/]: Sending dimension #ResourceKey[minecraft:dimension / minecraft:overworld]
+[21Sep2025 01:10:28.345] [Server thread/INFO] [antiqueatlas/]: Sent dimension #ResourceKey[minecraft:dimension / minecraft:overworld] (252 tiles)
+[21Sep2025 01:10:28.346] [Server thread/INFO] [antiqueatlas/]: Sent Atlas #1 data to player Dwiss3
+[21Sep2025 01:10:28.346] [Server thread/INFO] [antiqueatlas/]: Sent markers data #1 to player Dwiss3
+[21Sep2025 01:10:29.198] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Dwiss3 (20)
+[21Sep2025 01:10:29.198] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Dwiss3
+[21Sep2025 01:10:30.648] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Thank you so much for playing Dark Souls Expansion! If you'd like to create a server with your friends, you can do so at
+[21Sep2025 01:10:38.647] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dwiss3 lost connection: Disconnected
+[21Sep2025 01:10:38.647] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dwiss3 left the game
+[21Sep2025 01:10:38.647] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Dwiss3

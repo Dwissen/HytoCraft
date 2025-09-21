@@ -3969,9 +3969,45 @@
     },
     "done": true
   },
+  "realisticforgingores:clean_ore_in_cauldron": {
+    "criteria": {
+      "clean_ore_in_cauldron_0": "2025-09-20 21:49:06 +0000"
+    },
+    "done": true
+  },
+  "realisticforgingores:crafting_smithing_anvil": {
+    "criteria": {
+      "crafting_smithing_anvil_0": "2025-09-20 22:13:50 +0000"
+    },
+    "done": true
+  },
+  "realisticforgingores:craftingsmall_pan_advancement": {
+    "criteria": {
+      "craftingsmall_pan_advancement_0": "2025-09-20 22:22:27 +0000"
+    },
+    "done": true
+  },
   "realisticforgingores:crafting_wood_pestle": {
     "criteria": {
       "crafting_wood_pestle_0": "2025-09-20 22:23:29 +0000"
+    },
+    "done": true
+  },
+  "realisticforgingores:crushing_copper_ore": {
+    "criteria": {
+      "crushing_copper_ore_0": "2025-09-20 22:23:39 +0000"
+    },
+    "done": true
+  },
+  "realisticforgingores:craft_ingot_mold": {
+    "criteria": {
+      "craft_ingot_mold_0": "2025-09-20 22:26:13 +0000"
+    },
+    "done": true
+  },
+  "realisticforgingores:casting_copper_ingot": {
+    "criteria": {
+      "casting_copper_ingot_0": "2025-09-20 22:26:45 +0000"
     },
     "done": true
   },
@@ -3984,24 +4020,6 @@
   "chimes:recipes/decorations/copper_chimes": {
     "criteria": {
       "has_wood_slabs": "2025-09-20 22:26:49 +0000"
-    },
-    "done": true
-  },
-  "minecraft:story/enchant_item": {
-    "criteria": {
-      "enchanted_item": "2025-09-20 23:47:18 +0000"
-    },
-    "done": true
-  },
-  "realisticforgingores:clean_ore_in_cauldron": {
-    "criteria": {
-      "clean_ore_in_cauldron_0": "2025-09-20 21:49:06 +0000"
-    },
-    "done": true
-  },
-  "realisticforgingores:craftingsmall_pan_advancement": {
-    "criteria": {
-      "craftingsmall_pan_advancement_0": "2025-09-20 22:22:27 +0000"
     },
     "done": true
   },
@@ -4023,51 +4041,33 @@
     },
     "done": true
   },
-  "minecraft:recipes/tools/recovery_compass": {
-    "criteria": {
-      "has_echo_shard": "2025-09-20 23:30:57 +0000"
-    },
-    "done": true
-  },
   "legendary_monsters:locate_abandoned_crypt": {
     "criteria": {
       "abandoned_crypt": "2025-09-20 23:07:19 +0000"
     },
     "done": true
   },
-  "realisticforgingores:casting_copper_ingot": {
+  "minecraft:recipes/tools/recovery_compass": {
     "criteria": {
-      "casting_copper_ingot_0": "2025-09-20 22:26:45 +0000"
+      "has_echo_shard": "2025-09-20 23:30:57 +0000"
     },
     "done": true
   },
-  "realisticforgingores:craft_ingot_mold": {
+  "minecraft:story/enchant_item": {
     "criteria": {
-      "craft_ingot_mold_0": "2025-09-20 22:26:13 +0000"
-    },
-    "done": true
-  },
-  "legendary_monsters:defeat_haunted_guard": {
-    "criteria": {
-      "ambusher": "2025-09-21 00:13:26 +0000"
-    },
-    "done": true
-  },
-  "realisticforgingores:crushing_copper_ore": {
-    "criteria": {
-      "crushing_copper_ore_0": "2025-09-20 22:23:39 +0000"
-    },
-    "done": true
-  },
-  "realisticforgingores:crafting_smithing_anvil": {
-    "criteria": {
-      "crafting_smithing_anvil_0": "2025-09-20 22:13:50 +0000"
+      "enchanted_item": "2025-09-20 23:47:18 +0000"
     },
     "done": true
   },
   "legendary_monsters:defeat_haunted_knight": {
     "criteria": {
       "ambusher": "2025-09-21 00:11:11 +0000"
+    },
+    "done": true
+  },
+  "legendary_monsters:defeat_haunted_guard": {
+    "criteria": {
+      "ambusher": "2025-09-21 00:13:26 +0000"
     },
     "done": true
   },
