@@ -68,3 +68,15 @@
 [21Sep2025 01:18:32.239] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: SumireShi lost connection: Disconnected
 [21Sep2025 01:18:32.239] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SumireShi left the game
 [21Sep2025 01:18:32.240] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client SumireShi
+[21Sep2025 01:50:17.115] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[21Sep2025 01:50:17.117] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[21Sep2025 01:50:17.117] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[21Sep2025 01:50:17.370] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[21Sep2025 01:50:18.172] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[21Sep2025 01:50:18.173] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/dark_souls_expansion:lordran_dimension
+[21Sep2025 01:50:18.174] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[21Sep2025 01:50:18.200] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[21Sep2025 01:50:18.200] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[21Sep2025 01:50:18.200] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (lordran_dimension): All chunks are saved
+[21Sep2025 01:50:18.200] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[21Sep2025 01:50:18.200] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
