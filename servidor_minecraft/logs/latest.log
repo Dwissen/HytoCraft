@@ -65,3 +65,6 @@
 [21Sep2025 01:10:38.647] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dwiss3 lost connection: Disconnected
 [21Sep2025 01:10:38.647] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dwiss3 left the game
 [21Sep2025 01:10:38.647] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Dwiss3
+[21Sep2025 01:18:32.239] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: SumireShi lost connection: Disconnected
+[21Sep2025 01:18:32.239] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SumireShi left the game
+[21Sep2025 01:18:32.240] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client SumireShi
