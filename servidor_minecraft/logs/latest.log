@@ -22,3 +22,10 @@
 [21Sep2025 00:31:51.310] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dwiss3 moved wrongly!
 [21Sep2025 00:31:51.959] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dwiss3 moved wrongly!
 [21Sep2025 00:35:30.342] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SumireShi has made the advancement [Copper age]
+[21Sep2025 00:42:29.394] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dwiss3 was killed by magic
+[21Sep2025 00:43:00.104] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dwiss3: Teleported Dwiss3 to SumireShi]
+[21Sep2025 00:43:07.044] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SumireShi was killed
+[21Sep2025 00:43:07.045] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dwiss3: Killed SumireShi]
+[21Sep2025 00:43:22.473] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dwiss3: Teleported SumireShi to Dwiss3]
+[21Sep2025 00:48:39.393] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dwiss3 was killed by magic
+[21Sep2025 00:49:04.324] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dwiss3: Teleported Dwiss3 to SumireShi]
