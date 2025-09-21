@@ -4792,3 +4792,1138 @@ com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
 [20Sep2025 22:35:12.348] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/261915, l='ServerLevel[world]', x=250.58, y=62.94, z=-557.60] died, message: 'Villager was slain by Zombie'
 [20Sep2025 22:37:52.855] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
 [20Sep2025 22:37:52.863] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[20Sep2025 22:42:52.861] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[20Sep2025 22:42:52.870] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[20Sep2025 22:44:53.162] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/323283, l='ServerLevel[world]', x=5998.42, y=63.00, z=-6275.50] died, message: 'Villager was slain by Ivanzac03'
+[20Sep2025 22:47:52.888] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[20Sep2025 22:47:52.897] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[20Sep2025 22:50:05.057] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ivanzac03 has made the advancement [Smashing Success]
+[20Sep2025 22:52:52.871] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[20Sep2025 22:52:52.880] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[20Sep2025 22:54:07.175] [Server thread/ERROR] [net.minecraftforge.eventbus.EventBus/EVENTBUS]: Exception caught during firing event: Cannot invoke "net.minecraft.advancements.Advancement.m_138325_()" because "p_135986_" is null
+	Index: 8
+	Listeners:
+		0: NORMAL
+		1: ASM: class net.mcreator.realisticforging.procedures.TwoSticksCraftingAdvancementProcedure onItemCrafted(Lnet/minecraftforge/event/entity/player/PlayerEvent$ItemCraftedEvent;)V
+		2: ASM: class net.mcreator.realisticforging.procedures.CraftingWoodPestleAdvancementProcedure onItemCrafted(Lnet/minecraftforge/event/entity/player/PlayerEvent$ItemCraftedEvent;)V
+		3: ASM: class net.mcreator.realisticforging.procedures.CraftingSmithingAnvilAdvancementProcedure onItemCrafted(Lnet/minecraftforge/event/entity/player/PlayerEvent$ItemCraftedEvent;)V
+		4: ASM: class net.mcreator.realisticforging.procedures.CraftingSmallPanAdvancementProcedureProcedure onItemCrafted(Lnet/minecraftforge/event/entity/player/PlayerEvent$ItemCraftedEvent;)V
+		5: ASM: class net.mcreator.realisticforging.procedures.CraftingSandPaperProcedureProcedure onItemCrafted(Lnet/minecraftforge/event/entity/player/PlayerEvent$ItemCraftedEvent;)V
+		6: ASM: class net.mcreator.realisticforging.procedures.CraftingPointChiselProcedureProcedure onItemCrafted(Lnet/minecraftforge/event/entity/player/PlayerEvent$ItemCraftedEvent;)V
+		7: ASM: class net.mcreator.realisticforging.procedures.CraftingIronSwordAdvancementProcedure onItemCrafted(Lnet/minecraftforge/event/entity/player/PlayerEvent$ItemCraftedEvent;)V
+		8: ASM: class net.mcreator.realisticforging.procedures.CraftingIronArmorAdvancementProcedure onItemCrafted(Lnet/minecraftforge/event/entity/player/PlayerEvent$ItemCraftedEvent;)V
+		9: ASM: class net.mcreator.realisticforging.procedures.CraftingIngotMoldAdvancementProcedure onItemCrafted(Lnet/minecraftforge/event/entity/player/PlayerEvent$ItemCraftedEvent;)V
+		10: ASM: class net.mcreator.realisticforging.procedures.CraftingDiamondSwordProcedureProcedure onItemCrafted(Lnet/minecraftforge/event/entity/player/PlayerEvent$ItemCraftedEvent;)V
+		11: ASM: class net.mcreator.realisticforging.procedures.CraftingCarvingHammerProcedureProcedure onItemCrafted(Lnet/minecraftforge/event/entity/player/PlayerEvent$ItemCraftedEvent;)V
+		12: ASM: class net.mcreator.realisticforging.procedures.CraftingBlankMoldAdvancementProcedure onItemCrafted(Lnet/minecraftforge/event/entity/player/PlayerEvent$ItemCraftedEvent;)V
+		13: ASM: class net.mcreator.realisticforging.procedures.CraftingBlacksmithTongsAdvancementsProcedure onItemCrafted(Lnet/minecraftforge/event/entity/player/PlayerEvent$ItemCraftedEvent;)V
+		14: ASM: class net.mcreator.realisticforging.procedures.CraftingBigPanAdvancementProcedureProcedure onItemCrafted(Lnet/minecraftforge/event/entity/player/PlayerEvent$ItemCraftedEvent;)V
+		15: ASM: class net.mcreator.realisticforging.procedures.CraftSmithingHammerAdvancementProcedure onItemCrafted(Lnet/minecraftforge/event/entity/player/PlayerEvent$ItemCraftedEvent;)V
+java.lang.NullPointerException: Cannot invoke "net.minecraft.advancements.Advancement.m_138325_()" because "p_135986_" is null
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.PlayerAdvancements.m_135985_(PlayerAdvancements.java:307)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.PlayerAdvancements.m_135996_(PlayerAdvancements.java:300)
+	at TRANSFORMER/realisticforgingores@4.1.6/net.mcreator.realisticforging.procedures.CraftingIronArmorAdvancementProcedure.execute(CraftingIronArmorAdvancementProcedure.java:35)
+	at TRANSFORMER/realisticforgingores@4.1.6/net.mcreator.realisticforging.procedures.CraftingIronArmorAdvancementProcedure.onItemCrafted(CraftingIronArmorAdvancementProcedure.java:22)
+	at TRANSFORMER/realisticforgingores@4.1.6/net.mcreator.realisticforging.procedures.__CraftingIronArmorAdvancementProcedure_onItemCrafted_ItemCraftedEvent.invoke(.dynamic)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:315)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:296)
+	at TRANSFORMER/forge@47.4.0/net.minecraftforge.event.ForgeEventFactory.firePlayerCraftingEvent(ForgeEventFactory.java:920)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.inventory.ResultSlot.m_5845_(ResultSlot.java:44)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.inventory.ResultSlot.m_142406_(ResultSlot.java:56)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.inventory.AbstractContainerMenu.m_150418_(AbstractContainerMenu.java:418)
+	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.inventory.AbstractContainerMenu.m_150430_(AbstractContainerMenu.java:416)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.inventory.AbstractContainerMenu.m_150399_(AbstractContainerMenu.java:294)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.network.ServerGamePacketListenerImpl.m_5914_(ServerGamePacketListenerImpl.java:1548)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.game.ServerboundContainerClickPacket.m_5797_(ServerboundContainerClickPacket.java:56)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.game.ServerboundContainerClickPacket.m_5797_(ServerboundContainerClickPacket.java:12)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:22)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.TickTask.run(TickTask.java:18)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:733)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+[20Sep2025 22:54:07.177] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/topology/core_id
+[20Sep2025 22:54:07.178] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/topology/core_id
+[20Sep2025 22:54:07.178] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/topology/physical_package_id
+[20Sep2025 22:54:07.178] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/topology/physical_package_id
+[20Sep2025 22:54:07.178] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cpu_capacity
+[20Sep2025 22:54:07.178] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/topology/core_id
+[20Sep2025 22:54:07.178] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/topology/core_id
+[20Sep2025 22:54:07.178] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/topology/physical_package_id
+[20Sep2025 22:54:07.178] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/topology/physical_package_id
+[20Sep2025 22:54:07.178] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cpu_capacity
+[20Sep2025 22:54:07.179] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/topology/core_id
+[20Sep2025 22:54:07.179] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/topology/core_id
+[20Sep2025 22:54:07.179] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/topology/physical_package_id
+[20Sep2025 22:54:07.179] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/topology/physical_package_id
+[20Sep2025 22:54:07.179] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cpu_capacity
+[20Sep2025 22:54:07.179] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/topology/core_id
+[20Sep2025 22:54:07.179] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/topology/core_id
+[20Sep2025 22:54:07.179] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/topology/physical_package_id
+[20Sep2025 22:54:07.179] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/topology/physical_package_id
+[20Sep2025 22:54:07.179] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cpu_capacity
+[20Sep2025 22:54:07.179] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/cpuinfo
+[20Sep2025 22:54:07.190] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/self/auxv
+[20Sep2025 22:54:07.191] [Server thread/DEBUG] [oshi.util.FileUtil/]: No oshi.architecture.properties file found from ClassLoader cpw.mods.modlauncher.TransformingClassLoader@61ae0d43
+[20Sep2025 22:54:07.191] [Server thread/DEBUG] [oshi.util.FileUtil/]: No oshi.architecture.properties file found from ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+[20Sep2025 22:54:07.203] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/meminfo
+[20Sep2025 22:54:07.203] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/meminfo
+[20Sep2025 22:54:07.208] [Server thread/ERROR] [net.minecraft.network.protocol.PacketUtils/]: Failed to handle packet net.minecraft.network.protocol.game.ServerboundContainerClickPacket@150f319f, suppressing error
+net.minecraft.ReportedException: Container click
+	at net.minecraft.world.inventory.AbstractContainerMenu.m_150399_(AbstractContainerMenu.java:308) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_5914_(ServerGamePacketListenerImpl.java:1548) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.network.protocol.game.ServerboundContainerClickPacket.m_5797_(ServerboundContainerClickPacket.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.network.protocol.game.ServerboundContainerClickPacket.m_5797_(ServerboundContainerClickPacket.java:12) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:22) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:733) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+Caused by: java.lang.NullPointerException: Cannot invoke "net.minecraft.advancements.Advancement.m_138325_()" because "p_135986_" is null
+	at net.minecraft.server.PlayerAdvancements.m_135985_(PlayerAdvancements.java:307) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.server.PlayerAdvancements.m_135996_(PlayerAdvancements.java:300) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.mcreator.realisticforging.procedures.CraftingIronArmorAdvancementProcedure.execute(CraftingIronArmorAdvancementProcedure.java:35) ~[realisticforgingores%20-%20no%20tools%20-4.1.6-forge-1.20.1.jar%23189!/:?]
+	at net.mcreator.realisticforging.procedures.CraftingIronArmorAdvancementProcedure.onItemCrafted(CraftingIronArmorAdvancementProcedure.java:22) ~[realisticforgingores%20-%20no%20tools%20-4.1.6-forge-1.20.1.jar%23189!/:?]
+	at net.mcreator.realisticforging.procedures.__CraftingIronArmorAdvancementProcedure_onItemCrafted_ItemCraftedEvent.invoke(.dynamic) ~[realisticforgingores%20-%20no%20tools%20-4.1.6-forge-1.20.1.jar%23189!/:?]
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:315) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:296) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.event.ForgeEventFactory.firePlayerCraftingEvent(ForgeEventFactory.java:920) ~[forge-1.20.1-47.4.0-universal.jar%23208!/:?]
+	at net.minecraft.world.inventory.ResultSlot.m_5845_(ResultSlot.java:44) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.world.inventory.ResultSlot.m_142406_(ResultSlot.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.world.inventory.AbstractContainerMenu.m_150418_(AbstractContainerMenu.java:418) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at java.util.Optional.ifPresent(Optional.java:178) ~[?:?]
+	at net.minecraft.world.inventory.AbstractContainerMenu.m_150430_(AbstractContainerMenu.java:416) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.world.inventory.AbstractContainerMenu.m_150399_(AbstractContainerMenu.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	... 17 more
+[20Sep2025 22:54:27.148] [Server thread/ERROR] [net.minecraftforge.eventbus.EventBus/EVENTBUS]: Exception caught during firing event: Cannot invoke "net.minecraft.advancements.Advancement.m_138325_()" because "p_135986_" is null
+	Index: 8
+	Listeners:
+		0: NORMAL
+		1: ASM: class net.mcreator.realisticforging.procedures.TwoSticksCraftingAdvancementProcedure onItemCrafted(Lnet/minecraftforge/event/entity/player/PlayerEvent$ItemCraftedEvent;)V
+		2: ASM: class net.mcreator.realisticforging.procedures.CraftingWoodPestleAdvancementProcedure onItemCrafted(Lnet/minecraftforge/event/entity/player/PlayerEvent$ItemCraftedEvent;)V
+		3: ASM: class net.mcreator.realisticforging.procedures.CraftingSmithingAnvilAdvancementProcedure onItemCrafted(Lnet/minecraftforge/event/entity/player/PlayerEvent$ItemCraftedEvent;)V
+		4: ASM: class net.mcreator.realisticforging.procedures.CraftingSmallPanAdvancementProcedureProcedure onItemCrafted(Lnet/minecraftforge/event/entity/player/PlayerEvent$ItemCraftedEvent;)V
+		5: ASM: class net.mcreator.realisticforging.procedures.CraftingSandPaperProcedureProcedure onItemCrafted(Lnet/minecraftforge/event/entity/player/PlayerEvent$ItemCraftedEvent;)V
+		6: ASM: class net.mcreator.realisticforging.procedures.CraftingPointChiselProcedureProcedure onItemCrafted(Lnet/minecraftforge/event/entity/player/PlayerEvent$ItemCraftedEvent;)V
+		7: ASM: class net.mcreator.realisticforging.procedures.CraftingIronSwordAdvancementProcedure onItemCrafted(Lnet/minecraftforge/event/entity/player/PlayerEvent$ItemCraftedEvent;)V
+		8: ASM: class net.mcreator.realisticforging.procedures.CraftingIronArmorAdvancementProcedure onItemCrafted(Lnet/minecraftforge/event/entity/player/PlayerEvent$ItemCraftedEvent;)V
+		9: ASM: class net.mcreator.realisticforging.procedures.CraftingIngotMoldAdvancementProcedure onItemCrafted(Lnet/minecraftforge/event/entity/player/PlayerEvent$ItemCraftedEvent;)V
+		10: ASM: class net.mcreator.realisticforging.procedures.CraftingDiamondSwordProcedureProcedure onItemCrafted(Lnet/minecraftforge/event/entity/player/PlayerEvent$ItemCraftedEvent;)V
+		11: ASM: class net.mcreator.realisticforging.procedures.CraftingCarvingHammerProcedureProcedure onItemCrafted(Lnet/minecraftforge/event/entity/player/PlayerEvent$ItemCraftedEvent;)V
+		12: ASM: class net.mcreator.realisticforging.procedures.CraftingBlankMoldAdvancementProcedure onItemCrafted(Lnet/minecraftforge/event/entity/player/PlayerEvent$ItemCraftedEvent;)V
+		13: ASM: class net.mcreator.realisticforging.procedures.CraftingBlacksmithTongsAdvancementsProcedure onItemCrafted(Lnet/minecraftforge/event/entity/player/PlayerEvent$ItemCraftedEvent;)V
+		14: ASM: class net.mcreator.realisticforging.procedures.CraftingBigPanAdvancementProcedureProcedure onItemCrafted(Lnet/minecraftforge/event/entity/player/PlayerEvent$ItemCraftedEvent;)V
+		15: ASM: class net.mcreator.realisticforging.procedures.CraftSmithingHammerAdvancementProcedure onItemCrafted(Lnet/minecraftforge/event/entity/player/PlayerEvent$ItemCraftedEvent;)V
+java.lang.NullPointerException: Cannot invoke "net.minecraft.advancements.Advancement.m_138325_()" because "p_135986_" is null
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.PlayerAdvancements.m_135985_(PlayerAdvancements.java:307)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.PlayerAdvancements.m_135996_(PlayerAdvancements.java:300)
+	at TRANSFORMER/realisticforgingores@4.1.6/net.mcreator.realisticforging.procedures.CraftingIronArmorAdvancementProcedure.execute(CraftingIronArmorAdvancementProcedure.java:35)
+	at TRANSFORMER/realisticforgingores@4.1.6/net.mcreator.realisticforging.procedures.CraftingIronArmorAdvancementProcedure.onItemCrafted(CraftingIronArmorAdvancementProcedure.java:22)
+	at TRANSFORMER/realisticforgingores@4.1.6/net.mcreator.realisticforging.procedures.__CraftingIronArmorAdvancementProcedure_onItemCrafted_ItemCraftedEvent.invoke(.dynamic)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:315)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:296)
+	at TRANSFORMER/forge@47.4.0/net.minecraftforge.event.ForgeEventFactory.firePlayerCraftingEvent(ForgeEventFactory.java:920)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.inventory.ResultSlot.m_5845_(ResultSlot.java:44)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.inventory.ResultSlot.m_142406_(ResultSlot.java:56)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.inventory.AbstractContainerMenu.m_150418_(AbstractContainerMenu.java:418)
+	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.inventory.AbstractContainerMenu.m_150430_(AbstractContainerMenu.java:416)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.inventory.AbstractContainerMenu.m_150399_(AbstractContainerMenu.java:294)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.network.ServerGamePacketListenerImpl.m_5914_(ServerGamePacketListenerImpl.java:1548)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.game.ServerboundContainerClickPacket.m_5797_(ServerboundContainerClickPacket.java:56)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.game.ServerboundContainerClickPacket.m_5797_(ServerboundContainerClickPacket.java:12)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:22)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.TickTask.run(TickTask.java:18)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:733)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+[20Sep2025 22:54:27.150] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/topology/core_id
+[20Sep2025 22:54:27.150] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/topology/core_id
+[20Sep2025 22:54:27.151] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/topology/physical_package_id
+[20Sep2025 22:54:27.151] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/topology/physical_package_id
+[20Sep2025 22:54:27.151] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cpu_capacity
+[20Sep2025 22:54:27.151] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/topology/core_id
+[20Sep2025 22:54:27.151] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/topology/core_id
+[20Sep2025 22:54:27.151] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/topology/physical_package_id
+[20Sep2025 22:54:27.151] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/topology/physical_package_id
+[20Sep2025 22:54:27.151] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cpu_capacity
+[20Sep2025 22:54:27.151] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/topology/core_id
+[20Sep2025 22:54:27.151] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/topology/core_id
+[20Sep2025 22:54:27.151] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/topology/physical_package_id
+[20Sep2025 22:54:27.152] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/topology/physical_package_id
+[20Sep2025 22:54:27.152] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cpu_capacity
+[20Sep2025 22:54:27.152] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/topology/core_id
+[20Sep2025 22:54:27.152] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/topology/core_id
+[20Sep2025 22:54:27.152] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/topology/physical_package_id
+[20Sep2025 22:54:27.152] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/topology/physical_package_id
+[20Sep2025 22:54:27.152] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cpu_capacity
+[20Sep2025 22:54:27.152] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/cpuinfo
+[20Sep2025 22:54:27.160] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/self/auxv
+[20Sep2025 22:54:27.161] [Server thread/DEBUG] [oshi.util.FileUtil/]: No oshi.architecture.properties file found from ClassLoader cpw.mods.modlauncher.TransformingClassLoader@61ae0d43
+[20Sep2025 22:54:27.161] [Server thread/DEBUG] [oshi.util.FileUtil/]: No oshi.architecture.properties file found from ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+[20Sep2025 22:54:27.170] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/meminfo
+[20Sep2025 22:54:27.170] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/meminfo
+[20Sep2025 22:54:27.170] [Server thread/ERROR] [net.minecraft.network.protocol.PacketUtils/]: Failed to handle packet net.minecraft.network.protocol.game.ServerboundContainerClickPacket@55ae872d, suppressing error
+net.minecraft.ReportedException: Container click
+	at net.minecraft.world.inventory.AbstractContainerMenu.m_150399_(AbstractContainerMenu.java:308) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_5914_(ServerGamePacketListenerImpl.java:1548) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.network.protocol.game.ServerboundContainerClickPacket.m_5797_(ServerboundContainerClickPacket.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.network.protocol.game.ServerboundContainerClickPacket.m_5797_(ServerboundContainerClickPacket.java:12) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:22) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:733) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+Caused by: java.lang.NullPointerException: Cannot invoke "net.minecraft.advancements.Advancement.m_138325_()" because "p_135986_" is null
+	at net.minecraft.server.PlayerAdvancements.m_135985_(PlayerAdvancements.java:307) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.server.PlayerAdvancements.m_135996_(PlayerAdvancements.java:300) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.mcreator.realisticforging.procedures.CraftingIronArmorAdvancementProcedure.execute(CraftingIronArmorAdvancementProcedure.java:35) ~[realisticforgingores%20-%20no%20tools%20-4.1.6-forge-1.20.1.jar%23189!/:?]
+	at net.mcreator.realisticforging.procedures.CraftingIronArmorAdvancementProcedure.onItemCrafted(CraftingIronArmorAdvancementProcedure.java:22) ~[realisticforgingores%20-%20no%20tools%20-4.1.6-forge-1.20.1.jar%23189!/:?]
+	at net.mcreator.realisticforging.procedures.__CraftingIronArmorAdvancementProcedure_onItemCrafted_ItemCraftedEvent.invoke(.dynamic) ~[realisticforgingores%20-%20no%20tools%20-4.1.6-forge-1.20.1.jar%23189!/:?]
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:315) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:296) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.event.ForgeEventFactory.firePlayerCraftingEvent(ForgeEventFactory.java:920) ~[forge-1.20.1-47.4.0-universal.jar%23208!/:?]
+	at net.minecraft.world.inventory.ResultSlot.m_5845_(ResultSlot.java:44) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.world.inventory.ResultSlot.m_142406_(ResultSlot.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.world.inventory.AbstractContainerMenu.m_150418_(AbstractContainerMenu.java:418) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at java.util.Optional.ifPresent(Optional.java:178) ~[?:?]
+	at net.minecraft.world.inventory.AbstractContainerMenu.m_150430_(AbstractContainerMenu.java:416) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.world.inventory.AbstractContainerMenu.m_150399_(AbstractContainerMenu.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	... 17 more
+[20Sep2025 22:54:35.146] [Server thread/ERROR] [net.minecraftforge.eventbus.EventBus/EVENTBUS]: Exception caught during firing event: Cannot invoke "net.minecraft.advancements.Advancement.m_138325_()" because "p_135986_" is null
+	Index: 8
+	Listeners:
+		0: NORMAL
+		1: ASM: class net.mcreator.realisticforging.procedures.TwoSticksCraftingAdvancementProcedure onItemCrafted(Lnet/minecraftforge/event/entity/player/PlayerEvent$ItemCraftedEvent;)V
+		2: ASM: class net.mcreator.realisticforging.procedures.CraftingWoodPestleAdvancementProcedure onItemCrafted(Lnet/minecraftforge/event/entity/player/PlayerEvent$ItemCraftedEvent;)V
+		3: ASM: class net.mcreator.realisticforging.procedures.CraftingSmithingAnvilAdvancementProcedure onItemCrafted(Lnet/minecraftforge/event/entity/player/PlayerEvent$ItemCraftedEvent;)V
+		4: ASM: class net.mcreator.realisticforging.procedures.CraftingSmallPanAdvancementProcedureProcedure onItemCrafted(Lnet/minecraftforge/event/entity/player/PlayerEvent$ItemCraftedEvent;)V
+		5: ASM: class net.mcreator.realisticforging.procedures.CraftingSandPaperProcedureProcedure onItemCrafted(Lnet/minecraftforge/event/entity/player/PlayerEvent$ItemCraftedEvent;)V
+		6: ASM: class net.mcreator.realisticforging.procedures.CraftingPointChiselProcedureProcedure onItemCrafted(Lnet/minecraftforge/event/entity/player/PlayerEvent$ItemCraftedEvent;)V
+		7: ASM: class net.mcreator.realisticforging.procedures.CraftingIronSwordAdvancementProcedure onItemCrafted(Lnet/minecraftforge/event/entity/player/PlayerEvent$ItemCraftedEvent;)V
+		8: ASM: class net.mcreator.realisticforging.procedures.CraftingIronArmorAdvancementProcedure onItemCrafted(Lnet/minecraftforge/event/entity/player/PlayerEvent$ItemCraftedEvent;)V
+		9: ASM: class net.mcreator.realisticforging.procedures.CraftingIngotMoldAdvancementProcedure onItemCrafted(Lnet/minecraftforge/event/entity/player/PlayerEvent$ItemCraftedEvent;)V
+		10: ASM: class net.mcreator.realisticforging.procedures.CraftingDiamondSwordProcedureProcedure onItemCrafted(Lnet/minecraftforge/event/entity/player/PlayerEvent$ItemCraftedEvent;)V
+		11: ASM: class net.mcreator.realisticforging.procedures.CraftingCarvingHammerProcedureProcedure onItemCrafted(Lnet/minecraftforge/event/entity/player/PlayerEvent$ItemCraftedEvent;)V
+		12: ASM: class net.mcreator.realisticforging.procedures.CraftingBlankMoldAdvancementProcedure onItemCrafted(Lnet/minecraftforge/event/entity/player/PlayerEvent$ItemCraftedEvent;)V
+		13: ASM: class net.mcreator.realisticforging.procedures.CraftingBlacksmithTongsAdvancementsProcedure onItemCrafted(Lnet/minecraftforge/event/entity/player/PlayerEvent$ItemCraftedEvent;)V
+		14: ASM: class net.mcreator.realisticforging.procedures.CraftingBigPanAdvancementProcedureProcedure onItemCrafted(Lnet/minecraftforge/event/entity/player/PlayerEvent$ItemCraftedEvent;)V
+		15: ASM: class net.mcreator.realisticforging.procedures.CraftSmithingHammerAdvancementProcedure onItemCrafted(Lnet/minecraftforge/event/entity/player/PlayerEvent$ItemCraftedEvent;)V
+java.lang.NullPointerException: Cannot invoke "net.minecraft.advancements.Advancement.m_138325_()" because "p_135986_" is null
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.PlayerAdvancements.m_135985_(PlayerAdvancements.java:307)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.PlayerAdvancements.m_135996_(PlayerAdvancements.java:300)
+	at TRANSFORMER/realisticforgingores@4.1.6/net.mcreator.realisticforging.procedures.CraftingIronArmorAdvancementProcedure.execute(CraftingIronArmorAdvancementProcedure.java:35)
+	at TRANSFORMER/realisticforgingores@4.1.6/net.mcreator.realisticforging.procedures.CraftingIronArmorAdvancementProcedure.onItemCrafted(CraftingIronArmorAdvancementProcedure.java:22)
+	at TRANSFORMER/realisticforgingores@4.1.6/net.mcreator.realisticforging.procedures.__CraftingIronArmorAdvancementProcedure_onItemCrafted_ItemCraftedEvent.invoke(.dynamic)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:315)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:296)
+	at TRANSFORMER/forge@47.4.0/net.minecraftforge.event.ForgeEventFactory.firePlayerCraftingEvent(ForgeEventFactory.java:920)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.inventory.ResultSlot.m_5845_(ResultSlot.java:44)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.inventory.ResultSlot.m_142406_(ResultSlot.java:56)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.inventory.AbstractContainerMenu.m_150418_(AbstractContainerMenu.java:418)
+	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.inventory.AbstractContainerMenu.m_150430_(AbstractContainerMenu.java:416)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.inventory.AbstractContainerMenu.m_150399_(AbstractContainerMenu.java:294)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.network.ServerGamePacketListenerImpl.m_5914_(ServerGamePacketListenerImpl.java:1548)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.game.ServerboundContainerClickPacket.m_5797_(ServerboundContainerClickPacket.java:56)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.game.ServerboundContainerClickPacket.m_5797_(ServerboundContainerClickPacket.java:12)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:22)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.TickTask.run(TickTask.java:18)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_18699_(BlockableEventLoop.java:115)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:732)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+[20Sep2025 22:54:35.148] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/topology/core_id
+[20Sep2025 22:54:35.148] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/topology/core_id
+[20Sep2025 22:54:35.148] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/topology/physical_package_id
+[20Sep2025 22:54:35.148] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/topology/physical_package_id
+[20Sep2025 22:54:35.148] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cpu_capacity
+[20Sep2025 22:54:35.149] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/topology/core_id
+[20Sep2025 22:54:35.149] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/topology/core_id
+[20Sep2025 22:54:35.149] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/topology/physical_package_id
+[20Sep2025 22:54:35.149] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/topology/physical_package_id
+[20Sep2025 22:54:35.149] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cpu_capacity
+[20Sep2025 22:54:35.150] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/topology/core_id
+[20Sep2025 22:54:35.150] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/topology/core_id
+[20Sep2025 22:54:35.150] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/topology/physical_package_id
+[20Sep2025 22:54:35.150] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/topology/physical_package_id
+[20Sep2025 22:54:35.150] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cpu_capacity
+[20Sep2025 22:54:35.150] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/topology/core_id
+[20Sep2025 22:54:35.150] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/topology/core_id
+[20Sep2025 22:54:35.150] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/topology/physical_package_id
+[20Sep2025 22:54:35.150] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/topology/physical_package_id
+[20Sep2025 22:54:35.151] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cpu_capacity
+[20Sep2025 22:54:35.151] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/cpuinfo
+[20Sep2025 22:54:35.159] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/self/auxv
+[20Sep2025 22:54:35.160] [Server thread/DEBUG] [oshi.util.FileUtil/]: No oshi.architecture.properties file found from ClassLoader cpw.mods.modlauncher.TransformingClassLoader@61ae0d43
+[20Sep2025 22:54:35.160] [Server thread/DEBUG] [oshi.util.FileUtil/]: No oshi.architecture.properties file found from ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+[20Sep2025 22:54:35.168] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/meminfo
+[20Sep2025 22:54:35.169] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/meminfo
+[20Sep2025 22:54:35.169] [Server thread/ERROR] [net.minecraft.network.protocol.PacketUtils/]: Failed to handle packet net.minecraft.network.protocol.game.ServerboundContainerClickPacket@59388c71, suppressing error
+net.minecraft.ReportedException: Container click
+	at net.minecraft.world.inventory.AbstractContainerMenu.m_150399_(AbstractContainerMenu.java:308) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_5914_(ServerGamePacketListenerImpl.java:1548) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.network.protocol.game.ServerboundContainerClickPacket.m_5797_(ServerboundContainerClickPacket.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.network.protocol.game.ServerboundContainerClickPacket.m_5797_(ServerboundContainerClickPacket.java:12) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:22) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18699_(BlockableEventLoop.java:115) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:732) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+Caused by: java.lang.NullPointerException: Cannot invoke "net.minecraft.advancements.Advancement.m_138325_()" because "p_135986_" is null
+	at net.minecraft.server.PlayerAdvancements.m_135985_(PlayerAdvancements.java:307) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.server.PlayerAdvancements.m_135996_(PlayerAdvancements.java:300) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.mcreator.realisticforging.procedures.CraftingIronArmorAdvancementProcedure.execute(CraftingIronArmorAdvancementProcedure.java:35) ~[realisticforgingores%20-%20no%20tools%20-4.1.6-forge-1.20.1.jar%23189!/:?]
+	at net.mcreator.realisticforging.procedures.CraftingIronArmorAdvancementProcedure.onItemCrafted(CraftingIronArmorAdvancementProcedure.java:22) ~[realisticforgingores%20-%20no%20tools%20-4.1.6-forge-1.20.1.jar%23189!/:?]
+	at net.mcreator.realisticforging.procedures.__CraftingIronArmorAdvancementProcedure_onItemCrafted_ItemCraftedEvent.invoke(.dynamic) ~[realisticforgingores%20-%20no%20tools%20-4.1.6-forge-1.20.1.jar%23189!/:?]
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:315) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:296) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.event.ForgeEventFactory.firePlayerCraftingEvent(ForgeEventFactory.java:920) ~[forge-1.20.1-47.4.0-universal.jar%23208!/:?]
+	at net.minecraft.world.inventory.ResultSlot.m_5845_(ResultSlot.java:44) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.world.inventory.ResultSlot.m_142406_(ResultSlot.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.world.inventory.AbstractContainerMenu.m_150418_(AbstractContainerMenu.java:418) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at java.util.Optional.ifPresent(Optional.java:178) ~[?:?]
+	at net.minecraft.world.inventory.AbstractContainerMenu.m_150430_(AbstractContainerMenu.java:416) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.world.inventory.AbstractContainerMenu.m_150399_(AbstractContainerMenu.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	... 17 more
+[20Sep2025 22:54:41.949] [Server thread/ERROR] [net.minecraftforge.eventbus.EventBus/EVENTBUS]: Exception caught during firing event: Cannot invoke "net.minecraft.advancements.Advancement.m_138325_()" because "p_135986_" is null
+	Index: 8
+	Listeners:
+		0: NORMAL
+		1: ASM: class net.mcreator.realisticforging.procedures.TwoSticksCraftingAdvancementProcedure onItemCrafted(Lnet/minecraftforge/event/entity/player/PlayerEvent$ItemCraftedEvent;)V
+		2: ASM: class net.mcreator.realisticforging.procedures.CraftingWoodPestleAdvancementProcedure onItemCrafted(Lnet/minecraftforge/event/entity/player/PlayerEvent$ItemCraftedEvent;)V
+		3: ASM: class net.mcreator.realisticforging.procedures.CraftingSmithingAnvilAdvancementProcedure onItemCrafted(Lnet/minecraftforge/event/entity/player/PlayerEvent$ItemCraftedEvent;)V
+		4: ASM: class net.mcreator.realisticforging.procedures.CraftingSmallPanAdvancementProcedureProcedure onItemCrafted(Lnet/minecraftforge/event/entity/player/PlayerEvent$ItemCraftedEvent;)V
+		5: ASM: class net.mcreator.realisticforging.procedures.CraftingSandPaperProcedureProcedure onItemCrafted(Lnet/minecraftforge/event/entity/player/PlayerEvent$ItemCraftedEvent;)V
+		6: ASM: class net.mcreator.realisticforging.procedures.CraftingPointChiselProcedureProcedure onItemCrafted(Lnet/minecraftforge/event/entity/player/PlayerEvent$ItemCraftedEvent;)V
+		7: ASM: class net.mcreator.realisticforging.procedures.CraftingIronSwordAdvancementProcedure onItemCrafted(Lnet/minecraftforge/event/entity/player/PlayerEvent$ItemCraftedEvent;)V
+		8: ASM: class net.mcreator.realisticforging.procedures.CraftingIronArmorAdvancementProcedure onItemCrafted(Lnet/minecraftforge/event/entity/player/PlayerEvent$ItemCraftedEvent;)V
+		9: ASM: class net.mcreator.realisticforging.procedures.CraftingIngotMoldAdvancementProcedure onItemCrafted(Lnet/minecraftforge/event/entity/player/PlayerEvent$ItemCraftedEvent;)V
+		10: ASM: class net.mcreator.realisticforging.procedures.CraftingDiamondSwordProcedureProcedure onItemCrafted(Lnet/minecraftforge/event/entity/player/PlayerEvent$ItemCraftedEvent;)V
+		11: ASM: class net.mcreator.realisticforging.procedures.CraftingCarvingHammerProcedureProcedure onItemCrafted(Lnet/minecraftforge/event/entity/player/PlayerEvent$ItemCraftedEvent;)V
+		12: ASM: class net.mcreator.realisticforging.procedures.CraftingBlankMoldAdvancementProcedure onItemCrafted(Lnet/minecraftforge/event/entity/player/PlayerEvent$ItemCraftedEvent;)V
+		13: ASM: class net.mcreator.realisticforging.procedures.CraftingBlacksmithTongsAdvancementsProcedure onItemCrafted(Lnet/minecraftforge/event/entity/player/PlayerEvent$ItemCraftedEvent;)V
+		14: ASM: class net.mcreator.realisticforging.procedures.CraftingBigPanAdvancementProcedureProcedure onItemCrafted(Lnet/minecraftforge/event/entity/player/PlayerEvent$ItemCraftedEvent;)V
+		15: ASM: class net.mcreator.realisticforging.procedures.CraftSmithingHammerAdvancementProcedure onItemCrafted(Lnet/minecraftforge/event/entity/player/PlayerEvent$ItemCraftedEvent;)V
+java.lang.NullPointerException: Cannot invoke "net.minecraft.advancements.Advancement.m_138325_()" because "p_135986_" is null
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.PlayerAdvancements.m_135985_(PlayerAdvancements.java:307)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.PlayerAdvancements.m_135996_(PlayerAdvancements.java:300)
+	at TRANSFORMER/realisticforgingores@4.1.6/net.mcreator.realisticforging.procedures.CraftingIronArmorAdvancementProcedure.execute(CraftingIronArmorAdvancementProcedure.java:35)
+	at TRANSFORMER/realisticforgingores@4.1.6/net.mcreator.realisticforging.procedures.CraftingIronArmorAdvancementProcedure.onItemCrafted(CraftingIronArmorAdvancementProcedure.java:22)
+	at TRANSFORMER/realisticforgingores@4.1.6/net.mcreator.realisticforging.procedures.__CraftingIronArmorAdvancementProcedure_onItemCrafted_ItemCraftedEvent.invoke(.dynamic)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:315)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:296)
+	at TRANSFORMER/forge@47.4.0/net.minecraftforge.event.ForgeEventFactory.firePlayerCraftingEvent(ForgeEventFactory.java:920)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.inventory.ResultSlot.m_5845_(ResultSlot.java:44)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.inventory.ResultSlot.m_142406_(ResultSlot.java:56)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.inventory.AbstractContainerMenu.m_150418_(AbstractContainerMenu.java:418)
+	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.inventory.AbstractContainerMenu.m_150430_(AbstractContainerMenu.java:416)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.inventory.AbstractContainerMenu.m_150399_(AbstractContainerMenu.java:294)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.network.ServerGamePacketListenerImpl.m_5914_(ServerGamePacketListenerImpl.java:1548)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.game.ServerboundContainerClickPacket.m_5797_(ServerboundContainerClickPacket.java:56)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.game.ServerboundContainerClickPacket.m_5797_(ServerboundContainerClickPacket.java:12)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:22)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.TickTask.run(TickTask.java:18)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_18699_(BlockableEventLoop.java:115)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:732)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+[20Sep2025 22:54:41.952] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/topology/core_id
+[20Sep2025 22:54:41.952] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/topology/core_id
+[20Sep2025 22:54:41.952] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/topology/physical_package_id
+[20Sep2025 22:54:41.952] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/topology/physical_package_id
+[20Sep2025 22:54:41.952] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cpu_capacity
+[20Sep2025 22:54:41.952] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/topology/core_id
+[20Sep2025 22:54:41.952] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/topology/core_id
+[20Sep2025 22:54:41.952] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/topology/physical_package_id
+[20Sep2025 22:54:41.952] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/topology/physical_package_id
+[20Sep2025 22:54:41.952] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cpu_capacity
+[20Sep2025 22:54:41.953] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/topology/core_id
+[20Sep2025 22:54:41.953] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/topology/core_id
+[20Sep2025 22:54:41.953] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/topology/physical_package_id
+[20Sep2025 22:54:41.953] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/topology/physical_package_id
+[20Sep2025 22:54:41.953] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cpu_capacity
+[20Sep2025 22:54:41.953] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/topology/core_id
+[20Sep2025 22:54:41.953] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/topology/core_id
+[20Sep2025 22:54:41.953] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/topology/physical_package_id
+[20Sep2025 22:54:41.953] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/topology/physical_package_id
+[20Sep2025 22:54:41.953] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cpu_capacity
+[20Sep2025 22:54:41.954] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/cpuinfo
+[20Sep2025 22:54:41.962] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/self/auxv
+[20Sep2025 22:54:41.963] [Server thread/DEBUG] [oshi.util.FileUtil/]: No oshi.architecture.properties file found from ClassLoader cpw.mods.modlauncher.TransformingClassLoader@61ae0d43
+[20Sep2025 22:54:41.963] [Server thread/DEBUG] [oshi.util.FileUtil/]: No oshi.architecture.properties file found from ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+[20Sep2025 22:54:41.970] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/meminfo
+[20Sep2025 22:54:41.971] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/meminfo
+[20Sep2025 22:54:41.971] [Server thread/ERROR] [net.minecraft.network.protocol.PacketUtils/]: Failed to handle packet net.minecraft.network.protocol.game.ServerboundContainerClickPacket@5c0bff85, suppressing error
+net.minecraft.ReportedException: Container click
+	at net.minecraft.world.inventory.AbstractContainerMenu.m_150399_(AbstractContainerMenu.java:308) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_5914_(ServerGamePacketListenerImpl.java:1548) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.network.protocol.game.ServerboundContainerClickPacket.m_5797_(ServerboundContainerClickPacket.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.network.protocol.game.ServerboundContainerClickPacket.m_5797_(ServerboundContainerClickPacket.java:12) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:22) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18699_(BlockableEventLoop.java:115) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:732) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+Caused by: java.lang.NullPointerException: Cannot invoke "net.minecraft.advancements.Advancement.m_138325_()" because "p_135986_" is null
+	at net.minecraft.server.PlayerAdvancements.m_135985_(PlayerAdvancements.java:307) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.server.PlayerAdvancements.m_135996_(PlayerAdvancements.java:300) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.mcreator.realisticforging.procedures.CraftingIronArmorAdvancementProcedure.execute(CraftingIronArmorAdvancementProcedure.java:35) ~[realisticforgingores%20-%20no%20tools%20-4.1.6-forge-1.20.1.jar%23189!/:?]
+	at net.mcreator.realisticforging.procedures.CraftingIronArmorAdvancementProcedure.onItemCrafted(CraftingIronArmorAdvancementProcedure.java:22) ~[realisticforgingores%20-%20no%20tools%20-4.1.6-forge-1.20.1.jar%23189!/:?]
+	at net.mcreator.realisticforging.procedures.__CraftingIronArmorAdvancementProcedure_onItemCrafted_ItemCraftedEvent.invoke(.dynamic) ~[realisticforgingores%20-%20no%20tools%20-4.1.6-forge-1.20.1.jar%23189!/:?]
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:315) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:296) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.event.ForgeEventFactory.firePlayerCraftingEvent(ForgeEventFactory.java:920) ~[forge-1.20.1-47.4.0-universal.jar%23208!/:?]
+	at net.minecraft.world.inventory.ResultSlot.m_5845_(ResultSlot.java:44) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.world.inventory.ResultSlot.m_142406_(ResultSlot.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.world.inventory.AbstractContainerMenu.m_150418_(AbstractContainerMenu.java:418) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at java.util.Optional.ifPresent(Optional.java:178) ~[?:?]
+	at net.minecraft.world.inventory.AbstractContainerMenu.m_150430_(AbstractContainerMenu.java:416) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.world.inventory.AbstractContainerMenu.m_150399_(AbstractContainerMenu.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	... 17 more
+[20Sep2025 22:55:07.000] [Server thread/ERROR] [net.minecraftforge.eventbus.EventBus/EVENTBUS]: Exception caught during firing event: Cannot invoke "net.minecraft.advancements.Advancement.m_138325_()" because "p_135986_" is null
+	Index: 8
+	Listeners:
+		0: NORMAL
+		1: ASM: class net.mcreator.realisticforging.procedures.TwoSticksCraftingAdvancementProcedure onItemCrafted(Lnet/minecraftforge/event/entity/player/PlayerEvent$ItemCraftedEvent;)V
+		2: ASM: class net.mcreator.realisticforging.procedures.CraftingWoodPestleAdvancementProcedure onItemCrafted(Lnet/minecraftforge/event/entity/player/PlayerEvent$ItemCraftedEvent;)V
+		3: ASM: class net.mcreator.realisticforging.procedures.CraftingSmithingAnvilAdvancementProcedure onItemCrafted(Lnet/minecraftforge/event/entity/player/PlayerEvent$ItemCraftedEvent;)V
+		4: ASM: class net.mcreator.realisticforging.procedures.CraftingSmallPanAdvancementProcedureProcedure onItemCrafted(Lnet/minecraftforge/event/entity/player/PlayerEvent$ItemCraftedEvent;)V
+		5: ASM: class net.mcreator.realisticforging.procedures.CraftingSandPaperProcedureProcedure onItemCrafted(Lnet/minecraftforge/event/entity/player/PlayerEvent$ItemCraftedEvent;)V
+		6: ASM: class net.mcreator.realisticforging.procedures.CraftingPointChiselProcedureProcedure onItemCrafted(Lnet/minecraftforge/event/entity/player/PlayerEvent$ItemCraftedEvent;)V
+		7: ASM: class net.mcreator.realisticforging.procedures.CraftingIronSwordAdvancementProcedure onItemCrafted(Lnet/minecraftforge/event/entity/player/PlayerEvent$ItemCraftedEvent;)V
+		8: ASM: class net.mcreator.realisticforging.procedures.CraftingIronArmorAdvancementProcedure onItemCrafted(Lnet/minecraftforge/event/entity/player/PlayerEvent$ItemCraftedEvent;)V
+		9: ASM: class net.mcreator.realisticforging.procedures.CraftingIngotMoldAdvancementProcedure onItemCrafted(Lnet/minecraftforge/event/entity/player/PlayerEvent$ItemCraftedEvent;)V
+		10: ASM: class net.mcreator.realisticforging.procedures.CraftingDiamondSwordProcedureProcedure onItemCrafted(Lnet/minecraftforge/event/entity/player/PlayerEvent$ItemCraftedEvent;)V
+		11: ASM: class net.mcreator.realisticforging.procedures.CraftingCarvingHammerProcedureProcedure onItemCrafted(Lnet/minecraftforge/event/entity/player/PlayerEvent$ItemCraftedEvent;)V
+		12: ASM: class net.mcreator.realisticforging.procedures.CraftingBlankMoldAdvancementProcedure onItemCrafted(Lnet/minecraftforge/event/entity/player/PlayerEvent$ItemCraftedEvent;)V
+		13: ASM: class net.mcreator.realisticforging.procedures.CraftingBlacksmithTongsAdvancementsProcedure onItemCrafted(Lnet/minecraftforge/event/entity/player/PlayerEvent$ItemCraftedEvent;)V
+		14: ASM: class net.mcreator.realisticforging.procedures.CraftingBigPanAdvancementProcedureProcedure onItemCrafted(Lnet/minecraftforge/event/entity/player/PlayerEvent$ItemCraftedEvent;)V
+		15: ASM: class net.mcreator.realisticforging.procedures.CraftSmithingHammerAdvancementProcedure onItemCrafted(Lnet/minecraftforge/event/entity/player/PlayerEvent$ItemCraftedEvent;)V
+java.lang.NullPointerException: Cannot invoke "net.minecraft.advancements.Advancement.m_138325_()" because "p_135986_" is null
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.PlayerAdvancements.m_135985_(PlayerAdvancements.java:307)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.PlayerAdvancements.m_135996_(PlayerAdvancements.java:300)
+	at TRANSFORMER/realisticforgingores@4.1.6/net.mcreator.realisticforging.procedures.CraftingIronArmorAdvancementProcedure.execute(CraftingIronArmorAdvancementProcedure.java:35)
+	at TRANSFORMER/realisticforgingores@4.1.6/net.mcreator.realisticforging.procedures.CraftingIronArmorAdvancementProcedure.onItemCrafted(CraftingIronArmorAdvancementProcedure.java:22)
+	at TRANSFORMER/realisticforgingores@4.1.6/net.mcreator.realisticforging.procedures.__CraftingIronArmorAdvancementProcedure_onItemCrafted_ItemCraftedEvent.invoke(.dynamic)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:315)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:296)
+	at TRANSFORMER/forge@47.4.0/net.minecraftforge.event.ForgeEventFactory.firePlayerCraftingEvent(ForgeEventFactory.java:920)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.inventory.ResultSlot.m_5845_(ResultSlot.java:44)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.inventory.ResultSlot.m_142406_(ResultSlot.java:56)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.inventory.AbstractContainerMenu.m_150418_(AbstractContainerMenu.java:418)
+	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.inventory.AbstractContainerMenu.m_150430_(AbstractContainerMenu.java:416)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.inventory.AbstractContainerMenu.m_150399_(AbstractContainerMenu.java:294)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.network.ServerGamePacketListenerImpl.m_5914_(ServerGamePacketListenerImpl.java:1548)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.game.ServerboundContainerClickPacket.m_5797_(ServerboundContainerClickPacket.java:56)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.game.ServerboundContainerClickPacket.m_5797_(ServerboundContainerClickPacket.java:12)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:22)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.TickTask.run(TickTask.java:18)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_18699_(BlockableEventLoop.java:115)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:732)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+[20Sep2025 22:55:07.003] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/topology/core_id
+[20Sep2025 22:55:07.003] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/topology/core_id
+[20Sep2025 22:55:07.003] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/topology/physical_package_id
+[20Sep2025 22:55:07.003] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/topology/physical_package_id
+[20Sep2025 22:55:07.003] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cpu_capacity
+[20Sep2025 22:55:07.003] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/topology/core_id
+[20Sep2025 22:55:07.003] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/topology/core_id
+[20Sep2025 22:55:07.003] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/topology/physical_package_id
+[20Sep2025 22:55:07.003] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/topology/physical_package_id
+[20Sep2025 22:55:07.004] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cpu_capacity
+[20Sep2025 22:55:07.004] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/topology/core_id
+[20Sep2025 22:55:07.004] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/topology/core_id
+[20Sep2025 22:55:07.004] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/topology/physical_package_id
+[20Sep2025 22:55:07.004] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/topology/physical_package_id
+[20Sep2025 22:55:07.004] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cpu_capacity
+[20Sep2025 22:55:07.004] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/topology/core_id
+[20Sep2025 22:55:07.004] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/topology/core_id
+[20Sep2025 22:55:07.004] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/topology/physical_package_id
+[20Sep2025 22:55:07.004] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/topology/physical_package_id
+[20Sep2025 22:55:07.004] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cpu_capacity
+[20Sep2025 22:55:07.005] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/cpuinfo
+[20Sep2025 22:55:07.014] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/self/auxv
+[20Sep2025 22:55:07.015] [Server thread/DEBUG] [oshi.util.FileUtil/]: No oshi.architecture.properties file found from ClassLoader cpw.mods.modlauncher.TransformingClassLoader@61ae0d43
+[20Sep2025 22:55:07.015] [Server thread/DEBUG] [oshi.util.FileUtil/]: No oshi.architecture.properties file found from ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+[20Sep2025 22:55:07.024] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/meminfo
+[20Sep2025 22:55:07.024] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/meminfo
+[20Sep2025 22:55:07.024] [Server thread/ERROR] [net.minecraft.network.protocol.PacketUtils/]: Failed to handle packet net.minecraft.network.protocol.game.ServerboundContainerClickPacket@5c054161, suppressing error
+net.minecraft.ReportedException: Container click
+	at net.minecraft.world.inventory.AbstractContainerMenu.m_150399_(AbstractContainerMenu.java:308) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_5914_(ServerGamePacketListenerImpl.java:1548) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.network.protocol.game.ServerboundContainerClickPacket.m_5797_(ServerboundContainerClickPacket.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.network.protocol.game.ServerboundContainerClickPacket.m_5797_(ServerboundContainerClickPacket.java:12) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:22) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18699_(BlockableEventLoop.java:115) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:732) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+Caused by: java.lang.NullPointerException: Cannot invoke "net.minecraft.advancements.Advancement.m_138325_()" because "p_135986_" is null
+	at net.minecraft.server.PlayerAdvancements.m_135985_(PlayerAdvancements.java:307) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.server.PlayerAdvancements.m_135996_(PlayerAdvancements.java:300) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.mcreator.realisticforging.procedures.CraftingIronArmorAdvancementProcedure.execute(CraftingIronArmorAdvancementProcedure.java:35) ~[realisticforgingores%20-%20no%20tools%20-4.1.6-forge-1.20.1.jar%23189!/:?]
+	at net.mcreator.realisticforging.procedures.CraftingIronArmorAdvancementProcedure.onItemCrafted(CraftingIronArmorAdvancementProcedure.java:22) ~[realisticforgingores%20-%20no%20tools%20-4.1.6-forge-1.20.1.jar%23189!/:?]
+	at net.mcreator.realisticforging.procedures.__CraftingIronArmorAdvancementProcedure_onItemCrafted_ItemCraftedEvent.invoke(.dynamic) ~[realisticforgingores%20-%20no%20tools%20-4.1.6-forge-1.20.1.jar%23189!/:?]
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:315) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:296) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.event.ForgeEventFactory.firePlayerCraftingEvent(ForgeEventFactory.java:920) ~[forge-1.20.1-47.4.0-universal.jar%23208!/:?]
+	at net.minecraft.world.inventory.ResultSlot.m_5845_(ResultSlot.java:44) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.world.inventory.ResultSlot.m_142406_(ResultSlot.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.world.inventory.AbstractContainerMenu.m_150418_(AbstractContainerMenu.java:418) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at java.util.Optional.ifPresent(Optional.java:178) ~[?:?]
+	at net.minecraft.world.inventory.AbstractContainerMenu.m_150430_(AbstractContainerMenu.java:416) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.world.inventory.AbstractContainerMenu.m_150399_(AbstractContainerMenu.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	... 17 more
+[20Sep2025 22:57:52.924] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[20Sep2025 22:57:52.934] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[20Sep2025 22:59:42.294] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dwiss3 moved too quickly! -17.081171802333756,4.773655538859984,-1.3245575361614783
+[20Sep2025 22:59:47.174] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dwiss3 moved too quickly! -13.886513454979877,8.047657426723418,-6.631416665140932
+[20Sep2025 22:59:47.177] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ivanzac03 moved too quickly! 5.741475491022356,0.0,-8.303962053213581
+[20Sep2025 22:59:47.190] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4160ms or 83 ticks behind
+[20Sep2025 22:59:50.591] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id aquaculture:arrau_turtle
+[20Sep2025 22:59:50.595] [Worker-Main-3/WARN] [net.minecraft.world.entity.decoration.ItemFrame/]: Unable to load item from: {Count:1b,id:"aquaculture:box_turtle"}
+[20Sep2025 22:59:50.596] [Worker-Main-3/WARN] [net.minecraft.world.entity.decoration.ItemFrame/]: Unable to load item from: {Count:1b,id:"aquaculture:starshell_turtle"}
+[20Sep2025 22:59:50.596] [Worker-Main-3/WARN] [net.minecraft.world.entity.decoration.ItemFrame/]: Unable to load item from: {Count:1b,id:"aquaculture:arrau_turtle"}
+[20Sep2025 22:59:50.596] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id aquaculture:box_turtle
+[20Sep2025 22:59:50.596] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id aquaculture:box_turtle
+[20Sep2025 22:59:50.597] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id aquaculture:box_turtle
+[20Sep2025 22:59:50.597] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id aquaculture:box_turtle
+[20Sep2025 22:59:50.597] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id aquaculture:box_turtle
+[20Sep2025 22:59:50.597] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id aquaculture:box_turtle
+[20Sep2025 22:59:50.598] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id aquaculture:box_turtle
+[20Sep2025 22:59:50.598] [Worker-Main-3/WARN] [net.minecraft.world.entity.decoration.ItemFrame/]: Unable to load item from: {Count:1b,id:"aquaculture:iron_fillet_knife",tag:{Damage:0}}
+[20Sep2025 22:59:50.598] [Worker-Main-3/WARN] [net.minecraft.world.entity.decoration.ItemFrame/]: Unable to load item from: {Count:1b,id:"aquaculturedelight:turtle_meat_dish"}
+[20Sep2025 22:59:50.598] [Worker-Main-3/WARN] [net.minecraft.world.entity.decoration.ItemFrame/]: Unable to load item from: {Count:1b,id:"aquaculturedelight:turtle_meat_dish"}
+[20Sep2025 22:59:50.599] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id aquaculture:arrau_turtle
+[20Sep2025 22:59:50.600] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id aquaculture:arrau_turtle
+[20Sep2025 22:59:50.601] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id aquaculture:arrau_turtle
+[20Sep2025 22:59:50.602] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id aquaculture:arrau_turtle
+[20Sep2025 22:59:54.384] [Worker-Main-18/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id aquaculture:carp
+[20Sep2025 22:59:54.385] [Worker-Main-18/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id aquaculture:carp
+[20Sep2025 22:59:55.632] [Worker-Main-11/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id aquaculture:carp
+[20Sep2025 22:59:55.632] [Worker-Main-11/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id aquaculture:carp
+[20Sep2025 22:59:55.633] [Worker-Main-11/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id aquaculture:carp
+[20Sep2025 22:59:55.633] [Worker-Main-11/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id aquaculture:carp
+[20Sep2025 22:59:55.641] [Worker-Main-18/WARN] [net.minecraft.world.entity.decoration.ItemFrame/]: Unable to load item from: {Count:1b,id:"aquaculture:iron_fishing_rod",tag:{Damage:0,Inventory:{Items:[{Count:1b,Slot:1,id:"aquaculture:worm",tag:{Damage:0}},{Count:1b,Slot:2,id:"aquaculture:fishing_line"},{Count:1b,Slot:3,id:"aquaculture:bobber"}],Size:4}}}
+[20Sep2025 22:59:55.642] [Worker-Main-18/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id aquaculture:oak_fish_mount
+[20Sep2025 22:59:55.642] [Worker-Main-18/WARN] [net.minecraft.world.entity.decoration.ItemFrame/]: Unable to load item from: {Count:1b,id:"aquaculture:iron_fillet_knife",tag:{Damage:0}}
+[20Sep2025 22:59:55.642] [Worker-Main-18/WARN] [net.minecraft.world.entity.decoration.ItemFrame/]: Unable to load item from: {Count:1b,id:"aquaculture:fish_fillet_raw"}
+[20Sep2025 22:59:55.642] [Worker-Main-18/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id aquaculture:carp
+[20Sep2025 23:00:11.002] [Worker-Main-3/WARN] [net.minecraft.world.entity.decoration.ItemFrame/]: Unable to load item from: {Count:1b,id:"aquaculture:worm",tag:{Damage:0}}
+[20Sep2025 23:00:11.002] [Worker-Main-3/WARN] [net.minecraft.world.entity.decoration.ItemFrame/]: Unable to load item from: {Count:1b,id:"aquaculture:iron_fishing_rod",tag:{Damage:0,Inventory:{Items:[{Count:1b,Slot:1,id:"aquaculture:worm",tag:{Damage:0}},{Count:1b,Slot:2,id:"aquaculture:fishing_line"},{Count:1b,Slot:3,id:"aquaculture:bobber"}],Size:4}}}
+[20Sep2025 23:00:11.003] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id aquaculture:tambaqui
+[20Sep2025 23:00:11.003] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id aquaculture:tambaqui
+[20Sep2025 23:00:11.003] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id aquaculture:tambaqui
+[20Sep2025 23:00:11.004] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id aquaculture:tambaqui
+[20Sep2025 23:00:11.004] [Worker-Main-3/WARN] [net.minecraft.world.entity.decoration.ItemFrame/]: Unable to load item from: {Count:1b,id:"aquaculturedelight:unusual_fish_soup"}
+[20Sep2025 23:00:11.004] [Worker-Main-3/WARN] [net.minecraft.world.entity.decoration.ItemFrame/]: Unable to load item from: {Count:1b,id:"aquaculture:tambaqui"}
+[20Sep2025 23:00:11.005] [Worker-Main-3/WARN] [net.minecraft.world.entity.decoration.ItemFrame/]: Unable to load item from: {Count:1b,id:"aquaculture:tambaqui"}
+[20Sep2025 23:00:11.005] [Worker-Main-3/WARN] [net.minecraft.world.entity.decoration.ItemFrame/]: Unable to load item from: {Count:1b,id:"aquaculture:tambaqui"}
+[20Sep2025 23:00:11.005] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id aquaculture:oak_fish_mount
+[20Sep2025 23:00:11.005] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id aquaculture:tambaqui
+[20Sep2025 23:00:11.006] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id aquaculture:tambaqui
+[20Sep2025 23:00:11.006] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id aquaculture:tambaqui
+[20Sep2025 23:00:11.006] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id aquaculture:tambaqui
+[20Sep2025 23:00:11.006] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id aquaculture:tambaqui
+[20Sep2025 23:00:11.006] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id aquaculture:tambaqui
+[20Sep2025 23:00:34.575] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ivanzac03 has made the advancement [Call For Adventure]
+[20Sep2025 23:00:45.927] [Worker-Main-3/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Sep2025 23:00:45.929] [Worker-Main-3/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Sep2025 23:00:45.931] [Worker-Main-3/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Sep2025 23:00:45.932] [Worker-Main-3/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Sep2025 23:00:45.932] [Worker-Main-3/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Sep2025 23:00:45.933] [Worker-Main-3/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Sep2025 23:00:45.933] [Worker-Main-3/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Sep2025 23:00:45.934] [Worker-Main-3/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Sep2025 23:00:45.935] [Worker-Main-3/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Sep2025 23:00:45.935] [Worker-Main-3/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Sep2025 23:00:45.937] [Worker-Main-3/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Sep2025 23:01:07.023] [Worker-Main-3/ERROR] [net.minecraft.world.level.block.entity.SculkSensorBlockEntity/]: No key selector in MapLike[{event_delay:0,event_distance:5.91608f,range:8,source:{pos:[I;-178,-59,-363],type:"minecraft:block"}}]
+[20Sep2025 23:01:07.023] [Worker-Main-3/ERROR] [net.minecraft.world.level.block.entity.SculkSensorBlockEntity/]: No key selector in MapLike[{event_delay:0,event_distance:5.91608f,range:8,source:{pos:[I;-174,-59,-369],type:"minecraft:block"}}]
+[20Sep2025 23:01:07.023] [Worker-Main-3/ERROR] [net.minecraft.world.level.block.entity.SculkShriekerBlockEntity/]: No key selector in MapLike[{event_delay:0,event_distance:0.0f,range:8,source:{pos:[I;-174,-59,-356],type:"minecraft:block"}}]
+[20Sep2025 23:01:07.569] [Worker-Main-11/ERROR] [net.minecraft.world.level.block.entity.SculkSensorBlockEntity/]: No key selector in MapLike[{event_delay:0,event_distance:5.5970345f,range:8,source:{pos:[I;-187,-59,-379],type:"minecraft:block"}}]
+[20Sep2025 23:01:07.570] [Worker-Main-11/ERROR] [net.minecraft.world.level.block.entity.SculkSensorBlockEntity/]: No key selector in MapLike[{event_delay:0,event_distance:4.3011737f,range:8,source:{pos:[I;-180,-59,-376],type:"minecraft:block"}}]
+[20Sep2025 23:01:07.570] [Worker-Main-11/ERROR] [net.minecraft.world.level.block.entity.SculkSensorBlockEntity/]: No key selector in MapLike[{event_delay:0,event_distance:7.063859f,range:8,source:{pos:[I;-175,-59,-379],type:"minecraft:block"}}]
+[20Sep2025 23:01:08.617] [Worker-Main-3/ERROR] [net.minecraft.world.level.block.entity.SculkSensorBlockEntity/]: No key selector in MapLike[{event_delay:0,event_distance:7.660372f,range:8,source:{pos:[I;-158,-53,-362],type:"minecraft:block"}}]
+[20Sep2025 23:01:08.618] [Worker-Main-3/ERROR] [net.minecraft.world.level.block.entity.SculkSensorBlockEntity/]: No key selector in MapLike[{event_delay:0,event_distance:6.9118114f,range:8,source:{pos:[I;-160,-49,-366],type:"minecraft:block"}}]
+[20Sep2025 23:01:08.619] [Worker-Main-3/ERROR] [net.minecraft.world.level.block.entity.SculkShriekerBlockEntity/]: No key selector in MapLike[{event_delay:0,event_distance:6.0f,range:8,source:{pos:[I;-158,-48,-366],type:"minecraft:block"}}]
+[20Sep2025 23:01:08.650] [Worker-Main-2/ERROR] [net.minecraft.world.level.block.entity.SculkSensorBlockEntity/]: No key selector in MapLike[{event_delay:0,event_distance:7.3484693f,range:8,source:{pos:[I;-170,-58,-380],type:"minecraft:block"}}]
+[20Sep2025 23:01:08.650] [Worker-Main-2/ERROR] [net.minecraft.world.level.block.entity.SculkSensorBlockEntity/]: No key selector in MapLike[{event_delay:0,event_distance:3.7416575f,range:8,source:{pos:[I;-170,-57,-377],type:"minecraft:block"}}]
+[20Sep2025 23:01:08.653] [Worker-Main-2/ERROR] [net.minecraft.world.level.block.entity.SculkSensorBlockEntity/]: No key selector in MapLike[{event_delay:0,event_distance:7.3052635f,range:8,source:{pos:[I;-160,-52,-370],type:"minecraft:block"}}]
+[20Sep2025 23:01:10.044] [Worker-Main-18/ERROR] [net.minecraft.world.level.block.entity.SculkSensorBlockEntity/]: No key selector in MapLike[{event_delay:0,event_distance:5.6380615f,range:8,source:{pos:[I;-153,-58,-371],type:"minecraft:block"}}]
+[20Sep2025 23:01:10.045] [Worker-Main-18/ERROR] [net.minecraft.world.level.block.entity.SculkSensorBlockEntity/]: No key selector in MapLike[{event_delay:0,event_distance:7.802702f,range:8,source:{pos:[I;-154,-53,-378],type:"minecraft:block"}}]
+[20Sep2025 23:01:10.045] [Worker-Main-18/ERROR] [net.minecraft.world.level.block.entity.SculkSensorBlockEntity/]: No key selector in MapLike[{event_delay:0,event_distance:5.527325f,range:8,source:{pos:[I;-153,-53,-374],type:"minecraft:block"}}]
+[20Sep2025 23:01:10.046] [Worker-Main-18/ERROR] [net.minecraft.world.level.block.entity.SculkShriekerBlockEntity/]: No key selector in MapLike[{event_delay:0,event_distance:1.0f,range:8,source:{pos:[I;-152,-53,-371],type:"minecraft:block"}}]
+[20Sep2025 23:01:10.047] [Worker-Main-18/ERROR] [net.minecraft.world.level.block.entity.SculkSensorBlockEntity/]: No key selector in MapLike[{event_delay:0,event_distance:4.061569f,range:8,source:{pos:[I;-152,-53,-370],type:"minecraft:block"}}]
+[20Sep2025 23:01:10.047] [Worker-Main-18/ERROR] [net.minecraft.world.level.block.entity.SculkSensorBlockEntity/]: No key selector in MapLike[{event_delay:0,event_distance:3.152014f,range:8,source:{pos:[I;-157,-51,-371],type:"minecraft:block"}}]
+[20Sep2025 23:01:10.122] [Worker-Main-11/ERROR] [net.minecraft.world.level.block.entity.SculkSensorBlockEntity/]: No key selector in MapLike[{event_delay:0,event_distance:7.8740077f,range:8,source:{pos:[I;-150,-54,-359],type:"minecraft:block"}}]
+[20Sep2025 23:01:10.123] [Worker-Main-11/ERROR] [net.minecraft.world.level.block.entity.SculkSensorBlockEntity/]: No key selector in MapLike[{event_delay:0,event_distance:4.826741f,range:8,source:{pos:[I;-154,-53,-365],type:"minecraft:block"}}]
+[20Sep2025 23:02:55.601] [Worker-Main-3/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Sep2025 23:02:55.603] [Worker-Main-3/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Sep2025 23:02:55.604] [Worker-Main-3/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Sep2025 23:02:55.605] [Worker-Main-3/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Sep2025 23:02:55.607] [Worker-Main-3/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Sep2025 23:02:55.607] [Worker-Main-3/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Sep2025 23:02:55.607] [Worker-Main-3/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Sep2025 23:02:57.050] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[20Sep2025 23:02:57.059] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[20Sep2025 23:04:17.308] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:cook_additions_2_pool
+[20Sep2025 23:04:17.309] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:cook_additions_3_pool
+[20Sep2025 23:04:17.312] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:cook_additions_4_pool
+[20Sep2025 23:04:17.312] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:cook_additions_1_pool
+[20Sep2025 23:04:17.312] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:cook_end_1_pool
+[20Sep2025 23:04:17.312] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:cook_additions_3_pool
+[20Sep2025 23:04:20.042] [Worker-Main-11/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id aquaculture:arrau_turtle
+[20Sep2025 23:04:20.042] [Worker-Main-11/WARN] [net.minecraft.world.entity.decoration.ItemFrame/]: Unable to load item from: {Count:1b,id:"aquaculture:box_turtle"}
+[20Sep2025 23:04:20.043] [Worker-Main-11/WARN] [net.minecraft.world.entity.decoration.ItemFrame/]: Unable to load item from: {Count:1b,id:"aquaculture:starshell_turtle"}
+[20Sep2025 23:04:20.043] [Worker-Main-11/WARN] [net.minecraft.world.entity.decoration.ItemFrame/]: Unable to load item from: {Count:1b,id:"aquaculture:arrau_turtle"}
+[20Sep2025 23:04:20.043] [Worker-Main-11/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id aquaculture:box_turtle
+[20Sep2025 23:04:20.043] [Worker-Main-11/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id aquaculture:box_turtle
+[20Sep2025 23:04:20.043] [Worker-Main-11/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id aquaculture:box_turtle
+[20Sep2025 23:04:20.044] [Worker-Main-11/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id aquaculture:box_turtle
+[20Sep2025 23:04:20.044] [Worker-Main-11/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id aquaculture:box_turtle
+[20Sep2025 23:04:20.044] [Worker-Main-11/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id aquaculture:box_turtle
+[20Sep2025 23:04:20.044] [Worker-Main-11/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id aquaculture:box_turtle
+[20Sep2025 23:04:20.044] [Worker-Main-11/WARN] [net.minecraft.world.entity.decoration.ItemFrame/]: Unable to load item from: {Count:1b,id:"aquaculture:iron_fillet_knife",tag:{Damage:0}}
+[20Sep2025 23:04:20.044] [Worker-Main-11/WARN] [net.minecraft.world.entity.decoration.ItemFrame/]: Unable to load item from: {Count:1b,id:"aquaculturedelight:turtle_meat_dish"}
+[20Sep2025 23:04:20.045] [Worker-Main-11/WARN] [net.minecraft.world.entity.decoration.ItemFrame/]: Unable to load item from: {Count:1b,id:"aquaculturedelight:turtle_meat_dish"}
+[20Sep2025 23:04:20.045] [Worker-Main-11/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id aquaculture:arrau_turtle
+[20Sep2025 23:04:20.045] [Worker-Main-11/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id aquaculture:arrau_turtle
+[20Sep2025 23:04:20.045] [Worker-Main-11/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id aquaculture:arrau_turtle
+[20Sep2025 23:04:20.045] [Worker-Main-11/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id aquaculture:arrau_turtle
+[20Sep2025 23:04:30.512] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id aquaculture:carp
+[20Sep2025 23:04:30.512] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id aquaculture:carp
+[20Sep2025 23:04:33.623] [Worker-Main-18/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id aquaculture:carp
+[20Sep2025 23:04:33.623] [Worker-Main-18/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id aquaculture:carp
+[20Sep2025 23:04:33.623] [Worker-Main-18/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id aquaculture:carp
+[20Sep2025 23:04:33.623] [Worker-Main-18/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id aquaculture:carp
+[20Sep2025 23:04:37.380] [Worker-Main-3/WARN] [net.minecraft.world.entity.decoration.ItemFrame/]: Unable to load item from: {Count:1b,id:"aquaculture:iron_fishing_rod",tag:{Damage:0,Inventory:{Items:[{Count:1b,Slot:1,id:"aquaculture:worm",tag:{Damage:0}},{Count:1b,Slot:2,id:"aquaculture:fishing_line"},{Count:1b,Slot:3,id:"aquaculture:bobber"}],Size:4}}}
+[20Sep2025 23:04:37.380] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id aquaculture:oak_fish_mount
+[20Sep2025 23:04:37.381] [Worker-Main-3/WARN] [net.minecraft.world.entity.decoration.ItemFrame/]: Unable to load item from: {Count:1b,id:"aquaculture:iron_fillet_knife",tag:{Damage:0}}
+[20Sep2025 23:04:37.381] [Worker-Main-3/WARN] [net.minecraft.world.entity.decoration.ItemFrame/]: Unable to load item from: {Count:1b,id:"aquaculture:fish_fillet_raw"}
+[20Sep2025 23:04:37.381] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id aquaculture:carp
+[20Sep2025 23:06:15.853] [Worker-Main-18/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Sep2025 23:06:15.853] [Worker-Main-18/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Sep2025 23:06:15.854] [Worker-Main-18/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Sep2025 23:06:15.855] [Worker-Main-18/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Sep2025 23:06:15.856] [Worker-Main-18/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Sep2025 23:06:15.860] [Worker-Main-18/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Sep2025 23:06:15.865] [Worker-Main-18/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Sep2025 23:06:15.866] [Worker-Main-18/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Sep2025 23:06:15.867] [Worker-Main-18/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Sep2025 23:06:15.867] [Worker-Main-18/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Sep2025 23:06:15.868] [Worker-Main-18/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Sep2025 23:06:15.876] [Worker-Main-18/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Sep2025 23:07:19.296] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dwiss3 has made the advancement [A Terrifying Entrance]
+[20Sep2025 23:07:19.977] [Worker-Main-18/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Sep2025 23:07:19.978] [Worker-Main-18/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Sep2025 23:07:19.978] [Worker-Main-18/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Sep2025 23:07:19.980] [Worker-Main-18/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Sep2025 23:07:19.982] [Worker-Main-18/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Sep2025 23:07:19.982] [Worker-Main-18/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Sep2025 23:07:19.982] [Worker-Main-18/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Sep2025 23:07:19.983] [Worker-Main-18/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Sep2025 23:07:19.985] [Worker-Main-18/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Sep2025 23:07:19.985] [Worker-Main-18/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Sep2025 23:07:49.965] [Server thread/INFO] [antiqueatlas/]: Created new marker #1"Entrada"@(-594, -1191)
+[20Sep2025 23:07:50.013] [Server thread/INFO] [antiqueatlas/]: Sent markers data #1 to player Dwiss3
+[20Sep2025 23:07:57.043] [Server thread/INFO] [antiqueatlas/]: Saving local markers data to NBT
+[20Sep2025 23:07:57.077] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[20Sep2025 23:07:57.088] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[20Sep2025 23:09:38.762] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id aquaculture:arrau_turtle
+[20Sep2025 23:09:38.763] [Worker-Main-3/WARN] [net.minecraft.world.entity.decoration.ItemFrame/]: Unable to load item from: {Count:1b,id:"aquaculture:box_turtle"}
+[20Sep2025 23:09:38.763] [Worker-Main-3/WARN] [net.minecraft.world.entity.decoration.ItemFrame/]: Unable to load item from: {Count:1b,id:"aquaculture:starshell_turtle"}
+[20Sep2025 23:09:38.763] [Worker-Main-3/WARN] [net.minecraft.world.entity.decoration.ItemFrame/]: Unable to load item from: {Count:1b,id:"aquaculture:arrau_turtle"}
+[20Sep2025 23:09:38.763] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id aquaculture:box_turtle
+[20Sep2025 23:09:38.763] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id aquaculture:box_turtle
+[20Sep2025 23:09:38.763] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id aquaculture:box_turtle
+[20Sep2025 23:09:38.764] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id aquaculture:box_turtle
+[20Sep2025 23:09:38.764] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id aquaculture:box_turtle
+[20Sep2025 23:09:38.764] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id aquaculture:box_turtle
+[20Sep2025 23:09:38.764] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id aquaculture:box_turtle
+[20Sep2025 23:09:38.764] [Worker-Main-3/WARN] [net.minecraft.world.entity.decoration.ItemFrame/]: Unable to load item from: {Count:1b,id:"aquaculture:iron_fillet_knife",tag:{Damage:0}}
+[20Sep2025 23:09:38.764] [Worker-Main-3/WARN] [net.minecraft.world.entity.decoration.ItemFrame/]: Unable to load item from: {Count:1b,id:"aquaculturedelight:turtle_meat_dish"}
+[20Sep2025 23:09:38.764] [Worker-Main-3/WARN] [net.minecraft.world.entity.decoration.ItemFrame/]: Unable to load item from: {Count:1b,id:"aquaculturedelight:turtle_meat_dish"}
+[20Sep2025 23:09:38.765] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id aquaculture:arrau_turtle
+[20Sep2025 23:09:38.765] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id aquaculture:arrau_turtle
+[20Sep2025 23:09:38.765] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id aquaculture:arrau_turtle
+[20Sep2025 23:09:38.765] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id aquaculture:arrau_turtle
+[20Sep2025 23:10:20.449] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Sep2025 23:10:20.450] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Sep2025 23:10:20.452] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Sep2025 23:10:20.452] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Sep2025 23:10:20.458] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Sep2025 23:10:20.458] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Sep2025 23:10:20.465] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Sep2025 23:10:20.466] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Sep2025 23:10:20.481] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Sep2025 23:12:57.060] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[20Sep2025 23:12:57.069] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[20Sep2025 23:14:33.165] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Starting new modded impl connection. Found 29 messages to dispatch.
+[20Sep2025 23:14:33.215] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'net.minecraftforge.network.HandshakeMessages$S2CModData' to 'fml:handshake' sequence 0
+[20Sep2025 23:14:33.241] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'net.minecraftforge.network.HandshakeMessages$S2CModList' to 'fml:handshake' sequence 1
+[20Sep2025 23:14:33.270] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:command_argument_type' to 'fml:handshake' sequence 2
+[20Sep2025 23:14:33.307] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:recipe_serializer' to 'fml:handshake' sequence 3
+[20Sep2025 23:14:33.315] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 1
+[20Sep2025 23:14:33.315] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 1 of type net.minecraftforge.network.HandshakeMessages$C2SModListReply
+[20Sep2025 23:14:33.315] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client connection with modlist [treechop, kuma_api, fabric_renderer_api_v1, supermartijn642configlib, playeranimator, fabric_item_api_v1, fabric_rendering_fluids_v1, fabric_models_v0, dynamiclights, fabric_convention_tags_v1, modernfix, fabric_command_api_v1, fabric_block_view_api_v2, fabric_command_api_v2, yungsapi, fabric_data_attachment_api_v1, mixinextras, takesapillage, balm, fabric_screen_api_v1, fabric_api, fabric_content_registries_v0, embeddium, rubidium, farmersdelight, entity_model_features, entity_texture_features, fabric_game_rule_api_v1, fabric_api_lookup_api_v1, endrem, dungeons_plus, medievalembroidery, philipsruins, curios, patchouli, oculus, mr_dungeons_andtaverns, bettervillage, betterthirdperson, dawnoftimebuilder, fabric_entity_events_v1, fabric_loot_api_v2, chimes, transition, fabric_rendering_data_attachment_v1, fabric_networking_api_v1, fabric_lifecycle_events_v1, fabric_key_binding_api_v1, fabric_client_tags_api_v1, fabric_dimensions_v1, fabric_transfer_api_v1, elytraslot, mowziesmobs, geckolib, customskinloader, fabric_model_loading_api_v1, jei, fabric_screen_handler_api_v1, fabric_resource_loader_v0, libraryferret, trender, companions, caelus, immersive_weathering, fabric_rendering_v1, waystones, fabric_renderer_indigo, fallingleaves, yyzsbackpack, fabric_mining_level_api_v1, knightlib, glitchcore, sereneseasons, midnightlib, fusion, fabric_particles_v1, forge, fabric_transitive_access_wideners_v1, friendsandfoes, antiqueatlas, unionlib, unionlib_potionfluid, minecraft, rustic_engineer, dark_souls_expansion, realmrpg_skeletons, unusual_furniture, realisticforgingores, voicechat, voicechat_api, sound_physics_remastered, moonlight, fabric_api_base, fabric_blockrenderlayer_v1, mixinsquared, fabric_block_api_v1, fabric_resource_conditions_api_v1, fabric_item_group_api_v1, legendary_monsters, entityculling, canary, betterarcheology, fabric_biome_api_v1, farmers_structures, fabric_registry_sync_v0, appleskin, fabric_recipe_api_v1, ferritecore, fabric_object_builder_api_v1, yet_another_config_lib_v3, fabric_sound_api_v1, fabric_message_api_v1, fabric_data_generation_api_v1, cdmoveset, epicfight, fabric_events_interaction_v0, oceanicrealms, presencefootsteps]
+[20Sep2025 23:14:33.315] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'voicechat:secret' : Version test of 'ALLOWVANILLA 💓💓💓' from client : ACCEPTED
+[20Sep2025 23:14:33.315] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'voicechat:create_group' : Version test of 'ALLOWVANILLA 💓💓💓' from client : ACCEPTED
+[20Sep2025 23:14:33.315] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'jei:channel' : Version test of '1.0.0' from client : ACCEPTED
+[20Sep2025 23:14:33.315] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'legendary_monsters:main_channel' : Version test of '1' from client : ACCEPTED
+[20Sep2025 23:14:33.315] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'minecraft:unregister' : Version test of 'FML3' from client : ACCEPTED
+[20Sep2025 23:14:33.315] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'voicechat:states' : Version test of 'ALLOWVANILLA 💓💓💓' from client : ACCEPTED
+[20Sep2025 23:14:33.315] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'dark_souls_expansion:dark_souls_expansion' : Version test of '1' from client : ACCEPTED
+[20Sep2025 23:14:33.315] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'dungeons_plus:dungeons_plus' : Version test of '1' from client : ACCEPTED
+[20Sep2025 23:14:33.315] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'minecraft:treechop-channel' : Version test of '7' from client : ACCEPTED
+[20Sep2025 23:14:33.316] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'voicechat:update_state' : Version test of 'ALLOWVANILLA 💓💓💓' from client : ACCEPTED
+[20Sep2025 23:14:33.316] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'farmers_structures:farmers_structures' : Version test of '1' from client : ACCEPTED
+[20Sep2025 23:14:33.316] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'realisticforgingores:realisticforgingores' : Version test of '1' from client : ACCEPTED
+[20Sep2025 23:14:33.316] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'medievalembroidery:me_network' : Version test of '1' from client : ACCEPTED
+[20Sep2025 23:14:33.316] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'voicechat:add_group' : Version test of 'ALLOWVANILLA 💓💓💓' from client : ACCEPTED
+[20Sep2025 23:14:33.316] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:tier_sorting' : Version test of '1.0' from client : ACCEPTED
+[20Sep2025 23:14:33.316] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'rustic_engineer:rustic_engineer' : Version test of '1' from client : ACCEPTED
+[20Sep2025 23:14:33.316] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'realmrpg_skeletons:realmrpg_skeletons' : Version test of '1' from client : ACCEPTED
+[20Sep2025 23:14:33.316] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'mowziesmobs:net' : Version test of '1' from client : ACCEPTED
+[20Sep2025 23:14:33.316] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:play' : Version test of 'FML3' from client : ACCEPTED
+[20Sep2025 23:14:33.316] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'cdmoveset:network_manager' : Version test of '1' from client : ACCEPTED
+[20Sep2025 23:14:33.316] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'epicfight:network_manager' : Version test of '1' from client : ACCEPTED
+[20Sep2025 23:14:33.316] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'caelus:main' : Version test of '1' from client : ACCEPTED
+[20Sep2025 23:14:33.316] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'sereneseasons:main' : Version test of '1' from client : ACCEPTED
+[20Sep2025 23:14:33.316] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'immersive_weathering:channel' : Version test of '0' from client : ACCEPTED
+[20Sep2025 23:14:33.316] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'betterarcheology:messages' : Version test of '1.0' from client : ACCEPTED
+[20Sep2025 23:14:33.316] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'voicechat:state' : Version test of 'ALLOWVANILLA 💓💓💓' from client : ACCEPTED
+[20Sep2025 23:14:33.316] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'voicechat:remove_category' : Version test of 'ALLOWVANILLA 💓💓💓' from client : ACCEPTED
+[20Sep2025 23:14:33.316] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'voicechat:add_category' : Version test of 'ALLOWVANILLA 💓💓💓' from client : ACCEPTED
+[20Sep2025 23:14:33.316] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'voicechat:remove_state' : Version test of 'ALLOWVANILLA 💓💓💓' from client : ACCEPTED
+[20Sep2025 23:14:33.316] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'minecraft:register' : Version test of 'FML3' from client : ACCEPTED
+[20Sep2025 23:14:33.316] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'geckolib:main' : Version test of '1' from client : ACCEPTED
+[20Sep2025 23:14:33.316] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'moonlight:channel' : Version test of '0' from client : ACCEPTED
+[20Sep2025 23:14:33.316] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'voicechat:leave_group' : Version test of 'ALLOWVANILLA 💓💓💓' from client : ACCEPTED
+[20Sep2025 23:14:33.316] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'unionlib:main_simple_channel' : Version test of '1' from client : ACCEPTED
+[20Sep2025 23:14:33.316] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'unusual_furniture:unusual_furniture' : Version test of '1' from client : ACCEPTED
+[20Sep2025 23:14:33.316] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'friendsandfoes:networking' : Version test of '3.0.9' from client : ACCEPTED
+[20Sep2025 23:14:33.316] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'oceanicrealms:oceanicrealms' : Version test of '1' from client : ACCEPTED
+[20Sep2025 23:14:33.316] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'voicechat:set_group' : Version test of 'ALLOWVANILLA 💓💓💓' from client : ACCEPTED
+[20Sep2025 23:14:33.316] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'voicechat:joined_group' : Version test of 'ALLOWVANILLA 💓💓💓' from client : ACCEPTED
+[20Sep2025 23:14:33.316] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'curios:main' : Version test of '1' from client : ACCEPTED
+[20Sep2025 23:14:33.316] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'balm:network' : Version test of '1.0' from client : ACCEPTED
+[20Sep2025 23:14:33.316] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'appleskin:sync' : Version test of '1' from client : ACCEPTED
+[20Sep2025 23:14:33.316] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:loginwrapper' : Version test of 'FML3' from client : ACCEPTED
+[20Sep2025 23:14:33.316] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'supermartijn642configlib:sync_configs' : Version test of '1.1.8' from client : ACCEPTED
+[20Sep2025 23:14:33.316] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'glitchcore:config_sync' : Version test of '1' from client : ACCEPTED
+[20Sep2025 23:14:33.316] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'voicechat:request_secret' : Version test of 'ALLOWVANILLA 💓💓💓' from client : ACCEPTED
+[20Sep2025 23:14:33.316] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'patchouli:main' : Version test of '1' from client : ACCEPTED
+[20Sep2025 23:14:33.316] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:handshake' : Version test of 'FML3' from client : ACCEPTED
+[20Sep2025 23:14:33.317] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'voicechat:remove_group' : Version test of 'ALLOWVANILLA 💓💓💓' from client : ACCEPTED
+[20Sep2025 23:14:33.317] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'antiqueatlas:main_simple_channel' : Version test of '1' from client : ACCEPTED
+[20Sep2025 23:14:33.317] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:split' : Version test of '1.1' from client : ACCEPTED
+[20Sep2025 23:14:33.317] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'waystones:network' : Version test of '1.0' from client : ACCEPTED
+[20Sep2025 23:14:33.317] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from client
+[20Sep2025 23:14:33.317] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Accepted client connection mod list
+[20Sep2025 23:14:33.338] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 2
+[20Sep2025 23:14:33.338] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 2 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[20Sep2025 23:14:33.338] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[20Sep2025 23:14:33.355] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:sound_event' to 'fml:handshake' sequence 4
+[20Sep2025 23:14:33.371] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 3
+[20Sep2025 23:14:33.371] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 3 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[20Sep2025 23:14:33.371] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[20Sep2025 23:14:33.406] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:particle_type' to 'fml:handshake' sequence 5
+[20Sep2025 23:14:33.458] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:villager_profession' to 'fml:handshake' sequence 6
+[20Sep2025 23:14:33.511] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:item' to 'fml:handshake' sequence 7
+[20Sep2025 23:14:33.546] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 4
+[20Sep2025 23:14:33.546] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 4 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[20Sep2025 23:14:33.547] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[20Sep2025 23:14:33.547] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 5
+[20Sep2025 23:14:33.547] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 5 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[20Sep2025 23:14:33.547] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[20Sep2025 23:14:33.547] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 6
+[20Sep2025 23:14:33.547] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 6 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[20Sep2025 23:14:33.548] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[20Sep2025 23:14:33.559] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:potion' to 'fml:handshake' sequence 8
+[20Sep2025 23:14:33.608] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:painting_variant' to 'fml:handshake' sequence 9
+[20Sep2025 23:14:33.673] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 7
+[20Sep2025 23:14:33.674] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 7 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[20Sep2025 23:14:33.674] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[20Sep2025 23:14:33.674] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 8
+[20Sep2025 23:14:33.674] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 8 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[20Sep2025 23:14:33.674] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[20Sep2025 23:14:33.674] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 9
+[20Sep2025 23:14:33.674] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 9 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[20Sep2025 23:14:33.674] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[20Sep2025 23:14:33.697] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry forge:fluid_type' to 'fml:handshake' sequence 10
+[20Sep2025 23:14:33.740] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry epicfight:skill_data_keys' to 'fml:handshake' sequence 11
+[20Sep2025 23:14:33.760] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 10
+[20Sep2025 23:14:33.761] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 10 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[20Sep2025 23:14:33.761] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[20Sep2025 23:14:33.775] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:block_entity_type' to 'fml:handshake' sequence 12
+[20Sep2025 23:14:33.804] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 11
+[20Sep2025 23:14:33.805] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 11 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[20Sep2025 23:14:33.805] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[20Sep2025 23:14:33.814] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry forge:display_contexts' to 'fml:handshake' sequence 13
+[20Sep2025 23:14:33.838] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 12
+[20Sep2025 23:14:33.838] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 12 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[20Sep2025 23:14:33.838] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[20Sep2025 23:14:33.865] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:block' to 'fml:handshake' sequence 14
+[20Sep2025 23:14:33.878] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 13
+[20Sep2025 23:14:33.878] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 13 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[20Sep2025 23:14:33.878] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[20Sep2025 23:14:33.910] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry forge:entity_data_serializers' to 'fml:handshake' sequence 15
+[20Sep2025 23:14:33.956] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:mob_effect' to 'fml:handshake' sequence 16
+[20Sep2025 23:14:33.995] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 14
+[20Sep2025 23:14:33.996] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 14 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[20Sep2025 23:14:33.996] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[20Sep2025 23:14:33.996] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 15
+[20Sep2025 23:14:33.996] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 15 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[20Sep2025 23:14:33.996] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[20Sep2025 23:14:34.005] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:stat_type' to 'fml:handshake' sequence 17
+[20Sep2025 23:14:34.026] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 16
+[20Sep2025 23:14:34.026] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 16 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[20Sep2025 23:14:34.026] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[20Sep2025 23:14:34.063] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry epicfight:synched_animation_variable_keys' to 'fml:handshake' sequence 18
+[20Sep2025 23:14:34.073] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 17
+[20Sep2025 23:14:34.073] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 17 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[20Sep2025 23:14:34.073] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[20Sep2025 23:14:34.112] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry epicfight:conditions' to 'fml:handshake' sequence 19
+[20Sep2025 23:14:34.126] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 18
+[20Sep2025 23:14:34.126] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 18 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[20Sep2025 23:14:34.126] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[20Sep2025 23:14:34.161] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:menu' to 'fml:handshake' sequence 20
+[20Sep2025 23:14:34.175] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 19
+[20Sep2025 23:14:34.175] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 19 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[20Sep2025 23:14:34.175] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[20Sep2025 23:14:34.206] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:enchantment' to 'fml:handshake' sequence 21
+[20Sep2025 23:14:34.223] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 20
+[20Sep2025 23:14:34.224] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 20 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[20Sep2025 23:14:34.224] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[20Sep2025 23:14:34.263] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:fluid' to 'fml:handshake' sequence 22
+[20Sep2025 23:14:34.269] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 21
+[20Sep2025 23:14:34.269] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 21 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[20Sep2025 23:14:34.269] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[20Sep2025 23:14:34.311] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry epicfight:skill' to 'fml:handshake' sequence 23
+[20Sep2025 23:14:34.326] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 22
+[20Sep2025 23:14:34.326] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 22 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[20Sep2025 23:14:34.326] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[20Sep2025 23:14:34.367] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:entity_type' to 'fml:handshake' sequence 24
+[20Sep2025 23:14:34.375] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 23
+[20Sep2025 23:14:34.375] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 23 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[20Sep2025 23:14:34.375] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[20Sep2025 23:14:34.417] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Config curios-server.toml' to 'fml:handshake' sequence 25
+[20Sep2025 23:14:34.468] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Config epicfight-server.toml' to 'fml:handshake' sequence 26
+[20Sep2025 23:14:34.511] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Config jei-server.toml' to 'fml:handshake' sequence 27
+[20Sep2025 23:14:34.528] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 24
+[20Sep2025 23:14:34.528] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 24 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[20Sep2025 23:14:34.529] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[20Sep2025 23:14:34.529] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 25
+[20Sep2025 23:14:34.529] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 25 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[20Sep2025 23:14:34.529] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[20Sep2025 23:14:34.529] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 26
+[20Sep2025 23:14:34.529] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 26 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[20Sep2025 23:14:34.529] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[20Sep2025 23:14:34.556] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Config forge-server.toml' to 'fml:handshake' sequence 28
+[20Sep2025 23:14:34.574] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 27
+[20Sep2025 23:14:34.574] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 27 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[20Sep2025 23:14:34.574] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[20Sep2025 23:14:34.621] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 28
+[20Sep2025 23:14:34.622] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 28 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[20Sep2025 23:14:34.622] [Netty Epoll Server IO #5/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[20Sep2025 23:14:34.661] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Handshake complete!
+[20Sep2025 23:14:34.772] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: SumireShi[/127.155.214.71:46521] logged in with entity id 450003 at (3078.736080352781, 63.5625, -3460.1232485469595)
+[20Sep2025 23:14:34.772] [Server thread/DEBUG] [net.minecraftforge.network.filters.NetworkFilters/]: Injected net.minecraftforge.network.filters.ForgeConnectionNetworkFilter@39995aad into net.minecraft.network.Connection@3bc892ec
+[20Sep2025 23:14:34.778] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SumireShi joined the game
+[20Sep2025 23:14:34.812] [Server thread/INFO] [antiqueatlas/]: Sent markers data #-1 to player SumireShi
+[20Sep2025 23:14:34.813] [Server thread/INFO] [antiqueatlas/]: Sent custom biome data to player SumireShi
+[20Sep2025 23:14:34.813] [Server thread/INFO] [antiqueatlas/]: Sent custom biome data to player SumireShi
+[20Sep2025 23:14:34.813] [Server thread/INFO] [antiqueatlas/]: Sent custom biome data to player SumireShi
+[20Sep2025 23:14:34.813] [Server thread/INFO] [antiqueatlas/]: Sent custom biome data to player SumireShi
+[20Sep2025 23:14:34.813] [Server thread/DEBUG] [voicechat/]: [voicechat] Setting default state of SumireShi: {disabled=false, disconnected=true, uuid=ee43db05-ba80-38de-abb3-cd0ac8b82e46, name=SumireShi, group=null}
+[20Sep2025 23:14:35.479] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of SumireShi (20)
+[20Sep2025 23:14:35.479] [Server thread/DEBUG] [voicechat/]: [voicechat] Sending initial states to SumireShi
+[20Sep2025 23:14:35.479] [Server thread/DEBUG] [voicechat/]: [voicechat] Synchronizing 0 groups with SumireShi
+[20Sep2025 23:14:35.479] [Server thread/DEBUG] [voicechat/]: [voicechat] Synchronizing 0 volume categories with SumireShi
+[20Sep2025 23:14:35.480] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to SumireShi
+[20Sep2025 23:14:37.218] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Thank you so much for playing Dark Souls Expansion! If you'd like to create a server with your friends, you can do so at
+[20Sep2025 23:17:57.151] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[20Sep2025 23:17:57.160] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[20Sep2025 23:20:27.615] [Server thread/INFO] [antiqueatlas/]: Created new marker #2"Villa Forja"@(232, -506)
+[20Sep2025 23:22:57.101] [Server thread/INFO] [antiqueatlas/]: Saving local markers data to NBT
+[20Sep2025 23:22:57.170] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[20Sep2025 23:22:57.178] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[20Sep2025 23:25:49.869] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Beekeeper'/484710, l='ServerLevel[world]', x=2516.36, y=64.00, z=-4024.94] died, message: 'Beekeeper was slain by Direwolf'
+[20Sep2025 23:26:27.051] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Beekeeper'/483382, l='ServerLevel[world]', x=2480.44, y=62.94, z=-3960.59] died, message: 'Beekeeper was slain by Direwolf'
+[20Sep2025 23:26:39.001] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Farmer'/483991, l='ServerLevel[world]', x=2468.66, y=62.94, z=-3956.84] died, message: 'Farmer was slain by Direwolf'
+[20Sep2025 23:26:47.060] [Server thread/INFO] [antiqueatlas/]: Sending dimension #ResourceKey[minecraft:dimension / minecraft:overworld]
+[20Sep2025 23:26:47.061] [Server thread/INFO] [antiqueatlas/]: Sent dimension #ResourceKey[minecraft:dimension / minecraft:overworld] (0 tiles)
+[20Sep2025 23:26:47.061] [Server thread/INFO] [antiqueatlas/]: Sent Atlas #3 data to player SumireShi
+[20Sep2025 23:26:51.512] [Worker-Main-11/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Sep2025 23:26:51.513] [Worker-Main-11/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Sep2025 23:26:51.515] [Worker-Main-11/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Sep2025 23:26:51.516] [Worker-Main-11/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Sep2025 23:26:51.517] [Worker-Main-11/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Sep2025 23:26:51.524] [Worker-Main-11/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Sep2025 23:26:51.526] [Worker-Main-11/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Sep2025 23:26:51.539] [Worker-Main-11/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Sep2025 23:26:51.539] [Worker-Main-11/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Sep2025 23:26:51.544] [Worker-Main-11/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Sep2025 23:26:51.691] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Farmer'/483990, l='ServerLevel[world]', x=2447.51, y=63.13, z=-3967.06] died, message: 'Farmer was slain by Direwolf'
+[20Sep2025 23:26:51.838] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Sep2025 23:26:51.841] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Sep2025 23:26:51.852] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Sep2025 23:26:51.852] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Sep2025 23:26:51.856] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Sep2025 23:26:51.859] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Sep2025 23:26:51.861] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Sep2025 23:26:51.867] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Sep2025 23:26:51.876] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Sep2025 23:26:51.876] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Sep2025 23:26:51.885] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Sep2025 23:26:51.897] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Sep2025 23:26:51.902] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Sep2025 23:26:51.937] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Sep2025 23:26:51.950] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Sep2025 23:26:51.950] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[20Sep2025 23:27:03.953] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Farmer'/483827, l='ServerLevel[world]', x=2416.05, y=65.00, z=-3945.37] died, message: 'Farmer was slain by Direwolf'
+[20Sep2025 23:27:57.057] [Server thread/INFO] [antiqueatlas/]: Saving local markers data to NBT
+[20Sep2025 23:27:57.074] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[20Sep2025 23:27:57.083] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[20Sep2025 23:27:58.662] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dwiss3 moved wrongly!
+[20Sep2025 23:32:57.046] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[20Sep2025 23:32:57.055] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[20Sep2025 23:37:00.184] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dwiss3: Teleported SumireShi to Dwiss3]
+[20Sep2025 23:37:57.078] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[20Sep2025 23:37:57.087] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[20Sep2025 23:38:13.752] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Mason'/571823, l='ServerLevel[world]', x=168.30, y=63.00, z=-485.50] died, message: 'Mason was slain by Zombie'
+[20Sep2025 23:42:57.077] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[20Sep2025 23:42:57.086] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[20Sep2025 23:43:29.706] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/571816, l='ServerLevel[world]', x=235.50, y=96.00, z=-452.08] died, message: 'Villager was slain by Zombie'
+[20Sep2025 23:47:18.764] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dwiss3 has made the advancement [Enchanter]
+[20Sep2025 23:47:57.058] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[20Sep2025 23:47:57.067] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[20Sep2025 23:51:15.511] [Server thread/ERROR] [net.minecraftforge.eventbus.EventBus/EVENTBUS]: Exception caught during firing event: null
+	Index: 8
+	Listeners:
+		0: NORMAL
+		1: ASM: class net.mcreator.realisticforging.procedures.TwoSticksCraftingAdvancementProcedure onItemCrafted(Lnet/minecraftforge/event/entity/player/PlayerEvent$ItemCraftedEvent;)V
+		2: ASM: class net.mcreator.realisticforging.procedures.CraftingWoodPestleAdvancementProcedure onItemCrafted(Lnet/minecraftforge/event/entity/player/PlayerEvent$ItemCraftedEvent;)V
+		3: ASM: class net.mcreator.realisticforging.procedures.CraftingSmithingAnvilAdvancementProcedure onItemCrafted(Lnet/minecraftforge/event/entity/player/PlayerEvent$ItemCraftedEvent;)V
+		4: ASM: class net.mcreator.realisticforging.procedures.CraftingSmallPanAdvancementProcedureProcedure onItemCrafted(Lnet/minecraftforge/event/entity/player/PlayerEvent$ItemCraftedEvent;)V
+		5: ASM: class net.mcreator.realisticforging.procedures.CraftingSandPaperProcedureProcedure onItemCrafted(Lnet/minecraftforge/event/entity/player/PlayerEvent$ItemCraftedEvent;)V
+		6: ASM: class net.mcreator.realisticforging.procedures.CraftingPointChiselProcedureProcedure onItemCrafted(Lnet/minecraftforge/event/entity/player/PlayerEvent$ItemCraftedEvent;)V
+		7: ASM: class net.mcreator.realisticforging.procedures.CraftingIronSwordAdvancementProcedure onItemCrafted(Lnet/minecraftforge/event/entity/player/PlayerEvent$ItemCraftedEvent;)V
+		8: ASM: class net.mcreator.realisticforging.procedures.CraftingIronArmorAdvancementProcedure onItemCrafted(Lnet/minecraftforge/event/entity/player/PlayerEvent$ItemCraftedEvent;)V
+		9: ASM: class net.mcreator.realisticforging.procedures.CraftingIngotMoldAdvancementProcedure onItemCrafted(Lnet/minecraftforge/event/entity/player/PlayerEvent$ItemCraftedEvent;)V
+		10: ASM: class net.mcreator.realisticforging.procedures.CraftingDiamondSwordProcedureProcedure onItemCrafted(Lnet/minecraftforge/event/entity/player/PlayerEvent$ItemCraftedEvent;)V
+		11: ASM: class net.mcreator.realisticforging.procedures.CraftingCarvingHammerProcedureProcedure onItemCrafted(Lnet/minecraftforge/event/entity/player/PlayerEvent$ItemCraftedEvent;)V
+		12: ASM: class net.mcreator.realisticforging.procedures.CraftingBlankMoldAdvancementProcedure onItemCrafted(Lnet/minecraftforge/event/entity/player/PlayerEvent$ItemCraftedEvent;)V
+		13: ASM: class net.mcreator.realisticforging.procedures.CraftingBlacksmithTongsAdvancementsProcedure onItemCrafted(Lnet/minecraftforge/event/entity/player/PlayerEvent$ItemCraftedEvent;)V
+		14: ASM: class net.mcreator.realisticforging.procedures.CraftingBigPanAdvancementProcedureProcedure onItemCrafted(Lnet/minecraftforge/event/entity/player/PlayerEvent$ItemCraftedEvent;)V
+		15: ASM: class net.mcreator.realisticforging.procedures.CraftSmithingHammerAdvancementProcedure onItemCrafted(Lnet/minecraftforge/event/entity/player/PlayerEvent$ItemCraftedEvent;)V
+java.lang.NullPointerException
+
+[20Sep2025 23:51:15.514] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/topology/core_id
+[20Sep2025 23:51:15.514] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/topology/core_id
+[20Sep2025 23:51:15.514] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/topology/physical_package_id
+[20Sep2025 23:51:15.514] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/topology/physical_package_id
+[20Sep2025 23:51:15.514] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cpu_capacity
+[20Sep2025 23:51:15.515] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/topology/core_id
+[20Sep2025 23:51:15.515] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/topology/core_id
+[20Sep2025 23:51:15.515] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/topology/physical_package_id
+[20Sep2025 23:51:15.515] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/topology/physical_package_id
+[20Sep2025 23:51:15.515] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cpu_capacity
+[20Sep2025 23:51:15.515] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/topology/core_id
+[20Sep2025 23:51:15.515] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/topology/core_id
+[20Sep2025 23:51:15.515] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/topology/physical_package_id
+[20Sep2025 23:51:15.515] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/topology/physical_package_id
+[20Sep2025 23:51:15.515] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cpu_capacity
+[20Sep2025 23:51:15.516] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/topology/core_id
+[20Sep2025 23:51:15.516] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/topology/core_id
+[20Sep2025 23:51:15.516] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/topology/physical_package_id
+[20Sep2025 23:51:15.516] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/topology/physical_package_id
+[20Sep2025 23:51:15.516] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cpu_capacity
+[20Sep2025 23:51:15.516] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/cpuinfo
+[20Sep2025 23:51:15.527] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/self/auxv
+[20Sep2025 23:51:15.528] [Server thread/DEBUG] [oshi.util.FileUtil/]: No oshi.architecture.properties file found from ClassLoader cpw.mods.modlauncher.TransformingClassLoader@61ae0d43
+[20Sep2025 23:51:15.528] [Server thread/DEBUG] [oshi.util.FileUtil/]: No oshi.architecture.properties file found from ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+[20Sep2025 23:51:15.539] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/meminfo
+[20Sep2025 23:51:15.540] [Server thread/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/meminfo
+[20Sep2025 23:51:15.541] [Server thread/ERROR] [net.minecraft.network.protocol.PacketUtils/]: Failed to handle packet net.minecraft.network.protocol.game.ServerboundContainerClickPacket@5860faa8, suppressing error
+net.minecraft.ReportedException: Container click
+	at net.minecraft.world.inventory.AbstractContainerMenu.m_150399_(AbstractContainerMenu.java:308) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_5914_(ServerGamePacketListenerImpl.java:1548) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.network.protocol.game.ServerboundContainerClickPacket.m_5797_(ServerboundContainerClickPacket.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.network.protocol.game.ServerboundContainerClickPacket.m_5797_(ServerboundContainerClickPacket.java:12) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:22) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:733) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+Caused by: java.lang.NullPointerException
+[20Sep2025 23:52:41.464] [Server thread/DEBUG] [mixin/]: Mixing alloc.enum_values.piston_structure.PistonStructureResolverMixin from canary.mixins.json into net.minecraft.world.level.block.piston.PistonStructureResolver
+[20Sep2025 23:52:57.038] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[20Sep2025 23:52:57.047] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[20Sep2025 23:53:16.765] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: SumireShi moved wrongly!
+[20Sep2025 23:54:31.165] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: SumireShi moved wrongly!
+[20Sep2025 23:54:50.319] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ivanzac03 has made the advancement [Green Hill]
+[20Sep2025 23:57:57.070] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[20Sep2025 23:57:57.079] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[20Sep2025 23:58:38.413] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: SumireShi moved wrongly!
+[20Sep2025 23:58:39.281] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: SumireShi moved wrongly!
+[20Sep2025 23:59:41.916] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ivanzac03 lost connection: Disconnected
+[20Sep2025 23:59:41.916] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ivanzac03 left the game
+[20Sep2025 23:59:41.916] [Server thread/DEBUG] [voicechat/]: [voicechat] Removing state of Ivanzac03
+[20Sep2025 23:59:41.916] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Ivanzac03
+[21Sep2025 00:01:12.414] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dwiss3 moved wrongly!
+[21Sep2025 00:02:57.043] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[21Sep2025 00:02:57.052] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[21Sep2025 00:05:55.697] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SumireShi has made the advancement [A Terrifying Entrance]
+[21Sep2025 00:06:32.493] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/763882, l='ServerLevel[world]', x=-576.54, y=117.00, z=-1319.45] died, message: 'Villager froze to death'
+[21Sep2025 00:07:01.292] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SumireShi was slain by Haunted Guard
+[21Sep2025 00:07:38.361] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dwiss3: Teleported SumireShi to Dwiss3]
+[21Sep2025 00:07:57.034] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[21Sep2025 00:07:57.043] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[21Sep2025 00:08:31.245] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SumireShi was slain by Haunted Knight
+[21Sep2025 00:09:24.017] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dwiss3: Teleported SumireShi to Dwiss3]
+[21Sep2025 00:10:48.478] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: SumireShi moved wrongly!
+[21Sep2025 00:11:11.249] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dwiss3 has made the advancement [Living Armor]
+[21Sep2025 00:12:57.023] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[21Sep2025 00:12:57.032] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[21Sep2025 00:13:26.652] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dwiss3 has made the advancement [Undead Guard]
+[21Sep2025 00:17:19.541] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Beekeeper'/763744, l='ServerLevel[world]', x=-564.30, y=121.00, z=-1314.54] died, message: 'Beekeeper froze to death'
+[21Sep2025 00:17:31.443] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/763973, l='ServerLevel[world]', x=-590.50, y=112.00, z=-1315.70] died, message: 'Villager froze to death'
+[21Sep2025 00:17:57.028] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[21Sep2025 00:17:57.037] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[21Sep2025 00:18:14.545] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SumireShi was slain by Possessed Paladin
+[21Sep2025 00:18:33.218] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dwiss3: Teleported SumireShi to Dwiss3]
+[21Sep2025 00:19:07.646] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Nitwit'/764337, l='ServerLevel[world]', x=-588.50, y=119.51, z=-1313.30] died, message: 'Nitwit froze to death'
+[21Sep2025 00:20:35.442] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/763974, l='ServerLevel[world]', x=-591.30, y=119.00, z=-1311.50] died, message: 'Villager froze to death'
+[21Sep2025 00:22:57.014] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[21Sep2025 00:22:57.023] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[21Sep2025 00:26:19.542] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Beekeeper'/763740, l='ServerLevel[world]', x=-564.70, y=121.00, z=-1314.50] died, message: 'Beekeeper froze to death'
+[21Sep2025 00:27:57.015] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[21Sep2025 00:27:57.023] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[21Sep2025 00:27:59.454] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dwiss3 moved wrongly!
+[21Sep2025 00:27:59.759] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dwiss3 moved wrongly!
+[21Sep2025 00:28:17.661] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dwiss3 moved wrongly!
+[21Sep2025 00:31:48.866] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dwiss3 moved wrongly!
+[21Sep2025 00:31:51.310] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dwiss3 moved wrongly!
+[21Sep2025 00:31:51.959] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dwiss3 moved wrongly!
+[21Sep2025 00:32:57.034] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[21Sep2025 00:32:57.043] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[21Sep2025 00:35:30.342] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SumireShi has made the advancement [Copper age]
+[21Sep2025 00:37:57.032] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[21Sep2025 00:37:57.041] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world

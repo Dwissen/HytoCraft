@@ -51,6 +51,7 @@
       "minecraft:snowy_taiga": "2025-09-14 03:21:07 +0000",
       "minecraft:grove": "2025-09-14 03:03:38 +0000",
       "minecraft:swamp": "2025-09-20 00:59:30 +0000",
+      "minecraft:jagged_peaks": "2025-09-20 23:11:16 +0000",
       "minecraft:cold_ocean": "2025-09-19 04:42:18 +0000",
       "minecraft:forest": "2025-09-14 02:34:39 +0000",
       "minecraft:lush_caves": "2025-09-19 05:36:34 +0000",
@@ -58,6 +59,7 @@
       "minecraft:ice_spikes": "2025-09-19 04:23:33 +0000",
       "minecraft:frozen_ocean": "2025-09-14 03:14:58 +0000",
       "minecraft:deep_frozen_ocean": "2025-09-20 00:28:28 +0000",
+      "minecraft:ocean": "2025-09-20 23:05:21 +0000",
       "minecraft:old_growth_spruce_taiga": "2025-09-19 05:31:05 +0000",
       "minecraft:snowy_beach": "2025-09-20 21:20:52 +0000",
       "minecraft:deep_dark": "2025-09-19 06:00:04 +0000",
@@ -1264,6 +1266,7 @@
       "minecraft:vindicator": "2025-09-20 21:10:02 +0000",
       "minecraft:spider": "2025-09-14 02:55:36 +0000",
       "minecraft:creeper": "2025-09-14 02:52:06 +0000",
+      "minecraft:phantom": "2025-09-20 23:55:35 +0000",
       "minecraft:cave_spider": "2025-09-19 03:26:27 +0000",
       "minecraft:enderman": "2025-09-19 05:36:25 +0000",
       "minecraft:silverfish": "2025-09-19 04:45:34 +0000",
@@ -2122,6 +2125,7 @@
   },
   "immersive_weathering:immersive_weathering/dirts": {
     "criteria": {
+      "grass": "2025-09-20 22:58:44 +0000",
       "dirt": "2025-09-19 02:42:22 +0000"
     },
     "done": false
@@ -4049,6 +4053,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/emerald_from_smelting_emerald_ore": {
+    "criteria": {
+      "has_emerald_ore": "2025-09-20 23:54:50 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/sandstone_slab": {
     "criteria": {
       "has_sandstone": "2025-09-20 22:28:21 +0000"
@@ -4064,6 +4074,12 @@
   "farmersdelight:recipes/cooking/rabbit_stew": {
     "criteria": {
       "has_any_ingredient": "2025-09-20 21:26:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/silence_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2025-09-20 23:25:44 +0000"
     },
     "done": true
   },
@@ -4109,6 +4125,18 @@
     },
     "done": true
   },
+  "betterarcheology:loot_vase_broken": {
+    "criteria": {
+      "criteria": "2025-09-20 22:50:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/spyglass": {
+    "criteria": {
+      "has_amethyst_shard": "2025-09-20 23:36:34 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/prismarine_wall": {
     "criteria": {
       "has_prismarine": "2025-09-20 22:18:01 +0000"
@@ -4133,9 +4161,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/music_disc_5": {
+    "criteria": {
+      "has_disc_fragment_5": "2025-09-20 23:40:45 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/sandstone_stairs_from_sandstone_stonecutting": {
     "criteria": {
       "has_sandstone": "2025-09-20 22:28:21 +0000"
+    },
+    "done": true
+  },
+  "betterarcheology:recipes/misc/archeology_table": {
+    "criteria": {
+      "has_artifact_shards": "2025-09-20 22:50:05 +0000"
+    },
+    "done": true
+  },
+  "chimes:recipes/decorations/amethyst_chimes": {
+    "criteria": {
+      "has_planks": "2025-09-20 23:36:34 +0000"
     },
     "done": true
   },
@@ -4181,9 +4227,39 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/calibrated_sculk_sensor": {
+    "criteria": {
+      "has_amethyst_shard": "2025-09-20 23:36:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tinted_glass": {
+    "criteria": {
+      "has_amethyst_shard": "2025-09-20 23:36:34 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/large_potion_jar_pink": {
+    "criteria": {
+      "has_bottle": "2025-09-20 23:12:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/emerald_from_blasting_emerald_ore": {
+    "criteria": {
+      "has_emerald_ore": "2025-09-20 23:54:50 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/leather": {
     "criteria": {
       "has_rabbit_hide": "2025-09-20 21:26:01 +0000"
+    },
+    "done": true
+  },
+  "betterarcheology:artifact_shards": {
+    "criteria": {
+      "has_shards": "2025-09-20 22:50:05 +0000"
     },
     "done": true
   },
@@ -4205,9 +4281,28 @@
     },
     "done": true
   },
+  "betterarcheology:recipes/misc/unidentified_artifact": {
+    "criteria": {
+      "has_artifact_shards": "2025-09-20 22:50:05 +0000",
+      "has_the_recipe": "2025-09-20 22:50:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/silence_armor_trim_smithing_template": {
+    "criteria": {
+      "has_silence_armor_trim_smithing_template": "2025-09-20 23:25:44 +0000"
+    },
+    "done": true
+  },
   "legendary_monsters:locate_frostbitten_temple": {
     "criteria": {
       "frostbitten_temple": "2025-09-20 21:22:18 +0000"
+    },
+    "done": true
+  },
+  "nova_structures:adventure/tavern_quest": {
+    "criteria": {
+      "open_tavern_chest": "2025-09-20 23:00:34 +0000"
     },
     "done": true
   },
@@ -4217,9 +4312,33 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/ward_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2025-09-20 23:40:44 +0000"
+    },
+    "done": true
+  },
+  "betterarcheology:recipes/recipe_archeology_table": {
+    "criteria": {
+      "has_the_recipe": "2025-09-20 22:50:05 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/large_potion_jar_red": {
+    "criteria": {
+      "has_bottle": "2025-09-20 23:12:07 +0000"
+    },
+    "done": true
+  },
   "farmersdelight:main/use_cutting_board": {
     "criteria": {
       "cutting_board": "2025-09-20 21:28:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/recovery_compass": {
+    "criteria": {
+      "has_echo_shard": "2025-09-20 23:36:51 +0000"
     },
     "done": true
   },
@@ -4241,9 +4360,27 @@
     },
     "done": true
   },
+  "chimes:recipes/decorations/glass_bells": {
+    "criteria": {
+      "has_bottle": "2025-09-20 23:12:07 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/large_potion_jar_purple": {
+    "criteria": {
+      "has_bottle": "2025-09-20 23:12:07 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/sandstone": {
     "criteria": {
       "has_sand": "2025-09-20 22:28:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/amethyst_block": {
+    "criteria": {
+      "has_amethyst_shard": "2025-09-20 23:36:34 +0000"
     },
     "done": true
   },
@@ -4271,9 +4408,33 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/ward_armor_trim_smithing_template": {
+    "criteria": {
+      "has_ward_armor_trim_smithing_template": "2025-09-20 23:40:44 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/prismarine_slab": {
     "criteria": {
       "has_prismarine": "2025-09-20 22:18:01 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/large_potion_jar_green": {
+    "criteria": {
+      "has_bottle": "2025-09-20 23:12:07 +0000"
+    },
+    "done": true
+  },
+  "realisticforgingores:mining_emerald_advancement": {
+    "criteria": {
+      "mining_emerald_advancement_0": "2025-09-20 23:54:50 +0000"
+    },
+    "done": true
+  },
+  "medievalembroidery:recipes/misc/large_potion_jar_cyan": {
+    "criteria": {
+      "has_bottle": "2025-09-20 23:12:07 +0000"
     },
     "done": true
   },
